@@ -37,7 +37,7 @@ GECKOInstaller.install
 %   project. This includes a copy of the template adapter.
 %   The next line is commented out as the project structure is already
 %   available in GECKO/tutorials/full_ecModel.
-%startGECKOproject()
+startGECKOproject()
 
 % - Find a high-quality GEM of your species of interest. ecYeastGEM is
 %   based on yeast-GEM https://github.com/SysBioChalmers/yeast-GEM/releases
