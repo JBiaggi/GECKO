@@ -106,7 +106,7 @@ doc makeEcModel
 saveEcModel(ecModel,'ecYaliGEM_stage1.yml');
 
 %% STAGE 2: integration of kcat into the ecModel structure
-%ecModel=loadEcModel('ecYeastGEM_stage1.yml'); % Uncomment if you want to
+ecModel=loadEcModel('ecYaliGEM_stage1.yml'); % Uncomment if you want to
 %reload model.
 
 % Decide which kcat source to use. In the steps below, all options are
@@ -223,7 +223,7 @@ ecModel = setProtPoolSize(ecModel,Ptot,f,sigma);
 saveEcModel(ecModel,'ecYaliGEM_stage2.yml');
 
 %% STAGE 3: model tuning
-%ecModel=loadEcModel('ecYeastGEM_stage2.yml'); % Uncomment if you want to
+ecModel=loadEcModel('ecYeastGEM_stage2.yml'); % Uncomment if you want to
 %reload model.
 
 % STEP 15 Test maximum growth rate
@@ -307,7 +307,7 @@ saveEcModel(ecModel,'ecYaliGEM_stage3.yml');
 saveEcModel(ecModel,'ecYaliGEM.yml');
 
 %% STAGE 4 integration of proteomics data into the ecModel.
-%ecModel=loadEcModel('ecYaliGEM_stage3.yml'); % Uncomment if you want to
+ecModel=loadEcModel('ecYaliGEM_stage3.yml'); % Uncomment if you want to
 %reload model.
 
 % STEP 19 Load proteomics data and constrain ecModel
@@ -382,7 +382,7 @@ saveEcModel(ecModel,'ecYaliGEM_stage4');
 % STEP 24 Simulate Crabtree effect with protein pool
 
 % (Re)load the ecModel without proteomics integration.
-ecModel = loadEcModel('ecYeastGEM.yml');
+ecModel = loadEcModel('ecYaliGEM.yml');
 
 % We will soon run a custom plotCrabtree function that is kept in the code
 % subfolder. To run this function we will need to navigate into the folder

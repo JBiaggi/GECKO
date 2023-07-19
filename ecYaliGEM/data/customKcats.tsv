@@ -1,0 +1,3 @@
+proteins	genes	gene_name	kcat	rxns	notes	stoicho
+Q6BZY1			5.0794	y000079	From inspection of tunedKcats Iteration #1	
+Q6CFV5	YALI0B03344g		384.75	y001226	Was constraining growth after adding proteomics in interation #1	
