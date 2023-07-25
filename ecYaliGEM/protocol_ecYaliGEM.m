@@ -223,7 +223,7 @@ ecModel = setProtPoolSize(ecModel,Ptot,f,sigma);
 saveEcModel(ecModel,'ecYaliGEM_stage2.yml');
 
 %% STAGE 3: model tuning
-ecModel=loadEcModel('ecYeastGEM_stage2.yml'); % Uncomment if you want to
+%ecModel=loadEcModel('ecYeastGEM_stage2.yml'); % Uncomment if you want to
 %reload model.
 
 % STEP 15 Test maximum growth rate
@@ -312,8 +312,8 @@ ecModel=loadEcModel('ecYaliGEM_stage3.yml'); % Uncomment if you want to
 
 % STEP 19 Load proteomics data and constrain ecModel
 protData = loadProtData(1); %Number of replicates, only one experiment.
-ecModel = fillProtConcs(ecModel,protData);
-ecModel = constrainProtConcs(ecModel);
+ecModel = fillEnzConcs(ecModel,protData);
+ecModel = constrainEnzConcs(ecModel);
 
 % STEP 20 Update protein pool
 % The protein pool reaction will be constraint by the remaining, unmeasured
@@ -339,7 +339,7 @@ fprintf('Growth rate that is reached: %f /hour.\n', abs(sol.f))
 % STEP 22 Protein concentrations are flexibilized (increased), until the
 % intended growth rate is reached. This is condition-specific, so the
 % intended growth rate is gathered from the fluxData structure.
-[ecModel, flexProt] = flexibilizeProtConcs(ecModel,fluxData.grRate(1),10);
+[ecModel, flexProt] = flexibilizeEnzConcs(ecModel,fluxData.grRate(1),10);
 
 % Neither individual protein levels nor total protein pool are limiting
 % growth. Test whether the starting model is able to reach 0.1.

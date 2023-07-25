@@ -4,7 +4,7 @@
     id: "iYali"
     name: "v4.1.2"
     version: ""
-    date: "2023-07-19"
+    date: "2023-07-25"
     defaultLB: "-1000"
     defaultUB: "1000"
     givenName: "Eduard"
@@ -16907,7 +16907,7 @@
       - name: "Amino acid composition"
       - metabolites: !!omap
           - m1726: 1
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.0799916063372154
           - s_0955: -0.388
           - s_0965: -0.229
           - s_0969: -0.259
@@ -16939,7 +16939,7 @@
       - metabolites: !!omap
           - m1726: -1
           - m1727: -1
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.0799916063372154
           - s_0002: -0.4415
           - s_0394: 86.7881
           - s_0423: -0.0757
@@ -16974,7 +16974,7 @@
           - m1701: -14.24
           - m1705: -3.399
           - m1727: 1000
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_0666: -21.176
           - s_3656: -0.1
           - s_3658: -0.305
@@ -16988,7 +16988,7 @@
       - id: "xMAINTENANCE"
       - name: "Non-growth associated maintenance (NGAM)"
       - metabolites: !!omap
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_0394: 1
           - s_0434: -1
           - s_1322: 1
@@ -17003,7 +17003,7 @@
       - metabolites: !!omap
           - m1731: -0.199
           - m567: 0.951
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_2781: -0.003
           - s_2787: -0.002
           - s_2789: -0.19
@@ -17020,7 +17020,7 @@
       - metabolites: !!omap
           - m1731: 0.199
           - m567: -0.951
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_2781: 0.003
           - s_2787: 0.002
           - s_2789: 0.19
@@ -17037,7 +17037,7 @@
       - metabolites: !!omap
           - m1735: -0.199
           - m570: 0.951
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_2843: -0.003
           - s_2845: -0.002
           - s_2847: -0.19
@@ -17054,7 +17054,7 @@
       - metabolites: !!omap
           - m1735: 0.199
           - m570: -0.951
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_2843: 0.003
           - s_2845: 0.002
           - s_2847: 0.19
@@ -17075,7 +17075,7 @@
           - m1742: -0.042
           - m1743: -0.199
           - m790: 0.951
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_3322: -0.515
       - lower_bound: 0
       - upper_bound: 1000
@@ -17092,7 +17092,7 @@
           - m1742: 0.042
           - m1743: 0.199
           - m790: -0.951
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_3322: 0.515
       - lower_bound: 0
       - upper_bound: 1000
@@ -17105,7 +17105,7 @@
       - metabolites: !!omap
           - m1658: 0.951
           - m1749: -0.199
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_2832: -0.003
           - s_2835: -0.002
           - s_2836: -0.19
@@ -17122,7 +17122,7 @@
       - metabolites: !!omap
           - m1658: -0.951
           - m1749: 0.199
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_2832: 0.003
           - s_2835: 0.002
           - s_2836: 0.19
@@ -17141,7 +17141,7 @@
           - m1753: -0.003
           - m1754: -0.002
           - m1756: -0.199
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_3459: -0.515
           - s_3463: -0.19
           - s_3464: -0.042
@@ -17158,7 +17158,7 @@
           - m1753: 0.003
           - m1754: 0.002
           - m1756: 0.199
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_3459: 0.515
           - s_3463: 0.19
           - s_3464: 0.042
@@ -17173,7 +17173,7 @@
       - metabolites: !!omap
           - m1641: 0.951
           - m1761: -0.199
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_2841: -0.003
           - s_2844: -0.002
           - s_2846: -0.19
@@ -17190,7 +17190,7 @@
       - metabolites: !!omap
           - m1641: -0.951
           - m1761: 0.199
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_2841: 0.003
           - s_2844: 0.002
           - s_2846: 0.19
@@ -17212,7 +17212,7 @@
           - m1770: -0.042
           - m1771: -0.515
           - m1772: -0.199
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
@@ -17229,7 +17229,7 @@
           - m1770: 0.042
           - m1771: 0.515
           - m1772: 0.199
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
@@ -17244,7 +17244,7 @@
           - m1778: -0.002
           - m1781: -0.515
           - m1782: -0.199
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_3271: -0.19
           - s_3277: -0.042
       - lower_bound: 0
@@ -17261,7 +17261,7 @@
           - m1778: 0.002
           - m1781: 0.515
           - m1782: 0.199
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_3271: 0.19
           - s_3277: 0.042
       - lower_bound: 0
@@ -18116,7 +18116,7 @@
       - id: "y000023_REV"
       - name: "2-isopropylmalate hydratase (reversible)"
       - metabolites: !!omap
-          - prot_Q6CG29: -2.49508570058732
+          - prot_Q6CG29: -0.249508570058732
           - s_0162: -1
           - s_0165: 1
           - s_0803: 1
@@ -19216,7 +19216,7 @@
       - id: "y000079"
       - name: "5'-phosphoribosylformyl glycinamidine synthetase"
       - metabolites: !!omap
-          - prot_Q6BZY1: -7.75195451781269
+          - prot_Q6BZY1: -0.775195451781269
           - s_0301: -1
           - s_0302: 1
           - s_0394: 1
@@ -20432,7 +20432,7 @@
       - id: "y000118"
       - name: "acteylornithine transaminase"
       - metabolites: !!omap
-          - prot_Q6C846: -7.96290322580645
+          - prot_Q6C846: -0.796290322580645
           - s_0145: -1
           - s_0182: 1
           - s_0993: -1
@@ -25093,7 +25093,7 @@
       - id: "y000208"
       - name: "argininosuccinate synthase"
       - metabolites: !!omap
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_0015: 1
           - s_0423: 1
           - s_0434: -1
@@ -25118,7 +25118,7 @@
       - id: "y000208_REV"
       - name: "argininosuccinate synthase (reversible)"
       - metabolites: !!omap
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_0015: -1
           - s_0423: -1
           - s_0434: 1
@@ -25659,7 +25659,7 @@
       - id: "y000219"
       - name: "aspartate-semialdehyde dehydrogenase"
       - metabolites: !!omap
-          - prot_Q6C968: -0.904675925925926
+          - prot_Q6C968: -0.0904675925925926
           - s_0295: -1
           - s_0794: -1
           - s_0978: 1
@@ -25902,7 +25902,7 @@
       - id: "y000231"
       - name: "C-14 sterol reductase"
       - metabolites: !!omap
-          - prot_Q6CDK2: -21.2651222651223
+          - prot_Q6CDK2: -0.808975451171626
           - s_0122: 1
           - s_0262: -1
           - s_0794: -1
@@ -25924,7 +25924,7 @@
       - id: "y000233"
       - name: "C-22 sterol desaturase (NADP)"
       - metabolites: !!omap
-          - prot_Q6CGM4: -94.0277777777778
+          - prot_Q6CGM4: -9.40277777777778
           - s_0662: 1
           - s_0664: -1
           - s_0794: -1
@@ -25987,7 +25987,7 @@
       - id: "y000236"
       - name: "C-3 sterol keto reductase (4-methylzymosterol)"
       - metabolites: !!omap
-          - prot_Q6CE88: -14.7351598173516
+          - prot_Q6CE88: -8.96388888888889
           - s_0209: -1
           - s_0296: 1
           - s_0794: -1
@@ -26008,7 +26008,7 @@
       - id: "y000237"
       - name: "C-3 sterol keto reductase (zymosterol)"
       - metabolites: !!omap
-          - prot_Q6CE88: -14.7351598173516
+          - prot_Q6CE88: -8.96388888888889
           - s_0794: -1
           - s_1207: 1
           - s_1212: -1
@@ -26069,7 +26069,7 @@
       - id: "y000240"
       - name: "C-4 methyl sterol oxidase"
       - metabolites: !!omap
-          - prot_Q6C231: -85.0110248298341
+          - prot_Q6C231: -8.50110248298341
           - s_0794: -1
           - s_0803: 1
           - s_1207: 1
@@ -26092,7 +26092,7 @@
       - id: "y000241"
       - name: "C-4 sterol methyl oxidase (4,4-dimethylzymosterol)"
       - metabolites: !!omap
-          - prot_Q6C231: -49.8118188967532
+          - prot_Q6C231: -4.98118188967532
           - s_0122: -1
           - s_0297: 1
           - s_0794: -3
@@ -26298,7 +26298,7 @@
           - m1650: -1
           - m1651: 1
           - m384: -1
-          - prot_Q6C0K8: -447.233051765216
+          - prot_Q6C0K8: -44.7233051765215
           - s_3094: 1
           - s_3219: 1
       - lower_bound: 0
@@ -31083,7 +31083,7 @@
       - id: "y000449"
       - name: "fructose-bisphosphatase"
       - metabolites: !!omap
-          - prot_Q6CGV1: -2.08038548752834
+          - prot_Q6CGV1: -0.208038548752834
           - s_0555: -1
           - s_0557: 1
           - s_0803: -1
@@ -31820,7 +31820,7 @@
       - id: "y000483_EXP_1"
       - name: "glutathione peridoxase"
       - metabolites: !!omap
-          - prot_Q6CCY8: -1.49239111696209
+          - prot_Q6CCY8: -0.00352685185185185
           - s_0750: -2
           - s_0754: 1
           - s_0803: 2
@@ -31862,7 +31862,7 @@
       - id: "y000483_REV_EXP_1"
       - name: "glutathione peridoxase (reversible)"
       - metabolites: !!omap
-          - prot_Q6CCY8: -0.541925607229848
+          - prot_Q6CCY8: -0.00352685185185185
           - s_0750: 2
           - s_0754: -1
           - s_0803: -2
@@ -32157,7 +32157,7 @@
       - id: "y000487_EXP_8"
       - name: "glycerol dehydrogenase (NADP-dependent)"
       - metabolites: !!omap
-          - prot_Q6C2L0: -0.116426403423391
+          - prot_Q6C2L0: -0.0116426403423391
           - s_0765: -1
           - s_0771: 1
           - s_0794: 1
@@ -33711,7 +33711,7 @@
       - id: "y000542"
       - name: "homoacontinate hydratase"
       - metabolites: !!omap
-          - prot_Q6C791: -8.19833333333333
+          - prot_Q6C791: -0.819833333333333
           - s_0454: -1
           - s_0807: -1
           - s_0836: 1
@@ -34084,7 +34084,7 @@
       - id: "y000558"
       - name: "hydroxymethylglutaryl CoA reductase"
       - metabolites: !!omap
-          - prot_Q6C704: -13.018115942029
+          - prot_Q6C704: -1.3018115942029
           - s_0028: 1
           - s_0218: -1
           - s_0529: 1
@@ -34425,7 +34425,7 @@
       - id: "y000570"
       - name: "inosine monophosphate cyclohydrolase"
       - metabolites: !!omap
-          - prot_Q6C7Y2: -2.08772609819121
+          - prot_Q6C7Y2: -0.208772609819121
           - s_0803: 1
           - s_0849: 1
           - s_1365: -1
@@ -36256,7 +36256,7 @@
       - id: "y000658_EXP_3"
       - name: "isocitrate dehydrogenase (NAD+)"
       - metabolites: !!omap
-          - prot_Q6C6Z1: -0.36937037037037
+          - prot_Q6C6Z1: -0.036937037037037
           - s_0182: 1
           - s_0460: 1
           - s_0941: -1
@@ -36923,7 +36923,7 @@
       - id: "y000679"
       - name: "L-asparaginase"
       - metabolites: !!omap
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_0419: 1
           - s_0803: -1
           - s_0969: -1
@@ -36941,7 +36941,7 @@
       - id: "y000679_REV"
       - name: "L-asparaginase (reversible)"
       - metabolites: !!omap
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_0419: -1
           - s_0803: 1
           - s_0969: 1
@@ -37553,7 +37553,7 @@
       - id: "y000698"
       - name: "lanosterol synthase"
       - metabolites: !!omap
-          - prot_Q6C2X2: -121.649454962708
+          - prot_Q6C2X2: -12.1649454962708
           - s_0037: -1
           - s_1059: 1
       - lower_bound: 0
@@ -41388,7 +41388,7 @@
       - id: "y000882"
       - name: "phosphoacetylglucosamine mutase"
       - metabolites: !!omap
-          - prot_Q6C454: -5.41912320483749
+          - prot_Q6C454: -0.541912320483749
           - s_1189: 1
           - s_1190: -1
       - lower_bound: 0
@@ -43911,7 +43911,7 @@
       - id: "y000986"
       - name: "S-adenosyl-methionine delta-24-sterol-c-methyltransferase"
       - metabolites: !!omap
-          - prot_Q6C2D9: -107.835858585859
+          - prot_Q6C2D9: -10.7835858585859
           - s_0700: 1
           - s_0794: 1
           - s_1413: 1
@@ -44878,7 +44878,7 @@
       - id: "y001032"
       - name: "thiamin diphosphatase"
       - metabolites: !!omap
-          - prot_Q6CCS5: -1.23985696602943
+          - prot_Q6CCS5: -1.23821787277878
           - s_0796: 1
           - s_0805: -2
           - s_1324: 2
@@ -44896,7 +44896,7 @@
       - id: "y001033"
       - name: "thiamin phosphatase"
       - metabolites: !!omap
-          - prot_Q6CCS5: -1.23985696602943
+          - prot_Q6CCS5: -1.23821787277878
           - s_0805: -1
           - s_1324: 1
           - s_1490: 1
@@ -45794,7 +45794,7 @@
       - id: "y001069"
       - name: "UDP-N-acetylglucosamine diphosphorylase"
       - metabolites: !!omap
-          - prot_Q6C776: -4.12488196411709
+          - prot_Q6C776: -0.412488196411709
           - s_0633: 1
           - s_0794: -1
           - s_1189: -1
@@ -46724,7 +46724,7 @@
       - id: "y001099"
       - name: "2-oxoadipate and 2-oxoglutarate transport"
       - metabolites: !!omap
-          - prot_Q6CAH9: -7.30033610755442
+          - prot_Q6CAH9: -0.730033610755442
           - s_0176: 1
           - s_0177: -1
           - s_0180: -1
@@ -47620,7 +47620,7 @@
       - id: "y001110_EXP_2"
       - name: "ADP/ATP transporter"
       - metabolites: !!omap
-          - prot_F2Z694: -0.0301994050152457
+          - prot_F2Z694: -0.00301994050152457
           - s_0394: -1
           - s_0397: 1
           - s_0434: 1
@@ -47863,7 +47863,7 @@
       - id: "y001115_EXP_1"
       - name: "ammonia transport"
       - metabolites: !!omap
-          - prot_Q6C4F5: -0.991018352969942
+          - prot_Q6C4F5: -0.989708224835703
           - s_0419: 1
           - s_0420: -1
       - lower_bound: 0
@@ -47879,7 +47879,7 @@
       - id: "y001115_EXP_2"
       - name: "ammonia transport"
       - metabolites: !!omap
-          - prot_Q6C1W2: -0.0935623252189062
+          - prot_Q6C1W2: -0.0934386356482674
           - s_0419: 1
           - s_0420: -1
       - lower_bound: 0
@@ -47895,7 +47895,7 @@
       - id: "y001115_EXP_3"
       - name: "ammonia transport"
       - metabolites: !!omap
-          - prot_Q6C1F0: -1.03798957808035
+          - prot_Q6C1F0: -1.03661735389781
           - s_0419: 1
           - s_0420: -1
       - lower_bound: 0
@@ -47911,7 +47911,7 @@
       - id: "y001115_REV_EXP_1"
       - name: "ammonia transport (reversible)"
       - metabolites: !!omap
-          - prot_Q6C4F5: -0.991018352969942
+          - prot_Q6C4F5: -0.989708224835703
           - s_0419: -1
           - s_0420: 1
       - lower_bound: 0
@@ -47927,7 +47927,7 @@
       - id: "y001115_REV_EXP_2"
       - name: "ammonia transport (reversible)"
       - metabolites: !!omap
-          - prot_Q6C1W2: -0.935623252189062
+          - prot_Q6C1W2: -0.934386356482674
           - s_0419: -1
           - s_0420: 1
       - lower_bound: 0
@@ -47943,7 +47943,7 @@
       - id: "y001115_REV_EXP_3"
       - name: "ammonia transport (reversible)"
       - metabolites: !!omap
-          - prot_Q6C1F0: -1.03798957808035
+          - prot_Q6C1F0: -1.03661735389781
           - s_0419: -1
           - s_0420: 1
       - lower_bound: 0
@@ -48195,7 +48195,7 @@
       - id: "y001126_REV"
       - name: "citrate transport (reversible)"
       - metabolites: !!omap
-          - prot_Q6C0B0: -1.10089255922589
+          - prot_Q6C0B0: -0.110089255922589
           - s_0066: -1
           - s_0068: 1
           - s_0522: 1
@@ -49391,7 +49391,7 @@
       - id: "y001171"
       - name: "glycerol transport"
       - metabolites: !!omap
-          - prot_Q6C428: -0.14886871011039
+          - prot_Q6C428: -0.014886871011039
           - s_0765: 1
           - s_0766: -1
           - s_0794: 1
@@ -55859,7 +55859,7 @@
       - id: "y001226"
       - name: "malate transport"
       - metabolites: !!omap
-          - prot_Q6CFV5: -0.257959714100065
+          - prot_Q6CFV5: -2.57959714100065
           - s_0066: -1
           - s_0068: 1
           - s_1322: 1
@@ -56765,7 +56765,7 @@
       - id: "y001244_EXP_1"
       - name: "phosphate transport"
       - metabolites: !!omap
-          - prot_Q6CGX6: -1.21070768196336
+          - prot_Q6CGX6: -1.20910712412129
           - s_0794: 1
           - s_0796: -1
           - s_1322: 1
@@ -56781,7 +56781,7 @@
       - id: "y001244_EXP_2"
       - name: "phosphate transport"
       - metabolites: !!omap
-          - prot_Q6CG86: -1.19853986155045
+          - prot_Q6CG86: -1.19695538958995
           - s_0794: 1
           - s_0796: -1
           - s_1322: 1
@@ -56797,7 +56797,7 @@
       - id: "y001244_EXP_3"
       - name: "phosphate transport"
       - metabolites: !!omap
-          - prot_Q6C4T4: -1.23181512553676
+          - prot_Q6C4T4: -1.23018666361443
           - s_0794: 1
           - s_0796: -1
           - s_1322: 1
@@ -56813,7 +56813,7 @@
       - id: "y001244_EXP_4"
       - name: "phosphate transport"
       - metabolites: !!omap
-          - prot_Q6C3Z4: -1.8005317929675
+          - prot_Q6C3Z4: -1.79815148653676
           - s_0794: 1
           - s_0796: -1
           - s_1322: 1
@@ -56829,7 +56829,7 @@
       - id: "y001244_REV_EXP_1"
       - name: "phosphate transport (reversible)"
       - metabolites: !!omap
-          - prot_Q6CGX6: -1.21070768196336
+          - prot_Q6CGX6: -1.20910712412129
           - s_0794: -1
           - s_0796: 1
           - s_1322: -1
@@ -56845,7 +56845,7 @@
       - id: "y001244_REV_EXP_2"
       - name: "phosphate transport (reversible)"
       - metabolites: !!omap
-          - prot_Q6CG86: -1.19853986155045
+          - prot_Q6CG86: -1.19695538958995
           - s_0794: -1
           - s_0796: 1
           - s_1322: -1
@@ -56861,7 +56861,7 @@
       - id: "y001244_REV_EXP_3"
       - name: "phosphate transport (reversible)"
       - metabolites: !!omap
-          - prot_Q6C4T4: -1.23181512553676
+          - prot_Q6C4T4: -1.23018666361443
           - s_0794: -1
           - s_0796: 1
           - s_1322: -1
@@ -56877,7 +56877,7 @@
       - id: "y001244_REV_EXP_4"
       - name: "phosphate transport (reversible)"
       - metabolites: !!omap
-          - prot_Q6C3Z4: -1.8005317929675
+          - prot_Q6C3Z4: -1.79815148653676
           - s_0794: -1
           - s_0796: 1
           - s_1322: -1
@@ -56893,7 +56893,7 @@
       - id: "y001245_EXP_1"
       - name: "phosphate transport"
       - metabolites: !!omap
-          - prot_Q6CCX5: -0.00703479576399395
+          - prot_Q6CCX5: -0.00702549575070821
           - s_0794: -1
           - s_0799: 1
           - s_1322: -1
@@ -56909,7 +56909,7 @@
       - id: "y001245_EXP_2"
       - name: "phosphate transport"
       - metabolites: !!omap
-          - prot_Q6C1Q9: -0.75199804397989
+          - prot_Q6C1Q9: -0.751003901145544
           - s_0794: -1
           - s_0799: 1
           - s_1322: -1
@@ -56975,7 +56975,7 @@
       - id: "y001249"
       - name: "potassium transport"
       - metabolites: !!omap
-          - prot_Q6CE78: -2.09844282461529
+          - prot_Q6CE78: -2.09566867923808
           - s_0794: 1
           - s_0796: -1
           - s_1373: 1
@@ -56993,7 +56993,7 @@
       - id: "y001249_REV"
       - name: "potassium transport (reversible)"
       - metabolites: !!omap
-          - prot_Q6CE78: -2.09844282461529
+          - prot_Q6CE78: -2.09566867923808
           - s_0794: -1
           - s_0796: 1
           - s_1373: -1
@@ -57543,7 +57543,7 @@
       - id: "y001258_EXP_1"
       - name: "sodium proton antiporter"
       - metabolites: !!omap
-          - prot_Q6CDG3: -1.81476260334052
+          - prot_Q6CDG3: -1.81236348375159
           - s_0794: 1
           - s_0796: -1
           - s_1437: -1
@@ -57559,7 +57559,7 @@
       - id: "y001258_EXP_2"
       - name: "sodium proton antiporter"
       - metabolites: !!omap
-          - prot_Q6C7B5: -1.10721435229756
+          - prot_Q6C7B5: -1.10575061283277
           - s_0794: 1
           - s_0796: -1
           - s_1437: -1
@@ -57575,7 +57575,7 @@
       - id: "y001258_REV_EXP_1"
       - name: "sodium proton antiporter (reversible)"
       - metabolites: !!omap
-          - prot_Q6CDG3: -1.81476260334052
+          - prot_Q6CDG3: -1.81236348375159
           - s_0794: -1
           - s_0796: 1
           - s_1437: 1
@@ -57591,7 +57591,7 @@
       - id: "y001258_REV_EXP_2"
       - name: "sodium proton antiporter (reversible)"
       - metabolites: !!omap
-          - prot_Q6C7B5: -1.10721435229756
+          - prot_Q6C7B5: -1.10575061283277
           - s_0794: -1
           - s_0796: 1
           - s_1437: 1
@@ -58409,7 +58409,7 @@
       - id: "y001266"
       - name: "sulfate uniport"
       - metabolites: !!omap
-          - prot_Q6CE75: -1.77325448127264
+          - prot_Q6CE75: -1.77091023549947
           - s_1467: 1
           - s_1468: -1
       - lower_bound: 0
@@ -58465,7 +58465,7 @@
       - id: "y001269"
       - name: "thiamine diphosphate transport"
       - metabolites: !!omap
-          - prot_Q6C107: -0.709420223414172
+          - prot_Q6C107: -0.708482368539026
           - s_1475: -1
           - s_1477: 1
       - lower_bound: 0
@@ -58652,7 +58652,7 @@
       - id: "y001277"
       - name: "water diffusion"
       - metabolites: !!omap
-          - prot_Q6C3A8: -0.583807056953804
+          - prot_Q6C3A8: -0.583035262921948
           - s_0803: 1
           - s_0805: -1
       - lower_bound: 0
@@ -58668,7 +58668,7 @@
       - id: "y001277_REV"
       - name: "water diffusion (reversible)"
       - metabolites: !!omap
-          - prot_Q6C3A8: -0.00583807056953804
+          - prot_Q6C3A8: -0.000588909699099766
           - s_0803: -1
           - s_0805: 1
       - lower_bound: 0
@@ -60077,7 +60077,7 @@
       - id: "y001664"
       - name: "bicarbonate formation"
       - metabolites: !!omap
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_0447: 1
           - s_0460: -1
           - s_0799: 1
@@ -60091,7 +60091,7 @@
       - id: "y001664_REV"
       - name: "bicarbonate formation (reversible)"
       - metabolites: !!omap
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_0447: -1
           - s_0460: 1
           - s_0799: -1
@@ -60105,7 +60105,7 @@
       - id: "y001665"
       - name: "bicarbonate formation"
       - metabolites: !!omap
-          - prot_standard: -0.00800974953773744
+          - prot_standard: -0.0799916063372154
           - s_0448: 1
           - s_0461: -1
           - s_0800: 1
@@ -60119,7 +60119,7 @@
       - id: "y001665_REV"
       - name: "bicarbonate formation (reversible)"
       - metabolites: !!omap
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_0448: -1
           - s_0461: 1
           - s_0800: -1
@@ -60133,7 +60133,7 @@
       - id: "y001667"
       - name: "bicarbonate formation"
       - metabolites: !!omap
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_0445: 1
           - s_0456: -1
           - s_0794: 1
@@ -60147,7 +60147,7 @@
       - id: "y001667_REV"
       - name: "bicarbonate formation (reversible)"
       - metabolites: !!omap
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_0445: -1
           - s_0456: 1
           - s_0794: -1
@@ -60161,7 +60161,7 @@
       - id: "y001668"
       - name: "bicarbonate formation"
       - metabolites: !!omap
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_0446: 1
           - s_0458: -1
           - s_0796: 1
@@ -60175,7 +60175,7 @@
       - id: "y001668_REV"
       - name: "bicarbonate formation (reversible)"
       - metabolites: !!omap
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_0446: -1
           - s_0458: 1
           - s_0796: -1
@@ -63083,7 +63083,7 @@
       - id: "y001887"
       - name: "L-glutamate 5-semialdehyde dehydratase"
       - metabolites: !!omap
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_0118: 1
           - s_0794: 1
           - s_0803: 1
@@ -63097,7 +63097,7 @@
       - id: "y001887_REV"
       - name: "L-glutamate 5-semialdehyde dehydratase (reversible)"
       - metabolites: !!omap
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_0118: -1
           - s_0794: -1
           - s_0803: -1
@@ -66030,7 +66030,7 @@
       - id: "y002119_REV"
       - name: "tyrosine transaminase (reversible)"
       - metabolites: !!omap
-          - prot_Q6CCZ6: -0.852331606217617
+          - prot_Q6CCZ6: -0.219298245614035
           - s_0204: 1
           - s_0955: 1
           - s_1051: -1
@@ -66643,7 +66643,7 @@
       - id: "y002148"
       - name: "3-hydroxyacyl-thioester dehydratase (trans-but-2-enoyl-ACP)"
       - metabolites: !!omap
-          - prot_Q6CGI2: -0.666231146563976
+          - prot_Q6CGI2: -0.665350387729991
           - s_0807: 1
           - s_2775: -1
           - s_2778: 1
@@ -66661,7 +66661,7 @@
       - id: "y002148_REV"
       - name: "3-hydroxyacyl-thioester dehydratase (trans-but-2-enoyl-ACP) (reversible)"
       - metabolites: !!omap
-          - prot_Q6CGI2: -0.666231146563976
+          - prot_Q6CGI2: -0.665350387729991
           - s_0807: -1
           - s_2775: 1
           - s_2778: -1
@@ -66679,7 +66679,7 @@
       - id: "y002149"
       - name: "3-hydroxyacyl-thioester dehydratase (trans-hex-2-enoyl-ACP)"
       - metabolites: !!omap
-          - prot_Q6CGI2: -0.666231146563976
+          - prot_Q6CGI2: -0.665350387729991
           - s_0807: 1
           - s_2776: -1
           - s_2779: 1
@@ -66697,7 +66697,7 @@
       - id: "y002149_REV"
       - name: "3-hydroxyacyl-thioester dehydratase (trans-hex-2-enoyl-ACP) (reversible)"
       - metabolites: !!omap
-          - prot_Q6CGI2: -0.666231146563976
+          - prot_Q6CGI2: -0.665350387729991
           - s_0807: -1
           - s_2776: 1
           - s_2779: -1
@@ -66715,7 +66715,7 @@
       - id: "y002150"
       - name: "3-hydroxyacyl-thioester dehydratase (trans-oct-2-enoyl-ACP)"
       - metabolites: !!omap
-          - prot_Q6CGI2: -0.666231146563976
+          - prot_Q6CGI2: -0.665350387729991
           - s_0807: 1
           - s_2777: -1
           - s_2780: 1
@@ -66733,7 +66733,7 @@
       - id: "y002150_REV"
       - name: "3-hydroxyacyl-thioester dehydratase (trans-oct-2-enoyl-ACP) (reversible)"
       - metabolites: !!omap
-          - prot_Q6CGI2: -0.666231146563976
+          - prot_Q6CGI2: -0.665350387729991
           - s_0807: -1
           - s_2777: 1
           - s_2780: -1
@@ -75624,7 +75624,7 @@
           - m1647: -1
           - m1648: 1
           - m567: -1
-          - prot_Q6C336: -0.88550023686181
+          - prot_Q6C336: -0.884329603876346
           - s_2785: 1
       - lower_bound: 0
       - upper_bound: 1000
@@ -75753,7 +75753,7 @@
           - m789: -1
           - m790: -1
           - m791: 1
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_3321: 1
       - lower_bound: 0
       - upper_bound: 1000
@@ -76791,7 +76791,7 @@
       - metabolites: !!omap
           - m1681: 1
           - m1684: -1
-          - prot_Q6C1Z2: -0.735627836611195
+          - prot_Q6C1Z2: -0.734655335221907
           - s_2808: -1
           - s_2966: 1
       - lower_bound: 0
@@ -77051,7 +77051,7 @@
       - metabolites: !!omap
           - m1687: 1
           - m1688: -1
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_3359: -1
           - s_3360: 1
       - lower_bound: 0
@@ -77065,7 +77065,7 @@
       - metabolites: !!omap
           - m1687: -1
           - m1688: 1
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_3359: 1
           - s_3360: -1
       - lower_bound: 0
@@ -77079,7 +77079,7 @@
       - metabolites: !!omap
           - m1685: 1
           - m1686: -1
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_3341: -1
           - s_3342: 1
       - lower_bound: 0
@@ -77093,7 +77093,7 @@
       - metabolites: !!omap
           - m1685: -1
           - m1686: 1
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_3341: 1
           - s_3342: -1
       - lower_bound: 0
@@ -78124,7 +78124,7 @@
       - metabolites: !!omap
           - m572: -1
           - m577: 1
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_0798: -1
           - s_2952: -1
           - s_2953: 1
@@ -78139,7 +78139,7 @@
       - metabolites: !!omap
           - m572: 1
           - m577: -1
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_0798: 1
           - s_2952: 1
           - s_2953: -1
@@ -80374,7 +80374,7 @@
       - metabolites: !!omap
           - m1792: -1
           - m1793: 1
-          - prot_Q6CEP8: -0.312884259259259
+          - prot_Q6CEP8: -0.0312884259259259
           - s_0837: 1
           - s_1275: -1
       - lower_bound: 0
@@ -80985,7 +80985,7 @@
       - metabolites: !!omap
           - m1820: 1
           - m1822: -1
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_0794: 1
           - s_1275: -1
       - lower_bound: 0
@@ -81000,7 +81000,7 @@
       - metabolites: !!omap
           - m1819: 1
           - m1820: -1
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
       - lower_bound: 0
       - upper_bound: 1000
       - eccodes: "5.2.1.2"
@@ -81013,7 +81013,7 @@
       - metabolites: !!omap
           - m1819: -1
           - m1820: 1
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
       - lower_bound: 0
       - upper_bound: 1000
       - eccodes: "5.2.1.2"
@@ -81026,7 +81026,7 @@
       - metabolites: !!omap
           - m1819: -1
           - m1821: 1
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_0725: 1
           - s_0794: 1
           - s_0803: -1
@@ -81041,7 +81041,7 @@
       - name: "erythrose kinase"
       - metabolites: !!omap
           - m1827: 1
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_0394: -1
           - s_0434: 1
           - s_0551: -1
@@ -81055,7 +81055,7 @@
       - name: "erythrose kinase (reversible)"
       - metabolites: !!omap
           - m1827: -1
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_0394: 1
           - s_0434: -1
           - s_0551: 1
@@ -81193,7 +81193,7 @@
       - name: "arabinitol dehydrogenase"
       - metabolites: !!omap
           - m1823: 1
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_0580: -1
           - s_0794: -1
           - s_1198: 1
@@ -81209,7 +81209,7 @@
       - name: "arabinitol dehydrogenase (reversible)"
       - metabolites: !!omap
           - m1823: -1
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_0580: 1
           - s_0794: 1
           - s_1198: -1
@@ -81348,7 +81348,7 @@
       - name: "3-methylglutaconyl-CoA dehydratase"
       - metabolites: !!omap
           - m1832: -1
-          - prot_standard: -0.800974953773744
+          - prot_standard: -0.799916063372154
           - s_0221: 1
           - s_0807: -1
       - lower_bound: 0
@@ -90491,7 +90491,7 @@
       - name: "prot_pool_exchange"
       - metabolites: !!omap
           - prot_pool: -1
-      - lower_bound: -50.5
+      - lower_bound: -30.693698
       - upper_bound: 0
       - subsystem:
     - !!omap
@@ -93299,7 +93299,7 @@
         - Q6CG29: 1
   - !!omap
     - id: "y000023_REV"
-    - kcat: 9.27
+    - kcat: 92.7
     - source: "brenda"
     - enzymes: !!omap
         - Q6CG29: 1
@@ -93587,7 +93587,7 @@
         - Q6C090: 1
   - !!omap
     - id: "y000079"
-    - kcat: 5.0794
+    - kcat: 50.794
     - source: "custom"
     - notes: "From inspection of tunedKcats Iteration #1"
     - enzymes: !!omap
@@ -93912,7 +93912,7 @@
         - Q6C354: 1
   - !!omap
     - id: "y000118"
-    - kcat: 1.55
+    - kcat: 15.5
     - source: "brenda"
     - enzymes: !!omap
         - Q6C846: 1
@@ -95103,7 +95103,7 @@
         - Q6BZZ9: 1
   - !!omap
     - id: "y000219"
-    - kcat: 12
+    - kcat: 120
     - source: "brenda"
     - enzymes: !!omap
         - Q6C968: 1
@@ -95133,7 +95133,7 @@
         - Q99145: 1
   - !!omap
     - id: "y000226"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
   - !!omap
@@ -95168,13 +95168,14 @@
         - Q6C416: 1
   - !!omap
     - id: "y000231"
-    - kcat: 0.6475
-    - source: "brenda"
+    - kcat: 17.0205
+    - source: "custom"
+    - notes: "Was constraining growth after adding proteomics in interation #3 (max 0.23348). Got the value from DLKcat instead."
     - enzymes: !!omap
         - Q6CDK2: 1
   - !!omap
     - id: "y000233"
-    - kcat: 0.17
+    - kcat: 1.7
     - source: "brenda"
     - enzymes: !!omap
         - Q6CGM4: 1
@@ -95192,14 +95193,16 @@
         - Q6CB38: 1
   - !!omap
     - id: "y000236"
-    - kcat: 0.73
-    - source: "brenda"
+    - kcat: 1.2
+    - source: "custom"
+    - notes: "Was constraining growth after adding proteomics in interation #6 (max 0.3469). Got the highest kcat in Brenda."
     - enzymes: !!omap
         - Q6CE88: 1
   - !!omap
     - id: "y000237"
-    - kcat: 0.73
-    - source: "brenda"
+    - kcat: 1.2
+    - source: "custom"
+    - notes: "Was constraining growth after adding proteomics in interation #6 (max 0.3469). Got the highest kcat in Brenda."
     - enzymes: !!omap
         - Q6CE88: 1
   - !!omap
@@ -95216,13 +95219,13 @@
         - Q6C231: 1
   - !!omap
     - id: "y000240"
-    - kcat: 0.1159
+    - kcat: 1.159
     - source: "DLKcat"
     - enzymes: !!omap
         - Q6C231: 1
   - !!omap
     - id: "y000241"
-    - kcat: 0.1978
+    - kcat: 1.978
     - source: "DLKcat"
     - enzymes: !!omap
         - Q6C231: 1
@@ -95279,8 +95282,9 @@
         - Q6CAV8: 1
   - !!omap
     - id: "y000251"
-    - kcat: 0.02052
-    - source: "brenda"
+    - kcat: 0.2052
+    - source: "custom"
+    - notes: "Was constraining growth after adding proteomics in interation #1 (max 0.15426)."
     - enzymes: !!omap
         - Q6C0K8: 1
   - !!omap
@@ -96090,12 +96094,12 @@
         - Q6C296: 1
   - !!omap
     - id: "y000335"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
   - !!omap
     - id: "y000335_REV"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
   - !!omap
@@ -96483,12 +96487,12 @@
         - Q6C9Q0: 1
   - !!omap
     - id: "y000438"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
   - !!omap
     - id: "y000439"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
   - !!omap
@@ -96619,7 +96623,7 @@
         - Q6C5J2: 1
   - !!omap
     - id: "y000449"
-    - kcat: 4.9
+    - kcat: 49
     - source: "brenda"
     - enzymes: !!omap
         - Q6CGV1: 1
@@ -96814,8 +96818,9 @@
         - Q6C5H4: 1
   - !!omap
     - id: "y000483_EXP_1"
-    - kcat: 2.1269
-    - source: "DLKcat"
+    - kcat: 900
+    - source: "custom"
+    - notes: "Was constraining growth after adding proteomics in interation #4 (max 0.33675). Adjusted with Brenda data."
     - enzymes: !!omap
         - Q6CCY8: 1
   - !!omap
@@ -96826,8 +96831,9 @@
         - Q6C7A8: 1
   - !!omap
     - id: "y000483_REV_EXP_1"
-    - kcat: 5.8572
-    - source: "DLKcat"
+    - kcat: 900
+    - source: "custom"
+    - notes: "Was constraining growth after adding proteomics in interation #4 (max 0.33675). Adjusted with Brenda data."
     - enzymes: !!omap
         - Q6CCY8: 1
   - !!omap
@@ -96910,7 +96916,7 @@
         - Q6C5G1: 1
   - !!omap
     - id: "y000487_EXP_8"
-    - kcat: 86.8145
+    - kcat: 868.145
     - source: "DLKcat"
     - enzymes: !!omap
         - Q6C2L0: 1
@@ -97338,7 +97344,7 @@
         - Q6C5G4: 1
   - !!omap
     - id: "y000542"
-    - kcat: 2.5
+    - kcat: 25
     - source: "brenda"
     - enzymes: !!omap
         - Q6C791: 1
@@ -97443,7 +97449,7 @@
         - Q6C097: 1
   - !!omap
     - id: "y000558"
-    - kcat: 2.3
+    - kcat: 23
     - source: "brenda"
     - enzymes: !!omap
         - Q6C704: 1
@@ -97533,7 +97539,7 @@
         - Q6C1T4: 1
   - !!omap
     - id: "y000570"
-    - kcat: 8.6
+    - kcat: 86
     - source: "brenda"
     - enzymes: !!omap
         - Q6C7Y2: 1
@@ -98080,7 +98086,7 @@
         - Q6CA33: 1
   - !!omap
     - id: "y000658_EXP_3"
-    - kcat: 30
+    - kcat: 300
     - source: "brenda"
     - enzymes: !!omap
         - Q6C6Z1: 1
@@ -98389,7 +98395,7 @@
         - Q6C4S7: 1
   - !!omap
     - id: "y000698"
-    - kcat: 0.193666666666667
+    - kcat: 1.93666666666667
     - source: "brenda"
     - enzymes: !!omap
         - Q6C2X2: 1
@@ -99257,7 +99263,7 @@
         - P41923: 1
   - !!omap
     - id: "y000821"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
   - !!omap
@@ -99436,7 +99442,7 @@
         - Q6C9T5: 1
   - !!omap
     - id: "y000882"
-    - kcat: 2.94
+    - kcat: 29.4
     - source: "brenda"
     - enzymes: !!omap
         - Q6C454: 1
@@ -100124,7 +100130,7 @@
         - Q6CEH1: 1
   - !!omap
     - id: "y000986"
-    - kcat: 0.11
+    - kcat: 1.1
     - source: "brenda"
     - enzymes: !!omap
         - Q6C2D9: 1
@@ -100376,13 +100382,13 @@
         - Q6C4Q7: 1
   - !!omap
     - id: "y001032"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6CCS5: 1
   - !!omap
     - id: "y001033"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6CCS5: 1
@@ -100622,7 +100628,7 @@
         - Q6C8M8: 1
   - !!omap
     - id: "y001069"
-    - kcat: 3.53
+    - kcat: 35.3
     - source: "brenda"
     - enzymes: !!omap
         - Q6C776: 1
@@ -100886,7 +100892,7 @@
         - Q6C194: 1
   - !!omap
     - id: "y001099"
-    - kcat: 1.2496
+    - kcat: 12.496
     - source: "DLKcat"
     - enzymes: !!omap
         - Q6CAH9: 1
@@ -101186,7 +101192,7 @@
         - F2Z5Z3: 1
   - !!omap
     - id: "y001110_EXP_2"
-    - kcat: 305.442
+    - kcat: 3054.42
     - source: "DLKcat"
     - enzymes: !!omap
         - F2Z694: 1
@@ -101270,37 +101276,37 @@
         - Q6CA61: 1
   - !!omap
     - id: "y001115_EXP_1"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6C4F5: 1
   - !!omap
     - id: "y001115_EXP_2"
-    - kcat: 145.42
+    - kcat: 145.6125
     - source: "standard"
     - enzymes: !!omap
         - Q6C1W2: 1
   - !!omap
     - id: "y001115_EXP_3"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6C1F0: 1
   - !!omap
     - id: "y001115_REV_EXP_1"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6C4F5: 1
   - !!omap
     - id: "y001115_REV_EXP_2"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6C1W2: 1
   - !!omap
     - id: "y001115_REV_EXP_3"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6C1F0: 1
@@ -101354,7 +101360,7 @@
         - Q6C0B0: 1
   - !!omap
     - id: "y001126_REV"
-    - kcat: 7.992
+    - kcat: 79.92
     - source: "DLKcat"
     - enzymes: !!omap
         - Q6C0B0: 1
@@ -101786,7 +101792,7 @@
         - Q6C9U1: 1
   - !!omap
     - id: "y001171"
-    - kcat: 121.69
+    - kcat: 1216.9
     - source: "DLKcat"
     - enzymes: !!omap
         - Q6C428: 1
@@ -104084,9 +104090,8 @@
         - Q6CET9: 1
   - !!omap
     - id: "y001226"
-    - kcat: 38.475
-    - source: "custom"
-    - notes: "Was constraining growth after adding proteomics in interation #1"
+    - kcat: 3.8475
+    - source: "DLKcat"
     - enzymes: !!omap
         - Q6CFV5: 1
   - !!omap
@@ -104409,61 +104414,61 @@
         - Q6C2L4: 1
   - !!omap
     - id: "y001244_EXP_1"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6CGX6: 1
   - !!omap
     - id: "y001244_EXP_2"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6CG86: 1
   - !!omap
     - id: "y001244_EXP_3"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6C4T4: 1
   - !!omap
     - id: "y001244_EXP_4"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6C3Z4: 1
   - !!omap
     - id: "y001244_REV_EXP_1"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6CGX6: 1
   - !!omap
     - id: "y001244_REV_EXP_2"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6CG86: 1
   - !!omap
     - id: "y001244_REV_EXP_3"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6C4T4: 1
   - !!omap
     - id: "y001244_REV_EXP_4"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6C3Z4: 1
   - !!omap
     - id: "y001245_EXP_1"
-    - kcat: 1454.2
+    - kcat: 1456.125
     - source: "standard"
     - enzymes: !!omap
         - Q6CCX5: 1
   - !!omap
     - id: "y001245_EXP_2"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6C1Q9: 1
@@ -104487,13 +104492,13 @@
         - Q6C0L8: 1
   - !!omap
     - id: "y001249"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6CE78: 1
   - !!omap
     - id: "y001249_REV"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6CE78: 1
@@ -104691,25 +104696,25 @@
         - Q6CCF3: 1
   - !!omap
     - id: "y001258_EXP_1"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6CDG3: 1
   - !!omap
     - id: "y001258_EXP_2"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6C7B5: 1
   - !!omap
     - id: "y001258_REV_EXP_1"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6CDG3: 1
   - !!omap
     - id: "y001258_REV_EXP_2"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6C7B5: 1
@@ -104967,7 +104972,7 @@
         - Q6C3I0: 1
   - !!omap
     - id: "y001266"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6CE75: 1
@@ -104979,7 +104984,7 @@
         - Q6C4S2: 1
   - !!omap
     - id: "y001269"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6C107: 1
@@ -105045,14 +105050,15 @@
         - Q6C2S7: 1
   - !!omap
     - id: "y001277"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6C3A8: 1
   - !!omap
     - id: "y001277_REV"
-    - kcat: 1454.2
-    - source: "standard"
+    - kcat: 14416
+    - source: "custom"
+    - notes: "Was constraining growth after adding proteomics in interation #2 (max 0.17761). Adjusted 10x."
     - enzymes: !!omap
         - Q6C3A8: 1
   - !!omap
@@ -105274,8 +105280,9 @@
         - Q6CCZ6: 1
   - !!omap
     - id: "y002119_REV"
-    - kcat: 19.3
-    - source: "brenda"
+    - kcat: 75.012
+    - source: "custom"
+    - notes: "Was constraining growth after adding proteomics in interation #5 (max 0.12915). Adjusted with Brenda data (Specific activity)."
     - enzymes: !!omap
         - Q6CCZ6: 1
   - !!omap
@@ -105408,37 +105415,37 @@
         - Q6BZY3: 1
   - !!omap
     - id: "y002148"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6CGI2: 1
   - !!omap
     - id: "y002148_REV"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6CGI2: 1
   - !!omap
     - id: "y002149"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6CGI2: 1
   - !!omap
     - id: "y002149_REV"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6CGI2: 1
   - !!omap
     - id: "y002150"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6CGI2: 1
   - !!omap
     - id: "y002150_REV"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6CGI2: 1
@@ -106927,7 +106934,7 @@
         - Q6C307: 1
   - !!omap
     - id: "y102462"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6C336: 1
@@ -107287,7 +107294,7 @@
         - Q6CA28: 1
   - !!omap
     - id: "y103208"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - Q6C1Z2: 1
@@ -108187,7 +108194,7 @@
         - Q6CEP8: 1
   - !!omap
     - id: "y300023"
-    - kcat: 60
+    - kcat: 600
     - source: "brenda"
     - enzymes: !!omap
         - Q6CEP8: 1
@@ -108439,7 +108446,7 @@
         - Q6C9S7: 1
   - !!omap
     - id: "y300047"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
   - !!omap
@@ -108710,301 +108717,301 @@
         - Q6CDL9: 1
   - !!omap
     - id: "xAMINOACID"
-    - kcat: 14.542
+    - kcat: 145.6125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "xBIOMASS"
-    - kcat: 14.542
+    - kcat: 145.6125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "xLIPID"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "xMAINTENANCE"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "xPOOL_AC_EM"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "xPOOL_AC_EM_REV"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "xPOOL_AC_LP"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "xPOOL_AC_LP_REV"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "xPOOL_AC_MM"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "xPOOL_AC_MM_REV"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "xPOOL_FA_EM"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "xPOOL_FA_EM_REV"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "xPOOL_FA_EN"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "xPOOL_FA_EN_REV"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "xPOOL_FA_LP"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "xPOOL_FA_LP_REV"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "xPOOL_FA_MI"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "xPOOL_FA_MI_REV"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "xPOOL_FA_MM"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "xPOOL_FA_MM_REV"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y000208"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y000208_REV"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y000679"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y000679_REV"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y001664"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y001664_REV"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y001665"
-    - kcat: 1454.2
+    - kcat: 145.6125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y001665_REV"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y001667"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y001667_REV"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y001668"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y001668_REV"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y001887"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y001887_REV"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y102812"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y103332"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y103332_REV"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y103340"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y103340_REV"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y200009"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y200009_REV"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y300036"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y300037"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y300037_REV"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y300038"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y300039"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y300039_REV"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y300042"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y300042_REV"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
   - !!omap
     - id: "y300049"
-    - kcat: 14.542
+    - kcat: 14.56125
     - source: "standard"
     - enzymes: !!omap
         - standard: 1

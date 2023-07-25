@@ -3,5 +3,6 @@ Q6BZY1			5.0794	y000079	From inspection of tunedKcats Iteration #1
 Q6C0K8	YALI0F23837g		0.2052	y000251	Was constraining growth after adding proteomics in interation #1 (max 0.15426).	
 Q6C3A8	YALI0F01210g		14416	y001277_REV	Was constraining growth after adding proteomics in interation #2 (max 0.17761). Adjusted 10x.	
 Q6CDK2	YALI0B23298g		17.0205	y000231	Was constraining growth after adding proteomics in interation #3 (max 0.23348). Got the value from DLKcat instead.	
+Q6CCY8	YALI0C05467g		900.0		Was constraining growth after adding proteomics in interation #4 (max 0.33675). Adjusted with Brenda data.	
 Q6CCZ6	YALI0C05258g		75.012	y002119_REV	Was constraining growth after adding proteomics in interation #5 (max 0.12915). Adjusted with Brenda data (Specific activity).	
 Q6CE88	YALI0B17644g		1.2		Was constraining growth after adding proteomics in interation #6 (max 0.3469). Got the highest kcat in Brenda.	

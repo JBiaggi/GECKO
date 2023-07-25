@@ -11,13 +11,13 @@ classdef ecYaliGEMAdapter < ModelAdapter
 			obj.params.convGEM = fullfile(obj.params.path,'models','iYali.xml');
 
 			% Average enzyme saturation factor
-			obj.params.sigma = 0.5;
+			obj.params.sigma = 0.49;
 
 			% Total protein content in the cell [g protein/gDw]
 			obj.params.Ptot = 0.202;
 
 			% Fraction of enzymes in the model [g enzyme/g protein]
-			obj.params.f = 0.5;
+			obj.params.f = 0.3101;
             
             % Growth rate the model should be able to reach when not
             % constraint by nutrient uptake (e.g. max growth rate) [1/h]
