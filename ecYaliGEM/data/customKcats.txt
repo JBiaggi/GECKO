@@ -1,8 +1,32 @@
 proteins	genes	gene_name	kcat	rxns	notes	stoicho
-Q6BZY1			5.0794	y000079	From inspection of tunedKcats Iteration #1	
-Q6C0K8	YALI0F23837g		0.2052	y000251	Was constraining growth after adding proteomics in interation #1 (max 0.15426).	
-Q6C3A8	YALI0F01210g		14416	y001277_REV	Was constraining growth after adding proteomics in interation #2 (max 0.17761). Adjusted 10x.	
+Q6BZY1	YALI0F30019g		12.524	y000079	From inspection of tunedKcats Iteration #1. Got the value of DLKcat instead.	
+Q6C0K8	YALI0F23837g		0.2052	y000251	Was constraining growth after adding proteomics in interation #1 (max 0.15426). Adjusted eith Brenda data (specific activity)	
+Q6C3A8	YALI0F01210g		14416	y001277_REV	Was constraining growth after adding proteomics in interation #2 (max 0.17761).	
 Q6CDK2	YALI0B23298g		17.0205	y000231	Was constraining growth after adding proteomics in interation #3 (max 0.23348). Got the value from DLKcat instead.	
-Q6CCY8	YALI0C05467g		900.0		Was constraining growth after adding proteomics in interation #4 (max 0.33675). Adjusted with Brenda data.	
-Q6CCZ6	YALI0C05258g		75.012	y002119_REV	Was constraining growth after adding proteomics in interation #5 (max 0.12915). Adjusted with Brenda data (Specific activity).	
+Q6CCY8	YALI0C05467g		900		Was constraining growth after adding proteomics in interation #4 (max 0.33675). Adjusted with Brenda data.	
+Q6CCZ6	YALI0C05258g		75.012	y002119_REV	Was constraining growth after adding proteomics in interation #5 (max 0.12915) and #7 (max 0.23366). Adjusted with Brenda data (Specific activity) then adjusted 10x.	
 Q6CE88	YALI0B17644g		1.2		Was constraining growth after adding proteomics in interation #6 (max 0.3469). Got the highest kcat in Brenda.	
+Q6C1K5	YALI0F15433g		311.561	y001129	Was constraining growth after adding proteomics in interation #8 (max 0.38409). Adjusted 10x.	
+Q6CFV5	YALI0B03344g		38.475	y001226	Was constraining growth after adding proteomics in interation #9 (max 0.38703). Adjusted 10x.	
+Q6CDD3	YALI0C01411g		51.419		Output of sensitivityTuning. Calculated from teh specific activity of N. crassa (Brenda)	
+Q6CDI7	YALI0C00209g		2.0469	y000496	Output of sensitivityTuning. Got the value of DLKcat instead.	
+Q6C5R8	YALI0E15730g		0.4689	y001011	Output of sensitivityTuning. Got the value of DLKcat instead.	
+Q6C7B8	YALI0E02090g		7.9985	y000888	Output of sensitivityTuning. Got the value of DLKcat instead.	
+Q6C638	YALI0E12683g		1428.4	y000727	Output of sensitivityTuning. Calculated from the specific activity of N. crassa (Brenda)	
+Q6C231	YALI0F11297g		10.1681		Output of sensitivityTuning. Calculated from the specific activity of R. norvegicus (Brenda EC 1.14.18.9)	
+Q6CCU7	YALI0C06369g		138.7067	y000486	Output of sensitivityTuning. Got the value of DLKcat instead.	
+Q6C846	YALI0D22847g		78.5888	y000118	Output of sensitivityTuning. Got the value of DLKcat instead.	
+Q6C968	YALI0D13596g		330	y000219	Output of sensitivityTuning. Got the highest value in Brenda.	
+Q6CG29	YALI0B01364g		17.0695	y000023_REV	Output of sensitivityTuning. Calculated from the specific activity of N. crassa (Brenda)	
+Q6C791	YALI0E02728g		6.6	y000027	Output of sensitivityTuning. Got the highest value in Brenda.	
+Q6CAF8	YALI0D03135g		78.3		Output of sensitivityTuning. Got the highest value in Brenda for matching substrate.	
+Q6C8Q1	YALI0D17930g		11.6961	y000279	Output of sensitivityTuning. Got the value of DLKcat instead.	
+Q6C5V2	YALI0E14949g		142.73		Output of sensitivityTuning. Calculated from the specific activity of Y. lipolytica (Brenda)	
+Q6C564	YALI0E20691g		37.7824		Output of sensitivityTuning. Calculated from the specific activity of Candida methylica (Brenda)	
+Q6CGV1	YALI0A15972g		212	y000449	Output of sensitivityTuning. Got the highest value in Brenda.	
+Q6C4K5	YALI0E26004g		14.2949	y000450_REV	Output of sensitivityTuning. Got the value of DLKcat instead.	
+Q6C2L0	YALI0F06974g		271.6896		Output of sensitivityTuning. Calculated from the specific activity of Pichia membranifaciens (Brenda EC 1.1.1.6)	
+Q6C791	YALI0E02728g		10.8906	y000542	Output of sensitivityTuning. Got the value of DLKcat instead.	
+Q6C704	YALI0E04807g		4.7733	y000558	Output of sensitivityTuning. Got the value of DLKcat instead.	
+Q6C6Z1	YALI0E05137g		38.7589		Output of sensitivityTuning. Got the value of DLKcat instead.	
+Q6C2X2	YALI0F04378g		30.0895	y000698	Output of sensitivityTuning. Got the value of DLKcat instead.	
