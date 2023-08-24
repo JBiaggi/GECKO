@@ -1,0 +1,9 @@
+- See which enzymes are used 100%
+	- 
+- Without providing 
+- Nitrogen limitation
+	0.02 growth rate
+
+- Change lipid content of biomass
+
+Without any constrains, how can you predict experimental fluxes? (NGAM, biomass equation)

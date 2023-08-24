@@ -1,0 +1,1925 @@
+rxnIDs rxnNames minFlux maxFlux ec-minFlux ec-maxFlux ecP-minFlux ecP-maxFlux
+xAMINOACID Amino acid composition 0 0.4529 0 0.424107 0 0.452865
+xBIOMASS Biomass production 0 0.4529 -2.94714e-14 0.424107 0 0.452865
+xLIPID Lipids pool 0 0.0004529 0 0.000424107 0 0.000452865
+xMAINTENANCE Non-growth associated maintenance (NGAM) 0 255.433 0 31.049 0 27.7939
+xPOOL_AC_EM Acyl-CoAs pool 0 1000 0 0.882997 0 0
+xPOOL_AC_LP Acyl-CoAs pool -1000 152.863 0 -0.697537 1.63573e-11 0.0525002
+xPOOL_AC_MM Acyl-CoAs pool 0 0 0 0 0 0
+xPOOL_FA_EM Fatty acids pool -152.863 1.81899e-12 0 -0.157573 4.34199e-11 -0.017836
+xPOOL_FA_EN Fatty acids pool 0 0 0 0 0 0
+xPOOL_FA_LP Fatty acids pool -152.863 0.00150109 0 -0.183398 9.78137e-11 -0.147641
+xPOOL_FA_MI Fatty acids pool 0 0 0 0 0 0
+xPOOL_FA_MM Fatty acids pool 0 0 0 0 0 0
+y000001 (R)-lactate:ferricytochrome-c 2-oxidoreductase 0 0 0 0 0 0
+y000002 (R)-lactate:ferricytochrome-c 2-oxidoreductase 0 0 0 0 0 0
+y000004 (S)-lactate:ferricytochrome-c 2-oxidoreductase 0 0 0 0 0 0
+y000005 1,3-beta-glucan synthase 0 0.199955 0 0.187243 0 0.19994
+y000006 1,6-beta-glucan synthase 0 0 0 0 0 0
+y000007 1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino)imidazole-4-carboxamide isomerase 0 5.85969 0 1.15969 0 0.067024
+y000008 1-acyl-sn-gylcerol-3-phosphate acyltransferase 0 56.4778 0 0.0514194 0 0.00252536
+y000009 1-acyl-sn-gylcerol-3-phosphate acyltransferase 0 56.4778 0 0.0842846 -1.50356e-12 0.0470938
+y000010 1-phosphatidylinositol-3-phosphate 5-kinase 0 244.737 0 0.912212 0 6.67115e-05
+y000012 1-pyrroline-5-carboxylate dehydrogenase 0 0 0 0 0 8.31764e-11
+y000013 2,3-diketo-5-methylthio-1-phosphopentane degradation reaction 0 0 0 0 0 0
+y000014 2,5-diamino-6-ribitylamino-4(3H)-pyrimidinone 5'-phosphate deaminase 0 0 0 0 0 0
+y000015 2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 5'-phosphate reductase (NADPH) 0 0 0 0 0 0
+y000016 2-aceto-2-hydroxybutanoate synthase 0 5.81913 0 4.88948 0 1.42992
+y000017 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase 0 0 0 0 0 0
+y000018 2-aminoadipate transaminase 0 4.92885 0 1.8347 0 0.182256
+y000019 2-dehydropantoate 2-reductase 0 3.62743 0 1.13365 0 0.000398988
+y000020 2-deoxy-D-arabino-heptulosonate 7-phosphate synthetase 0 5.03198 0 2.498 0 0.38403
+y000021 2-hexaprenyl-6-methoxy-1,4-benzoquinone methyltransferase 0 0 0 0 0 0
+y000022 2-hexaprenyl-6-methoxyphenol monooxygenase 0 0 0 0 0 0
+y000023 2-isopropylmalate hydratase -5.0784 0 0 -2.60292 0 -0.190656
+y000024 2-isopropylmalate synthase 0 5.0784 0 3.4393 0 0.190656
+y000025 2-isopropylmalate synthase -1.29852e-12 5.0784 0 3.65154 0 0.190656
+y000027 2-methylcitrate dehydratase 0 4.92885 0 1.8347 0 0.182256
+y000028 2-methylcitrate synthase 0 0 0 0 0 0
+y000029 2-oxo-4-methyl-3-carboxypentanoate decarboxylation 0 5.0784 0 2.60292 0 0.190656
+y000030 2-oxo-4-methyl-3-carboxypentanoate decarboxylation 0 5.0784 0 2.41716 0 0.190656
+y000032 3',5'-bisphosphate nucleotidase 0 44.0497 0 2.2525 -4.76412e-10 0.0883087
+y000033 3',5'-cyclic-nucleotide phosphodiesterase 0 145.373 0 20.6216 0 0.0105664
+y000034 3',5'-cyclic-nucleotide phosphodiesterase 0 0 0 0 0 0
+y000035 3',5'-cyclic-nucleotide phosphodiesterase 0 0 0 0 0 0
+y000036 3',5'-cyclic-nucleotide phosphodiesterase 0 91.7765 0 11.9276 0 0.0100811
+y000037 3',5'-cyclic-nucleotide phosphodiesterase 0 0 0 0 0 0
+y000038 3,4-dihydroxy-2-butanone-4-phosphate synthase 0 0 0 0 0 0
+y000039 3-dehydroquinate dehydratase 0 5.03198 0 2.7948 0 0.192015
+y000040 3-dehydroquinate synthase 0 5.03198 0 2.7948 0 0.192015
+y000041 3-dehydrosphinganine reductase 0 0 0 0 -1.13689e-13 0
+y000042 3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase 0 4.99787 0 2.7948 0 0.192015
+y000045 3-hydroxy-L-kynurenine hydrolase 0 0 0 0 0 0
+y000057 3-hydroxyacyl-CoA dehydrogenase (3-oxotetradecanoyl-CoA) 0 41.7063 0 0.815347 -1.22269e-10 0.00682618
+y000058 3-hydroxyanthranilate 3,4-dioxygenase 0 0 0 0 0 0
+y000060 3-isopropylmalate dehydratase -5.0784 0 0 -2.60292 0 -0.190656
+y000061 3-isopropylmalate dehydrogenase 0 5.0784 0 2.60292 0 0.190656
+y000062 3-methyl-2-oxobutanoate decarboxylase 0 6.348 0 4.96804 -1.87156e-10 1.45069
+y000063 3-methyl-2-oxobutanoate hydroxymethyltransferase 0 3.62743 0 1.13365 0 0.000398988
+y000064 3-methyl-2-oxopentanoate decarboxylase 0 5.81913 0 4.88948 -7.36245e-11 0.71496
+y000065 3-phosphoshikimate 1-carboxyvinyltransferase 0 5.03198 0 2.7948 0 0.192015
+y000066 4-amino-4-deoxychorismate synthase 0 5.03198 0 0.0211741 0 3.57084e-05
+y000067 4-aminobenzoate synthase 0 5.03198 0 0.0211741 0 3.57084e-05
+y000068 4-aminobutyrate transaminase 0 25.392 0 6.09052 0 0.0105411
+y000069 4-hydroxy-L-threonine synthase 0 0 0 0 0 0
+y000072 4-methyl-2-oxopentanoate decarboxylase 0 5.0784 0 2.60292 -1.22238e-10 0.190656
+y000073 4PP-IP5 depyrophosphorylation to IP6 -255.433 0 0 -0.0285732 0 -9.11201e-06
+y000074 4PP-IP5 pyrophosphorylation to 4,5-PP2-IP4 0 255.433 0 0.0285732 0 4.556e-06
+y000075 5'-methylthioadenosine phosphorylase 0 0 0 0 0 0
+y000076 5'-nucleotidase (CMP) 0 244.737 0 6.21269 0 0.00225233
+y000077 5'-nucleotidase (IMP) 0 145.373 0 1.18238 -1.3179e-10 0.0628731
+y000078 5'-nucleotidase (UMP) 0 244.737 0 6.23936 0 0.00287773
+y000079 5'-phosphoribosylformyl glycinamidine synthetase 0 12.696 0 0.522213 -1.44868e-13 0.110816
+y000080 5,10-methylenetetrahydrofolate reductase (NADPH) -1.81899e-12 9.76909 0 1.41812 -7.00792e-13 0.0961437
+y000081 5-aminolevulinate synthase 0 0 0 0 0 0
+y000082 5-diphosphoinositol-1,2,3,4,6-pentakisphosphate diphosphohydrolase 0 255.433 0 0.0286144 0 4.556e-06
+y000083 5-diphosphoinositol-1,2,3,4,6-pentakisphosphate synthase 0 244.737 0 0.0286144 0 4.556e-06
+y000084 5-formethyltetrahydrofolate cyclo-ligase 0 0 0 0 0 0
+y000085 5-methyltetrahydropteroyltriglutamate-homocysteine S-methyltransferase 0 0 0 0 0 0
+y000086 5-methylthio-5-deoxy-D-ribulose 1-phosphate dehydratase 0 0 0 0 0 0
+y000087 5-methylthioribose-1-phosphate isomerase 0 0 0 0 0 0
+y000088 5PP-IP5 pyrophosphorylation to 4,5-PP2-IP4 -255.433 0 0 -0.0285732 0 -4.556e-06
+y000089 5PP-IP5 pyrophosphorylation to 5,6-PP2-IP4 -255.433 127.717 0 -0.000313774 -1.13687e-13 4.42933e-14
+y000090 6-phosphofructo-2-kinase 0 244.737 0 38.883 0 0.0253004
+y000091 6-phosphogluconolactonase 0 38.088 -1.43187e-11 11.059 -4.35293e-13 1.2735
+y000092 6PP-IP5 depyrophosphorylation to IP6 -255.433 0 0 -0.0285732 0 -4.556e-06
+y000093 6PP-IP5 pyrophosphorylation to 5,6-PP2-IP4 0 255.433 0 0.0285732 0 4.556e-06
+y000095 acetaldehyde condensation 0 0 0 0 0 0
+y000096 acetohydroxy acid isomeroreductase 0 6.348 0 4.98791 0 0.76367
+y000097 acetolactate synthase 0 6.348 0 4.98791 0 1.52734
+y000099 acetyl-CoA ACP transacylase 0 0 0 0 0 2.77556e-17
+y000100 acetyl-CoA C-acyltransferase (palmitoyl-CoA) 0 29.2558 0 0.85823 -6.62502e-12 0.00228085
+y000101 acetyl-CoA C-acyltransferase (tetracosanoyl-CoA) 0 9.42393 0 0.0921443 -1.83206e-13 0.000108958
+y000102 acetyl-CoA C-acyltransferase (myristoyl-CoA) 0 41.7063 0 1.00272 -3.31144e-11 0.0361177
+y000103 acetyl-CoA C-acetyltransferase 0 5.13183 -1.33529e-11 2.81031 0 0.117279
+y000104 acetyl-CoA C-acetyltransferase 0 5.19995 0 2.0499 0 0.117279
+y000105 acetyl-CoA C-acyltransferase (lauroyl-CoA) 0 41.7063 0 0.815347 -1.22269e-10 0.00682618
+y000106 acetyl-CoA C-acyltransferase (octanoyl-CoA) 0 5.78228 0 0.492862 -2.66064e-10 0.000977106
+y000107 acetyl-CoA C-acyltransferase (decanoyl-CoA) 0 5.78228 0 0.688514 -3.97373e-10 0.00357687
+y000108 acetyl-Coa carboxylase 0 0 0 0 0 0
+y000109 acetyl-CoA carboxylase, reaction 0 41.7063 0 9.59857 0 4.14445
+y000111 acetyl-CoA hydrolase 0 121.144 0 10.8404 0 0.674537
+y000112 acetyl-CoA synthetase 0 145.373 0 39.6443 -4.76412e-10 2.48747
+y000113 acetyl-CoA synthetase 0 242.288 0 12.5081 -2.64915e-10 1.38339
+y000114 acetyl-CoA synthetase nuclear 0 0 0 0 0 0
+y000115 acetylglutamate kinase 0 25.392 0 2.04672 0 0.103706
+y000116 acid phosphatase (secreted) 0 0 0 0 0 0
+y000117 aconitase 0 0 0 0 0 0
+y000118 acteylornithine transaminase 0 25.392 0 2.04672 0 0.103706
+y000120 acyl-CoA oxidase (decanoyl-CoA) 0 5.78228 0 0.492862 -2.66064e-10 0.000977106
+y000121 acyl-CoA oxidase (dodecanoyl-CoA) 0 5.78228 0 0.688514 -3.97373e-10 0.00357687
+y000122 acyl-CoA oxidase (hexacosanoyl-CoA) 0 9.42393 0 0.0921443 -1.83206e-13 0.000108958
+y000123 acyl-CoA oxidase (hexadecanoyl-CoA) 0 41.7063 0 1.00272 -3.31144e-11 0.0361177
+y000124 acyl-CoA oxidase (octadecanoyl-CoA) 0 29.2558 0 0.85823 -6.62502e-12 0.00228085
+y000125 acyl-CoA oxidase (tetradecanoyl-CoA) 0 41.7063 0 0.815347 -1.22269e-10 0.00682618
+y000127 acyl-CoA:sterol acyltransferase (oleoyl-CoA:ergosterol), ER membrane 0 145.373 0 1.04888 0 0.112696
+y000132 acyl-CoA:sterol acyltransferase (palmitoleoyl-CoA:ergosterol), ER membrane 0 145.373 0 0.633688 0 0.0504135
+y000137 acylation of GPI inositol at 2 position, GPI-anchor assembly, step 3 0 0 0 0 0 0
+y000139 adenine phosphoribosyltransferase 0 0 0 0 0 7.48338e-10
+y000142 adenosine kinase 0 91.7765 0 0.22498 -1.26819e-13 0.112088
+y000143 adenosine monophosphate deaminase -2.31282e-12 145.145 0 5.54401 -1.3179e-10 0.118651
+y000144 adenosylhomocysteinase 0 91.7765 0 0.22498 -1.26819e-13 0.112088
+y000145 adenosylmethionine decarboxylase 0 0 0 0 0 0
+y000146 adenosylmethionine-8-amino-7-oxononanoate transaminase 0 0 0 0 0 0
+y000147 adenylate cyclase 0 145.373 0 20.6216 0 0.0105664
+y000148 adenylate kinase 0 244.737 0 53.3666 -9.52825e-10 3.25734
+y000149 adenylate kinase 0 242.288 0 12.5081 -2.64915e-10 1.38339
+y000150 adenylate kinase (GTP) 0 181.716 0 10.8924 0 0.211012
+y000151 adenylosuccinate lyase (AICAR) 0 12.696 0 0.522213 -1.44868e-13 0.110816
+y000152 adenylosuccinate lyase 0 145.145 0 5.54401 -1.44868e-13 0.118651
+y000153 adenylosuccinate synthase 0 145.145 0 5.54401 -1.44868e-13 0.118651
+y000154 adenylyl-sulfate kinase 0 244.737 0 12.1508 0 0.0883087
+y000155 ADP-ribose 2,3-cyclic phosphodiesterase 0 0 0 0 0 0
+y000156 alanine glyoxylate aminotransferase 0 1000 0 5.9859 0 0.23274
+y000157 alanyl-tRNA synthetase 0 0 0 0 0 0
+y000163 alcohol dehydrogenase (ethanol to acetaldehyde) 0 1000 0 4799.05 0 2014.69
+y000164 alcohol dehydrogenase (glycerol, NADP) 0 0 0 0 0 0
+y000165 mitochondrial alcohol dehydrogenase 0 1000 0 30.4951 0 24.0612
+y000166 aldehyde dehydrogenase (2-methylbutanol, NAD) 0 5.48042 0 4.61393 0 1.8134
+y000167 aldehyde dehydrogenase (2-methylbutanol, NAD) 0 5.48042 0 4.53353 0 0.898626
+y000168 aldehyde dehydrogenase (2-methylbutanol, NADP) 0 5.44059 0 4.57811 0 1.63936
+y000169 aldehyde dehydrogenase (2-phenylethanol, NAD) 0 3.8088 0 2.67022 -3.3202e-10 0.686
+y000170 aldehyde dehydrogenase (2-phenylethanol, NAD) 0 3.8088 0 2.48652 0 0.192021
+y000172 aldehyde dehydrogenase (3-aminopropanal, NAD) 0 0 0 0 0 0
+y000173 aldehyde dehydrogenase (acetaldehyde, NADP) 0 71.3633 0 11.1676 0 2.05792
+y000174 aldehyde dehydrogenase (acetylaldehyde, NAD) 0 48.8378 0 10.8269 -1.34835e-10 2.05792
+y000175 aldehyde dehydrogenase (acetylaldehyde, NADP) 0 24.5818 0 4.10189 0 1.4371
+y000176 aldehyde dehydrogenase (indole-3-acetaldehyde, NAD) 0 0 0 0 0 0
+y000177 aldehyde dehydrogenase (indole-3-acetaldehyde, NADP) 0 0 0 0 0 0
+y000178 aldehyde dehydrogenase (indole-3-acetaldehyde, NADP) 0 0 0 0 0 0
+y000179 aldehyde dehydrogenase (isoamyl alcohol, NAD) 0 5.0784 0 2.60292 -1.22238e-10 0.525722
+y000180 aldehyde dehydrogenase (isoamyl alcohol, NAD) 0 5.0784 0 2.4456 0 0.755635
+y000182 aldehyde dehydrogenase (isobutyl alcohol, NAD) 0 6.348 0 4.86797 -8.4783e-11 2.1489
+y000183 aldehyde dehydrogenase (isobutyl alcohol, NAD) 0 6.348 0 4.56458 0 1.71101
+y000185 aldehyde dehydrogenase (phenylacetaldehyde, NAD) 0 0 0 0 0 0
+y000186 aldehyde dehydrogenase (tryptophol, NAD) 0 3.1728 0 1.2876 -1.65915e-11 0.0851386
+y000187 aldehyde dehydrogenase (tryptophol, NAD) 0 3.1728 0 1.2478 0 0.0425693
+y000188 alkaline phosphatase (dihydroneopterin) 0 0 0 0 -1.13687e-13 0
+y000189 allantoate amidinohydrolase -2.27374e-12 12.696 0 0 -1.63952e-13 3.42166e-06
+y000190 allantoinase, reaction -2.27374e-12 12.696 0 0.0735259 7.68548e-10 3.42166e-06
+y000191 allophanate hydrolase 0 41.2629 0 0.722392 0 0.00133874
+y000192 alpha 1,2-mannosyltransferase 0 0 0 0 0 0
+y000193 alpha,alpha-trehalase 0 91.7765 0 0.725184 -4.63959e-12 0.00168726
+y000194 alpha,alpha-trehalase 0 91.7765 0 0.765542 0 0.00168726
+y000195 alpha,alpha-trehalose-phosphate synthase (UDP-forming) 0 91.7765 0 1.02643 0 0.00168726
+y000199 amidase 0 0 0 0 0 0
+y000201 Aminobutyraldehyde dehydrogenase 0 0 0 0 0 0
+y000202 anthranilate phosphoribosyltransferase 0 21.6867 0 1.79696 -1.13687e-13 0.0212847
+y000203 anthranilate synthase 0 3.174 0 1.28873 0 0.0212847
+y000204 Ap4A hydrolase 0 244.737 0 19.8767 0 0.00401912
+y000205 arabinose reductase 0 0 0 0 0 0
+y000206 arginase 0 47.2768 0 0.724104 -4.73253e-13 0.000443964
+y000207 argininosuccinate lyase 0 47.2768 0 1.30641 -4.73253e-13 0.10415
+y000208 argininosuccinate synthase 0 47.2768 0 1.30641 8.01544e-11 0.10415
+y000209 arginyl-tRNA synthetase 0 0 0 0 0 0
+y000210 arginyl-tRNA synthetase 0 0 0 0 0 0
+y000211 asparagine synthase (glutamine-hydrolysing) 0 91.7765 0 6.6881 -2.15661e-13 0.0602889
+y000212 Asparaginyl-tRNA synthetase 0 0 0 0 0 0
+y000213 asparaginyl-tRNA synthetase, miotchondrial 0 0 0 0 0 0
+y000214 aspartate carbamoyltransferase 0 0.0888137 0 0.0831673 -1.05635e-10 0.247023
+y000215 aspartate kinase 0 69.6636 0 10.325 0 0.71496
+y000216 aspartate transaminase -116.187 1000 0 -7.6887 -3.44245e-10 -5.2374
+y000217 aspartate transaminase 0 1000 0 3.68021 -1.27465e-10 4.38561
+y000218 aspartate transaminase -34.1519 6.48015e-12 0 -2.23633 1.25487e-13 -1.64644
+y000219 aspartate-semialdehyde dehydrogenase 0 69.6636 0 10.325 0 0.71496
+y000220 Aspartyl-tRNA synthetase 0 0 0 0 0 0
+y000221 Aspartyl-tRNA synthetase 0 0 0 0 0 0
+y000222 ATP adenylyltransferase 0 244.737 0 19.8767 0 0.00401912
+y000225 ATP phosphoribosyltransferase 0 5.85969 0 1.15969 0 0.067024
+y000226 ATP synthase 0 352.41 0 107.446 0 47.2547
+y000227 ATPase, cytosolic 0 255.433 0 6.11599 0 0.233678
+y000228 beta-1,4 mannosyltransferase 0 0 0 0 0 0
+y000229 biotin synthase 0 0 0 0 0 0
+y000230 biotin-[acetyl-CoA-carboxylase] ligase 0 0 0 0 0 0
+y000231 C-14 sterol reductase 0 0.813534 0 0.152629 0 0.00977328
+y000233 C-22 sterol desaturase (NADP) 0 0.732234 0 0.0938574 0 0.00977328
+y000234 C-3 sterol dehydrogenase 0 0.744108 0 0.107239 0 0.00977328
+y000235 C-3 sterol dehydrogenase (4-methylzymosterol) 0 0.744108 0 0.107239 0 0.00977328
+y000236 C-3 sterol keto reductase (4-methylzymosterol) 0 0.744108 0 0.107239 0 0.00977328
+y000237 C-3 sterol keto reductase (zymosterol) 0 0.744108 0 0.107239 0 0.00977328
+y000238 C-4 methyl sterol oxidase 0 0.744108 0 0.107239 0 0.00977328
+y000239 C-4 methyl sterol oxidase 0 0.744108 0 0.107239 0 0.00977328
+y000240 C-4 methyl sterol oxidase 0 0.744108 0 0.107239 0 0.00977328
+y000241 C-4 sterol methyl oxidase (4,4-dimethylzymosterol) 0 0.744108 0 0.107239 0 0.00977328
+y000242 C-5 sterol desaturase 0 0.732234 0 0.0938574 0 0.00977328
+y000243 C-8 sterol isomerase 0 0.744108 0 0.107239 0 0.0126596
+y000244 C-s24 sterol reductase 0 0.726437 0 0.0801961 0 0.00977328
+y000249 CAAX farnesyltransferase 0 0 0 0 0 0
+y000250 carbamoyl-phosphate synthase (glutamine-hydrolysing) 0 47.2768 0 1.31563 0 0.242509
+y000251 cardiolipin synthase 0 0.000381342 0 0.000357098 0 0.000381312
+y000252 carnitine O-acetyltransferase 0 183.553 0 28.5696 0 0.539063
+y000253 carnitine O-acetyltransferase -1.29852e-12 46.2582 0 3.36035 0 0.0366379
+y000254 carnitine O-acetyltransferase -1.29852e-12 183.553 0 28.5696 0 0.539063
+y000255 catalase -1.15641e-12 22.13 0 8.17511 0 3.05109
+y000256 catalase 0 20.8532 0 1.47669 0 0.0541765
+y000257 CDP-diacylglycerol synthase 0 3.25636 0 0 -2.33597e-13 0.0150048
+y000258 CDP-diacylglycerol synthase 0 80.7627 0 2.85255 0 0.00516587
+y000259 ceramide-1 hydroxylase (24C) 0 0 0 0 0 0
+y000260 ceramide-1 hydroxylase (24C) 0 0 0 0 0 0
+y000261 ceramide-1 hydroxylase (26C) 0 0 0 0 0 0
+y000262 ceramide-1 hydroxylase (26C) 0 0 0 0 0 6.62289e-10
+y000263 ceramide-1 synthase (24C) 0 145.373 0 1.04082 0 0.0889812
+y000264 ceramide-1 synthase (26C) 0 145.373 0 0.988246 0 0.0878042
+y000265 ceramide-2 synthase (24C) 0 145.373 0 0.977468 0 0.0889812
+y000266 ceramide-2 synthase (26C) 0 145.373 0 0.98851 0 0.0878042
+y000267 ceramide-3 synthase (24C) 0 0 0 0 0 0
+y000268 ceramide-3 synthase (26C) 0 0 0 0 0 9.93726e-11
+y000269 ceramide-4 synthase (24C) 0 0 0 0 0 0
+y000270 ceramide-4 synthase (26C) 0 0 0 0 0 0
+y000271 chitin deacetylase 0 0 0 0 0 0
+y000272 chitin synthase 0 0.18424 0 0.172527 0 0.267304
+y000273 choline kinase 0 91.7765 0 0.000695912 0 1.25967e-07
+y000274 choline phosphate cytididyltransferase 0 91.7765 0 0.000695912 0 1.25967e-07
+y000275 choline/ethanolaminephosphotransferase 0 0 0 0 0 0
+y000277 cholinephosphotransferase 0 91.7765 0 0.000695912 0 1.25967e-07
+y000278 chorismate mutase 0 3.8088 0 2.7948 0 0.192015
+y000279 chorismate synthase 0 5.03198 0 2.7948 0 0.192015
+y000280 cis-aconitate(3-) to isocitrate -1000 1000 0 1.52213 -1.13687e-13 0.990362
+y000281 cis-prenyltransferase step 01 0 0 0 0 0 0
+y000282 cis-prenyltransferase step 02 0 0 0 0 0 0
+y000283 cis-prenyltransferase step 03 0 0 0 0 0 0
+y000284 cis-prenyltransferase step 04 0 0 0 0 0 0
+y000285 cis-prenyltransferase step 05 0 0 0 0 0 0
+y000286 cis-prenyltransferase step 06 0 0 0 0 0 0
+y000287 cis-prenyltransferase step 07 0 0 0 0 0 0
+y000288 cis-prenyltransferase step 08 0 0 0 0 0 0
+y000289 cis-prenyltransferase step 09 0 0 0 0 0 0
+y000290 cis-prenyltransferase step 10 0 0 0 0 0 0
+y000291 cis-prenyltransferase step 11 0 0 0 0 0 0
+y000292 cis-prenyltransferase step 12 0 0 0 0 0 0
+y000293 cis-prenyltransferase step 13 0 0 0 0 0 0
+y000294 cis-prenyltransferase step 14 0 0 0 0 0 0
+y000295 cis-prenyltransferase step 15 0 0 0 0 -2.27374e-13 0
+y000296 cis-prenyltransferase step 16 0 0 0 0 0 0
+y000297 cis-prenyltransferase step 17 0 0 0 0 0 0
+y000298 cis-prenyltransferase step 18 0 0 0 0 0 0
+y000299 cis-prenyltransferase step 19 0 0 0 0 0 0
+y000300 citrate synthase 0 183.553 0 29.1864 -8.49516e-10 3.65449
+y000301 citrate synthase, peroxisomal 0 0 0 0 0 0
+y000302 citrate to cis-aconitate(3-) -1000 1000 0 1.52213 -1.13687e-13 1.44469
+y000303 citrate to cis-aconitate(3-), cytoplasmic -1000 1000 0 -1.52213 -7.70415e-11 1.31609
+y000304 coproporphyrinogen oxidase (O2 required) 0 0 0 0 0 0
+y000306 CTP synthase (glutamine) 0 61.1843 0 3.63187 0 0.0582669
+y000307 CTP synthase (NH3) 0 81.5791 0 3.88082 -1.37867e-10 0.0605933
+y000308 cystathionine b-lyase 0 96.7631 0 4.78884 -9.68702e-11 0.393048
+y000309 cystathionine beta-synthase 0 96.7631 0 4.78884 0 0.409885
+y000310 cystathionine g-lyase 0 5.68399 0 4.7187 0 0.262157
+y000311 cystathionine gamma-synthase 0 5.81913 0 4.88948 0 0.186618
+y000312 cysteine synthase 0 0 0 0 0 0
+y000313 cysteinyl-tRNA synthetase 0 0 0 0 0 0
+y000314 cytidine deaminase 0 81.5791 0 3.88082 -1.37857e-10 0.00164512
+y000315 cytidine kinase (GTP) 0 1000 0 6.20982 0 0.000607216
+y000317 cytochrome P450 lanosterol 14-alpha-demethylase (NADP) 0 0.813534 0 0.152629 0 0.00977328
+y000318 cytosine deaminase 0 0 0 0 0 0
+y000319 D-arabinono-1,4-lactone oxidase 0 0 0 0 0 0
+y000320 D-arabinose 1-dehydrogenase (NAD) 0 0 0 0 0 0
+y000321 D-arabinose 1-dehydrogenase (NADP) 0 0 0 0 0 0
+y000322 D-fructose 1-phosphate D-glyceraldehyde-3-phosphate-lyase 0 0 0 0 0 0
+y000323 D-sorbitol dehydrogenase (D-fructose producing) 0 0 0 0 0 0
+y000326 dCMP deaminase -145.373 0.0173461 0 0 -2.2879e-10 0.00867236
+y000327 dCTP deaminase 0 145.373 0 11.2911 -1.73301e-13 0.00143617
+y000329 deoxycytidine deaminase 0 0 0 0 0 0
+y000330 deoxyguanylate kinase (dGMP:ATP) -0.0170743 145.373 0 46.1099 -5.46601e-11 0.381759
+y000331 deoxyhypusine synthase, cytosolic/mitochondrial 0 0 0 0 0 0
+y000332 deoxyribokinase 0 0 0 0 0 0
+y000334 dephospho-CoA kinase 0 0 0 0 0 0
+y000335 dethiobiotin synthase 0 0 0 0 0 0
+y000336 diacylglycerol acyltransferase -1000 145.373 0 -0.679944 1.81379e-11 0.00827723
+y000336_1 diacylglycerol acyltransferase 0 951 0 0.83973 0 0.0165774
+y000337 diacylglycerol pyrophosphate phosphatase 0 244.737 0 48.3981 0 0.00985433
+y000337_1 diacylglycerol pyrophosphate phosphatase 0 0 0 0 0 0
+y000337_2 diacylglycerol pyrophosphate phosphatase 0 0 0 0 0 0
+y000340 dihydroceramidase -145.373 0 0 -1.04082 0 -0.0889812
+y000341 dihydroceramidase -145.373 0 0 -0.988246 0 -0.0878042
+y000342 dihydroceramidase 0 1000 0 7.55718 0 5.5793
+y000343 dihydroceramidase 0 145.373 0 0.98851 0 0.0878042
+y000344 dihydrofolate reductase 0 0.0173461 0 0.0162433 0 0.0173447
+y000345 dihydrofolate reductase 0 0 0 0 0 0
+y000346 dihydrofolate synthase 0 0 0 0 0 0
+y000347 dihydroneopterin aldolase 0 0 0 0 -1.13687e-13 0
+y000348 dihydroneopterin monophosphate dephosphorylase 0 0 0 0 0 0
+y000349 dihydroorotase -0.0888137 0 0 0 0 -0.0888068
+y000350 dihydropteroate synthase 0 0 0 0 0 0
+y000351 dihydropteroate synthase 0 0 0 0 0 0
+y000352 dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate) 0 6.348 0 4.98791 0 0.76367
+y000353 dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate) 0 5.81913 0 4.88948 0 0.71496
+y000354 dihydroxyacetone kinase 0 67.1738 0 10.7953 0 10.7089
+y000355 dimethylallyltranstransferase 0 1.66746 0 0.31041 0 0.0195466
+y000356 diphosphoglyceromutase 0 0 0 0 0 0
+y000357 diphosphoinositol-1,3,4,6-tetrakisphosphate diphosphohydrolase 0 244.737 0 0.0286144 -1.13687e-13 4.556e-06
+y000358 diphosphoinositol-1,3,4,6-tetrakisphosphate synthase 0 244.737 0 0.0286144 0 4.556e-06
+y000359 diphthine synthase 0 0 0 0 0 0
+y000360 dolichol kinase 0 0 0 0 0 0
+y000361 dolichyl-phosphate D-mannosyltransferase 0 0.0500002 0 0.0468214 0 0.0499963
+y000362 dolichyl-phosphate-mannose--protein mannosyltransferase 0 0.0500002 0 0.0468214 0 0.0999926
+y000363 dTMP kinase 0 244.737 0 61.0588 -2.8432e-10 0.0157736
+y000364 dUTP diphosphatase 0 145.373 0 14.5133 0 0.00837091
+y000366 enolase -96.7631 12.696 0 0 0 10.696
+y000368 ethanolamine kinase 0 0 0 0 0 0
+y000369 ethyl acetate-hydrolyzing esterase 0 0 0 0 0 0
+y000370 exo-1,3-beta-glucan glucohydrase 0 0 0 0 0 0
+y000373 farnesyltranstransferase 0 0 0 0 0 0
+y000381 fatty acid oxidation (C18:2) 0 0 0 0 0 0
+y000399 fatty-acid--CoA ligase (decanoate) -2.25268 145.373 0 0.689379 0 -0.00133717
+y000400 fatty-acid--CoA ligase (dodecanoate) -91.7765 145.373 0 0.69064 -1.70433e-11 -0.00580045
+y000402 fatty-acid--CoA ligase (hexadecanoate) -91.7765 145.373 0 0.656169 -3.31144e-11 0.0353645
+y000410 fatty-acid--CoA ligase (octanoate) -2.58215 145.373 0 0.694298 0 0
+y000412 fatty-acid--CoA ligase (tetradecanoate) -91.7765 145.373 0 0.649411 -2.19173e-11 2.64915e-10
+y000436 ferrochelatase 0 0 0 0 0 0
+y000437 ferrocytochrome-c:hydrogen-peroxide oxidoreductase 0 0 0 0 -3.2857e-10 0
+y000438 ferrocytochrome-c:oxygen oxidoreductase 0 173.744 0 79.9961 0 37.7338
+y000439 ubiquinol:ferricytochrome c reductase 0 86.872 0 39.9981 0 18.8669
+y000440 FMN adenylyltransferase 0 0 0 0 0 0
+y000443 formaldehyde dehydrogenase 0 0 0 0 0 0
+y000445 formate dehydrogenase 0 25.392 0 5.32741 -1.13687e-13 1.98059
+y000446 formate-tetrahydrofolate ligase -25.392 31.7516 0 -5.04656 -1.13465e-13 -1.59461
+y000447 formate-tetrahydrofolate ligase -25.392 0 0 -3.64874 6.11845e-10 -1.28223
+y000448 fructose-2,6-bisphosphate 2-phosphatase 0 244.737 0 38.883 0 0.0253004
+y000449 fructose-bisphosphatase 0 244.737 -3.57968e-12 66.4472 -1.44868e-13 1.23678
+y000450 fructose-bisphosphate aldolase -244.737 245.737 0 -3.15779 -3.20385e-12 -1.11453
+y000451 fumarase -1.13687e-12 25.392 0 8.027 -7.70415e-11 1.35635
+y000452 fumarase, cytoplasmic -9.522 145.145 0 -0.629756 -1.25487e-13 -6.57163
+y000453 dihydoorotic acid dehydrogenase 0 0.0888137 0 0.0831673 0 0.0888068
+y000457 g-glutamyltransferase 0 0 0 0 0 0
+y000458 galactokinase 0 0 0 0 0 1.57811e-10
+y000459 galactose-1-phosphate uridylyltransferase 0 1000 0 26.099 0 0.518121
+y000460 gamma-glutamylcysteine synthetase 0 0 0 0 0 0
+y000462 geranyltranstransferase 0 1.66746 0 0.31041 0 0.0195466
+y000463 glucan 1,4-alpha-glucosidase 0 145.373 0 2.69473 -1.54787e-10 0.0182123
+y000464 glucan 1,4-alpha-glucosidase, vacuole 0 145.373 0 2.68535 0 0.0182123
+y000466 glucose 6-phosphate dehydrogenase 0 38.088 -1.43187e-11 9.48995 -2.90425e-13 0.636752
+y000467 glucose-6-phosphate isomerase -37.088 1 0 0 2.90425e-13 -0.839422
+y000468 glutamate 5-kinase 0 110.73 0 5.33506 0 0.0977587
+y000469 glutamate decarboxylase 0 25.392 0 6.09052 0 0.0105411
+y000470 glutamate dehydrogenase (NAD) 0 290.289 0 13.3423 0 9.43466
+y000471 glutamate dehydrogenase (NADP) 0 133.814 0 15.4966 0 11.3308
+y000472 glutamate synthase (NADH2) 0 244.737 0 11.7259 -4.93193e-10 0.365897
+y000473 glutamate-5-semialdehyde dehydrogenase 0 110.73 0 5.33506 0 0.0977587
+y000476 glutamine synthetase 0 244.737 0 12.3848 -2.89736e-13 0.888974
+y000477 glutamine-fructose-6-phosphate transaminase 0 0.18424 0 0.172527 0 0.184225
+y000478 glutaminyl-tRNA synthetase 0 0 0 0 0 0
+y000479 glutamyl-tRNA synthetase 0 0 0 0 0 0
+y000480 glutamyl-tRNA synthetase 0 0 0 0 0 0
+y000481 glutathione oxidoreductase 0 29.3742 0 20.1788 0 6.03446
+y000482 glutathione oxidoreductase 0 0 0 0 0 0
+y000483 glutathione peridoxase 0 29.3742 0 13.7468 0 3.02498
+y000484 glutathione peroxidase, mitochondria 0 0 0 0 0 0
+y000485 glutathione synthetase 0 0 0 0 0 0
+y000486 glyceraldehyde-3-phosphate dehydrogenase -8.45318 12.696 0 10.696 0 10.696
+y000487 glycerol dehydrogenase (NADP-dependent) 0 67.1738 0 10.7999 0 34.3627
+y000488 glycerol kinase 0 56.4778 0 0.0841519 0 0.0238979
+y000490 glycerol-3-phosphate dehydrogenase (fad) 0 0 0 0 0 0
+y000491 glycerol-3-phosphate dehydrogenase (NAD) 0 56.4778 0 0.0842933 -2.33597e-13 0.0238979
+y000492 glycerol-3-phosphate dehydrogenase (NAD) 0 56.4778 0 0.0842017 0 0.0238979
+y000493 glycerol-3-phosphate/dihydroxyacetone phosphate acyltransferase 0 0 0 0 0 0
+y000494 glycerol-3-phosphate/dihydroxyacetone phosphate acyltransferase 0 56.4778 0 0.0513342 -1.13687e-13 0.00126268
+y000495 glycerol-3-phosphate/dihydroxyacetone phosphate acyltransferase 0 56.4778 0 0.0514194 0 0.00126268
+y000496 glycerol-3-phosphate/dihydroxyacetone phosphate acyltransferase 0 56.4778 0 0.0842846 -1.22079e-12 0.0235468
+y000497 glycerophosphodiester phosphodiesterase (glycerophosphocholine) 0 56.4778 0 0.000691113 0 1.26394e-07
+y000499 glycinamide ribotide transformylase 0 12.696 0 0.517528 -1.44868e-13 0.0442263
+y000501 glycine cleavage system 0 49.3862 0 8.16206 0 0.76989
+y000502 glycine hydroxymethyltransferase -31.7516 25.392 0 1.81899e-12 -6.18368e-11 -6.3179
+y000503 glycine hydroxymethyltransferase -49.3862 25.392 0 3.75167e-12 -5.18132e-10 6.64992
+y000504 glycine-cleavage complex (lipoamide) 0 49.3862 0 7.81776 0 0.733038
+y000505 glycine-cleavage complex (lipoamide) 0 51.5022 0 11.7237 0 2.48149
+y000506 glycine-cleavage complex (lipoylprotein) 0 49.3862 0 7.87138 0 0.76989
+y000507 glycine-cleavage complex (lipoylprotein) 0 49.3862 0 7.87138 0 0.76989
+y000508 glycine-cleavage complex (lipoylprotein) 0 49.3862 0 7.87138 0 0.76989
+y000509 glycine-cleavage system (lipoamide) 0 49.3862 0 7.81776 0 0.733038
+y000510 glycogen (starch) synthase 0 290.746 0 26.238 -1.28191e-10 0.36301
+y000511 glycogen phosphorylase 0 290.746 0 26.0449 -2.95223e-12 0.253895
+y000512 glycyl-tRNA synthetase 0 0 0 0 0 0
+y000514 GMP synthase -2.31282e-12 56.4778 0 0.611298 -1.9055e-13 0.0591895
+y000518 GPI-anchor assembly, step 2 0 0 0 0 0 0
+y000519 GPI-anchor assembly, step 5 0 0 0 0 0 0
+y000520 GPI-anchor assembly, step 6 0 0 0 0 0 0
+y000521 GPI-anchor assembly, step 7 0 0 0 0 0 0
+y000522 GPI-anchor assembly, step 8 0 0 0 0 0 0
+y000523 GPI-anchor assembly, step 9 0 0 0 0 0 0
+y000524 GTP cyclohydrolase I 0 0 0 0 -1.13687e-13 0
+y000525 GTP cyclohydrolase II 0 0 0 0 0 0
+y000526 guanine deaminase -2.31282e-12 56.4778 0 0.611222 -3.12324e-11 0.0062785
+y000527 guanine phosphoribosyltransferase 0 145.373 0 1.15486 -1.09024e-13 0.0062785
+y000528 guanylate kinase 0 1000 0 57.8387 -4.28996e-11 1.93674
+y000529 guanylate kinase (GMP:dATP) -1000 244.737 0 57.6067 0 1.93614
+y000530 heme O monooxygenase 0 0 0 0 0 0
+y000531 Heme O synthase 0 0 0 0 0 0
+y000532 hexaprenyldihydroxybenzoate methyltransferase 0 0 0 0 0 0
+y000533 hexokinase (D-fructose:ATP) 0 0 0 0 0 0
+y000534 hexokinase (D-glucose:ATP) 1 184.553 0 2.69473 -1.14285e-11 0.0182123
+y000535 hexokinase (D-mannose:ATP) 0 0 0 0 0 0
+y000536 histidinol dehydrogenase 0 5.85969 0 1.15969 0 0.067024
+y000537 histidinol-phosphatase 0 5.85969 0 1.15969 0 0.067024
+y000538 histidinol-phosphate transaminase 0 5.85969 0 1.15969 0 0.067024
+y000539 histidyl-tRNA synthetase 0 0 0 0 0 0
+y000540 histidyl-tRNA synthetase 0 0 0 0 0 0
+y000541 hnRNP arginine N-methyltransferase 0 0 0 0 0 0
+y000542 homoacontinate hydratase 0 4.92885 0 1.8347 0 0.182256
+y000543 homocitrate synthase 0 0 0 0 0 0
+y000544 homocysteine S-methyltransferase -1.81899e-12 91.7765 0 0.117097 0 0.0883297
+y000545 homoisocitrate dehydrogenase 0 4.92885 0 1.8347 0 0.182256
+y000546 homoserine dehydrogenase (NADH) 0 69.6636 0 10.325 0 0.71496
+y000547 homoserine dehydrogenase (NADP) 0 61.1301 0 7.89248 0 0.71496
+y000548 homoserine kinase 0 69.6636 0 10.3141 0 0.496708
+y000549 homoserine O-trans-acetylase 0 5.81913 0 4.88948 -4.76412e-10 0.24532
+y000550 hydrogen peroxide reductase (thioredoxin) 0 29.3742 0 11.6909 -5.553e-11 0.278276
+y000551 hydrogen peroxide reductase (thioredoxin) 0 0 0 0 0 0
+y000552 hydrogen peroxide reductase (thioredoxin) 0 27.4163 0 2.60294 0 0.0361177
+y000553 hydroxyacylglutathione hydrolase 0 0 0 0 0 0
+y000554 hydroxyacylglutathione hydrolase 0 0 0 0 0 0
+y000555 hydroxybenzoate octaprenyltransferase 0 0 0 0 0 0
+y000556 hydroxyethylthiazole kinase 0 0 0 0 0 0
+y000557 hydroxymethylbilane synthase 0 0 0 0 0 0
+y000558 hydroxymethylglutaryl CoA reductase 0 5.20891 0 2.1906 0 0.0586397
+y000559 hydroxymethylglutaryl CoA synthase 0 5.13183 -1.33529e-11 2.18454 0 0.0586397
+y000560 hydroxymethylglutaryl CoA synthase 0 121.144 0 5.59536 0 0.0586397
+y000561 hydroxymethylpyrimidine kinase (ATP) 0 0 0 0 0 0
+y000562 hypoxanthine phosphoribosyltransferase (Hypoxanthine) 0 145.373 0 1.18238 0 0.0628731
+y000563 Imidazole-glycerol-3-phosphate synthase 0 5.85969 0 1.15969 0 0.067024
+y000564 imidazoleglycerol-phosphate dehydratase 0 5.85969 0 1.15969 0 0.067024
+y000565 IMP dehydrogenase -2.31282e-12 12.696 0 0.426716 -1.9055e-13 0.0591895
+y000566 indole-3-glycerol-phosphate synthase 0 21.6867 0 1.79696 -1.13687e-13 0.0212847
+y000567 indole-3-pyruvate decarboxylase 0 3.174 0 1.2876 -6.81439e-11 0.0425693
+y000568 inorganic diphosphatase 0 244.737 0 42.9647 0 3.06802
+y000569 inorganic diphosphatase 0 234.94 0 53.2193 0 3.06802
+y000570 inosine monophosphate cyclohydrolase 0 12.696 0 1.16161 -1.44868e-13 0.17784
+y000571 inositol-1,3,4,5,6-pentakisphosphate 2-kinase 0 127.717 0 0.0282624 0 4.556e-06
+y000572 inositol-1,3,4,5-triphosphate 6-kinase, nucleus 0 0 -1.46029e-11 0 0 1.13687e-13
+y000573 inositol-1,4,5,6- tetrakisphosphate 3-kinase, nucleus 0 0 0 0 0 0
+y000574 inositol-1,4,5-triphosphate 6-kinase, nucleus 0 0 0 0 0 0
+y000575 inositol-1,4,5-trisphosphate 3-kinase, nucleus 0 0 -1.46029e-11 0 0 1.13687e-13
+y000576 inositolphosphotransferase 0 0 0 0 0 0
+y000577 inositolphosphotransferase 0 0 0 0 0 0
+y000578 inositolphosphotransferase 0 0 0 0 0 0
+y000579 inositolphosphotransferase 0 0 0 0 0 0
+y000580 inositolphosphotransferase 0 0 0 0 0 0
+y000581 inositolphosphotransferase 0 0 0 0 0 0
+y000582 inositolphosphotransferase 0 0 0 0 0 0
+y000583 inositolphosphotransferase 0 0 0 0 0 0
+y000584 inositolphosphotransferase 0 0 0 0 0 0
+y000585 inositolphosphotransferase 0 0 0 0 0 0
+y000586 IPC synthase 0 0 0 0 0 0
+y000587 IPC synthase 0 0 0 0 0 0
+y000588 IPC synthase 0 0 0 0 0 0
+y000589 IPC synthase 0 0 0 0 0 0
+y000590 IPC synthase 0 0 0 0 0 0
+y000591 IPC synthase 0 0 0 0 0 0
+y000592 IPC synthase 0 0 0 0 0 0
+y000593 IPC synthase 0 0 0 0 0 0
+y000594 IPC synthase 0 0 0 0 0 0
+y000595 IPC synthase 0 0 0 0 -9.24552e-10 0
+y000596 IPS phospholipase C 0 0 0 0 0 0
+y000597 IPS phospholipase C 0 0 0 0 0 0
+y000598 IPS phospholipase C 0 0 0 0 0 0
+y000599 IPS phospholipase C 0 0 0 0 0 0
+y000600 IPS phospholipase C 0 0 0 0 0 0
+y000601 IPS phospholipase C 0 0 0 0 0 0
+y000602 IPS phospholipase C 0 0 0 0 0 0
+y000603 IPS phospholipase C 0 0 0 0 0 0
+y000604 IPS phospholipase C 0 0 0 0 0 0
+y000605 IPS phospholipase C 0 0 0 0 0 0
+y000606 IPS phospholipase C 0 0 0 0 0 0
+y000607 IPS phospholipase C 0 0 0 0 0 0
+y000608 IPS phospholipase C 0 0 0 0 0 0
+y000609 IPS phospholipase C 0 0 0 0 0 0
+y000610 IPS phospholipase C 0 0 0 0 0 0
+y000611 IPS phospholipase C 0 0 0 0 0 0
+y000612 IPS phospholipase C 0 0 0 0 0 0
+y000613 IPS phospholipase C 0 0 0 0 0 0
+y000614 IPS phospholipase C 0 0 0 0 0 0
+y000615 IPS phospholipase C 0 0 0 0 0 0
+y000616 IPS phospholipase C 0 0 0 0 0 0
+y000617 IPS phospholipase C 0 0 0 0 0 0
+y000618 IPS phospholipase C 0 0 0 0 0 0
+y000619 IPS phospholipase C 0 0 0 0 0 0
+y000620 IPS phospholipase C 0 0 0 0 0 0
+y000621 IPS phospholipase C 0 0 0 0 0 0
+y000622 IPS phospholipase C 0 0 0 0 0 0
+y000623 IPS phospholipase C 0 0 0 0 0 0
+y000624 IPS phospholipase C 0 0 0 0 0 0
+y000625 IPS phospholipase C 0 0 0 0 0 0
+y000626 IPS phospholipase C 0 0 0 0 0 0
+y000627 IPS phospholipase C 0 0 0 0 0 0
+y000628 IPS phospholipase C 0 0 0 0 0 0
+y000629 IPS phospholipase C 0 0 0 0 0 0
+y000630 IPS phospholipase C 0 0 0 0 0 0
+y000631 IPS phospholipase C 0 0 0 0 0 0
+y000632 IPS phospholipase C 0 0 0 0 0 0
+y000633 IPS phospholipase C 0 0 0 0 0 0
+y000634 IPS phospholipase C 0 0 0 0 0 0
+y000635 IPS phospholipase C 0 0 0 0 0 0
+y000636 IPS phospholipase C 0 0 0 0 0 0
+y000637 IPS phospholipase C 0 0 0 0 0 0
+y000638 IPS phospholipase C 0 0 0 0 0 0
+y000639 IPS phospholipase C 0 0 0 0 0 0
+y000640 IPS phospholipase C 0 0 0 0 0 0
+y000641 IPS phospholipase C 0 0 0 0 0 0
+y000642 IPS phospholipase C 0 0 0 0 0 0
+y000643 IPS phospholipase C 0 0 0 0 0 0
+y000644 IPS phospholipase C 0 0 0 0 0 0
+y000645 IPS phospholipase C 0 0 0 0 0 0
+y000646 IPS phospholipase C 0 0 0 0 0 0
+y000647 IPS phospholipase C 0 0 0 0 0 0
+y000648 IPS phospholipase C 0 0 0 0 0 0
+y000649 IPS phospholipase C 0 0 0 0 0 0
+y000650 IPS phospholipase C 0 0 0 0 0 0
+y000651 IPS phospholipase C 0 0 0 0 0 0
+y000652 IPS phospholipase C 0 0 0 0 -1.13687e-13 0
+y000653 IPS phospholipase C 0 0 0 0 0 0
+y000654 IPS phospholipase C 0 0 0 0 0 0
+y000655 IPS phospholipase C 0 0 0 0 0 0
+y000656 isoamyl acetate-hydrolyzing esterase 0 0 0 0 0 0
+y000657 isobutyl acetate-hydrolyzing esterase 0 0 0 0 -7.70415e-11 0
+y000658 isocitrate dehydrogenase (NAD+) 0 25.392 0 7.27916 0 3.84922
+y000659 isocitrate dehydrogenase (NADP) 0 25.392 0 8.16243 0 2.20326
+y000661 isocitrate dehydrogenase (NADP+), peroxisomal 0 0 0 0 0 0
+y000662 isocitrate lyase 0 47.2702 0 6.05183 -7.70415e-11 0.226249
+y000663 isoleucine transaminase -5.40227 25.392 0 0 -4.55771e-10 0
+y000664 isoleucine transaminase -25.392 0 0 0 3.82146e-10 -3.83372
+y000665 isoleucyl-tRNA synthetase 0 0 0 0 0 0
+y000666 isoleucyl-tRNA synthetase 0 0 0 0 0 0
+y000667 isopentenyl-diphosphate D-isomerase 0 1.66746 0 0.31041 0 0.0195466
+y000668 itaconate-CoA ligase (ADP-forming) 0 0 0 0 0 0
+y000669 ketol-acid reductoisomerase (2-aceto-2-hydroxybutanoate) 0 5.81913 0 4.88948 0 0.71496
+y000670 kynureninase 0 21.6867 0 1.79696 -1.13687e-13 0.00345889
+y000671 kynurenine 3-monooxygenase 0 0 0 0 0 0
+y000672 L-1-pyrroline-3-hydroxy-5-carboxylate dehydrogenase 0 0 0 0 0 0
+y000673 L-4-hydroxyglutamate semialdehyde dehydrogenase 0 0 0 0 0 0
+y000674 L-alanine transaminase -367.106 0 0 -9.67622 4.93193e-10 -0.0203408
+y000675 L-allo-threonine aldolase 0 0 0 0 0 0
+y000676 L-allo-threonine dehydrogenase 0 0 0 0 0 0
+y000678 L-aminoadipate-semialdehyde dehydrogenase (NADPH) 0 4.92885 0 1.8347 0 0.182256
+y000679 L-asparaginase -9.522 91.7765 0 0.278393 -3.75516e-10 0
+y000681 L-erythro-4-hydroxyglutamate:2-oxoglutarate aminotransferase 0 0 -4.00586e-11 0 -7.17432e-10 0
+y000682 L-erythro-4-hydroxyglutamate:2-oxoglutarate aminotransferase 0 0 0 0 0 0
+y000683 L-erythro-4-hydroxyglutamate:2-oxoglutarate aminotransferase 0 0 0 0 0 0
+y000687 L-hydroxyproline reductase (NADP) 0 0 0 0 0 0
+y000688 L-lactaldehyde:NADP+ 1-oxidoreductase 0 0 0 0 0 0
+y000689 L-serine deaminase 0 96.7631 0 5.44768 -2.93242e-10 0.382342
+y000690 L-serine dehydrogenase 0 0 0 0 0 0
+y000691 L-sorbitol dehydrogenase (L-sorbose-producing) 0 0 0 0 0 0
+y000692 L-threonine deaminase 0 5.77338 0 4.77217 0 0.00686255
+y000693 L-threonine deaminase 0 5.77338 0 4.82783 0 0.496708
+y000694 L-tryptophan:oxygen 2,3-oxidoreductase (decyclizing) 0 21.6867 0 1.79696 -1.13687e-13 0.00345889
+y000697 lactoylglutathione lyase 0 0 0 0 0 0
+y000698 lanosterol synthase 0 0.833731 0 0.155205 0 0.00977328
+y000699 leucine transaminase -5.0784 5.0784 0 -0.119944 -1.22238e-10 0
+y000700 leucine transaminase -5.0784 0 0 -2.41716 0 -0.190656
+y000701 leucyl-tRNA synthetase 0 0 0 0 0 0
+y000702 leucyl-tRNA synthetase 0 0 0 0 0 0
+y000703 leukotriene A4 hydrolase 0 0 0 0 0 0
+y000704 leukotriene A4 hydrolase 0 0 0 0 0 0
+y000705 leukotriene A4 hydrolase 0 0 0 0 0 0
+y000706 leukotriene A4 hydrolase 0 0 0 0 0 0
+y000707 leukotriene A4 hydrolase 0 0 0 0 0 0
+y000708 leukotriene A4 hydrolase 0 0 0 0 0 0
+y000711 lysyl-tRNA synthetase 0 0 0 0 0 0
+y000712 lysyl-tRNA synthetase 0 0 0 0 0 0
+y000713 malate dehydrogenase -12.696 1000 0 24.6406 -8.49516e-10 -0.0561179
+y000714 malate dehydrogenase, cytoplasmic -1000 101.542 0 0 0 -9.14126
+y000715 malate dehydrogenase, peroxisomal -41.7063 0 0 -2.9526 0 -27.6286
+y000716 malate synthase 0 75.4345 0 5.05792 -7.70415e-11 0.261893
+y000717 malate synthase 0 34.1519 0 2.23633 -1.25487e-13 0.0477765
+y000718 malic enzyme (NAD) 0 367.106 0 10.7136 0 4.91948
+y000719 malic enzyme (NADP) 0 25.392 0 5.37847 0 0.867376
+y000721 malonyl-CoA-ACP transacylase 0 0 0 0 0 -0.00915608
+y000722 mannose-1-phosphate guanylyltransferase 0 0.0500002 0 0.0468214 -1.42109e-13 0.0499963
+y000723 mannose-6-phosphate isomerase -0.0500002 0 0 -0.0468214 1.42109e-13 -0.0499963
+y000724 methenyltetrahydrifikate cyclohydrolase 0 25.392 0 3.64874 -6.11845e-10 1.61502
+y000725 methenyltetrahydrofolate cyclohydrolase -31.7516 25.392 0 -71.9483 1.66663e-10 0.659667
+y000726 methionine adenosyltransferase 0 91.7765 0 0.22498 -3.93368e-13 0.112088
+y000727 methionine synthase -1.81899e-12 9.76909 0 1.41812 -7.00792e-13 0.0961437
+y000728 methionyl-tRNA formyltransferase 0 0 0 0 0 0
+y000729 methionyl-tRNA synthetase 0 0 0 0 0 0
+y000730 methionyl-tRNA synthetase 0 0 0 0 0 0
+y000731 methylenetetrahydrofolate dehydrogenase (NAD) 0 133.814 0 4.28677 -2.89736e-13 0.00313966
+y000732 methylenetetrahydrofolate dehydrogenase (NADP) -133.814 25.392 0 8.02455 1.67086e-10 0.859927
+y000733 methylenetetrahydrofolate dehydrogenase (NADP) 0 25.392 0 3.64874 -6.11845e-10 0.747648
+y000734 methylisocitrate lyase 0 0 0 0 0 5.60442e-10
+y000735 mevalonate kinase (atp) 0 5.00239 0 0.931229 0 0.0586397
+y000736 mevalonate kinase (ctp) 0 5.00239 0 0.931169 0 0.0586397
+y000737 mevalonate kinase (gtp) 0 5.00239 0 0.931169 0 0.0586397
+y000738 mevalonate kinase (UTP) 0 5.00239 0 0.931169 -6.40118e-10 0.0586397
+y000739 mevalonate pyrophoshate decarboxylase 0 5.00239 0 0.931229 0 0.0586397
+y000757 myo-inositol 1-phosphatase 0 0.00163044 0 0.00152678 -1.13687e-13 0.00163031
+y000758 myo-inositol-1-phosphate synthase 0 0.00163044 0 0.00152678 -1.13687e-13 0.00163031
+y000759 N-acetyl-g-glutamyl-phosphate reductase 0 25.392 0 2.04672 0 0.103706
+y000760 N-acetylglucosamine-6-phosphate synthase 0 145.373 4.00586e-11 38.5243 0 0.0921127
+y000761 N-acteylglutamate synthase 0 0 0 0 0 0
+y000762 N-formyl-L-kynurenine amidohydrolase 0 21.6867 0 1.8493 -1.13687e-13 0.00691777
+y000764 NAD diphosphatase 0 0 0 0 0 0
+y000765 NAD kinase 0 0 0 0 -1.21236e-13 1.55653e-13
+y000766 NAD kinase 0 0 0 0 0 0
+y000767 NAD nucleosidase nuclear 0 0 0 0 0 0
+y000768 NAD synthase 0 0 0 0 0 0
+y000769 NAD synthase 0 0 0 0 0 0
+y000770 NADH dehydrogenase, cytosolic/mitochondrial 0 86.872 0 0.0520075 0 0.00021163
+y000771 NADH kinase 0 0 0 0 -1.13687e-13 0
+y000772 NADH kinase mitochondrial 0 0 0 0 0 1.50602e-13
+y000773 NADH:ubiquinone oxidoreductase 0 86.872 0 0.051997 0 0.00021163
+y000774 NAPRtase 0 0 0 0 0 0
+y000775 NAPRtase 0 0 0 0 0 0
+y000781 nicotinamidase 0 0 0 0 0 1.97176e-13
+y000782 nicotinamide N-methyltransferase 0 0 0 0 0 0
+y000783 nicotinamide-nucleotide adenylyltransferase 0 0 0 0 0 0
+y000784 nicotinamide-nucleotide adenylyltransferase 0 0 0 0 0 0
+y000785 nicotinate-nucleotide adenylyltransferase 0 0 0 0 0 1.2716e-13
+y000786 nicotinate-nucleotide diphosphorylase (carboxylating) 0 0 0 0 0 1.2716e-13
+y000787 nicotinate-nucleotide diphosphorylase (carboxylating) 0 0 0 0 0 0
+y000788 nucleoside diphosphatase 0 244.737 0 52.4631 0 3.66982
+y000789 nucleoside diphosphatase 0 244.737 0 57.8387 0 1.93674
+y000790 nucleoside diphosphatase 0 244.737 0 51.595 -2.27374e-13 39.9317
+y000791 nucleoside diphosphatase 0 0 0 0 0 0
+y000792 nucleoside diphosphatase 0 244.737 0 84.647 0 41.0326
+y000793 nucleoside diphosphatase 0 0 0 0 0 1.72482e-13
+y000795 nucleoside diphosphate kinase 0 244.737 0 87.7777 0 41.0765
+y000796 nucleoside diphosphate kinase 0 1000 0 57.6067 0 1.93735
+y000797 nucleoside diphosphate kinase 0 1000 0 11.2911 -1.73301e-13 0.00204339
+y000798 nucleoside diphosphate kinase 0 1000 0 46.1259 0 0.39944
+y000799 nucleoside diphosphate kinase 0 1000 0 44.9405 0 0.76921
+y000800 nucleoside diphosphate kinase 0 1000 0 54.28 -1.44868e-13 40.5744
+y000801 nucleoside diphosphate kinase 0 1000 0 59.4327 0 40.508
+y000802 nucleoside diphosphate kinase 0 0 0 0 0 1.1259e-13
+y000803 nucleoside diphosphate kinase -1000 1000 0 6.79944 1.3763e-10 0.00897813
+y000804 nucleoside triphosphatase 0 244.737 0 53.9849 0 40.312
+y000805 nucleoside triphosphatase 0 244.737 0 59.0696 -2.75616e-13 40.4966
+y000806 nucleoside triphosphatase 0 244.737 0 87.7777 0 41.0575
+y000807 nucleoside triphosphatase 0 244.737 0 59.4327 0 40.5077
+y000810 nucleoside-diphosphatase (GDP), Golgi 0 0 0 0 0 0
+y000811 nucleoside-diphosphate kinase (ATP:UDP) 0 1000 0 59.0696 -6.1243e-13 40.7977
+y000812 O-acetylhomoserine (thiol)-lyase 0 0 0 0 0 0
+y000813 O-acetylhomoserine (thiol)-lyase 0 5.05902 0 1.41812 -4.76412e-10 0.0883087
+y000815 O-succinylhomoserine lyase (L-cysteine) -5.81913 0 0 -4.88948 0 -0.00702304
+y000816 ornithine carbamoyltransferase 0 47.2768 0 1.30641 -4.73253e-13 0.10415
+y000817 ornithine decarboxylase 0 6.348 0 1.42274 0 0.000247466
+y000818 ornithine transacetylase 0 25.392 0 2.04672 0 0.103706
+y000819 ornithine transaminase 0 25.392 0 0.0758007 0 0.000155822
+y000820 orotate phosphoribosyltransferase -0.0888137 0 0 -0.0831673 0 -0.0888068
+y000821 orotidine-5'-phosphate decarboxylase 0 0.0888137 0 0.0831673 0 0.0888068
+y000831 oxoglutarate dehydrogenase (dihydrolipoamide S-succinyltransferase) -1.17062e-12 25.392 0 8.027 0 2.48149
+y000832 oxoglutarate dehydrogenase (lipoamide) -1.17062e-12 25.392 0 8.027 0 2.48149
+y000841 pantetheine-phosphate adenylyltransferase 0 0 0 0 0 0
+y000842 pantothenate kinase 0 0 0 0 0 0
+y000843 pantothenate synthase 0 3.62743 0 1.13365 0 0.000398988
+y000844 peroxisomal acyl-CoA thioesterase 0 145.373 0 0.712808 -5.80866e-10 0.00111985
+y000845 peroxisomal acyl-CoA thioesterase 0 145.373 0 0.815347 -3.97373e-10 0.00102573
+y000847 peroxisomal acyl-CoA thioesterase 0 145.373 0 1.19481 -2.85005e-10 0.000845854
+y000848 peroxisomal acyl-CoA thioesterase 0 145.373 0 1.00272 -5.29831e-10 0.000943813
+y000849 peroxisomal acyl-CoA thioesterase 0 91.7765 0 1.07052 -1.0694e-10 0.000762211
+y000850 peroxisomal acyl-CoA thioesterase 0 145.373 0 0.694298 0 0.0012347
+y000851 phenylalanine transaminase -1000 1000 0 18.9069 -4.93193e-10 0.425403
+y000852 phenylalanyl-tRNA synthetase 0 0 0 0 0 0
+y000853 phenylalanyl-tRNA synthetase 0 0 0 0 0 0
+y000854 phenylpyruvate decarboxylase 0 3.8088 0 2.67479 -3.3202e-10 0.192015
+y000855 phopshoribosylaminoimidazole synthetase 0 12.696 0 0.522213 -1.44868e-13 0.110816
+y000859 phosphatidylethanolamine methyltransferase 0 3.25636 0 0.074926 -3.6472e-13 0.0149182
+y000860 phosphatidylglycerolphosphate synthase 0 80.7627 0 2.85255 0 0.00478456
+y000866 phosphatidylinositol 4-kinase 0 244.737 0 1.51529 0 0.00079665
+y000867 phosphatidylinositol 4-kinase 0 122.369 0 0.811806 0 0.000349865
+y000875 phosphatidylinositol synthase 0 0.00163044 0 0.00152678 -1.13687e-13 0.00163031
+y000876 phosphatidylinositol-4-phosphate 5-kinase 0 122.369 0 0.811806 0 0.000349865
+y000877 phosphatidylserine decarboxylase 0 3.25636 0 0.0750212 -2.8519e-12 0.0126827
+y000878 phosphatidylserine decarboxylase 0 3.2429 0 0.0750059 0 0.0126827
+y000879 phosphatidylserine decarboxylase 0 3.2429 0 0.0750059 0 0.0126827
+y000880 PS synthase 0 3.25636 0 0.0750401 -2.33597e-13 0.0135032
+y000882 phosphoacetylglucosamine mutase 0 0.18424 0 0.172527 0 0.184225
+y000883 phosphoadenylyl-sulfate reductase (thioredoxin) 0 44.0497 0 2.2525 -4.76412e-10 0.0883087
+y000884 phosphoenolpyruvate carboxykinase -2.72848e-12 244.737 0 36.2546 0 0.239567
+y000885 phosphoethanolamine cytidyltransferase 0 0 0 0 0 0
+y000886 phosphofructokinase 0 245.737 0 66.4472 -3.34873e-12 0.123549
+y000887 phosphofructokinase (s7p) 0 245.737 0 14.4447 0 0.0119768
+y000888 phosphoglucomutase 0 145.373 0 2.69775 1.4827e-10 0.181583
+y000889 phosphogluconate dehydrogenase 0 38.088 -1.43187e-11 9.48995 -2.90425e-13 0.636752
+y000890 phosphoglucosamine mutase 0 0 0 0 0 0
+y000891 phosphoglycerate dehydrogenase 0 102.072 0 5.09868 0 0.214066
+y000892 phosphoglycerate kinase -8.45318 12.696 0 10.696 0 10.696
+y000893 phosphoglycerate mutase -96.7631 12.696 0 0 0 10.696
+y000899 phospholipase D 0 91.7765 0 0.000695912 0 1.25967e-07
+y000900 phospholipid methyltransferase 0 3.25636 0 0.074926 -2.33597e-13 0.00846942
+y000901 phospholipid methyltransferase 0 3.25636 0 0.074926 -2.33597e-13 0.00846942
+y000902 phosphomannomutase -0.0500002 0 0 -2.22045e-16 1.42109e-13 -0.0499963
+y000903 phosphomethylpyrimidine kinase 0 0 0 0 0 0
+y000904 phosphomevalonate kinase 0 5.00239 0 0.931229 0 0.0586397
+y000905 phosphopantothenate-cysteine ligase 0 0 0 0 0 0
+y000906 phosphopantothenoylcysteine decarboxylase 0 0 0 0 0 0
+y000907 phosphopentomutase 0 145.373 0 1.18238 -4.50279e-13 0.0302218
+y000908 phosphoribosyl amino imidazolesuccinocarbozamide synthetase 0 12.696 0 0.522213 -1.44868e-13 0.110816
+y000909 phosphoribosyl-AMP cyclohydrolase 0 5.85969 0 1.15969 0 0.067024
+y000910 phosphoribosyl-ATP pyrophosphatase 0 5.85969 0 1.15969 0 0.067024
+y000911 phosphoribosylaminoimidazole-carboxylase 0 12.696 0 0.522213 -1.44868e-13 0.110816
+y000912 phosphoribosylaminoimidazolecarboxamide formyltransferase 0 12.696 0 1.16161 -1.44868e-13 0.17784
+y000913 phosphoribosylanthranilate isomerase 0 21.6867 0 1.79696 -1.13687e-13 0.0212847
+y000914 phosphoribosylglycinamidine synthetase 0 12.696 0 0.522213 -1.44868e-13 0.110816
+y000915 phosphoribosylpyrophosphate amidotransferase 0 12.696 0 0.522213 -1.44868e-13 0.110816
+y000916 phosphoribosylpyrophosphate synthetase 0 145.373 0 6.22222 -1.44868e-13 0.287932
+y000917 phosphoserine phosphatase (L-serine) 0 102.072 0 5.09868 0 0.214066
+y000918 phosphoserine transaminase 0 102.072 0 5.09868 0 0.214066
+y000919 phytoceramidase 0 1000 0 7.55718 0 5.5793
+y000921 Phytosphingosine phosphate lyase 0 0 0 0 0 9.93716e-11
+y000922 phytosphingosine synthesis 0 0 0 0 0 0
+y000923 phosphatidylinositol 3-kinase -1.47793e-12 244.737 0 0.782173 -1.66063e-12 8.17537e-05
+y000929 polyamine oxidase 0 0 0 0 0 0
+y000935 porphobilinogen synthase 0 0 0 0 0 0
+y000936 poylamine oxidase 0 0 0 0 0 0
+y000937 poylamine oxidase 0 0 0 0 0 0
+y000938 prephenate dehydratase 0 3.8088 0 2.7948 0 0.192015
+y000939 prephenate dehydrogenase (NADP) 0 3.8088 0 2.59068 0 0.067024
+y000940 proline oxidase (NAD) 0 0 0 0 0 1.23389e-10
+y000941 prolyl-tRNA synthetase 0 0 0 0 0 0
+y000942 protoporphyrinogen oxidase 0 0 0 0 0 0
+y000943 purine-nucleoside phosphorylase 0 0 0 0 0 1.97176e-13
+y000949 guanosine phosphorylase -2.27374e-12 145.373 0 1.15486 -3.12324e-11 0.0062785
+y000950 guanosine phosphorylase 0 0 0 0 0 0
+y000951 inosine phosphorylase 0 145.373 0 1.18238 -2.54225e-11 0.0628731
+y000953 pyridoxal oxidase 0 0 0 0 0 0
+y000954 pyridoxamine 5'-phosphate oxidase 0 0 0 0 0 0
+y000955 pyridoxine 5'-phosphate oxidase 0 0 0 0 0 0
+y000956 pyridoxine oxidase 0 0 0 0 0 0
+y000957 pyrroline-5-carboxylate reductase 0 7.0126 0 5.33506 0 0.10205
+y000958 pyruvate carboxylase 0 367.106 0 39.9878 0 11.1983
+y000959 pyruvate decarboxylase 0 25.392 0 15.0252 -5.73057e-12 5.60265
+y000960 pyruvate decarboxylase (acetoin-forming) 0 0 0 0 0 0
+y000961 pyruvate dehydrogenase 0 25.392 0 9.87114 -5.99077e-10 3.75465
+y000962 pyruvate kinase 0 244.737 0 38.7483 0 10.9356
+y000963 quinone oxidoreductase 0 0 0 0 0 0
+y000964 reduced glutathione via ABC system 0 244.737 0 7.35469 0 0.00439204
+y000965 riboflavin kinase 0 0 0 0 0 0
+y000966 riboflavin kinase 0 0 0 0 0 0
+y000967 riboflavin synthase 0 0 0 0 0 0
+y000968 riboflavin synthase 0 0 0 0 0 0
+y000969 ribokinase 0 145.373 0 6.22222 -2.75714e-10 0.00227051
+y000974 ribonucleotide reductase 0 0.0173461 0 0.0162433 0 0.0520342
+y000975 ribonucleotide reductase 0 0 0 0 0 1.83718e-10
+y000976 ribonucleotide reductase 0 0.0344204 0 0.0322321 -5.58553e-11 0.0688355
+y000977 ribonucleotide reductase 0 0 0 0 -1.74129e-10 0
+y000978 ribonucleotide reductase 0 0.0170743 0 0.0159888 -1.09024e-13 0.051219
+y000979 ribonucleotide reductase 0 0 0 0 0 0
+y000982 ribose-5-phosphate isomerase 0 21.1492 0 3.16332 3.20387e-12 0.679457
+y000983 ribosylnicotinamide kinase 0 244.737 0 6.11738 0 0.000672775
+y000984 ribulose 5-phosphate 3-epimerase -14.4578 25.392 -7.15936e-12 0 -3.34873e-12 -0.0613222
+y000985 S-adenosyl-L-methionine:3-hexaprenyl-4,5-dihydroxylate O-methyltransferase 0 0 0 0 0 0
+y000986 S-adenosyl-methionine delta-24-sterol-c-methyltransferase 0 0.744108 0 0.107239 0 0.00977328
+y000987 S-formylglutathione hydralase 0 0 0 0 0 0
+y000988 saccharopine dehydrogenase (NAD, L-lysine forming) 0 4.92885 0 1.8347 0 0.182256
+y000989 saccharopine dehydrogenase (NADP, L-glutamate forming) 0 4.92885 0 1.8347 0 0.182256
+y000990 sedoheptulose 1,7-bisphosphate D-glyceraldehyde-3-phosphate-lyase -244.737 245.737 0 0.00276463 2.1458e-13 0.000513759
+y000993 serine palmitotransferase 0 0 0 0 -1.13689e-13 0
+y000995 seryl-tRNA synthetase 0 0 0 0 0 0
+y000996 shikimate dehydrogenase 0 5.03198 0 2.7948 0 0.192015
+y000997 shikimate kinase 0 5.03198 0 2.7948 0 0.192015
+y000998 sirohydrochlorin dehydrogenase 0 0 0 0 0 0
+y000999 sirohydrochlorin ferrochetalase 0 0 0 0 0 0
+y001001 spermidine synthase 0 0 0 0 0 0
+y001002 spermine synthase 0 0 0 0 0 0
+y001003 sphinganine phosphate lyase 0 0 0 0 0 0
+y001004 sphingoid base-phosphate phosphatase (phytosphingosine 1-phosphate) 0 244.737 0 0.088779 0 1.2794e-05
+y001005 sphingoid base-phosphate phosphatase (sphinganine 1-phosphatase) 0 244.737 0 0.088915 0 1.2794e-05
+y001006 sphingolipid long chain base kinase (phytosphingosine) 0 244.737 0 0.088779 0 1.2794e-05
+y001007 sphingolipid long chain base kinase (sphinganine) 0 244.737 0 0.088915 0 1.2794e-05
+y001010 squalene epoxidase (NAD) 0 0 0 0 0 0
+y001011 squalene epoxidase (NADP) 0 0.833731 0 0.155205 0 0.00977328
+y001012 squalene synthase 0 0.833731 0 0.155205 0 0.00977328
+y001021 succinate dehydrogenase (ubiquinone-6) -1.13687e-12 47.2702 0 8.027 -7.70415e-11 2.00017
+y001022 succinate-CoA ligase (ADP-forming) -1.17062e-12 242.288 0 12.6144 0 2.37459
+y001023 succinate-semialdehyde dehydrogenase (NADP) 0 25.392 0 6.09052 0 0.0105411
+y001024 sucrose hydrolyzing enxyme 0 0 0 0 0 0
+y001025 sulfate adenylyltransferase 0 44.0497 0 2.2525 -4.76412e-10 0.0883087
+y001027 sulfite reductase (NADPH2) 0 5.05902 0 1.41812 -4.76412e-10 0.0883087
+y001028 taurcholate via ABC system 0 0 0 0 0 0
+y001029 taurine dioxygenase 0 0 0 0 0 0
+y001030 tetrahydrofolate aminomethyltransferase 0 0 0 0 0 0
+y001031 tetrahydrofolate:L-glutamate gamma-ligase (ADP-forming) 0 0 0 0 0 0
+y001032 thiamin diphosphatase 0 0 0 0 0 0
+y001033 thiamin phosphatase 0 0 0 0 0 0
+y001034 thiamine diphosphokinase 0 0 0 0 0 0
+y001035 thiamine-diphosphate kinase 0 0 0 0 0 0
+y001036 thiamine-phosphate diphosphorylase 0 0 0 0 0 0
+y001037 thioredoxin 0 0 0 0 0 0
+y001038 thioredoxin reductase (NADPH) 0 44.0497 0 11.7205 -1.09024e-13 0.278276
+y001039 thioredoxin reductase (NADPH) 0 0 0 0 0 0
+y001040 threonine aldolase 0 69.6636 0 10.2976 -4.27712e-10 0.329574
+y001041 threonine synthase 0 69.6636 0 10.3141 0 0.496708
+y001042 threonyl-tRNA synthetase 0 0 0 0 0 0
+y001043 threonyl-tRNA synthetase 0 0 0 0 0 0
+y001045 thymidylate synthase 0 0.0173461 0 0.0162433 -2.2879e-10 0.0173447
+y001047 trans-pentaprenyltranstransferase 0 0 0 0 0 0
+y001048 transaldolase -245.737 244.737 0 2.76353 -1.67437e-12 0.36002
+y001049 transketolase 1 -7.22888 12.696 0 2.76353 -1.67437e-12 0
+y001050 transketolase 2 -7.22888 12.696 0 -0.605005 -1.67437e-12 -0.436005
+y001051 trehalose-phosphatase 0 91.7765 0 1.02643 0 0.00168726
+y001053 triacylglycerol lipase 0 145.373 0 0.159786 0 0.0332005
+y001054 triose-phosphate isomerase -9.45318 11.696 0 10.696 2.14879e-12 10.696
+y001055 tryptophan synthase (indoleglycerol phosphate) 0 21.6867 0 1.79696 -1.13687e-13 0.0212847
+y001056 tryptophan transaminase 0 3.174 0 1.2876 0 0.0212847
+y001057 tryptophanyl-tRNA synthetase 0 0 0 0 0 0
+y001058 tryptophanyl-tRNA synthetase 0 0 0 0 0 0
+y001059 phosphatidylinositol 4-kinase 0 0 0 0 0 0
+y001063 tyrosine transaminase -1000 1000 0 18.9069 1.3603e-10 0.86908
+y001065 tyrosine transaminase 0 0 0 0 0 0
+y001066 tyrosyl-tRNA synthetase 0 0 0 0 0 0
+y001067 tyrosyl-tRNA synthetase 0 0 0 0 0 0
+y001068 UDP-glucose:ergosterol glucosyltransferase 0 0 0 0 0 0
+y001069 UDP-N-acetylglucosamine diphosphorylase 0 0.18424 0 0.172527 0 0.184225
+y001070 UDPglucose 4-epimerase 0 0 0 0 -2.0661e-10 0
+y001071 UDPglucose--hexose-1-phosphate uridylyltransferase -1000 0 0 -26.099 -1.45318e-10 -0.518121
+y001072 UMP kinase 0 244.737 0 51.595 -2.18419e-11 39.9616
+y001073 UMP kinase 0 0 0 0 0 0
+y001074 uracil phosphoribosyltransferase 0 145.373 0 6.22222 -2.75714e-10 0.00227051
+y001075 urea carboxylase 0 41.2629 0 0.722392 0 0.00128955
+y001076 ureidoglycolate hydrolase -2.31282e-12 12.696 0 0.0735259 -1.63952e-13 3.42166e-06
+y001077 uridine kinase (ATP:uridine) 0 1000 0 6.0568 0 0.000607216
+y001078 uridine kinase (GTP:uridine) 0 1000 0 6.05407 0 0.000607216
+y001079 uridylate kinase (dUMP) 0 145.373 0 14.5133 -2.26485e-13 0.00837091
+y001080 uridylate kinase (dUMP) 0 145.373 0 14.5133 -1.13687e-13 0.00837091
+y001081 uroporphyrinogen decarboxylase (uroporphyrinogen III) 0 0 0 0 0 0
+y001082 uroporphyrinogen methyltransferase 0 0 0 0 -7.18919e-12 0
+y001083 uroporphyrinogen-III synthase 0 0 0 0 0 0
+y001084 UTP-glucose-1-phosphate uridylyltransferase -1000 290.746 0 23.4457 0 0.429348
+y001085 V-ATPase, Golgi 0 244.737 0 36.4547 0 0.0253955
+y001086 V-ATPase, vacuole 0 244.737 0 36.4547 0 0.0253955
+y001087 valine transaminase 0 6.348 0 4.96804 -1.02373e-10 0.76367
+y001088 valine transaminase, mitochondiral -6.348 0 0 0 -9.80629e-11 -0.76367
+y001089 valyl-tRNA synthetase 0 0 0 0 0 0
+y001090 valyl-tRNA synthetase 0 0 0 0 0 0
+y001091 xanthine phosphoribosyltransferase 0 56.4778 0 0.611222 0 0.0052108
+y001092 xylitol dehydrogenase (D-xyulose-forming) 0 0 0 0 0 0
+y001093 xylose reductase 0 0 0 0 0 0
+y001094 xylulokinase 0 0 0 0 0 0
+y001095 yUMP synthetase 0 0 0 0 0 0
+y001096 (R)-mevalonate transport -5.20891 0 0 0 1.46945e-13 0
+y001099 2-oxoadipate and 2-oxoglutarate transport 0 4.92885 0 1.8347 0 0.182256
+y001100 3-hexaprenyl-4,5-dihydroxybenzoate transport 0 0 0 0 0 0
+y001101 4-aminobutyrate transport 0 0 0 0 0 0
+y001102 5-aminolevulinate transport 0 0 0 0 0 0
+y001103 5-formyltetrahydrofolic acid transport 0 0 0 0 0 0
+y001104 8-Amino-7-oxononanoate transport 0 0 0 0 0 0
+y001106 acetate transport 0 18.0041 0 14.067 0 2.49114
+y001107 acetic ester transport 0 0 0 0 0 0
+y001108 adenine transport 0 0 0 0 0 0
+y001109 adenosine transport 0 0 0 0 -9.68702e-11 0
+y001110 ADP/ATP transporter -14.696 352.41 0 48.8567 0 48.6915
+y001111 ADP/ATP transporter 0 0 0 0 0 0
+y001112 AKG transporter, mitochonrial -1000 1000 0 0 0 -1.91345
+y001113 allantoate uniport 0 0 0 0 0 0
+y001114 allantoin uniport 0 0 0 0 -1.13687e-13 0
+y001115 ammonia transport 0 76.176 0 -3.55271e-15 9.86149e-10 18.3997
+y001116 AMP/ATP transporter 0 145.373 0 0.907822 -3.31144e-11 0.000437731
+y001118 aspartate-glutamate transporter 0 1000 0 3.67948 -1.27465e-10 2.77581
+y001119 biotin uptake 0 0 0 0 0 0
+y001120 carnithine-acetylcarnithine carrier 0 183.553 0 9.89294 0 0.00769819
+y001121 ceramide-2' (sphinganine:n-C24:0OH) transport 0 0 0 0 0 0
+y001122 ceramide-2' (sphinganine:n-C26:0OH) transport 0 0 0 0 0 0
+y001123 ceramide-3 (Phytosphingosine:n-C24:0OH) transport 0 0 0 0 0 0
+y001124 ceramide-3 (Phytosphingosine:n-C26:0OH) transport 0 0 0 0 0 0
+y001125 choline transport 0 0 0 0 -9.65008e-10 0
+y001126 citrate transport -1000 1000 0 -20.2421 0 -3.38253
+y001127 citrate transport -5.03198 0 0 -2.498 0 -0.192015
+y001128 citrate transport -1000 1000 0 1.52213 0 8.65346e-08
+y001129 coenzyme A transport 0 5.19995 0 2.0499 -6.10396e-10 0.0586397
+y001130 CTP transport 0 80.7627 0 2.85255 0 0.00516587
+y001131 CTP/CMP antiport 0 72.6864 0 2.83535 0 0.00516587
+y001132 cytidine transport 0 0 0 0 0 0
+y001133 cytosine transport 0 0 0 0 0 0
+y001134 D-fructose transport 0 0 0 0 0 0
+y001135 D-galactose transport 0 0 0 0 0 0
+y001136 D-lactate transport 0 0 0 0 0 0
+y001137 D-lactate transport 0 0 0 0 -6.5714e-10 0
+y001139 D-mannose transport 0 0 0 0 0 0
+y001146 episterol transport -0.744108 0 0 -0.107239 0 -0.00429189
+y001147 ergosterol transport -0.726437 0 0 -0.0801519 0 -0.00807372
+y001149 ethanolamine transport 0 0 0 0 0 0
+y001151 fadH2 transport 0 0 0 0 0 0
+y001161 fecosterol transport -0.744108 0 0 -0.0926667 0 -3.62536e-05
+y001164 folic acid transport 0 0 0 0 0 0
+y001165 GDP-mannose antiport 0 0 0 0 0 0
+y001166 glucose transport 1 1 0 0 0 0
+y001167 glutathione transport 0 0 0 0 0 0
+y001168 glutathione transport -244.737 0 0 -7.35469 0 -0.00393335
+y001169 glycero-3-phospho-1-inositol transport 0 0 0 0 0 0
+y001170 glycero-3-phosphocholine transport -3.25636 1.7053e-12 0 -0.074926 9.64997e-10 -0.00846942
+y001171 glycerol transport 0 255.433 0 29.0403 0 10.696
+y001172 glycerol transport via channel 0 244.737 0 25.0717 0 10.1353
+y001173 glycine transport -19.044 0 0 -3.3094 0 -0.74802
+y001174 glycogen vacuolar 'transport' via autophagy 0 145.373 0 2.68535 0 0.0182123
+y001175 GTP/GDP translocase 0 181.716 0 10.8924 0 0.211012
+y001176 guanine transport -7.6176 0 0 -0.423218 2.33741e-10 -0.0062785
+y001177 inositol transport 0 0 0 0 0 0
+y001179 iron (II) transport 0 0 0 0 0 0
+y001180 isoamyl acetate transport 0 0 0 0 0 0
+y001181 isobutyl acetate transport 0 0 0 0 0 0
+y001182 isopentenyl diphosphate transport 0 0 0 0 0 0
+y001183 L-alanine transport -12.696 0 0 -10.696 0 -1.50307
+y001184 L-arganine transport -6.02114 0 0 -1.30641 0 0.0246984
+y001186 L-asparagine transport -9.522 0 0 -6.40971 0 -6.55771
+y001187 L-asparagine transport 0 744.737 0 0.678455 0 9.44254e-05
+y001188 L-aspartate transport 0 744.737 0 0.678455 0 9.44254e-05
+y001189 L-aspartate transport 0 0 0 0 0 0
+y001190 L-aspartate transport -9.522 0 0 -7.52303 0 -7.43869
+y001191 L-carnitine transport 0 0 0 0 0 -3.55271e-15
+y001192 L-cystine transport -3.47855 0 0 -1.1532 -7.51897e-11 -0.0839803
+y001194 L-glutamate transport 0 367.106 0 10.125 -4.93193e-10 3.85209
+y001195 L-glutamate transport 0 0 0 0 0 0
+y001196 L-glutamate transport -7.6176 0 0 -6.36315 0 -3.89209
+y001197 L-glutamine transport 0 744.737 0 2.86884 0 0.0004529
+y001198 L-glutamine transport 0 744.737 0 2.86884 0 0.0004529
+y001199 L-glutamine transport -7.6176 0 4.00586e-11 -6.38445 -4.93193e-10 -0.65871
+y001201 L-histidine transport -5.85969 0 0 -1.02729 0 0.143014
+y001203 L-isoleucine transport 0 744.737 0 0.55217 0 7.76076e-05
+y001204 L-isoleucine transport 0 744.737 0 0.55217 0 7.76076e-05
+y001205 L-isoleucine transport -5.44059 0 0 -3.46913 0 -0.7114
+y001206 L-lactate transport 0 0 0 0 0 0
+y001207 L-lactate transport 0 0 0 0 0 0
+y001209 L-leucine transport, vacuoluar 0 744.737 0 0.669211 0 9.63771e-05
+y001210 L-leucine transport, vacuoluar 0 744.737 0 0.669211 0 9.63771e-05
+y001211 L-leucine transport -5.0784 0 0 0 1.94088e-10 -0.213813
+y001213 L-lysine transport -4.92885 0 0 -1.8347 -1.22631e-13 -0.227841
+y001214 L-methionine transport -5.05902 0 0 -1.41812 3.41061e-13 -0.117064
+y001215 L-phenylalanine transport -3.8088 0 0 -2.7948 3.29317e-10 -0.0782902
+y001216 L-proline transport -7.0126 0 0 -5.33506 5.70902e-10 0.135891
+y001217 L-serine transport -12.696 0 0 -4.03079 0 -0.495357
+y001218 L-threonine transport -9.522 0 0 -7.12018 0 -0.498313
+y001219 L-tryptophan transport -3.1728 0 0 -1.2882 3.73509e-11 -0.0241042
+y001221 L-tyrosine transport 0 744.737 0 0.718999 0 9.69071e-05
+y001222 L-tyrosine transport 0 744.737 0 0.718999 0 9.69071e-05
+y001223 L-tyrosine transport -3.8088 0 0 -2.59068 -4.3458e-10 -0.0913449
+y001224 L-valine transport -6.348 0 0 -4.87365 0 -0.779501
+y001225 lanosterol transport -0.833731 0 0 -0.155205 0 0
+y001226 malate transport 0 25.392 0 10.7271 0 1.26418
+y001227 maltose transport 0 0 0 0 0 0
+y001229 NAD transport 0 0 0 0 -4.54845e-13 1.44828e-13
+y001230 NAD transport 0 0 0 0 0 0
+y001231 NAD transport 0 0 0 1.31717e-12 -2.26266e-13 3.42168e-13
+y001232 NAD transport 0 0 0 0 0 0
+y001235 nicotinate transport 0 0 0 0 0 -1.24683e-17
+y001236 octadecanoate (n-C18:0) transport -91.7765 0 0 0 0 0
+y001237 ornithine transport 0 25.392 0 2.04672 0 0.201888
+y001238 orntithine transport -6.348 0 0 -2.04566 0 -0.187992
+y001239 oxaloacetate transport 0 25.392 0 8.75457 0 0.0561266
+y001241 pantothenate transport -3.62743 0 0 0 0 0
+y001242 pentaprenyl diphosphate transport 0 0 0 0 0 0
+y001244 phosphate transport -7.38964e-12 3.25636 0 0.201786 4.71734e-12 0.289425
+y001245 phosphate transport 0 352.41 0 110.316 0 42.5603
+y001246 phosphatidylinositol 4-kinase 0 244.737 0 2.59012 0 0.0137734
+y001247 phosphatidylinositol-4-phosphate 5-kinase 0 244.737 0 1.29119 0 0.000349865
+y001249 potassium transport 0 0 0 0 0 0
+y001251 putrescine transport -6.348 0 0 -1.42274 0 -2.08758e-05
+y001252 putrescine transport 0 0 0 0 0 0
+y001253 pyridoxine symport 0 0 0 0 0 0
+y001254 pyruvate transport -12.696 0 0 -19.7277 0 -10.5958
+y001255 S-adenosyl-L-methionine transport 0 0 0 0 0 8.21926e-11
+y001256 S-adenosyl-L-methionine transport 0 0 0 0 0 0
+y001257 S-methylmethionine permease 0 0 0 0 0 0
+y001258 sodium proton antiporter 0 0 0 0 0 -8.67362e-19
+y001260 spermidine transport 0 0 0 0 0 -0.0925265
+y001261 spermidine transport 0 0 0 0 0 0
+y001262 spermine transport 0 0 0 0 0 0
+y001263 spermine transport 0 0 0 0 0 0
+y001264 succinate transport 0 25.392 0 5.18171 -7.70415e-11 0.325597
+y001265 succinate-fumarate transport 0 47.2702 0 6.28199 -1.13722e-13 0.325597
+y001266 sulfate uniport 0 44.0497 0 2.2525 -4.76412e-10 0.0883087
+y001267 sulfite transport 0 44.0497 0 2.2525 0 0.0883087
+y001268 taurine transport 0 0 0 0 0 0
+y001269 thiamine diphosphate transport 0 0 0 0 0 0
+y001270 thiamine transport 0 0 0 0 0 0
+y001271 UDPgalactose transport 0 0 0 0 0 0
+y001272 uracil transport 0 0 0 0 -1.0845e-13 0
+y001273 urea transport -38.088 1.13687e-12 0 -0.724104 5.82499e-13 0.118379
+y001274 uridine transport 0 0 0 0 0 0
+y001275 UTP transport 0 0 0 0 0 0
+y001276 UTP/UMP antiport 0 0 0 0 0 0
+y001277 water diffusion -304.217 241.962 0 -47.0137 0 -71.2435
+y001542 (1-3)-beta-D-glucan exchange 0 0 0 0 0 0
+y001543 (1-3)-beta-D-glucan transport 0 0.199955 0 0 0 0
+y001545 (R)-carnitine exchange 0 0 0 0 0 0
+y001546 (R)-lactate exchange 0 0 0 0 0 0
+y001547 (R)-mevalonate exchange 0 5.20891 0 2.1906 -1.46945e-13 0.0586397
+y001548 (R)-pantothenate exchange 0 3.62743 0 1.13365 0 0.000398988
+y001550 (S)-3-methyl-2-oxopentanoate exchange 0 0 0 0 0 0
+y001551 (S)-lactate exchange 0 0 0 0 0 0
+y001552 (S)-malate exchange 0 9.522 0 7.7152 0 7.1597
+y001553 1-(sn-glycero-3-phospho)-1D-myo-inositol exchange 0 0 0 0 0 1.97527e-11
+y001554 1-acylglycerophosphocholine exchange 0 0 0 0 0 0
+y001560 1D-myo-inositol 1,3,4,5,6-pentakisphosphate diffusion 0 127.717 0 0.0282594 -1.13687e-13 4.556e-06
+y001562 1D-myo-inositol 1-phosphate transport 0 0 0 0 0 -5.51722e-10
+y001566 2'-deoxyuridine exchange 0 0 0 0 0 0
+y001567 2-dehydro-3-deoxy-D-arabino-heptonate7-phohsphate transport -5.03198 0 0 0 0 0
+y001568 2-dehydropantoate transport -3.62743 0 0 0 0 0
+y001572 2-isopropylmalate exchange 0 5.05357 0 3.65154 0 0.190656
+y001573 2-isopropylmalate transport 0 5.05357 0 0 0 -2.27374e-13
+y001574 2-isopropylmalate transport -5.0784 0 0 0 0 0
+y001575 2-methyl-1-butanol transport 0 5.48042 0 0 0 0
+y001576 2-methyl-1-butanol transport -5.48042 0 0 0 0 0
+y001577 2-methylbutanal exchange 0 5.81913 0 4.88948 -7.36691e-11 0.71496
+y001578 2-methylbutanal transport 0 5.81913 0 0 0 -5.65024e-11
+y001579 2-methylbutanal transport 0 5.48042 0 0 0 0
+y001580 2-methylbutanol exchange 0 5.48042 0 4.61394 0 0.71496
+y001582 2-methylpropanal transport 0 6.348 0 0 0 0
+y001583 2-methylpropanal transport 0 6.348 0 0 0 0
+y001585 2-oxobutanoate transporter 0 5.81913 0 0 0 0
+y001586 2-oxoglutarate exchange 0 7.6176 0 6.29552 -2.89151e-10 3.55134
+y001587 2-oxoglutarate transport 0 0 0 0 0 0
+y001588 2-oxoglutarate transport -1000 1000 -4.00586e-11 0 2.89151e-10 0
+y001589 2-phenylethanol exchange 0 3.8088 0 2.67022 -3.3202e-10 0.192015
+y001590 2-phenylethanol transport -3.8088 0 0 0 3.3202e-10 8.18545e-11
+y001591 2-phenylethanol transport 0 3.8088 0 0 0 0
+y001595 3-carboxy-4-methyl-2-oxopentanoate transport 0 5.0784 0 0 0 0
+y001596 3-methyl-2-oxopentanoate transport -5.77565 25.392 0 0 -3.82146e-10 0
+y001598 3-methylbutanal exchange 0 5.0784 0 2.58118 0 0.190656
+y001599 3-methylbutanal transport 0 5.0784 0 0 0 -2.31239e-10
+y001600 3-methylbutanal transport 0 5.0784 0 0 0 0
+y001601 3-octaprenyl-4-hydroxybenzoate transport 0 0 0 0 0 0
+y001604 4-aminobenzoate exchange 0 5.03198 0 0.0211741 0 3.57084e-05
+y001605 4-aminobenzoate transport 0 5.03198 0 0 0 0
+y001606 4-aminobenzoate transport 0 0 0 0 0 0
+y001607 4-aminobutanal transport 0 0 0 0 0 0
+y001608 4-aminobutyrate transport 0 0 0 0 0 0
+y001609 4-hydroxy-2-oxoglutarate transport 0 0 0 0 0 0
+y001610 4-hydroxy-2-oxoglutarate transport 0 0 0 0 0 0
+y001611 4-hydroxybenzoate transport 0 0 0 0 0 0
+y001619 5'-nucleotidase (GMP) -2.31282e-12 145.373 0 1.15486 -3.12324e-11 0.0062785
+y001621 5-aminolevulinate exchange 0 0 0 0 0 0
+y001622 5-aminolevulinate transport 0 0 0 0 0 0
+y001625 5-formyltetrahydrofolic acid exchange 0 0 0 0 0 0
+y001627 7,8-diaminononanoate exchange 0 0 0 0 0 0
+y001628 7,8-diaminononanoate transport 0 0 0 0 0 0
+y001629 8-amino-7-oxononanoate exchange 0 0 0 0 0 0
+y001630 9H-xanthine exchange 0 7.6176 0 0.426004 -7.68712e-10 0.0062785
+y001631 acetaldehyde exchange 0 15.9391 0 13.374 -9.81117e-11 5.93223
+y001632 acetaldehyde transport -1000 0 0 0 1.34696e-10 7.86713e-11
+y001633 acetaldehyde transport -15.9391 0 0 0 0 0
+y001634 acetate exchange 0 18.0041 0 14.067 0 2.48747
+y001635 acetate transport 0 0 0 0 0 -1.13687e-13
+y001637 acetyl-CoA transport 0 0 0 0 0 0
+y001638 acetylcarnitine transport -1.29852e-12 46.2582 0 3.36035 0 0.0366379
+y001639 adenine exchange 0 0 0 0 0 0
+y001640 adenine transport 0 0 0 0 0 0
+y001641 adenosine 3',5'-bismonophosphate exchange 0 0 0 0 0 0
+y001643 adenosine exchange 0 0 0 0 0 0
+y001644 ADP transport -244.737 0 0 0 0 1.83718e-10
+y001645 ADP transport -244.737 0 0 0 0 0
+y001647 AKG transporter, peroxisome -34.1519 6.48015e-12 0 0 0 0
+y001648 allantoate exchange 0 0 0 0 0 0
+y001649 allantoin exchange 0 0 0 0 0 0
+y001650 alpha,alpha-trehalose exchange 0 3.174 0 1.02643 -7.85152e-11 0.00168726
+y001651 alpha-D-glucosamine 6-phosphate exchange 0 0 0 0 0 0
+y001652 alpha-ketoglutarate/malate transporter -1000 1000 0 0 0 -0.509085
+y001654 ammonium exchange -76.176 0 -14.197 0 -14.7982 8.07354e-13
+y001656 AMP transport 0 0 0 0 0 1.49825e-13
+y001657 arginine transport 0 0 0 0 0 0
+y001658 asparagine transport 0 0 0 0 0 0
+y001659 aspartate-glutamate transporter -34.1519 6.48015e-12 0 0 0 0
+y001660 ATP diffusion 0 244.737 -2.92059e-11 14.5133 8.11189e-15 4.556e-06
+y001661 ATP transport 0 244.737 0 0 0 0
+y001663 bicarbonate exchange 0 38.088 0 18.9267 0 15.1647
+y001664 bicarbonate formation 0 0 0 0 0 0
+y001665 bicarbonate formation -1000 1000 0 21.169 0 19.6973
+y001667 bicarbonate formation -1000 1000 0 -5.36581 0 -5.79605
+y001668 bicarbonate formation 0 38.088 0 0 0 15.1647
+y001669 bicarbonate transport -1000 1000 0 0 0 0
+y001671 biotin exchange 0 0 0 0 0 0
+y001672 carbon dioxide exchange 0 2.72 -1.43187e-11 2.72 0 2.72
+y001673 carnitine transport -1.29852e-12 46.2582 0 3.36035 0 0.0366379
+y001674 carnitine-acetylcarnitine carrier 0 46.2582 0 3.36035 0 0.0366379
+y001675 CDP transport 0 0 0 0 0 0
+y001676 ceramide transport 0 0 0 0 0 0
+y001677 ceramide transport 0 0 0 0 0 9.93726e-11
+y001678 ceramide transport 0 0 0 0 0 5.51722e-10
+y001679 ceramide transport 0 0 0 0 0 8.38394e-10
+y001680 ceramide transport 0 0 0 0 0 8.94812e-10
+y001681 ceramide transport 0 0 0 0 0 0
+y001683 choline exchange 0 0 0 0 -5.00299e-12 4.27179e-10
+y001684 choline transport 0 91.7765 0 0 0 0
+y001686 citrate transport -6.348 0 0 0 0 0
+y001687 citrate(3-) exchange 0 6.348 0 5.348 -7.72388e-10 3.55134
+y001691 CO2 transport 0 0 0 0 1.13689e-13 0
+y001694 CO2 transport -1000 1000 0 0 0 0
+y001695 CO2 transport 0 0 0 0 0 0
+y001696 CO2 transport -379.802 0 0 -0.0642731 0 -9.67916e-08
+y001697 CO2 transport 0 38.088 0 0 0 0
+y001698 coenzyme A transport -145.373 0 0 -1.04082 1.13689e-13 -0.0295911
+y001699 coenzyme A transport 0 0 0 0 0 -1.13687e-13
+y001700 coenzyme A transport 0 91.7765 0 2.69299e-07 1.64621e-14 -2.27374e-13
+y001702 cytidine exchange 0 0 0 0 0 0
+y001703 cytidylate kinase (CMP) 0 244.737 0 84.647 0 41.0326
+y001704 cytidylate kinase (dCMP) -0.0344204 145.373 0 11.2589 1.63183e-10 -0.0329874
+y001705 cytosine exchange 0 0 0 0 0 0
+y001706 D-arabinose exchange 0 0 0 0 0 0
+y001707 D-arabinose transport 0 0 0 0 0 0
+y001708 D-erythrose 4-phosphate transport 0 5.03198 0 0 0 0
+y001709 D-fructose exchange 0 0 0 0 0 0
+y001710 D-galactose exchange 0 0 0 0 0 0
+y001712 D-glucitol exchange 0 0 0 0 0 0
+y001714 D-glucose exchange -1 -1 0 0 0 0
+y001715 D-mannose exchange 0 0 0 0 0 0
+y001716 D-ribose exchange 0 0 0 0 0 0
+y001717 D-sorbitol transport 0 0 0 0 0 0
+y001718 D-xylose exchange 0 0 0 0 0 0
+y001719 D-xylose transport 0 0 0 0 0 0
+y001720 dADP transport 0 0 0 0 0 -1.83718e-10
+y001721 dCDP transport 0 0 0 0 1.74129e-10 0
+y001726 deamino-NAD+ diffusion 0 0 0 0 0 1.49825e-13
+y001727 decanoate exchange 0 2.25268 0 0.688514 0 0.00357687
+y001729 deoxyadenylate kinase -0.0173461 0 0 -0.0162433 -5.553e-11 -0.0173447
+y001730 deoxycytidine exchange 0 0 0 0 0 0
+y001731 deoxycytidine transport 0 0 0 0 0 0
+y001735 deoxyuridine transport 0 0 0 0 0 0
+y001737 dGDP transport 0 0 0 0 0 0
+y001738 dhnpt transport 0 0 0 0 -1.13687e-13 0
+y001743 dihydrofolate transport 0 0 0 0 0 0
+y001745 dihydropteroate transport 0 0 0 0 0 0
+y001746 dihydroxyacetone phosphate transport -56.4778 0 0 0 0 0
+y001747 diphosphate transport -145.373 0 0 -0.907822 0 0
+y001748 dolichol phosphate transport -0.0500002 0 0 0 0 0
+y001749 dTTP exchange 0 0 0 0 0 0
+y001751 dUDP diffusion -145.373 0 0 0 0 0
+y001752 dUMP transport 0 145.373 0 0 -1.13687e-13 0
+y001753 episterol exchange 0 0.744108 0 0.107239 0 0.00977328
+y001754 ergosta-5,6,22,24,(28)-tetraen-3beta-ol transport 0 0.726437 0 0 0 0
+y001757 ergosterol exchange 0 0.726437 0 0.0801519 0 0.00977328
+y001758 ergosterol transport -1000 1000 0 0 0 0
+y001759 ergosterol transport -145.373 0 0 0 0 4.26326e-11
+y001760 ergosterol transport 0 0 0 0 0 0
+y001761 ethanol exchange 0 14.0976 0 11.9606 0 5.93223
+y001762 ethanol transport 0 14.0976 0 11.9606 0 0
+y001763 ethanol transport, mitochondrial -1000 0 0 0 0 0
+y001764 ethanolamine exchange 0 0 0 0 -1.7497e-11 0
+y001765 ethyl acetate exchange 0 0 0 0 0 0
+y001766 farnesyl diphosphate transport 0 0 0 0 0 0
+y001770 fatty acid transport -2.25268 0 0 -0.688514 0 -2.5167e-08
+y001771 fatty acid transport -91.7765 0 0 -0.815347 -4.14379e-10 0
+y001772 fatty acid transport -91.7765 41.7063 0 0.0342805 -2.19173e-11 0
+y001774 fatty acid transport -91.7765 41.7063 0 -0.85823 -1.83206e-13 0
+y001775 fatty acid transport -91.7765 0 0 0 0 0
+y001776 fatty acid transport -2.58215 0 0 -0.492862 0 2.99337e-10
+y001777 myristate (n-C14:0) transport -1.79203 0 0 0 0 1.32559e-10
+y001788 fecosterol exchange 0 0.744108 0 0.0926667 0 0.00113342
+y001791 FMN exchange 0 0 0 0 0 0
+y001792 folic acid exchange 0 0 0 0 0 0
+y001793 formate exchange 0 25.392 0 8.07689 -6.11845e-10 0.993729
+y001794 formate transport 0 25.392 0 3.64874 -6.11845e-10 0.867376
+y001795 formate transport -25.392 0 0 0 6.11845e-10 0
+y001796 formate transport -9.522 0 0 0 0 0
+y001798 fumarate(2-) exchange 0 9.522 0 7.16988 0 6.96523
+y001800 gamma-aminobutyrate exchange 0 0 0 0 0 0
+y001801 GDP transport 0 0 0 0 0 0
+y001802 GDP transport 0 0 0 0 0 0
+y001803 GDP-alpha-D-mannose transport 0 0 0 0 -1.42109e-13 0
+y001805 glucose transport, vacuolar -183.553 0 0 0 9.27917e-12 7.8046e-10
+y001806 glutathione disulfide exchange 0 0 0 0 0 0
+y001807 glutathione exchange 0 0 0 0 0 0
+y001808 glycerol exchange -10.696 0 -10.696 0 -10.696 0
+y001809 glycerol-3-phosphate shuttle -56.4778 0.000381342 0 1.18354e-08 3.88403e-13 0
+y001810 glycine exchange 0 19.044 0 3.3094 0 0.76989
+y001811 glycine transport -25.392 98.7723 0 0 5.18132e-10 0
+y001812 glycoaldehyde transport 0 0 0 0 0 0
+y001813 glycoaldehyde transport 0 0 0 0 1.13687e-13 0
+y001814 glycolaldehyde exchange 0 0 0 0 -1.13687e-13 0
+y001815 glyoxylate exchange 0 19.044 0 5.84577 0 0.233378
+y001816 glyoxylate transport 0 19.044 0 0 0 0
+y001817 glyoxylate transport 0 34.1519 0 0 -1.25487e-13 0
+y001818 guanine exchange 0 7.6176 0 0.423218 -4.67536e-10 0.0062785
+y001819 guanine transport 0 0 0 0 0 0
+y001820 guanosine exchange 0 0 0 0 0 0
+y001822 guanosine transport 0 0 0 0 0 0
+y001823 guanosine transport 0 0 0 0 0 0
+y001824 H+ diffusion 0 244.737 0 28.4791 0 31.8182
+y001825 H+ diffusion -244.737 1.45287 0 0 -2.27378e-13 0
+y001826 H+ diffusion -489.475 0 -72.9093 0 0 0
+y001827 H+ diffusion -145.373 3.22236 0 0.0478933 8.81886e-11 -1.25967e-07
+y001829 H+ diffusion -1000 1000 -2.92059e-11 0 0 0
+y001830 H+ diffusion -91.7765 5.78228 0 0 1.25487e-13 -2.72507e-10
+y001831 H+ diffusion -489.475 1000 0 -72.9093 0 0.000155215
+y001832 H+ exchange -220.065 129.864 -28.3964 12.6178 -32.5265 6.76862
+y001833 hexacosanoyl-CoA transport 0 145.373 0 0 0 0
+y001834 hexadecanal exchange 0 0 0 0 0 0
+y001835 hexadecanoate (n-C16:0) transport -1.62301 0 0 -1.13687e-13 2.20781e-13 0
+y001836 hexadecenoate (n-C16:1) transport -1.60428 0 0 0 2.5682e-11 0
+y001837 L-histidine transport, mitochondrial 0 0 0 0 0 0
+y001838 homocitrate synthase 0 4.92885 0 1.8347 0 0.182256
+y001839 hydrogen peroxide transport 0 0 0 0 0 0
+y001840 hydroxymethylglutaryl-CoA transport -5.19995 0 -1.33529e-11 0 0 0
+y001841 hypoxanthine exchange 0 7.6176 0 0.519124 -2.54225e-11 0.0628731
+y001842 hypoxanthine transport -7.6176 0 0 0 2.54225e-11 3.7744e-11
+y001843 indol-3-ylacetaldehyde exchange 0 3.174 0 1.28226 -6.80984e-11 0.0212847
+y001844 indole-3-acetaldehyde transport 0 3.1728 0 0 0 0
+y001845 indole-3-acetaldehyde transport 0 3.174 0 0 0 -2.28511e-11
+y001846 indole-3-acetate transport 0 0 0 0 0 0
+y001847 inosine exchange 0 0 0 0 -1.3179e-10 0
+y001848 inosine transport 0 0 0 0 0 2.03868e-11
+y001849 inositol hexakisphosphate transport -127.717 0 0 -0.0282624 0 1.13687e-13
+y001851 IPC transport 0 0 0 0 0 0
+y001852 IPC transport 0 0 0 0 0 0
+y001853 IPC transport 0 0 0 0 0 0
+y001854 IPC transport 0 0 0 0 -1.13687e-13 0
+y001855 IPC transport 0 0 0 0 0 -5.51722e-10
+y001856 IPC transport 0 0 0 0 0 0
+y001857 IPC transport 0 0 0 0 0 0
+y001858 IPC transport 0 0 0 0 0 0
+y001859 IPC transport 0 0 0 0 0 0
+y001860 IPC transport 0 0 0 0 0 0
+y001861 iron(2+) exchange 0 0 0 0 0 0
+y001862 isoamyl acetate exchange 0 0 0 0 0 0
+y001863 isoamyl alcohol transport 0 5.0784 0 0 0 0
+y001864 isoamyl alcohol transport -5.0784 0 0 0 0 0
+y001865 isoamylol exchange 0 5.0784 0 2.60292 -1.22213e-10 0.190656
+y001866 isobutanol exchange 0 6.348 0 4.86861 -8.4783e-11 0.76367
+y001867 isobutyl acetate exchange 0 0 0 0 0 0
+y001868 isobutyl alcohol transport 0 6.348 0 0 -8.4783e-11 0
+y001869 isobutyl alcohol transport -6.348 0 0 0 0 0
+y001870 isobutyraldehyde exchange 0 6.348 0 4.96804 -1.02318e-10 0.76367
+y001873 L-alanine exchange 0 12.696 0 10.696 0 0.832981
+y001874 L-alanine transport 0 367.106 0 9.67622 -4.93193e-10 0.0203408
+y001875 L-arabinitol exchange 0 0 0 0 0 0
+y001876 L-arabinitol transport 0 0 0 0 0 0
+y001877 L-arabinoase transport 0 0 0 0 0 0
+y001878 L-arabinose exchange 0 0 0 0 0 0
+y001879 L-arginine exchange 0 6.02114 0 1.30641 0 0.103706
+y001880 L-asparagine exchange 0 9.522 0 6.40971 0 6.68376
+y001881 L-aspartate exchange 0 9.522 0 7.52303 0 7.14265
+y001882 L-carnitine transport -1.29852e-12 183.553 0 28.5696 0 0.539063
+y001883 L-cysteine exchange 0 3.47855 0 1.1532 -1.64779e-11 0.0883087
+y001884 L-erythro-4-hydroxyglutamate transport 0 0 0 0 0 0
+y001885 L-erythro-4-hydroxyglutamate transport 0 0 0 0 0 0
+y001886 L-glucitol exchange 0 0 0 0 0 0
+y001887 L-glutamate 5-semialdehyde dehydratase 0 7.0126 0 3.56724 0 0.10205
+y001889 L-glutamate exchange 0 7.6176 0 6.36315 0 3.55134
+y001890 L-glutamate transport 0 0 0 0 0 0
+y001891 L-glutamine exchange 0 7.6176 -4.00586e-11 6.38445 0 0.888974
+y001892 L-glutamine transport 0 0 0 0 0 1.49825e-13
+y001893 L-histidine exchange 0 5.85969 0 1.15969 -2.14581e-10 0.067024
+y001895 L-homoserine transport -9.522 0 0 0 0 0
+y001896 L-homoserine exchange 0 9.522 0 8.022 -1.07877e-10 0.71496
+y001897 L-isoleucine exchange 0 5.44059 0 3.46913 -7.05247e-11 0.71496
+y001898 L-isoleucine transport 0 25.392 0 8.14623 -3.82146e-10 3.83372
+y001899 L-leucine exchange 0 5.0784 0 2.5371 -1.94202e-10 0.190656
+y001900 L-lysine exchange 0 4.92885 0 1.8347 -4.84257e-10 0.182256
+y001901 L-malate transport -1000 1000 0 -15.7567 0 11.6329
+y001902 L-methionine exchange 0 5.05902 0 1.41812 -2.14581e-10 0.0883087
+y001903 L-phenylalanine exchange 0 3.8088 0 2.7948 -1.05635e-10 0.192015
+y001904 L-proline exchange 0 7.0126 0 5.33506 -3.26221e-10 0.10205
+y001905 L-proline transport 0 0 0 0 0 0
+y001906 L-serine exchange 0 12.696 0 4.03079 0 0.496865
+y001907 L-serine transport 0 0 0 0 -1.13689e-13 0
+y001908 L-sorbitol transport 0 0 0 0 0 0
+y001909 L-sorbose exchange 0 0 0 0 0 0
+y001910 L-sorbose transport 0 0 0 0 0 0
+y001911 L-threonine exchange 0 9.522 0 7.12018 0 0.496708
+y001912 L-tryptophan exchange 0 3.1728 0 1.2882 -7.17432e-10 0.0212847
+y001913 L-tyrosine exchange 0 3.8088 0 2.59068 -2.14581e-10 0.067024
+y001914 L-valine exchange 0 6.348 0 4.87365 -4.23362e-10 0.76367
+y001915 lanosterol exchange 0 0.833731 0 0.155205 0 0.00977328
+y001916 laurate exchange 0 1.99761 0 0.815347 -4.30305e-10 0.00679891
+y001919 lysine transport 0 0 0 0 0 0
+y001920 M(IP)2C transport 0 0 0 0 0 0
+y001921 M(IP)2C transport 0 0 0 0 0 0
+y001922 M(IP)2C transport 0 0 0 0 0 0
+y001923 M(IP)2C transport 0 0 0 0 0 0
+y001924 M(IP)2C transport 0 0 0 0 0 0
+y001925 M(IP)2C transport 0 0 0 0 0 0
+y001926 M(IP)2C transport 0 0 0 0 0 0
+y001927 M(IP)2C transport 0 0 0 0 0 0
+y001928 M(IP)2C transport 0 0 0 0 0 0
+y001929 M(IP)2C transport 0 0 0 0 0 0
+y001930 malate/oxaloacetate shuttle -6.36646e-12 64.0348 0 4.19364 -2.09145e-13 0
+y001931 maltose exchange 0 0 0 0 0 0
+y001932 mannan transport -0.0500002 0 0 0 0 0
+y001935 methionine transport 0 0 0 0 0 0
+y001937 MIPC transport 0 0 0 0 0 0
+y001938 MIPC transport 0 0 0 0 0 0
+y001939 MIPC transport 0 0 0 0 0 0
+y001940 MIPC transport 0 0 0 0 0 0
+y001941 MIPC transport 0 0 0 0 0 0
+y001942 MIPC transport 0 0 0 0 0 0
+y001943 MIPC transport 0 0 0 0 0 0
+y001944 MIPC transport 0 0 0 0 0 0
+y001945 MIPC transport 0 0 0 0 0 0
+y001946 MIPC transport 0 0 0 0 0 0
+y001947 myo-inositol exchange 0 0 0 0 0 0
+y001963 NADP(+) transport -1.45287 0 0 0 0 0
+y001964 NADPH transport 0 1.45287 0 0 0 0
+y001965 NH3 transport -49.3862 0 0 0 0 1.40062e-10
+y001966 nicotinamide diffusion 0 0 0 0 0 0
+y001967 nicotinate exchange 0 0 0 0 0 1.97176e-13
+y001968 NMN exchange 0 0 0 0 0 0
+y001970 NMN transport 0 0 0 0 0 -1.13687e-13
+y001971 NMN transport 0 0 0 0 0 0
+y001972 NMN transport 0 0 0 0 0 0
+y001976 O-acetylcarnintine transport into mitochondria -1.29852e-12 183.553 0 28.5696 0 0.539063
+y001977 O2 transport 0 0.833731 0 0 0 0
+y001978 O2 transport 0 43.436 0 0 0 0
+y001979 O2 transport 0 43.436 0 0 0 0
+y001980 O2 transport 0 27.4163 0 0 2.14512e-10 0
+y001981 octadecanoate (n-C18:0) transport -1.43632 0 0 1.13687e-13 0 0
+y001984 octanoate exchange 0 2.58215 0 0.492862 0 0.000977106
+y001987 ornithine exchange 0 6.348 0 2.04566 0 0.103706
+y001988 oxaloacetate transport 0 9.522 0 0 0 0
+y001989 oxaloacetate(2-) exchange 0 9.522 0 7.8385 0 6.45174
+y001991 oxidized thioredoxin transport -27.4163 0 0 0 0 0
+y001992 oxygen exchange -43.436 0 -20.5091 0 -12.6058 0
+y001993 palmitate exchange 0 1.62301 0 1.35212 -2.20781e-13 0.581005
+y001994 palmitoleate exchange 0 1.60428 0 0.633688 -1.23237e-10 0.0195413
+y001995 palmitoyl-CoA transport 0 0 0 0 -1.13689e-13 0
+y001996 panthetheine 4'-phosphate transport 0 0 0 0 0 0
+y002001 phenylacetaldehyde exchange 0 3.8088 0 2.67479 -1.28475e-13 0.192015
+y002002 phenylacetaldehyde transport 0 3.8088 0 0 -1.28475e-13 -7.58291e-11
+y002003 phenylacetaldehyde transport 0 3.8088 0 0 0 0
+y002004 phenylalanine transport 0 0 0 0 0 0
+y002005 phosphate exchange -3.25636 2.95586e-12 -0.201786 0 -0.215469 1.03136e-09
+y002008 phosphate transport 0 0 0 0 0 0
+y002020 potassium exchange 0 0 0 0 0 0
+y002022 protoporphyrinogen IX transport 0 0 0 0 5.95515e-11 0
+y002023 PRPP transport 0 0 0 0 3.35036e-14 3.75609e-11
+y002024 putrescine exchange 0 6.348 0 1.42274 0 0.000247466
+y002028 pyridoxine exchange 0 0 0 0 0 0
+y002029 pyridoxine kinase 0 0 0 0 0 0
+y002032 pyrophosphate transport -183.553 176.205 0 0 -2.95199e-13 0
+y002033 pyruvate exchange 0 12.696 0 10.696 0 7.99085
+y002034 pyruvate transport 0 25.392 0 6.89305 0 0.0079869
+y002036 quinolinate transport 0 0 0 0 0 0
+y002037 reduced thioredoxin transport 0 27.4163 0 0 0 0
+y002038 riboflavin exchange 0 0 0 0 0 0
+y002039 riboflavin transport 0 0 0 0 0 0
+y002040 riboflavin transport 0 0 0 0 0 0
+y002041 ribose transporter 0 0 0 0 0 0
+y002042 S-adenosyl-L-homocysteine transport 0 0 0 0 -9.6824e-11 0
+y002043 S-adenosyl-L-methionine exchange 0 0 0 0 0 0
+y002044 S-methyl-L-methionine exchange 0 0 0 0 0 0
+y002045 serine transport -49.3862 25.392 0 0 -5.18132e-10 0
+y002046 sn-glycero-3-phosphocholine exchange 0 3.25636 0 0.074926 -9.64997e-10 0.00846942
+y002049 sodium exchange 0 0 0 0 0 0
+y002051 spermidine exchange 0 0 0 0 0 0
+y002052 spermine exchange 0 0 0 0 0 0
+y002053 squalene transport 0 0.833731 0 0 0 0
+y002054 squalene-2,3-epoxide transport 0 0.833731 0 0 0 0
+y002055 stearate exchange 0 1.43632 0 1.19609 0 0.516449
+y002056 succinate exchange 0 9.522 0 4.2465 -4.76412e-10 0.325597
+y002057 succinate transport -9.522 0 0 -4.2465 4.76412e-10 0
+y002058 sucrose exchange 0 0 0 0 0 0
+y002060 sulphate exchange -44.0497 0 -2.2525 0 -0.0883087 0
+y002061 sulphite exchange 0 44.0497 0 2.2525 0 0.0883087
+y002062 taurine exchange 0 0 0 0 0 0
+y002063 tetracosanoyl-CoA transport 0 145.373 0 0 0 0
+y002066 thiamine(1+) diphosphate(1-) exchange 0 0 0 0 0 0
+y002067 thiamine(1+) exchange 0 0 0 0 0 0
+y002068 thiamine(1+) monophosphate exchange 0 0 0 0 0 0
+y002072 threonine transport 0 5.77338 0 4.82783 0 0.496708
+y002073 thymidine exchange 0 0 0 0 0 0
+y002075 thymidine transport 0 0 0 0 0 0
+y002079 trehalose transporter 0 3.174 0 1.02643 0 0.00168726
+y002080 trehalose vacuolar transport 0 91.7765 0 0 -1.08002e-12 -1.13687e-12
+y002082 tryptophan transport 0 0 0 0 0 0
+y002083 tryptophol exchange 0 3.1728 0 1.2876 -1.64779e-11 0.0212847
+y002084 tryptophol transport 0 3.1728 0 0 -1.64779e-11 0
+y002085 tryptophol transport -3.1728 0 0 0 0 0
+y002086 tyrosine transport 0 0 0 0 0 0
+y002087 tyrosine transport 0 0 0 0 -7.17432e-10 0
+y002089 UMP transport 0 0 0 0 0 0
+y002090 uracil exchange 0 0 0 0 0 0
+y002091 urea exchange -2.31282e-12 38.088 0 0.724104 -4.73253e-13 0.000447386
+y002092 uridine exchange 0 0 0 0 0 0
+y002093 valine transport -6.348 0 0 -4.86861 -9.80629e-11 -0.76367
+y002094 water diffusion -0.833731 244.737 0 -3.03349e-07 0 -8.60873e-06
+y002095 water diffusion 0 0 0 0 0 0
+y002096 water diffusion -426.586 27.392 0 0 0 -4.20234e-07
+y002097 water diffusion -1000 1000 0 0 0 0
+y002098 water diffusion -27.4163 145.373 0 0 5.95506e-10 4.36557e-11
+y002099 water diffusion 0 145.373 0 0 0 -3.90173e-10
+y002100 water exchange -280.05 268.849 -19.7222 63.3878 -0.298254 69.6213
+y002101 xanthine transport -7.6176 0 0 0 7.68712e-10 9.4451e-10
+y002102 xanthosine exchange 0 0 0 0 0 0
+y002103 xanthosine transport 0 0 0 0 0 0
+y002104 xylitol exchange 0 0 0 0 0 0
+y002105 xylitol transport 0 0 0 0 0 0
+y002106 zymosterol exchange 0 0 0 0 0 0
+y002107 zymosterol transport 0 0 0 0 0 0
+y002111 growth 0 0.4529 0 0.424107 0 0.452865
+y002112 kynurenine aminotransferase 0 0 0 0 0 0
+y002115 alcohol dehydrogenase, (acetaldehyde to ethanol) 0 1000 0 4986.45 0 2017.14
+y002116 acetaldehyde dehydrogenase 0 65.2684 0 21.1679 0 2.05792
+y002117 phenylalanine transaminase -1000 1000 0 -18.9069 4.93193e-10 0.390858
+y002118 tryptophan transaminase 0 3.174 0 1.28689 -6.81439e-11 0.0212847
+y002119 tyrosine transaminase -1000 1000 0 -18.9069 -1.3603e-10 -0.385566
+y002125 coenzyme A transport -1000 1000 0 -1.52049e-06 0 0
+y002126 sedoheptulose bisphosphatase 0 244.737 0 14.4447 -2.1458e-13 0.010435
+y002131 isocitrate dehydrogenase 0 12.696 0 3.83176 -1.13687e-13 0.867376
+y002132 oxoglutarate/malate exchange 0 1000 0 6.05038 0 0.190905
+y002134 14-demethyllanosterol exchange 0 0.813534 0 0.152629 0 0.00977328
+y002136 14-demethyllanosterol transport -0.813534 0 0 0 0 0
+y002137 ergosta-5,7,22,24(28)-tetraen-3beta-ol exchange 0 0.732234 0 0.0938316 0 0.00977328
+y002139 ergosta-5,7,22,24(28)-tetraen-3beta-ol transport -0.732234 0 0 0 0 0
+y002140 fatty-acyl-CoA synthase (n-C16:0CoA) 0 5.78228 0 1.35316 0 0.583294
+y002141 fatty-acyl-CoA synthase (n-C18:0CoA) 0 4.98142 0 1.19982 0 0.516957
+y002142 B-ketoacyl-ACP synthase (acetoacetyl-ACP) 0 0 0 0 0 0
+y002143 B-ketoacyl-ACP synthase (3-oxo-hexanoyl-ACP) 0 0 0 0 0 0
+y002144 B-ketoacyl-ACP synthase (3-oxo-octanoyl-ACP) 0 0 0 0 0 0
+y002145 3-oxoacyl-ACP reductase (3-hydroxybutanoyl-ACP) 0 0 0 0 0 0
+y002146 3-oxoacyl-ACP reductase (3-hydroxyhexanoyl-ACP) 0 0 0 0 0 0
+y002147 3-oxoacyl-ACP reductase (3-hydroxyoctanoyl-ACP) 0 0 0 0 0 0
+y002148 3-hydroxyacyl-thioester dehydratase (trans-but-2-enoyl-ACP) 0 0 0 0 0 0
+y002149 3-hydroxyacyl-thioester dehydratase (trans-hex-2-enoyl-ACP) 0 0 0 0 0 0
+y002150 3-hydroxyacyl-thioester dehydratase (trans-oct-2-enoyl-ACP) 0 0 0 0 0 0
+y002151 enoyl-ACP reductase (butanoyl-ACP) 0 0 0 0 0 0
+y002152 enoyl-ACP reductase (hexanoyl-ACP) 0 0 0 0 0 0
+y002153 enoyl-ACP reductase (octanoyl-ACP) 0 0 0 0 0 0
+y002154 elongase I (3-oxotetradecanoyl-CoA) 0 41.7063 0 0.0360039 0 0.000274922
+y002155 elongase I (3-oxopalmitoyl-CoA) 0 41.7063 0 0.0360743 -1.3259e-10 0.000275474
+y002156 elongase II (3-oxooctadecanoyl-CoA) 0 29.2558 0 0.252929 0 0.000276025
+y002157 elongase II or III (3-oxoicosanoyl-CoA) 0 29.2558 0 0.440955 -6.62502e-12 0.000430555
+y002158 elongase II or III (3-oxodocosanoyl-CoA) 0 17.1944 0 0.176724 0 0.000216213
+y002159 elongase II or III (3-oxotetracosanoyl-CoA) 0 12.175 0 0.141469 0 0.000144735
+y002160 elongase III (3-oxohexacosanoyl-CoA) 0 9.42393 0 0.0921443 -1.83206e-13 0.000108958
+y002161 B-ketoacyl-CoA reductase ((S)-3-hydroxytetradecanoyl-CoA) 0 41.7063 0 0.0360039 0 0.000274922
+y002162 B-ketoacyl-CoA reductase ((S)-3-hydroxypalmitoyl-CoA) 0 41.7063 0 0.0360743 -1.3259e-10 0.000275474
+y002163 B-ketoacyl-CoA reductase (3-hydroxyoctadecanoyl-CoA) 0 29.2558 0 0.252929 0 0.000276025
+y002164 B-ketoacyl-CoA reductase (3-hydroxyicosanoyl-CoA) 0 29.2558 0 0.440955 -6.62502e-12 0.000430555
+y002165 B-ketoacyl-CoA reductase (3-hydroxydocosanoyl-CoA) 0 17.1944 0 0.176724 0 0.000216213
+y002166 B-ketoacyl-CoA reductase (3-hydroxytetracosanoyl-CoA) 0 12.175 0 0.141469 0 0.000144735
+y002167 B-ketoacyl-CoA reductase ((S)-3-hydroxyhexacosanoyl-CoA) 0 9.42393 0 0.0921443 -1.83206e-13 0.000108958
+y002168 B-hydroxyacyl-CoA dehydratase (trans-tetradec-2-enoyl-CoA) 0 41.7063 0 0.0360039 0 0.000274922
+y002169 B-hydroxyacyl-CoA dehydratase (trans-hexadec-2-enoyl-CoA) 0 41.7063 0 0.0360743 -1.3259e-10 0.000275474
+y002170 B-hydroxyacyl-CoA dehydratase (trans-octadec-2-enoyl-CoA) 0 29.2558 0 0.252929 0 0.000276025
+y002171 B-hydroxyacyl-CoA dehydratase (trans-icos-2-enoyl-CoA) 0 29.2558 0 0.440955 -6.62502e-12 0.000430555
+y002172 B-hydroxyacyl-CoA dehydratase (trans-docos-2-enoyl-CoA) 0 17.1944 0 0.176724 0 0.000216213
+y002173 B-hydroxyacyl-CoA dehydratase (trans-tetracos-2-enoyl-CoA) 0 12.175 0 0.141469 0 0
+y002174 B-hydroxyacyl-CoA dehydratase (trans-hexacos-2-enoyl-CoA) 0 9.42393 0 0.0921443 -1.83206e-13 2.71051e-20
+y002175 trans-2-enoyl-CoA reductase (n-C14:0CoA) 0 41.7063 0 0.0360039 0 0.000274922
+y002176 trans-2-enoyl-CoA reductase (n-C16:0CoA) 0 41.7063 0 0.0360743 -1.3259e-10 0.000275474
+y002177 trans-2-enoyl-CoA reductase (n-C18:0CoA) 0 29.2558 0 0.252929 0 0.000276025
+y002178 trans-2-enoyl-CoA reductase (n-C20:0CoA) 0 29.2558 0 0.440955 -6.62502e-12 0.000430555
+y002179 trans-2-enoyl-CoA reductase (n-C22:0CoA) 0 17.1944 0 0.176724 0 0.000216213
+y002180 trans-2-enoyl-CoA reductase (n-C24:0CoA) 0 12.175 0 0.141469 0 0.000144735
+y002181 trans-2-enoyl-CoA reductase (n-C26:0CoA) 0 9.42393 0 0.0921443 -1.83206e-13 0.000108958
+y002182 palmitoyl-CoA desaturase (n-C16:0CoA - n-C16:1CoA), ER membrane 0 1.60428 0 0.633688 -1.3259e-10 0.0195413
+y002183 stearoyl-CoA desaturase (n-C18:0CoA - n-C18:1CoA), ER membrane 0 1.42163 0 1.04888 0 0.0819134
+y002184 octanoate (n-C8:0) transport -2.58215 0 0 -0.492862 0 0
+y002185 decanoate (n-C10:0) transport -2.25268 0 0 0 0 0
+y002186 laurate (n-C12:0) transport -1.99761 0 0 1.13687e-13 2.65004e-10 5.29781e-10
+y002187 butyrate exchange 0 3.58724 0 0.429562 0 0.000977106
+y002188 hexanoate exchange 0 2.9849 0 0.460824 0 0.000977106
+y002189 oleate exchange 0 1.42163 0 1.04888 -6.92239e-10 0.0819134
+y002190 butyrate (n-C4:0) transport -3.58724 0 0 0 0 0
+y002191 hexanoate (n-C6:0) transport -2.9849 0 0 0 0 4.14957e-11
+y002192 octadecenoate (n-C18:1) transport -1.42163 1.81899e-12 0 0 1.40692e-13 1.13687e-12
+y002193 myristate exchange 0 1.79203 0 1.00272 0 0.0361177
+y002194 fatty-acid--CoA ligase (dodecanoate), ER membrane -1000 1000 0 0 8.11714e-10 2.16158e-06
+y002195 fatty-acid--CoA ligase (tetradecanoate), ER membrane -1000 1000 0 6.93889e-18 5.43578e-10 2.03375e-06
+y002196 fatty-acid--CoA ligase (hexadecanoate), ER membrane -1000 1000 0 -1.31096 -8.24978e-12 -0.551011
+y002197 fatty-acid--CoA ligase (hexadecenoate), ER membrane -1000 1000 0 5.857e-05 0 0.00151929
+y002198 fatty-acid--CoA ligase (octadecanoate), ER membrane -1000 1000 0 -1.15254 1.02429e-13 -0.458832
+y002199 fatty-acid--CoA ligase (octadecenoate), ER membrane -1000 1000 0 5.857e-05 0 -0.0510301
+y002200 fatty-acid--CoA ligase (dodecanoate), lipid particle -1000 1000 0 0 8.15368e-10 1.96357e-06
+y002201 fatty-acid--CoA ligase (tetradecanoate), lipid particle -1000 1000 0 -9.36751e-16 2.64633e-10 1.80676e-06
+y002202 fatty-acid--CoA ligase (hexadecanoate), lipid particle -1000 1000 0 -1.31096 -1.85846e-11 -0.569237
+y002203 fatty-acid--CoA ligase (hexadecenoate), lipid particle -1000 1000 0 -0.578817 1.3259e-10 -0.019434
+y002204 fatty-acid--CoA ligase (octadecanoate), lipid particle -1000 1000 0 -1.15438 -5.93181e-12 -0.504289
+y002205 fatty-acid--CoA ligase (octadecenoate), lipid particle -1000 1000 0 -0.971765 6.18986e-10 -0.081604
+y002209 fatty-acid--CoA ligase (arachidate), cell envelope 0 0 0 0 0 0
+y002210 fatty-acid--CoA ligase (behenate), cell envelope 0 0 0 0 0 0
+y002211 fatty-acid--CoA ligase (lignoceric acid), cell envelope -1000 1000 0 0.000117445 5.52953e-10 8.66832e-05
+y002212 fatty-acid--CoA ligase (cerotic acid), cell envelope -1000 1000 0 -0.000117445 0 -8.66832e-05
+y002213 fatty-acid--CoA ligase (behenate), ER membrane 0 0 0 0 0 0
+y002214 fatty-acid--CoA ligase (lignoceric acid), ER membrane -1000 1000 0 0.501135 0 0.044017
+y002215 fatty-acid--CoA ligase (cerotic acid), ER membrane -1000 1000 0 0.446538 0 0.0408353
+y002216 fatty-acid--CoA ligase (behenate), lipid particle 0 0 0 0 0 0
+y002217 fatty-acid--CoA ligase (lignoceric acid), lipid particle -1000 1000 0 1.04082 0 0.0889812
+y002218 fatty-acid--CoA ligase (cerotic acid), lipid particle -1000 1000 0 0.935325 2.23415e-10 0.0859899
+y002219 fatty acyl-CoA transport via ABC system (C12:0) 0 91.7765 0 0.0415143 -6.62289e-10 0.00257612
+y002220 fatty acyl-CoA transport via ABC system (C14:0) 0 91.7765 0 0.0414949 -5.29831e-10 0.00257612
+y002221 fatty acyl-CoA transport via ABC system (C16:0) 0 91.7765 0 1.19481 0 0.00257612
+y002222 fatty acyl-CoA transport via ABC system (C16:1) 0 91.7765 0 0.58484 0 0.00146297
+y002223 fatty acyl-CoA transport via ABC system (C18:0) 0 91.7765 0 1.07052 0 0.00228085
+y002224 fatty acyl-CoA transport via ABC system (C18:1) 0 91.7765 0 0.919435 0 0.00145179
+y002225 fatty acyl-CoA transport via ABC system (C20:0) 0 29.2558 0 0.440955 -6.62502e-12 0.000430555
+y002226 fatty acyl-CoA transport via ABC system (C22:0) 0 17.1944 0 0.176724 0 0.000216213
+y002227 fatty acyl-CoA transport via ABC system (C24:0) 0 12.175 0 0.141469 0 0.000144735
+y002228 fatty acyl-CoA transport via ABC system (C26:0) 0 9.42393 0 0.0921443 -1.83206e-13 0.000108958
+y002229 butyrate (n-C4:0) transport, cytoplasm-peroxisome -3.58724 0 0 -0.429562 0 0
+y002230 hexanoate (n-C6:0) transport, cytoplasm-peroxisome -2.9849 0 0 0 0 4.14957e-11
+y002231 octadecenoate (n-C18:1) transport, cytoplasm-peroxisome -91.7765 0 0 0 0 0
+y002232 peroxisomal acyl-CoA thioesterase (4:0) 0 145.373 0 0.907822 0 0.00159902
+y002233 peroxisomal acyl-CoA thioesterase (6:0) 0 2.9849 0 0.460824 0 0.000977106
+y002234 peroxisomal acyl-CoA thioesterase (16:1) 0 91.7765 0 0.58484 0 0.00146297
+y002235 peroxisomal acyl-CoA thioesterase (18:1) 0 91.7765 0 0.919435 0 0.00145179
+y002236 acyl-CoA oxidase (butanoyl-CoA) 0 5.78228 0 0.420044 -9.96572e-10 0.00239194
+y002237 acyl-CoA oxidase (hexanoyl-CoA) 0 5.78228 0 0.429562 -2.33986e-09 0.00277537
+y002238 acyl-CoA oxidase (octanoyl-CoA) 0 5.78228 0 0.460824 -6.62289e-10 0.00171257
+y002239 acyl-CoA oxidase (icosanoyl-CoA) 0 29.2558 0 0.440955 -6.62502e-12 0.00193843
+y002240 acyl-CoA oxidase (docosanoyl-CoA) 0 17.1944 0 0.176724 0 0.00100959
+y002241 acyl-CoA oxidase (tetracosanoyl-CoA) 0 12.175 0 0.141469 0 0.000723677
+y002242 acyl-CoA oxidase (palmitoleoyl-CoA) 0 0 0 0 0 1.2537e-10
+y002243 acyl-CoA oxidase (cis-tetradec-7-enoyl-CoA) 0 0 0 0 0 0
+y002244 acyl-CoA oxidase (cis-dodec-5-enoyl-CoA) 0 0 0 0 0 0
+y002245 acyl-CoA oxidase (oleoyl-CoA) 0 0 0 0 0 0
+y002246 acyl-CoA oxidase (cis-hexadec-7-enoyl-CoA) 0 0 0 0 0 0
+y002247 acyl-CoA oxidase (cis-tetradec-5-enoyl-CoA) 0 0 0 0 0 0
+y002248 2-enoyl-CoA hydratase (3-hydroxydecanoyl-CoA) 0 5.78228 0 0.492862 -2.66064e-10 0.000977106
+y002249 2-enoyl-CoA hydratase (3-hydroxydodecanoyl-CoA) 0 5.78228 0 0.688514 -3.97373e-10 0.00357687
+y002250 2-enoyl-CoA hydratase (3-hydroxytetradecanoyl-CoA) 0 41.7063 0 0.815347 -1.22269e-10 0.00682618
+y002251 2-enoyl-CoA hydratase (3-hydroxyhexadecanoyl-CoA) 0 41.7063 0 1.00272 -3.31144e-11 0.0361177
+y002252 2-enoyl-CoA hydratase (3-hydroxyoctadecanoyl-CoA) 0 29.2558 0 0.85823 -6.62502e-12 0.00228085
+y002253 2-enoyl-CoA hydratase (3-hydroxyhexacosanoyl-CoA) 0 9.42393 0 0.0921443 -1.83206e-13 0.000108958
+y002254 2-enoyl-CoA hydratase (3-hydroxybutanoyl-CoA) 0 5.78228 0 0.420044 -9.96572e-10 0.000977106
+y002255 2-enoyl-CoA hydratase (3-hydroxyhexanoyl-CoA) 0 5.78228 0 0.429562 -9.96572e-10 0.000977106
+y002256 2-enoyl-CoA hydratase (3-hydroxyoctanoyl-CoA) 0 5.78228 0 0.460824 -6.62289e-10 0.000977106
+y002257 2-enoyl-CoA hydratase (3-hydroxyicosanoyl-CoA) 0 29.2558 0 0.440955 -6.62502e-12 0.000430555
+y002258 2-enoyl-CoA hydratase (3-hydroxydocosanoyl-CoA) 0 17.1944 0 0.176724 0 0.000216213
+y002259 2-enoyl-CoA hydratase (3-hydroxytetracosanoyl-CoA) 0 12.175 0 0.141469 0 0.000144735
+y002260 2-enoyl-CoA hydratase (3-hydroxy-cis-hexadec-9-enoyl-CoA) 0 0 0 0 0 0
+y002261 2-enoyl-CoA hydratase (3-hydroxy-cis-tetradec-7-enoyl-CoA) 0 0 0 0 -3.7264e-10 0
+y002262 2-enoyl-CoA hydratase (3-hydroxy-cis-dodec-5-enoyl-CoA) 0 0 0 0 0 0
+y002263 2-enoyl-CoA hydratase (3-hydroxy-cis-octadec-9-enoyl-CoA) 0 0 0 0 0 0
+y002264 2-enoyl-CoA hydratase (3-hydroxy-cis-hexadec-7-enoyl-CoA) 0 0 0 0 0 0
+y002265 2-enoyl-CoA hydratase (3-hydroxy-cis-tetradec-5-enoyl-CoA) 0 0 0 0 0 0
+y002266 3-hydroxyacyl-CoA dehydrogenase (3-oxodecanoyl-CoA) 0 5.78228 0 0.492862 -2.66064e-10 0.000977106
+y002267 3-hydroxyacyl-CoA dehydrogenase (3-oxododecanoyl-CoA) 0 5.78228 0 0.688514 -3.97373e-10 0.00357687
+y002268 3-hydroxyacyl-CoA dehydrogenase (3-oxohexadecanoyl-CoA) 0 41.7063 0 1.00272 -3.31144e-11 0.0361177
+y002269 3-hydroxyacyl-CoA dehydrogenase (3-oxooctadecanoyl-CoA) 0 29.2558 0 0.85823 -6.62502e-12 0.00228085
+y002270 3-hydroxyacyl-CoA dehydrogenase (3-oxohexacosanoyl-CoA) 0 9.42393 0 0.0921443 -1.83206e-13 0.000108958
+y002271 3-hydroxyacyl-CoA dehydrogenase (3-oxobutanoyl-CoA) 0 5.78228 0 0.420044 -9.96572e-10 0.000977106
+y002272 3-hydroxyacyl-CoA dehydrogenase (3-oxohexanoyl-CoA) 0 5.78228 0 0.429562 -9.96572e-10 0.000977106
+y002273 3-hydroxyacyl-CoA dehydrogenase (3-oxooctanoyl-CoA) 0 5.78228 0 0.460824 -6.62289e-10 0.000977106
+y002274 3-hydroxyacyl-CoA dehydrogenase (3-oxoicosanoyl-CoA) 0 29.2558 0 0.440955 -6.62502e-12 0.000430555
+y002275 3-hydroxyacyl-CoA dehydrogenase (3-oxodocosanoyl-CoA) 0 17.1944 0 0.176724 0 0.000216213
+y002276 3-hydroxyacyl-CoA dehydrogenase (3-oxotetracosanoyl-CoA) 0 12.175 0 0.141469 0 0.000144735
+y002277 3-hydroxyacyl-CoA dehydrogenase (3-oxo-cis-hexadec-9-enoyl-CoA) 0 0 0 0 0 0
+y002278 3-hydroxyacyl-CoA dehydrogenase (3-oxo-cis-tetradec-7-enoyl-CoA) 0 0 0 0 0 0
+y002279 3-hydroxyacyl-CoA dehydrogenase (3-oxo-cis-dodec-5-enoyl-CoA) 0 0 0 0 0 0
+y002280 3-hydroxyacyl-CoA dehydrogenase (3-oxo-cis-octadec-9-enoyl-CoA) 0 0 0 0 0 0
+y002281 3-hydroxyacyl-CoA dehydrogenase (3-oxo-cis-hexadec-7-enoyl-CoA) 0 0 0 0 0 0
+y002282 3-hydroxyacyl-CoA dehydrogenase (3-oxo-cis-tetradec-5-enoyl-CoA) 0 0 0 0 0 0
+y002283 acetyl-CoA C-acyltransferase (acetyl-CoA) 0 5.78228 0 0.420044 -9.96572e-10 0.000977106
+y002284 acetyl-CoA C-acyltransferase (butanoyl-CoA) 0 5.78228 0 0.429562 -9.96572e-10 0.000977106
+y002285 acetyl-CoA C-acyltransferase (hexanoyl-CoA) 0 5.78228 0 0.460824 -6.62289e-10 0.000977106
+y002286 acetyl-CoA C-acyltransferase (stearoyl-CoA) 0 29.2558 0 0.440955 -6.62502e-12 0.000430555
+y002287 acetyl-CoA C-acyltransferase (icosanoyl-CoA) 0 17.1944 0 0.176724 0 0.000216213
+y002288 acetyl-CoA C-acyltransferase (docosanoyl-CoA) 0 12.175 0 0.141469 0 0.000144735
+y002289 acetyl-CoA C-acyltransferase (cis-tetradec-7-enoyl-CoA) 0 0 0 0 0 0
+y002290 acetyl-CoA C-acyltransferase (cis-dodec-5-enoyl-CoA) 0 0 0 0 0 0
+y002291 acetyl-CoA C-acyltransferase (cis-dec-3-enoyl-CoA) 0 0 0 0 0 0
+y002292 acetyl-CoA C-acyltransferase (cis-hexadec-7-enoyl-CoA) 0 0 0 0 0 0
+y002293 acetyl-CoA C-acyltransferase (cis-tetradec-5-enoyl-CoA) 0 0 0 0 0 0
+y002294 acetyl-CoA C-acyltransferase (cis-dodec-3-enoyl-CoA) 0 0 0 0 0 0
+y002303 2,4-dienoyl-CoA reductase (trans-2,trans-4-dodecadienoyl-CoA) 0 0 0 0 0 0
+y002304 2,4-dienoyl-CoA reductase (trans-2,trans-4-tetradecadienoyl-CoA) 0 0 0 0 0 0
+y002305 cis-aconitate(3-) to isocitrate -1000 1000 0 -1.52213 -7.70415e-11 2.02611
+y003252 ergosteryl ester hydrolase (16:1), lipid particle 0 145.373 0 0.633688 0 0.050668
+y003253 ergosteryl ester hydrolase (18:1), lipid particle 0 145.373 0 1.04888 0 0.113108
+y003254 episteryl ester hydrolase (16:1), lipid particle 0 0 0 0 0 1.23246e-10
+y003255 episteryl ester hydrolase (18:1), lipid particle 0 0 0 0 0 0
+y003256 fecosteryl ester hydrolase (16:1), lipid particle 0 0 0 0 0 1.2537e-10
+y003257 fecosteryl ester hydrolase (18:1), lipid particle 0 0 0 0 0 0
+y003258 lanosteryl ester hydrolase (16:1), lipid particle 0 0 0 0 0 0
+y003259 lanosteryl ester hydrolase (18:1), lipid particle 0 0 0 0 0 0
+y003260 zymosteryl ester hydrolase (16:1), lipid particle 0 0 0 0 0 0
+y003261 zymosteryl ester hydrolase (18:1), lipid particle 0 0 0 0 0 0
+y003262 zymosteryl ester hydrolase (16:1), cell envelope 0 0 0 0 0 0
+y003263 zymosteryl ester hydrolase (18:1), cell envelope 0 0 0 0 0 0
+y003508 laurate transport, cytoplasm-ER membrane 0 91.7765 0 4.90706e-09 4.30305e-10 -3.97335e-10
+y003509 myristate transport, cytoplasm-ER membrane -41.7063 91.7765 0 3.27134e-09 -5.29831e-10 3.97449e-10
+y003510 palmitate transport, cytoplasm-ER membrane -1000 1000 0 0 0 3.75167e-12
+y003511 palmitoleate transport, cytoplasm-ER membrane -1000 1000 0 0.04181 0 0
+y003512 stearate transport, cytoplasm-ER membrane -1000 1000 0 -1.93938e-08 1.02429e-13 0
+y003513 oleate transport, cytoplasm-ER membrane -1000 1000 0 0 2.23612e-11 0
+y003514 malonyl-CoA transport, cytoplasm-ER membrane 0 41.7063 0 0 -2.65358e-13 0
+y003515 lauroyl-CoA transport, cytoplasm-ER membrane -1000 1000 0 0 -3.97373e-10 -2.97973e-10
+y003516 myristoyl-CoA transport, cytoplasm-ER membrane -1000 1000 0 -9.24742e-08 0 3.97335e-10
+y003517 palmitoyl-CoA transport, cytoplasm-ER membrane -1000 1000 0 0 8.24978e-12 -6.82121e-13
+y003518 palmitoleoyl-CoA transport, cytoplasm-ER membrane -1000 1000 0 0.0417515 1.44987e-13 -0.00119816
+y003519 stearoyl-CoA transport, cytoplasm-ER membrane -1000 1000 0 0 -6.62502e-12 -1.13687e-13
+y003520 oleoyl-CoA transport, cytoplasm-ER membrane -1000 1000 0 -8.1838e-07 4.42211e-13 1.13687e-13
+y003521 icosanoyl-CoA transport, cytoplasm-ER membrane -29.2558 0 0 0 6.62502e-12 -0.000430555
+y003522 docosanoyl-CoA transport, cytoplasm-ER membrane -17.1944 0 0 -0.176724 0 -0.000216213
+y003523 tetracosanoyl-CoA transport, cytoplasm-ER membrane -1000 1000 0 0.539686 -1.83206e-13 1.42109e-11
+y003524 hexacosanoyl-CoA transport, cytoplasm-ER membrane -1000 1000 0 0.0531853 1.83206e-13 0.310727
+y003525 H+ transport, cytoplasm-ER membrane -244.737 125.119 0 0 0 0
+y003526 H2O transport, cytoplasm-ER membrane -41.7063 244.737 0 0 0 0
+y003527 CO2 transport, cytoplasm-ER membrane -41.7063 0 0 0 2.65358e-13 2.27374e-13
+y003528 coenzyme A transport, cytoplasm-ER membrane -1000 1000 0 2.69293e-05 0 0
+y003529 NADPH transport, cytoplasm-ER membrane 0 83.4127 0 0 -1.325e-11 0
+y003530 NADP(+) transport, cytoplasm-ER membrane -83.4127 0 0 0 1.325e-11 0
+y003531 O2 transport, cytoplasm-ER membrane 0 1.60428 0 0 0 0
+y003532 NADH transport, cytoplasm-ER membrane 0 1.60428 0 0 0 -1.13687e-13
+y003533 NAD transport, cytoplasm-ER membrane -1.60428 0 0 0 0 0
+y003534 glycerol 3-phosphate transport, cytoplasm-ER membrane 0 56.4778 0 0 0 0
+y003535 dihydroxyacetone phosphate transport, cytoplasm-ER membrane 0 0 0 0 0 0
+y003536 diphosphate transport, cytoplasm-ER membrane -1000 1000 0 -4.10687e-06 1.26594e-11 0
+y003537 phosphate transport, cytoplasm-ER membrane -244.737 0 0 0 0 0
+y003538 CTP transport, cytoplasm-ER membrane 0 244.737 0 4.20396e-07 4.23095e-12 4.15017e-07
+y003539 CDP transport, cytoplasm-ER membrane -244.737 0 0 0 0 0
+y003540 CMP transport, cytoplasm-ER membrane -91.7765 0 0 0 0 0
+y003541 CDP-ethanolamine transport, cytoplasm-ER membrane 0 0 0 0 0 0
+y003542 CDP-choline transport, cytoplasm-ER membrane 0 91.7765 0 0.000695912 0 0
+y003543 ATP transport, cytoplasm-ER membrane -1000 1000 0 0 -1.68903e-11 0
+y003544 AMP transport, cytoplasm-ER membrane -1000 1000 0 -1.04651e-07 1.68903e-11 0
+y003545 L-serine transport, cytoplasm-ER membrane 0 3.25636 0 0 0 0
+y003546 myo-inositol transport, cytoplasm-ER membrane 0 0.00163044 0 0 -1.13687e-13 0
+y003547 S-adenosyl-L-methionine transport, cytoplasm-ER membrane -1.81899e-12 9.76909 0 0 -7.00791e-13 0
+y003548 S-adenosyl-L-homocysteine transport, cytoplasm-ER membrane -9.76909 5.22959e-12 0 0 0 0
+y003549 episterol transport, cytoplasm-ER membrane 0 0 0 0 0 0
+y003550 fecosterol transport, cytoplasm-ER membrane 0 0 0 0 0 0
+y003551 lanosterol transport, cytoplasm-ER membrane 0 0 0 0 0 0
+y003552 ergosterol transport, cytoplasm-ER membrane -1000 1000 0 0 0 -2.05773e-11
+y003553 zymosterol transport, cytoplasm-ER membrane 0 0 0 0 0 0
+y003570 sn-glycero-3-phosphocholine transport, ER membrane-cytoplasm 0 56.4778 0 0 -2.06462e-11 -3.86535e-12
+y003571 hexadecanoate (n-C16:0) transport, cytoplasm-lipid particle -1000 1000 0 8.85177e-09 1.71142e-12 0
+y003572 hexadecenoate (n-C16:1) transport, cytoplasm-lipid particle -1000 1000 0 0 1.23246e-10 0.030827
+y003573 octadecanoate (n-C18:0) transport, cytoplasm-lipid particle -1000 1000 0 0 1.69741e-10 0
+y003574 octadecenoate (n-C18:1) transport, cytoplasm-lipid particle -1000 1000 0 0 6.69857e-10 0
+y003575 lauroyl-CoA transport, cytoplasm-lipid particle -1000 1000 0 -1.82657e-08 3.08017e-10 3.97335e-10
+y003576 myristoyl-CoA transport, cytoplasm-lipid particle -1000 1000 0 9.24742e-08 3.15477e-13 -3.97335e-10
+y003577 palmitoyl-CoA transport, cytoplasm-lipid particle -1000 1000 0 3.01927e-07 2.15374e-11 6.82121e-13
+y003578 palmitoleoyl-CoA transport, cytoplasm-lipid particle -1000 1000 0 -0.0417515 -1.3259e-10 -0.030827
+y003579 stearoyl-CoA transport, cytoplasm-lipid particle -1000 1000 0 0 6.62502e-12 1.13687e-13
+y003580 oleoyl-CoA transport, cytoplasm-lipid particle -1000 1000 0 0 0 0
+y003581 glycerol 3-phosphate transport, cytoplasm-lipid particle 0 56.4778 0 0 -2.95199e-13 -2.27374e-13
+y003582 dihydroxyacetone phosphate transport, cytoplasm-lipid particle 0 56.4778 0 0 -1.13687e-13 0
+y003583 NADPH transport, cytoplasm-lipid particle 0 56.4778 0 0.0478933 5.35265e-12 2.27802e-05
+y003584 NADP(+) transport, cytoplasm-lipid particle -56.4778 0 0 -0.0513342 1.13687e-13 -0.00126268
+y003585 ATP transport, cytoplasm-lipid particle -1000 1000 0 -9.27105e-09 2.64227e-10 3.06954e-12
+y003586 AMP transport, cytoplasm-lipid particle -1000 1000 0 9.27105e-09 -2.64227e-10 -3.97222e-10
+y003587 diphosphate transport, cytoplasm-lipid particle -1000 1000 0 0 -2.64227e-10 3.85398e-11
+y003596 H2O transport, cytoplasm-lipid particle 0 145.373 0 0 0 0
+y003597 glycerol transport, lipid particle-cytoplasm 0 56.4778 0 0 0 -7.50333e-12
+y003598 docosanoyl-CoA transport, lipid particle-cytoplasm 0 0 0 0 0 0
+y003599 tetracosanoyl-CoA transport, lipid particle-cytoplasm -1000 1000 0 1.04082 0 0.0889812
+y003600 hexacosanoyl-CoA transport, lipid particle-cytoplasm -1000 1000 0 -0.0531853 2.23415e-10 -3.85398e-11
+y003601 ATP transport, cytoplasm-cell envelope 0 244.737 0 2.59012 0 0.00309174
+y003602 ADP transport, cytoplasm-cell envelope -244.737 0 0 0 0 0
+y003603 H+ transport, cytoplasm-cell envelope -244.737 0 0 0 0 0
+y003604 H2O transport, cytoplasm-cell envelope 0 244.737 0 0 0 -1.13687e-13
+y003605 phosphate transport, cytoplasm-cell envelope -244.737 0 0 0 0 0
+y003606 sn-glycero-3-phosphocholine transport, cell envelope-cytoplasm 0 0 0 0 0 0
+y003607 1-(sn-glycero-3-phospho)-1D-myo-inositol transport, cell envelope-cytoplasm 0 0 0 0 0 0
+y003608 palmitate transport, cell envelope-cytoplasm 0 0 0 0 0 0
+y003609 palmitoleate transport, cell envelope-cytoplasm 0 0 0 0 0 0
+y003610 stearate transport, cell envelope-cytoplasm 0 0 0 0 0 0
+y003611 oleate transport, cell envelope-cytoplasm 0 0 0 0 0 0
+y003612 icosanoyl-CoA transport, cell envelope-cytoplasm 0 0 0 0 0 0
+y003613 docosanoyl-CoA transport, cell envelope-cytoplasm 0 0 0 0 0 0
+y003614 tetracosanoyl-CoA transport, cell envelope-cytoplasm -1000 1000 0 0.0401591 0 4.26212e-10
+y003615 hexacosanoyl-CoA transport, cell envelope-cytoplasm -1000 1000 0 0.0400417 0 0.0295911
+y003648 H2O transport, cytoplasm-vacuolar membrane 0 244.737 0 0 0 0
+y003649 phosphate transport, cytoplasm-vacuolar membrane -244.737 0 0 0 0 0
+y003650 H+ transport, cytoplasm-vacuolar membrane -244.737 3.2429 0 -0.782173 1.66063e-12 0
+y003651 ATP transport, cytoplasm-vacuolar membrane -1.47793e-12 244.737 0 0.782173 0 2.25865e-08
+y003652 ADP transport, cytoplasm-vacuolar membrane -244.737 0 0 -28.4368 1.66063e-12 -8.17537e-05
+y003653 carbon dioxide transport, cytoplasm-vacuolar membrane -3.2429 0 0 0 0 0
+y003662 H2O transport, cytoplasm-Golgi membrane -1.47793e-12 244.737 0 0 0 0
+y003663 phosphate transport, cytoplasm-Golgi membrane -244.737 0 0 0 0 0
+y003664 H+ transport, cytoplasm-Golgi membrane -244.737 3.2429 0 0.0750059 0 -1.93512e-06
+y003665 carbon dioxide transport, cytoplasm-Golgi membrane -3.2429 0 0 0 0 0
+y003666 ATP transport, cytoplasm-Golgi membrane 0 244.737 0 28.4368 0 1.93512e-06
+y003667 ADP transport, cytoplasm-Golgi membrane -244.737 0 0 -28.4368 0 -0.000446784
+y003668 H2O transport, cytoplasm-mitochondrial membrane 0 161.525 0 0 -2.16243e-10 0
+y003669 carbon dioxide transport, cytoplasm-mitochondrial membrane -3.25636 0 0 0 2.8519e-12 0
+y003670 palmitoleoyl-CoA transport, cytoplasm-mitochondrial membrane 0 0 0 0 -1.44987e-13 0
+y003671 oleoyl-CoA transport, cytoplasm-mitochondrial membrane 0 0 0 0 0 0
+y003678 palmitate transport, mitochondrial membrane-cytoplasm 0 0 0 0 0 0
+y003679 stearate transport, mitochondrial membrane-cytoplasm 0 0 0 0 0 0
+y003680 coenzyme A transport, mitochondrial membrane-cytoplasm 0 0 0 -1.13687e-13 0 0
+y003681 laurate transport, ER membrane-lipid particle -1000 1000 0 -1.60822e-05 2.93441e-13 0
+y003682 myristate transport, ER membrane-lipid particle -1000 1000 0 9.32232e-11 2.64915e-10 0
+y003683 lignoceric acid transport, ER membrane-lipid particle -1000 1000 0 1.04082 0 -0.353474
+y003684 cerotic acid transport, ER membrane-lipid particle -1000 1000 0 0.0401591 0 -0.310726
+y003717 episterol transport, ER membrane-lipid particle 0 0 0 0 0 0
+y003718 fecosterol transport, ER membrane-lipid particle 0 0 0 0 0 0
+y003719 lanosterol transport, ER membrane-lipid particle 0 0 0 0 0 0
+y003720 zymosterol transport, ER membrane-lipid particle 0 0 0 0 0 0
+y003721 ergosteryl palmitoleate transport, ER membrane-lipid particle 0 145.373 0 0 0 0
+y003722 ergosteryl oleate transport, ER membrane-lipid particle 0 145.373 0 0 0 0
+y003723 episteryl palmitoleate transport, ER membrane-lipid particle 0 0 0 0 0 0
+y003724 episteryl oleate transport, ER membrane-lipid particle 0 0 0 0 0 0
+y003725 fecosteryl palmitoleate transport, ER membrane-lipid particle 0 0 0 0 0 0
+y003726 fecosteryl oleate transport, ER membrane-lipid particle 0 0 0 0 0 0
+y003727 lanosteryl palmitoleate transport, ER membrane-lipid particle 0 0 0 0 0 0
+y003728 lanosteryl oleate transport, ER membrane-lipid particle 0 0 0 0 0 0
+y003729 zymosteryl palmitoleate transport, ER membrane-lipid particle 0 0 0 0 0 0
+y003730 zymosteryl oleate transport, ER membrane-lipid particle 0 0 0 0 0 0
+y003901 lignoceric acid transport, cell envelope-ER membrane -1000 1000 0 -0.0401591 0 -4.26212e-10
+y003902 cerotic acid transport, cell envelope-ER membrane -1000 1000 0 0.0401591 0 -0.0295911
+y003927 zymosteryl palmitoleate transport, ER membrane-cell envelope 0 0 0 0 0 0
+y003928 zymosteryl oleate transport, ER membrane-cell envelope 0 0 0 0 0 0
+y003937 lignoceric acid transport, ER membrane-ER -145.373 0 0 -1.04082 0 0
+y003938 cerotic acid transport, ER membrane-ER -145.373 0 0 -0.98851 0 -0.0878042
+y003939 ergosterol transport, ER-ER membrane -1000 1000 0 0 0 0
+y003940 phosphate transport, ER-ER membrane 0 244.737 0 0.088915 0 1.2794e-05
+y003957 H+ transport, mitochondrion-mitochondrial membrane -80.7627 3.25636 0 0 -5.18947e-13 0
+y003958 glycerol 3-phosphate transport, mitochondrion-mitochondrial membrane 0 0.000381342 0 0.000357098 2.16243e-10 0
+y003959 CMP transport, mitochondrion-mitochondrial membrane -80.7627 0 0 0 0 0
+y003960 CTP transport, mitochondrion-mitochondrial membrane 0 80.7627 0 0 0 0
+y003961 phosphate transport, mitochondrion-mitochondrial membrane -80.7627 0 0 0 0 0
+y003962 diphosphate transport, mitochondrion-mitochondrial membrane -80.7627 0 0 -2.36709e-08 0 -0.00516587
+y003987 phosphatidyl-L-serine transport, ER membrane-cytoplasm 0 0 0 0 0 -5.84688e-12
+y003996 phosphatidylcholine transport, ER membrane-cytoplasm 0 0 0 0 0 0
+y004005 phosphatidylethanolamine transport, ER membrane-cytoplasm 0 0 0 0 0 0
+y004038 triglyceride transport, ER membrane-cytoplasm 0 0 0 0 -4.99389e-12 4.27235e-10
+y004039 succinyl-CoA:acetate CoA transferase -242.288 25.392 0 -6.38182 -1.34696e-10 7.99361e-15
+y004040 heme a transport 0 0 0 0 0 0
+y004042 raffinose invertase 0 0 0 0 0 0
+y004043 raffinose exchange 0 0 0 0 0 0
+y004044 melibiose exchange 0 0 0 0 0 0
+y004045 uridine hydrolase 0 145.373 0 6.22222 -2.75714e-10 0.00227051
+y102462 lysoPI acyltransferase, ER membrane 0 0 0 0 0 0
+y102512 DAG kinase 0 244.737 0 48.3981 0 0.00298537
+y102542 PGP phosphatase 0 80.7627 0 2.85255 0 0.00478456
+y102584 CL phospholipase 0 0 0 0 0 0
+y102620 MLCL:PC acyltransferase 0 0 0 0 0 0
+y102812 lysoPC acyltransferase, mitochondrial membrane 0 0 0 0 0 0
+y102884 PE diacylglycerol acyltransferase -145.373 1000 0 0.000154925 0 0
+y102948 PC diacylglycerol acyltransferase -145.373 56.4778 0 0.00505198 0 0
+y103022 PC phospholipase B 0 145.373 0 0.074926 -2.06462e-11 0.00849245
+y103030 LPC phospholipase B 0 56.4778 0 0.074926 -2.06462e-11 0.00846955
+y103034 PC phospholipase B 0 0 0 0 0 0
+y103042 LPC phospholipase B 0 0 0 0 0 0
+y103046 PE phospholipase B 0 0 0 0 0 0
+y103054 LPE phospholipase B 0 0 0 0 0 0
+y103058 PS phospholipase B 0 0 0 0 0 0
+y103066 LPS phospholipase B 0 0 0 0 0 0
+y103070 PI phospholipase B 0 0 0 0 0 0
+y103078 LPI phospholipase B 0 0 0 0 0 1.97527e-11
+y103082 PI 4,5-P2 phospholipase C 0 0 0 0 0 0
+y103090 PI 4,5-P2 phospholipase C 0 0 0 0 0 1.13687e-13
+y103098 PG phospholipase C 0 80.7627 0 2.85255 -2.16243e-10 0.004747
+y103112 PI 3-P phosphatase 0 122.369 0 0.422884 0 6.67115e-05
+y103120 PI 3-P phosphatase 0 122.369 0 0.422884 0 6.67115e-05
+y103128 PI 3-P phosphatase 0 244.737 0 0.782173 0 8.17537e-05
+y103136 PI 3-P phosphatase -1.47793e-12 244.737 0 0.782173 0 8.17537e-05
+y103144 PI 4-P phosphatase 0 244.737 0 2.59012 0 0.00583411
+y103152 PI 4-P phosphatase 0 244.737 0 2.59012 -1.13687e-13 0.00583411
+y103160 PI 4-P phosphatase 0 244.737 0 1.93474 0 0.00484759
+y103168 PI 4-P phosphatase 0 244.737 0 1.51529 0 0.00079665
+y103176 PI 3,5-P2 phosphatase 0 122.369 0 0.422884 0 6.67115e-05
+y103184 PI 3,5-P2 phosphatase 0 122.369 0 0.422884 0 6.67115e-05
+y103192 PI 4,5-P2 phosphatase 0 244.737 0 1.17887 0 0.000349865
+y103200 PI 4,5-P2 phosphatase 0 244.737 0 1.17887 -1.13687e-13 0.000349865
+y103208 PI 4,5-P2 phosphatase 0 244.737 0 1.29119 -1.13687e-13 0.000349865
+y103216 PI 3,5-P2 phosphatase 0 244.737 0 0.912212 0 6.67115e-05
+y103224 DGPP phosphatase 0 244.737 0 28.4368 0 0.928791
+y103232 DGPP phosphatase 0 244.737 0 28.4368 0 0.928791
+y103240 lysoPA phosphatase, cytoplasm 0 0 0 0 0 0
+y103244 lysoPA phosphatase, vacuolar membrane 0 0 0 0 0 0
+y103248 lysoPA phosphatase, Golgi membrane 0 0 0 0 0 0
+y103296 DAG lipase, lipid particle 0 56.4778 0 0.0840585 -4.42254e-11 0.00120349
+y103304 DAG lipase, mitochondrion 0 0 0 0 0 0
+y103308 MAG lipase 0 56.4778 0 0.0840585 -4.42254e-11 0.00120349
+y103312 lysoPE acyltransferase, lipid particle 0 1000 0 0.175748 0 0.141863
+y103316 PC phospholipase A2, lipid particle 0 145.373 0 0.0747571 0 0.00126513
+y103324 PE phospholipase A2, lipid particle 0 145.373 0 0.175748 0 0.14184
+y103332 PA kinase, Golgi membrane 0 244.737 0 28.4368 0 0
+y103340 PA kinase, vacuolar membrane 0 244.737 0 28.4368 0 0.928791
+y103554 diglyceride transport, cytoplasm-ER membrane -145.373 1000 0 0 -7.90904e-13 -3.86535e-12
+y103562 1-phosphatidyl-1D-myo-inositol transport, cytoplasm-ER membrane 0 244.737 0 0 0.00583411 -1.13687e-13
+y103588 diglyceride transport, cytoplasm-lipid particle -1000 145.373 0 -0.00505198 7.76807e-13 0
+y103616 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate transport, cell envelope-cytoplasm -122.369 244.737 0 1.17887 1.13687e-13 0
+y103624 1-phosphatidyl-1D-myo-inositol 4-phosphate transport, cell envelope-cytoplasm -244.737 244.737 0 2.59012 0 0
+y103632 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate transport, nucleus-cytoplasm 0 122.369 0 0.811806 0 0.000349865
+y103640 diglyceride transport, nucleus-cytoplasm 0 0 0 0 0 0
+y103654 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate transport, vacuolar membrane-cytoplasm 0 122.369 0 0 0 6.67115e-05
+y103672 diglyceride transport, mitochondrial membrane-cytoplasm 0 80.7627 0 0 0 -3.5925e-10
+y103685 TAG transport, ER membrane-lipid particle -145.373 1000 0 0 0 -2.29062e-05
+y103731 phosphatidylcholine transport, ER membrane-lipid particle 0 145.373 0.0747571 0 0 0
+y103739 phosphatidylethanolamine transport, ER membrane-lipid particle -1000 145.373 0 0 1.46451e-11 0
+y103747 1-acylglycerophosphocholine transport, ER membrane-lipid particle -145.373 0 0 0 0 0
+y103751 1-acylglycerophosphoethanolamine transport, ER membrane-lipid particle -145.373 1000 0 -0.00510031 0 0
+y103755 phosphatidate transport, lipid particle-ER membrane -0.00153941 56.4778 0 6.19911e-07 -6.1489e-12 0
+y103759 phosphatidate transport, ER membrane-mitochondrial membrane 0 80.7627 0 7.79436e-07 2.16243e-10 1.25967e-07
+y103765 phosphatidyl-L-serine transport, ER membrane-mitochondrial membrane 0 3.25636 0 0 -9.07351e-13 -3.5925e-10
+y103773 phosphatidylethanolamine transport, mitochondrial membrane-ER membrane 0 3.25636 0 0 -2.8519e-12 -3.5925e-10
+y103781 phosphatidylcholine transport, ER membrane-mitochondrial membrane 0 0 0 0 0 0
+y103789 diglyceride transport, ER membrane-Golgi membrane 0 0 0 0 0 7.60222e-10
+y103797 phosphatidate transport, ER membrane-Golgi membrane 0 0 0 0 0 0
+y103805 1-phosphatidyl-1D-myo-inositol transport, ER membrane-Golgi membrane -244.737 0 0 -0.782173 -1.04733e-12 -2.25865e-08
+y103813 phosphatidyl-L-serine transport, ER membrane-Golgi membrane 0 3.2429 0 0 0 0
+y103821 phosphatidylethanolamine transport, Golgi membrane-ER membrane 0 3.2429 0 0 0 0
+y103829 phosphatidate transport, ER membrane-vacuolar membrane 0 0 0 0 0 0
+y103837 1-phosphatidyl-1D-myo-inositol transport, ER membrane-vacuolar membrane -1.47793e-12 244.737 0 0 -1.66063e-12 -1.13687e-12
+y103845 phosphatidyl-L-serine transport, ER membrane-vacuolar membrane 0 3.2429 0 0 0 0
+y103853 phosphatidylethanolamine transport, vacuolar membrane-ER membrane 0 3.2429 0 0 0 0
+y103861 1-phosphatidyl-1D-myo-inositol 3-phosphate transport, vacuolar membrane-ER membrane 0 244.737 0 0 0 0
+y103869 1-phosphatidyl-1D-myo-inositol transport, ER membrane-cell envelope -122.369 244.737 0 1.93474 1.13687e-13 0
+y103877 phosphatidylcholine transport, ER membrane-cell envelope 0 91.7765 0 0 0 0
+y103885 phosphatidylethanolamine transport, ER membrane-cell envelope 0 0 0 0 0 -1.97527e-11
+y103893 phosphatidyl-L-serine transport, ER membrane-cell envelope 0 0 0 0 0 0
+y103903 phosphatidate transport, cell envelope-ER membrane 0 91.7765 0 0 0 0
+y103911 1-phosphatidyl-1D-myo-inositol 4-phosphate transport, cell envelope-ER membrane -244.737 244.737 0 -0.811806 1.13687e-13 0.00208807
+y103919 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate transport, cell envelope-ER membrane 0 244.737 0 1.29119 -1.13687e-13 0
+y103929 1-phosphatidyl-1D-myo-inositol transport, ER membrane-nucleus 0 122.369 0 0 0 0
+y103941 1-phosphatidyl-1D-myo-inositol 3-phosphate transport, vacuolar membrane-Golgi membrane -1.47793e-12 244.737 0.782173 0 0 0
+y103949 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate transport, vacuolar membrane-cell envelope 0 122.369 0 0 0 0
+y200001 glycinamide ribonucleotide transformylase 0 12.696 0 0.522213 0 0.110816
+y200002 mannitol dehydrogenase 0 0 2.93195e-11 0 0 0
+y200003 ATP-citrate lyase 0 183.553 0 26.1162 0 3.55134
+y200004 extracellular tributyrin hydrolysis 0 0 0 0 0 0
+y200005 extracellular dibutyrin hydrolysis 0 0 0 0 0 0
+y200006 extracellular monobutyrate hydrolysis 0 0 0 0 0 0
+y200007 fatty-acid--CoA ligase (butyrate) 0 145.373 0 0.907822 0 0.00159902
+y200008 O-succinylhomoserine lyase (elimination) 0 5.81913 0 4.88948 0 0.140768
+y200009 acyldihydroxyacetonephosphate reductase 0 56.4778 0 0.0513342 -1.13687e-13 0.00126268
+y200010 purine-nucleoside phosphorylase (nicotinate) 0 0 0 0 0 0
+y200011 nucleotidase (NMN) 0 244.737 0 6.11738 0 0.00134555
+y200012 nucleotidase (nicotinate D-ribonucleotide) 0 244.737 0 6.11738 0 0.00134555
+y200013 nicotinate riboside kinase 0 244.737 0 6.11738 0 0.000672775
+y200014 empty 0 12.696 0 0.51932 0 0.0442263
+y200015 ATP:pantothenate 4'-phosphotransferase 0 0 0 0 0 0
+y200016 ATP:pantothenate 4'-phosphotransferase 0 0 0 0 0 0
+y200017 UDP-glucose:NAD+ 6-oxidoreductase 0 0 0 0 0 0
+y200018 ATP:D-Gluconate 6-phosphotransferase 0 0 0 0 0 0
+y200019 ADP-ribose ribophosphohydrolase 0 0 0 0 0 0
+y200020 ribonucleotide reductase 0 0 0 0 0 0
+y200021 ribonucleotide reductase 0 0 0 0 0 0
+y200022 ATP:cytidine 5'-phosphotransferase -1000 1000 0 6.21269 0 0
+y200023 UTP:cytidine 5'-phosphotransferase -1000 1000 0 6.20982 0 0
+y200024 ITP:cytidine 5'-phosphotransferase -1000 1000 0 6.20982 0 0.000303608
+y200025 UTP:uridine 5'-phosphotransferase -1000 1000 0 6.05407 0 0
+y200026 ITP:uridine 5'-phosphotransferase -1000 1000 0 6.05407 0 0.000455412
+y200027 dATP:cytidine 5'-phosphotransferase -1000 1000 0 6.20982 0 0.000303608
+y200028 dATP:uridine 5'-phosphotransferase -1000 1000 0 6.05407 0 0
+y200029 dGTP:uridine 5'-phosphotransferase -1000 1000 0 6.05407 0 0.000607216
+y200030 dGTP:cytidine 5'-phosphotransferase -1000 1000 0 6.20982 0 0.000607216
+y200031 dTTP:cytidine 5'-phosphotransferase -1000 1000 0 5.79244 0 0.000607216
+y200032 dTTP:uridine 5'-phosphotransferase -1000 1000 0 5.6567 0 0
+y200033 dCTP:uridine 5'-phosphotransferase -1000 1000 0 6.05407 0 0.000607216
+y200034 dUTP:uridine 5'-phosphotransferase -1000 1000 0 6.05407 0 0
+y200035 dCTP:cytidine 5'-phosphotransferase -1000 1000 0 6.20982 0 0.000607216
+y200036 dUTP:cytidine 5'-phosphotransferase -1000 1000 0 6.20982 1.37857e-10 0.000607216
+y300001 decane transport e--c 0 0 0 0 0 0
+y300002 hexadecane transport e--c 0 0 0 0 0 0
+y300003 alkane oxidase (C10) 0 0 0 0 0 0
+y300004 long-chain alcohol dehydrogenase (C10) -43.436 0 0 1999.66 0 1.7942
+y300005 alkane oxidase (C12) 0 0 0 0 0 0
+y300006 long-chain alcohol dehydrogenase (C12) -43.436 0 0 1000 0 1.5948
+y300007 alkane oxidase (C16) 0 0 0 0 0 0
+y300008 long-chain alcohol dehydrogenase (C16) -43.436 0 0 3166.52 0 1.79427
+y300009 oleoyl-CoA desaturase (n-C18:1CoA - n-C18:2CoA), ER membrane 0 0.0104877 0 0.00982096 0 0.0104869
+y300010 fatty-acid--CoA ligase (octadecadienoate), ER membrane 0 30.4197 0 0.031357 -8.64056e-12 2.63591e-08
+y300011 fatty-acid--CoA ligase (octadecadienoate), lipid particle -0.000298718 91.7765 0 0.0405227 1.19251e-11 0.0294202
+y300012 fatty-acid--CoA ligase (octadecadienoate), peroxisome -91.7765 145.373 0 0.865679 0 0.000444102
+y300013 peroxisomal acyl-CoA thioesterase (18:2) 0 145.373 0 0.865679 0 0.00142702
+y300014 fatty acyl-CoA transport via ABC system (C18:2) 0 91.7765 0 0.0408024 0 0.000982917
+y300015 isocitrate transport -6.348 0 -5.13332 0 0 0
+y300016 octadecenoate (n-C18:1) transport 0 0 0 0 3.139e-11 0
+y300017 octadecenoate (n-C18:1) transport, cytoplasm-peroxisome -91.7765 0 0 -0.0408024 -1.79249e-12 -0.000491459
+y300018 linoleoyl-CoA transport, cytoplasm-ER membrane -30.4197 199 0 0 8.43873e-12 0
+y300019 linoleoyl-CoA transport, cytoplasm-lipid particle -290.776 30.4197 0 0 -8.64056e-12 0
+y300020 linoleoyl-CoA transport, cytoplasm-mitochondrial membrane 0 0 0 0 0 0
+y300021 dodecane transport e--c 0 0 0 0 0 0
+y300022 long-chain alcohol oxidase (C10) 0 43.436 0 16.3371 0 3.01723
+y300023 long-chain alcohol oxidase (C12) 0 43.436 0 16.3371 0 3.01723
+y300024 long-chain alcohol oxidase (C16) 0 43.436 0 16.3371 0 3.01723
+y300025 long-chain aldehyde dehydrogenase (C10) 0 0 0 0 0 0
+y300026 long-chain aldehyde dehydrogenase (C12) 0 0 0 0 0 3.03183e-10
+y300027 long-chain aldehyde dehydrogenase (C16) 0 0 0 0 0 0
+y300028 octadecenoate (n-C18:1) transport 0 91.7765 0 0.0408024 0 0.000982917
+y300029 NADH dehydrogenase (complex I) 0 86.872 0 33.3621 0 16.5679
+y300030 Leucine transport 0 5.0784 0 2.41716 0 0.190656
+y300031 xanthine dehydrogenase -2.31282e-12 12.696 0 0.0735259 -1.63952e-13 3.42166e-06
+y300032 urate oxidase -2.31282e-12 12.696 0 0.0735259 -1.63952e-13 3.42166e-06
+y300033 hydroxyisourate hydrolase -2.31282e-12 12.696 0 0.0735259 -1.63952e-13 3.42166e-06
+y300034 OHCU decarboxylase -2.27374e-12 12.696 0 0.0735259 -5.02653e-14 3.42166e-06
+y300035 4-hydroxyphenylpyruvate dioxygenase 0 0 0 0 0 0
+y300036 homogentisate 1,2-dioxygenase 0 0 0 0 0 0
+y300037 maleylacetoacetate isomerase 0 0 0 0 0 0
+y300038 fumarylacetoacetase 0 0 0 0 0 0
+y300039 erythrose kinase 0 8.82726 0 0 2.03122e-13 0.717392
+y300040 erythrose reductase 0 8.82726 0 5.65248 2.03122e-13 0.0390083
+y300041 erythritol transport extracellular 0 8.82726 0 -1.13687e-13 0 0
+y300042 arabinitol dehydrogenase 0 0 0 0 0 0
+y300043 mannitol transport extracellular 0 0 0 0 0 0
+y300044 4-methyl-2-oxopentanoate dehydrogenase 0 0 0 0 -6.10396e-10 8.07254e-11
+y300045 3-methyl-2-oxopentanoate dehydrogenase 0 0 0 0 0 0
+y300046 (S)3-methyl-2-oxopentanoate dehydrogenase 0 0 0 0 0 0
+y300047 3-methylbutanoyl-CoA dehydrogenase; 0 0 0 0 0 8.07254e-11
+y300048 3-methylcrotonyl-CoA carboxylase 0 0 0 0 0 0
+y300049 3-methylglutaconyl-CoA dehydratase 0 0 0 0 0 2.06117e-10
+y300050 hydroxymethylglutaryl-CoA lyase 0 121.144 0 5.59536 0 0.0586397
+y300051 2-oxoadipate dehydrogenase 0 0 0 0 0 0
+y300052 glutaryl-CoA dehydrogenase 0 0 0 0 0 0
+y300054 crotonyl-CoA hydratase 0 0 0 0 0 0
+y300055 (S)-3-Hydroxybutanoyl-CoA oxidoreductase 0 0 0 0 0 0
+y300056 cellobiose glucohydrolase 0 0 0 0 0 0
+y300057 L-Glutamate 5-semialdehyde:NAD+ oxidoreductase -7.0126 110.73 0 2.28318 0 0
+y300058 5-oxo-L-proline amidohydrolase (ATP-hydrolysing) 0 0 0 0 0 0
+y300059 succinyl-CoA:acetoacetate CoA-transferase 0 121.144 0 5.59536 0 0.0586397
+y300060 GTP diphosphohydrolase (diphosphate-forming); 0 145.373 0 49.5745 0 0.398832
+y300061 GTP diphosphate-lyase (cyclizing; 3',5'-cyclic-GMP-forming) 0 91.7765 0 11.9276 0 0.0100811
+y300062 L-aspartate 1-carboxy-lyase (beta-alanine-forming) 0 3.62743 0 1.13365 0 0.000797977
+y300063 glutathione gamma-glutamylaminopeptidase 0 0 0 0 0 0
+y300064 3'-Phospho-5'-adenylyl sulfate 3'-phosphohydrolase 0 244.737 0 12.1508 0 0.0883087
+y300065 L-Serine:pyruvate aminotransferase -47.2702 1000 0 -4.91057 0 -0.219127
+y300066 L-Serine:glyoxylate aminotransferase -1000 47.2702 0 4.91057 0 0.219127
+y300067 serine racemase 0 0 0 0 0 0
+y300068 L-Serine hydro-lyase 0 0 0 0 0 0
+y300069 Uridine triphosphate pyrophosphohydrolase 0 145.373 0 45.2674 0 0.0843855
+y300070 Inosine 5'-triphosphate pyrophosphohydrolase 0 0 0 0 0 0
+y300071 2'-Deoxyguanosine 5'-triphosphate diphosphohydrolase 0 145.373 0 46.1259 0 0.398832
+y300072 ATP:D-glucosamine 6-phosphotransferase 0 0 0 0 0 0
+y300073 N-Acetyl-D-glucosamine-6-phosphate amidohydrolase 0 145.373 0 38.5243 0 0.184225
+y300074 dTDP phosphohydrolase 0 244.737 0 61.0588 0 0.0157736
+y300075 dTTP nucleotidohydrolase 0 244.737 0 44.9405 0 0.769817
+y300076 dihydrofolate:NADP+ oxidoreductase 0 0.0173461 0 0.0162341 -2.2879e-10 0.00502656
+y300077 dihydrofolate:NADP+ oxidoreductase 0 0 0 0 0 4.09271e-11
+y300078 2'-Deoxyinosine-5'-triphosphate pyrophosphohydrolase 0 0 0 0 0 1.1259e-13
+y300079 glycerol transport, mm - cy 0 0 0 0 0 0
+y300080 EXC_OUT_m1803 0 6.348 0 5.13332 0 2.1166
+y300081 EXC_OUT_m1826 0 8.82726 0 5.65248 0 0.717392
+y300082 EXC_OUT_m1824 0 0 -2.93312e-11 0 0 0

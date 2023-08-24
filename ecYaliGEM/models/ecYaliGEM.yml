@@ -18190,7 +18190,7 @@
       - id: "y000027"
       - name: "2-methylcitrate dehydratase"
       - metabolites: !!omap
-          - prot_Q6C791: -0.310542929292929
+          - prot_Q6C791: -2.13676327495135
           - s_0454: 1
           - s_0807: 1
           - s_0834: -1
@@ -24568,7 +24568,7 @@
       - id: "y000191_EXP_2"
       - name: "allophanate hydrolase"
       - metabolites: !!omap
-          - prot_Q6C6Q4: -0.263226069997892
+          - prot_Q6C6Q4: -0.111111111111111
           - s_0419: 2
           - s_0456: 2
           - s_0794: -3
@@ -27173,7 +27173,7 @@
       - id: "y000280_EXP_2"
       - name: "cis-aconitate(3-) to isocitrate"
       - metabolites: !!omap
-          - prot_Q6C5V2: -0.0166666666666667
+          - prot_Q6C5V2: -0.0141242937853107
           - s_0517: -1
           - s_0807: -1
           - s_0941: 1
@@ -27223,7 +27223,7 @@
       - id: "y000280_REV_EXP_2"
       - name: "cis-aconitate(3-) to isocitrate (reversible)"
       - metabolites: !!omap
-          - prot_Q6C5V2: -0.166666666666667
+          - prot_Q6C5V2: -0.141242937853107
           - s_0517: 1
           - s_0807: 1
           - s_0941: -1
@@ -28235,7 +28235,7 @@
       - id: "y000302_EXP_2"
       - name: "citrate to cis-aconitate(3-)"
       - metabolites: !!omap
-          - prot_Q6C5V2: -0.166666666666667
+          - prot_Q6C5V2: -0.141242937853107
           - s_0517: 1
           - s_0524: -1
           - s_0807: 1
@@ -28285,7 +28285,7 @@
       - id: "y000302_REV_EXP_2"
       - name: "citrate to cis-aconitate(3-) (reversible)"
       - metabolites: !!omap
-          - prot_Q6C5V2: -0.166666666666667
+          - prot_Q6C5V2: -0.141242937853107
           - s_0517: -1
           - s_0524: 1
           - s_0807: -1
@@ -28335,7 +28335,7 @@
       - id: "y000303_EXP_2"
       - name: "citrate to cis-aconitate(3-), cytoplasmic"
       - metabolites: !!omap
-          - prot_Q6C5V2: -0.166666666666667
+          - prot_Q6C5V2: -0.141242937853107
           - s_0516: 1
           - s_0522: -1
           - s_0803: 1
@@ -28385,7 +28385,7 @@
       - id: "y000303_REV_EXP_2"
       - name: "citrate to cis-aconitate(3-), cytoplasmic (reversible)"
       - metabolites: !!omap
-          - prot_Q6C5V2: -0.166666666666667
+          - prot_Q6C5V2: -0.141242937853107
           - s_0516: -1
           - s_0522: 1
           - s_0803: -1
@@ -40677,7 +40677,7 @@
       - id: "y000818"
       - name: "ornithine transacetylase"
       - metabolites: !!omap
-          - prot_Q6C627: -5.78926767676768
+          - prot_Q6C627: -2.09866676919472
           - s_0993: -1
           - s_1182: -1
           - s_1192: 1
@@ -41388,7 +41388,7 @@
       - id: "y000882"
       - name: "phosphoacetylglucosamine mutase"
       - metabolites: !!omap
-          - prot_Q6C454: -0.541912320483749
+          - prot_Q6C454: -3.9277721623702
           - s_1189: 1
           - s_1190: -1
       - lower_bound: 0
@@ -42307,8 +42307,8 @@
       - id: "y000916_EXP_1"
       - name: "phosphoribosylpyrophosphate synthetase"
       - metabolites: !!omap
-          - prot_Q6C3T1: -1.45921717171717
-          - prot_Q6CG51: -1.68522727272727
+          - prot_Q6C3T1: -0.931559364440661
+          - prot_Q6CG51: -1.07584345740153
           - s_0423: 1
           - s_0434: -1
           - s_0794: 1
@@ -42998,7 +42998,7 @@
       - id: "y000958_EXP_2"
       - name: "pyruvate carboxylase"
       - metabolites: !!omap
-          - prot_Q6C6Q4: -0.0263226069997892
+          - prot_Q6C6Q4: -0.0111111111111111
           - s_0394: 1
           - s_0434: -1
           - s_0445: -1
@@ -43911,7 +43911,7 @@
       - id: "y000986"
       - name: "S-adenosyl-methionine delta-24-sterol-c-methyltransferase"
       - metabolites: !!omap
-          - prot_Q6C2D9: -10.7835858585859
+          - prot_Q6C2D9: -14.1062485960809
           - s_0700: 1
           - s_0794: 1
           - s_1413: 1
@@ -45794,7 +45794,7 @@
       - id: "y001069"
       - name: "UDP-N-acetylglucosamine diphosphorylase"
       - metabolites: !!omap
-          - prot_Q6C776: -0.412488196411709
+          - prot_Q6C776: -0.761000602772755
           - s_0633: 1
           - s_0794: -1
           - s_1189: -1
@@ -46004,7 +46004,7 @@
       - id: "y001075_EXP_2"
       - name: "urea carboxylase"
       - metabolites: !!omap
-          - prot_Q6C6Q4: -0.263226069997892
+          - prot_Q6C6Q4: -0.111111111111111
           - s_0394: 1
           - s_0434: -1
           - s_0445: -1
@@ -55859,7 +55859,7 @@
       - id: "y001226"
       - name: "malate transport"
       - metabolites: !!omap
-          - prot_Q6CFV5: -0.0257959714100065
+          - prot_Q6CFV5: -0.00257959714100065
           - s_0066: -1
           - s_0068: 1
           - s_1322: 1
@@ -62307,7 +62307,7 @@
       - id: "y001838"
       - name: "homocitrate synthase"
       - metabolites: !!omap
-          - prot_Q12726: -2.18066810732937
+          - prot_Q12726: -2.62121999264021
           - s_0182: -1
           - s_0376: -1
           - s_0532: 1
@@ -65918,7 +65918,7 @@
       - id: "y002117"
       - name: "phenylalanine transaminase"
       - metabolites: !!omap
-          - prot_Q6CCZ6: -0.852331606217617
+          - prot_Q6CCZ6: -0.0285590277777778
           - s_0951: 1
           - s_0955: 1
           - s_1032: -1
@@ -65946,7 +65946,7 @@
       - id: "y002117_REV"
       - name: "phenylalanine transaminase (reversible)"
       - metabolites: !!omap
-          - prot_Q6CCZ6: -0.852331606217617
+          - prot_Q6CCZ6: -0.0285590277777778
           - s_0951: -1
           - s_0955: -1
           - s_1032: 1
@@ -65974,7 +65974,7 @@
       - id: "y002118"
       - name: "tryptophan transaminase"
       - metabolites: !!omap
-          - prot_Q6CCZ6: -0.852331606217617
+          - prot_Q6CCZ6: -0.0285590277777778
           - s_0855: 1
           - s_0951: -1
           - s_1032: 1
@@ -66002,7 +66002,7 @@
       - id: "y002119"
       - name: "tyrosine transaminase"
       - metabolites: !!omap
-          - prot_Q6CCZ6: -0.852331606217617
+          - prot_Q6CCZ6: -0.0285590277777778
           - s_0204: -1
           - s_0955: -1
           - s_1051: 1
@@ -66030,7 +66030,7 @@
       - id: "y002119_REV"
       - name: "tyrosine transaminase (reversible)"
       - metabolites: !!omap
-          - prot_Q6CCZ6: -0.219298245614035
+          - prot_Q6CCZ6: -0.0285590277777778
           - s_0204: 1
           - s_0955: 1
           - s_1051: -1
@@ -67621,7 +67621,7 @@
       - id: "y002183"
       - name: "stearoyl-CoA desaturase (n-C18:0CoA - n-C18:1CoA), ER membrane"
       - metabolites: !!omap
-          - prot_Q6CCW6: -4.35611111111111
+          - prot_Q6CCW6: -7.27438756089932
           - s_2783: -1
           - s_2791: -1
           - s_2808: 2
@@ -71894,7 +71894,7 @@
       - id: "y002305_EXP_2"
       - name: "cis-aconitate(3-) to isocitrate"
       - metabolites: !!omap
-          - prot_Q6C5V2: -0.166666666666667
+          - prot_Q6C5V2: -0.141242937853107
           - s_0516: -1
           - s_0803: -1
           - s_0940: 1
@@ -71942,7 +71942,7 @@
       - id: "y002305_REV_EXP_2"
       - name: "cis-aconitate(3-) to isocitrate (reversible)"
       - metabolites: !!omap
-          - prot_Q6C5V2: -0.166666666666667
+          - prot_Q6C5V2: -0.141242937853107
           - s_0516: 1
           - s_0803: 1
           - s_0940: -1
@@ -93319,9 +93319,9 @@
         - Q6CFF6: 1
   - !!omap
     - id: "y000027"
-    - kcat: 66
+    - kcat: 9.592
     - source: "custom"
-    - notes: "Output of sensitivityTuning. Got the highest value in Brenda."
+    - notes: "Output of sensitivityTuning. Calculated from the specific activity of S. oneidensis (Brenda EC 4.2.1.117)"
     - enzymes: !!omap
         - Q6C791: 1
   - !!omap
@@ -94861,8 +94861,9 @@
         - Q6CEM0: 1
   - !!omap
     - id: "y000191_EXP_2"
-    - kcat: 210.8
-    - source: "brenda"
+    - kcat: 499.3925
+    - source: "custom"
+    - notes: "Output of sensitivityTuning. Calculated from the specific activity of M. smegmatis (Brenda EC 6.4.1.1)"
     - enzymes: !!omap
         - Q6C6Q4: 1
   - !!omap
@@ -95542,9 +95543,9 @@
         - Q6C9P6: 1
   - !!omap
     - id: "y000280_EXP_2"
-    - kcat: 1427.3
+    - kcat: 1684.214
     - source: "custom"
-    - notes: "Output of sensitivityTuning. Calculated from the specific activity of Y. lipolytica (Brenda)"
+    - notes: "Output of sensitivityTuning. Calculated from the specific activity of M. tuberculosis (Brenda)"
     - enzymes: !!omap
         - Q6C5V2: 1
   - !!omap
@@ -95555,9 +95556,9 @@
         - Q6C9P6: 1
   - !!omap
     - id: "y000280_REV_EXP_2"
-    - kcat: 142.73
+    - kcat: 168.4214
     - source: "custom"
-    - notes: "Output of sensitivityTuning. Calculated from the specific activity of Y. lipolytica (Brenda)"
+    - notes: "Output of sensitivityTuning. Calculated from the specific activity of M. tuberculosis (Brenda)"
     - enzymes: !!omap
         - Q6C5V2: 1
   - !!omap
@@ -95844,9 +95845,9 @@
         - Q6C9P6: 1
   - !!omap
     - id: "y000302_EXP_2"
-    - kcat: 142.73
+    - kcat: 168.4214
     - source: "custom"
-    - notes: "Output of sensitivityTuning. Calculated from the specific activity of Y. lipolytica (Brenda)"
+    - notes: "Output of sensitivityTuning. Calculated from the specific activity of M. tuberculosis (Brenda)"
     - enzymes: !!omap
         - Q6C5V2: 1
   - !!omap
@@ -95857,9 +95858,9 @@
         - Q6C9P6: 1
   - !!omap
     - id: "y000302_REV_EXP_2"
-    - kcat: 142.73
+    - kcat: 168.4214
     - source: "custom"
-    - notes: "Output of sensitivityTuning. Calculated from the specific activity of Y. lipolytica (Brenda)"
+    - notes: "Output of sensitivityTuning. Calculated from the specific activity of M. tuberculosis (Brenda)"
     - enzymes: !!omap
         - Q6C5V2: 1
   - !!omap
@@ -95870,9 +95871,9 @@
         - Q6C9P6: 1
   - !!omap
     - id: "y000303_EXP_2"
-    - kcat: 142.73
+    - kcat: 168.4214
     - source: "custom"
-    - notes: "Output of sensitivityTuning. Calculated from the specific activity of Y. lipolytica (Brenda)"
+    - notes: "Output of sensitivityTuning. Calculated from the specific activity of M. tuberculosis (Brenda)"
     - enzymes: !!omap
         - Q6C5V2: 1
   - !!omap
@@ -95883,9 +95884,9 @@
         - Q6C9P6: 1
   - !!omap
     - id: "y000303_REV_EXP_2"
-    - kcat: 142.73
+    - kcat: 168.4214
     - source: "custom"
-    - notes: "Output of sensitivityTuning. Calculated from the specific activity of Y. lipolytica (Brenda)"
+    - notes: "Output of sensitivityTuning. Calculated from the specific activity of M. tuberculosis (Brenda)"
     - enzymes: !!omap
         - Q6C5V2: 1
   - !!omap
@@ -99271,8 +99272,9 @@
         - F2Z6G2: 1
   - !!omap
     - id: "y000818"
-    - kcat: 2.2
-    - source: "brenda"
+    - kcat: 6.0688
+    - source: "custom"
+    - notes: "Output of sensitivityTuning. Got the value of DLKcat instead."
     - enzymes: !!omap
         - Q6C627: 1
   - !!omap
@@ -99474,8 +99476,9 @@
         - Q6C9T5: 1
   - !!omap
     - id: "y000882"
-    - kcat: 29.4
-    - source: "brenda"
+    - kcat: 4.0563
+    - source: "custom"
+    - notes: "Output of sensitivityTuning. Got the value of DLKcat instead."
     - enzymes: !!omap
         - Q6C454: 1
   - !!omap
@@ -99717,8 +99720,9 @@
         - Q6CEI8: 1
   - !!omap
     - id: "y000916_EXP_1"
-    - kcat: 6.6
-    - source: "brenda"
+    - kcat: 10.3384
+    - source: "custom"
+    - notes: "Output of sensitivityTuning. Got the value of DLKcat instead."
     - enzymes: !!omap
         - Q6C3T1: 1
         - Q6CG51: 1
@@ -99913,8 +99917,9 @@
         - Q6CAV2: 1
   - !!omap
     - id: "y000958_EXP_2"
-    - kcat: 2108
-    - source: "brenda"
+    - kcat: 4993.925
+    - source: "custom"
+    - notes: "Output of sensitivityTuning. Calculated from the specific activity of M. smegmatis (Brenda EC 6.4.1.1)"
     - enzymes: !!omap
         - Q6C6Q4: 1
   - !!omap
@@ -100163,8 +100168,9 @@
         - Q6CEH1: 1
   - !!omap
     - id: "y000986"
-    - kcat: 1.1
-    - source: "brenda"
+    - kcat: 0.8409
+    - source: "custom"
+    - notes: "Output of sensitivityTuning. Got the value of DLKcat instead."
     - enzymes: !!omap
         - Q6C2D9: 1
   - !!omap
@@ -100662,8 +100668,9 @@
         - Q6C8M8: 1
   - !!omap
     - id: "y001069"
-    - kcat: 35.3
-    - source: "brenda"
+    - kcat: 19.1338
+    - source: "custom"
+    - notes: "Output of sensitivityTuning. Got the value of DLKcat instead."
     - enzymes: !!omap
         - Q6C776: 1
   - !!omap
@@ -100722,8 +100729,9 @@
         - Q6CEM0: 1
   - !!omap
     - id: "y001075_EXP_2"
-    - kcat: 210.8
-    - source: "brenda"
+    - kcat: 499.3925
+    - source: "custom"
+    - notes: "Output of sensitivityTuning. Calculated from the specific activity of M. smegmatis (Brenda EC 6.4.1.1)"
     - enzymes: !!omap
         - Q6C6Q4: 1
   - !!omap
@@ -104125,7 +104133,7 @@
         - Q6CET9: 1
   - !!omap
     - id: "y001226"
-    - kcat: 384.75
+    - kcat: 3847.5
     - source: "custom"
     - notes: "Was constraining growth after adding proteomics in interation #9 (max 0.38703). Adjusted 10x."
     - enzymes: !!omap
@@ -105147,8 +105155,9 @@
         - Q6CBU1: 1
   - !!omap
     - id: "y001838"
-    - kcat: 6.17
-    - source: "brenda"
+    - kcat: 5.133
+    - source: "custom"
+    - notes: "Output of sensitivityTuning. Got the highest value in Brenda."
     - enzymes: !!omap
         - Q12726: 1
   - !!omap
@@ -105292,33 +105301,37 @@
         - Q6C2W9: 1
   - !!omap
     - id: "y002117"
-    - kcat: 19.3
-    - source: "brenda"
+    - kcat: 576
+    - source: "custom"
+    - notes: "Was constraining growth after adding proteomics in interation #5 (max 0.12915) and #7 (max 0.23366). Adjusted with Brenda maximum kcat (EC 2.6.1.5)"
     - enzymes: !!omap
         - Q6CCZ6: 1
   - !!omap
     - id: "y002117_REV"
-    - kcat: 19.3
-    - source: "brenda"
+    - kcat: 576
+    - source: "custom"
+    - notes: "Was constraining growth after adding proteomics in interation #5 (max 0.12915) and #7 (max 0.23366). Adjusted with Brenda maximum kcat (EC 2.6.1.5)"
     - enzymes: !!omap
         - Q6CCZ6: 1
   - !!omap
     - id: "y002118"
-    - kcat: 19.3
-    - source: "brenda"
+    - kcat: 576
+    - source: "custom"
+    - notes: "Was constraining growth after adding proteomics in interation #5 (max 0.12915) and #7 (max 0.23366). Adjusted with Brenda maximum kcat (EC 2.6.1.5)"
     - enzymes: !!omap
         - Q6CCZ6: 1
   - !!omap
     - id: "y002119"
-    - kcat: 19.3
-    - source: "brenda"
+    - kcat: 576
+    - source: "custom"
+    - notes: "Was constraining growth after adding proteomics in interation #5 (max 0.12915) and #7 (max 0.23366). Adjusted with Brenda maximum kcat (EC 2.6.1.5)"
     - enzymes: !!omap
         - Q6CCZ6: 1
   - !!omap
     - id: "y002119_REV"
-    - kcat: 75.012
+    - kcat: 576
     - source: "custom"
-    - notes: "Was constraining growth after adding proteomics in interation #5 (max 0.12915) and #7 (max 0.23366). Adjusted with Brenda data (Specific activity) then adjusted 10x."
+    - notes: "Was constraining growth after adding proteomics in interation #5 (max 0.12915) and #7 (max 0.23366). Adjusted with Brenda maximum kcat (EC 2.6.1.5)"
     - enzymes: !!omap
         - Q6CCZ6: 1
   - !!omap
@@ -105721,8 +105734,9 @@
         - Q6CCW6: 1
   - !!omap
     - id: "y002183"
-    - kcat: 3.5
-    - source: "brenda"
+    - kcat: 2.0959
+    - source: "custom"
+    - notes: "Output of sensitivityTuning. Got the value of DLKcat instead."
     - enzymes: !!omap
         - Q6CCW6: 1
   - !!omap
@@ -106784,9 +106798,9 @@
         - Q6C9P6: 1
   - !!omap
     - id: "y002305_EXP_2"
-    - kcat: 142.73
+    - kcat: 168.4214
     - source: "custom"
-    - notes: "Output of sensitivityTuning. Calculated from the specific activity of Y. lipolytica (Brenda)"
+    - notes: "Output of sensitivityTuning. Calculated from the specific activity of M. tuberculosis (Brenda)"
     - enzymes: !!omap
         - Q6C5V2: 1
   - !!omap
@@ -106797,9 +106811,9 @@
         - Q6C9P6: 1
   - !!omap
     - id: "y002305_REV_EXP_2"
-    - kcat: 142.73
+    - kcat: 168.4214
     - source: "custom"
-    - notes: "Output of sensitivityTuning. Calculated from the specific activity of Y. lipolytica (Brenda)"
+    - notes: "Output of sensitivityTuning. Calculated from the specific activity of M. tuberculosis (Brenda)"
     - enzymes: !!omap
         - Q6C5V2: 1
   - !!omap

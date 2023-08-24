@@ -462,12 +462,12 @@ numel(model.rxns)
 % integration, all under similar exchange flux constraints.
 % First make sure that the correct models are loaded.
 model = loadConventionalGEM();
-ecModel = loadEcModel('ecYeastGEM.yml');
-ecModelProt = loadEcModel('ecYeastGEM_stage4.yml');
+ecModel = loadEcModel('ecYaliGEM.yml');
+ecModelProt = loadEcModel('ecYaliGEM_stage4.yml');
 
-% As protein model can maximum reach 0.088, also set this as constrain for
+% As protein model can maximum reach 0.4529, also set this as constrain for
 % all models.
-fluxData.grRate(1) = 0.0880;
+fluxData.grRate(1) = 0.4529;
 
 % Apply same constraints on exchange fluxes
 model = constrainFluxData(model,fluxData,1,'max','loose');

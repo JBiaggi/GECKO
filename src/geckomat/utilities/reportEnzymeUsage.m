@@ -1,4 +1,4 @@
-function usageReport = topEnzymeUsage(ecModel, usageData, highCapUsage, topAbsUsage)
+function usageReport = reportEnzymeUsage(ecModel, usageData, highCapUsage, topAbsUsage)
 % reportEnzymeUsage
 %   Summarizes the results from enzymeUsage.
 %
