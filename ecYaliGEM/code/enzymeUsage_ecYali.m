@@ -9,8 +9,8 @@ usageData = enzymeUsage(ecModel,sol.x);
 
 usageReport = reportEnzymeUsage(ecModel, usageData);
 
-ecModel = loadEcModel('ecYaliGEM_FSEOF.yml');
-%ecModel = loadEcModel('ecYaliGEM_FSEOF_pooled.yml');
+%ecModel = loadEcModel('ecYaliGEM_FSEOF.yml');
+ecModel = loadEcModel('ecYaliGEM_FSEOF_pooled.yml');
 
 %% from ecFactory
 CS_index = find(strcmpi(ecModel.rxns,'y001808'));
@@ -36,7 +36,7 @@ disp('* The ecFactory method will scan flux distributions spanning from')
 disp(['a suboptimal biomass yield of: ' num2str(0.5*expYield) ' to: ' num2str(2*expYield) ' [g biomass/g carbon source]']);
 
 %%
-FC = ecFSEOF(ecModel,'EXC_OUT_m1727','y001808',[0.5*expYield 2*expYield],[],[]);
+FC = ecFSEOF(ecModel,'EXC_OUT_m1640','y001808',[0.5*expYield 2*expYield],[],[]);
 
 %FC = ecFSEOF(ecModel,'EXC_OUT_m1727','y001808',[0.1 0.9]);
 

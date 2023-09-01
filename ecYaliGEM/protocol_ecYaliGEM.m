@@ -73,9 +73,9 @@ params = ModelAdapter.getParameters();
 % loadConventionalGEM and the obj.param.convGEM never has to be specified.
 model = loadConventionalGEM();
     model = setParam(model,'eq','y001714',0);
-    % gene with wrong GPR in the original iYali - JSB
-    model = changeGeneAssoc(model,'y000027','YALI0F02497g');
-    model.eccodes(find(strcmp(model.rxns,'y000027'))) = {'4.2.1.79'};
+    % rxns with wrong name in the original iYali - JSB
+    model.rxnNames(find(strcmp(model.rxns,'y000027'))) = {'homoaconitase'};
+    model.rxnNames(find(strcmp(model.rxns,'y000117'))) = {'2-methylcitrate dehydratase'};
 % model = importModel(fullfile(geckoRoot,'tutorials','full_ecModel','models','yeast-GEM.yml'));
 
 % STEP 3 Prepare ecModel - I generated a custom uniprot.tsv file where I

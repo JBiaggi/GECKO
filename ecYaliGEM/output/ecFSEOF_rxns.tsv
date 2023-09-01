@@ -1,2 +1,4 @@
 rxn_IDs	rxnNames	K_score	grRules	rxn_formula
-y000104_EXP_1	acetyl-CoA C-acetyltransferase	0.318144216974206	YALI0B08536g	2 acetyl-CoA[m] + 2.2476e-06 prot_Q6CFB6[c] => acetoacetyl-CoA[m] + coenzyme A[m]
+y002115_EXP_2	alcohol dehydrogenase, (acetaldehyde to ethanol)	0.169334825215964	YALI0A16379g	acetaldehyde[c] + H+[c] + NADH[c] + 0.0029409 prot_Q6CGT5[c] => ethanol[c] + NAD[c]
+y000256_EXP_2	catalase	0.153941203739859	YALI0E34749g	2 hydrogen peroxide[p] + 1.9573e-05 prot_Q6C3H7[c] => 2 H2O[p] + oxygen[p]
+y000715_REV_EXP_1	malate dehydrogenase, peroxisomal (reversible)	0.0188150360074064	YALI0D16753g	H+[p] + NADH[p] + oxaloacetate[p] + 8.1951e-05 prot_Q6C8V3[c] => (S)-malate[p] + NAD[p]

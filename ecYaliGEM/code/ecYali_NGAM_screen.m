@@ -29,6 +29,7 @@ growthRates(1) = initial_growth;
 for i = 1:nSteps
     ecModel = setParam(ecModel, 'lb', rxnID, NGAMs(i + 1));
     sol = solveLP(ecModel);
+    
     growthRates(i + 1) = -sol.f;
 end
 
@@ -47,3 +48,13 @@ text(NGAMs(end), growthRates(end), 'Final Point', 'VerticalAlignment', 'top', 'H
 % Display the plot
 xlim([min(NGAMs), max(NGAMs)]);
 ylim([min(growthRates), max(growthRates)]);
+title('NGAM vs Growth Rate');
+xlabel('NGAM Constraint');
+ylabel('Growth Rate');
+grid on;
+
+% Save the plot as an SVG file
+outputFileName = 'NGAM_vs_GrowthRate.svg';
+saveas(gcf, outputFileName, 'svg');
+
+disp(['Plot saved as ' outputFileName]);

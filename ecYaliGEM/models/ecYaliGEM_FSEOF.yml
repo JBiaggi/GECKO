@@ -3,7 +3,7 @@
 - metaData:
     id: "iYali"
     name: "v4.1.2"
-    date: "2023-08-27"
+    date: "2023-08-31"
     givenName: "Eduard"
     familyName: "Kerkhoven"
     email: "eduardk@chalmers.se"
@@ -18315,10 +18315,10 @@
       - notes: "Standard enzyme-usage pseudometabolite"
 - reactions:
     - !!omap
-      - id: "EXC_OUT_m1727"
-      - name: "lipids exchange (OUT)"
+      - id: "EXC_OUT_m1640"
+      - name: "triglyceride exchange (OUT)"
       - metabolites: !!omap
-          - m1727: -1
+          - m1640: -1
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
@@ -19608,7 +19608,7 @@
       - rxnNotes: "Reaction included due to bidirectional BLAST with S. cerevisiae gene, added by getModelFromHomology"
     - !!omap
       - id: "y000027"
-      - name: "2-methylcitrate dehydratase"
+      - name: "homoaconitase"
       - metabolites: !!omap
           - prot_Q6C791: -2.13676327495135
           - s_0454: 1
@@ -19630,7 +19630,7 @@
       - rxnNotes: "Reaction included due to orthology and bidirectional BLAST with S. cerevisiae gene, added by getModelFromHomology"
     - !!omap
       - id: "y000027_REV"
-      - name: "2-methylcitrate dehydratase (reversible)"
+      - name: "homoaconitase (reversible)"
       - metabolites: !!omap
           - prot_Q6C791: -8.19833333333333
           - s_0454: -1
@@ -21816,7 +21816,7 @@
       - rxnNotes: "Reaction curated in iYali4.0"
     - !!omap
       - id: "y000117"
-      - name: "aconitase"
+      - name: "2-methylcitrate dehydratase"
       - metabolites: !!omap
           - prot_Q6C354: -11.2785200812627
           - s_0012: 1
@@ -21833,7 +21833,7 @@
       - rxnNotes: "Reaction included due to orthology and bidirectional BLAST with S. cerevisiae gene, added by getModelFromHomology"
     - !!omap
       - id: "y000117_REV"
-      - name: "aconitase (reversible)"
+      - name: "2-methylcitrate dehydratase (reversible)"
       - metabolites: !!omap
           - prot_Q6C354: -11.2785200812627
           - s_0012: -1
@@ -86079,7 +86079,7 @@
       - name: "usage_prot_Q6C482"
       - metabolites: !!omap
           - prot_Q6C482: -1
-      - lower_bound: -0.285498584095449
+      - lower_bound: -0.285498584095451
       - upper_bound: 0
       - gene_reaction_rule: "YALI0E28963g"
       - subsystem:
@@ -91738,7 +91738,7 @@
       - name: "usage_prot_Q99148"
       - metabolites: !!omap
           - prot_Q99148: -1
-      - lower_bound: -0.736654192874151
+      - lower_bound: -0.736654192874157
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F21010g"
       - subsystem:
