@@ -5,7 +5,7 @@ classdef ecYaliGEMAdapter < ModelAdapter
             
             % Directory where all model-specific files and scripts are kept.
             % Is assumed to follow the GECKO-defined folder structure.
-            obj.params.path = fullfile('C:\Users\jusabe\Documents\GECKO', 'ecYaliGEM');
+            obj.params.path = fullfile(findGECKOroot, 'ecYaliGEM');
 
 			% Path to the conventional GEM that this ecModel will be based on.
 			obj.params.convGEM = fullfile(obj.params.path,'models','iYali.xml');
