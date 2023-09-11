@@ -81,3 +81,4 @@ sortedNames = filteredNames(sortedIndices);
 
 % Get the indexes of filteredNames in ecModel.metNames
 indexesInOriginal = find(ismember(ecModel.metNames, sortedNames));
+indexesInOriginal = indexesInOriginal(sortedIndices);
