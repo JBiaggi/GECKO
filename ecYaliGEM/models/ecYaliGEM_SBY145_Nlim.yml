@@ -4,7 +4,7 @@
     id: "iYali"
     name: "v4.1.2"
     version: ""
-    date: "2023-09-11"
+    date: "2023-09-13"
     defaultLB: "-1000"
     defaultUB: "1000"
     givenName: "Eduard"
@@ -83548,7 +83548,7 @@
       - name: "usage_prot_B5FVG3"
       - metabolites: !!omap
           - prot_B5FVG3: -1
-      - lower_bound: -0.010558
+      - lower_bound: -0.017159
       - upper_bound: 0
       - gene_reaction_rule: "YALI0E32164g"
       - subsystem:
@@ -83587,7 +83587,7 @@
       - name: "usage_prot_F2Z5Z3"
       - metabolites: !!omap
           - prot_F2Z5Z3: -1
-      - lower_bound: -0.329387
+      - lower_bound: -0.256205
       - upper_bound: 0
       - gene_reaction_rule: "YALI0A10659g"
       - subsystem:
@@ -83596,7 +83596,7 @@
       - name: "usage_prot_F2Z5Z5"
       - metabolites: !!omap
           - prot_F2Z5Z5: -1
-      - lower_bound: -0.002878
+      - lower_bound: -0.004433
       - upper_bound: 0
       - gene_reaction_rule: "YALI0B07667g"
       - subsystem:
@@ -83635,7 +83635,7 @@
       - name: "usage_prot_F2Z630"
       - metabolites: !!omap
           - prot_F2Z630: -1
-      - lower_bound: -0.004609
+      - lower_bound: -0.006237
       - upper_bound: 0
       - gene_reaction_rule: "YALI0C23859g"
       - subsystem:
@@ -83644,7 +83644,7 @@
       - name: "usage_prot_F2Z650"
       - metabolites: !!omap
           - prot_F2Z650: -1
-      - lower_bound: -0.110178
+      - lower_bound: -0.057138
       - upper_bound: 0
       - gene_reaction_rule: "YALI0E01056g"
       - subsystem:
@@ -83653,7 +83653,7 @@
       - name: "usage_prot_F2Z672"
       - metabolites: !!omap
           - prot_F2Z672: -1
-      - lower_bound: -0.012635
+      - lower_bound: -0.02259
       - upper_bound: 0
       - gene_reaction_rule: "YALI0B22308g"
       - subsystem:
@@ -83662,7 +83662,7 @@
       - name: "usage_prot_F2Z678"
       - metabolites: !!omap
           - prot_F2Z678: -1
-      - lower_bound: -0.024802
+      - lower_bound: -0.023403
       - upper_bound: 0
       - gene_reaction_rule: "YALI0E17787g"
       - subsystem:
@@ -83671,7 +83671,8 @@
       - name: "usage_prot_F2Z685"
       - metabolites: !!omap
           - prot_F2Z685: -1
-      - lower_bound: -0.000582
+          - prot_pool: 1
+      - lower_bound: -1000
       - upper_bound: 0
       - gene_reaction_rule: "YALI0A20350g"
       - subsystem:
@@ -83680,7 +83681,7 @@
       - name: "usage_prot_F2Z694"
       - metabolites: !!omap
           - prot_F2Z694: -1
-      - lower_bound: -0.065936
+      - lower_bound: -0.045545
       - upper_bound: 0
       - gene_reaction_rule: "YALI0D08228g"
       - subsystem:
@@ -83709,7 +83710,7 @@
       - name: "usage_prot_F2Z699"
       - metabolites: !!omap
           - prot_F2Z699: -1
-      - lower_bound: -0.043058
+      - lower_bound: -0.062681
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F25135g"
       - subsystem:
@@ -83718,7 +83719,7 @@
       - name: "usage_prot_F2Z6C9"
       - metabolites: !!omap
           - prot_F2Z6C9: -1
-      - lower_bound: -0.019237
+      - lower_bound: -0.012305
       - upper_bound: 0
       - gene_reaction_rule: "YALI0D04422g"
       - subsystem:
@@ -83727,7 +83728,8 @@
       - name: "usage_prot_F2Z6G2"
       - metabolites: !!omap
           - prot_F2Z6G2: -1
-      - lower_bound: -0.000416
+          - prot_pool: 1
+      - lower_bound: -1000
       - upper_bound: 0
       - gene_reaction_rule: "YALI0B11330g"
       - subsystem:
@@ -83736,7 +83738,7 @@
       - name: "usage_prot_F2Z6H3"
       - metabolites: !!omap
           - prot_F2Z6H3: -1
-      - lower_bound: -0.000607
+      - lower_bound: -0.002239
       - upper_bound: 0
       - gene_reaction_rule: "YALI0B13816g"
       - subsystem:
@@ -83745,7 +83747,7 @@
       - name: "usage_prot_F2Z6I5"
       - metabolites: !!omap
           - prot_F2Z6I5: -1
-      - lower_bound: -0.058174
+      - lower_bound: -0.035927
       - upper_bound: 0
       - gene_reaction_rule: "YALI0E15378g"
       - subsystem:
@@ -83754,7 +83756,7 @@
       - name: "usage_prot_F2Z6J3"
       - metabolites: !!omap
           - prot_F2Z6J3: -1
-      - lower_bound: -0.000863
+      - lower_bound: -0.002371
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F01320g"
       - subsystem:
@@ -83763,7 +83765,7 @@
       - name: "usage_prot_F2Z6J4"
       - metabolites: !!omap
           - prot_F2Z6J4: -1
-      - lower_bound: -0.01614
+      - lower_bound: -0.011543
       - upper_bound: 0
       - gene_reaction_rule: "YALI0A09042g"
       - subsystem:
@@ -83772,7 +83774,7 @@
       - name: "usage_prot_O74932"
       - metabolites: !!omap
           - prot_O74932: -1
-      - lower_bound: -0.006631
+      - lower_bound: -0.011863
       - upper_bound: 0
       - gene_reaction_rule: "YALI0E14685g"
       - subsystem:
@@ -83781,7 +83783,8 @@
       - name: "usage_prot_O74934"
       - metabolites: !!omap
           - prot_O74934: -1
-      - lower_bound: -0.004927
+          - prot_pool: 1
+      - lower_bound: -1000
       - upper_bound: 0
       - gene_reaction_rule: "YALI0E32835g"
       - subsystem:
@@ -83790,7 +83793,7 @@
       - name: "usage_prot_O74935"
       - metabolites: !!omap
           - prot_O74935: -1
-      - lower_bound: -0.002382
+      - lower_bound: -0.003422
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F10857g"
       - subsystem:
@@ -83799,7 +83802,7 @@
       - name: "usage_prot_O74936"
       - metabolites: !!omap
           - prot_O74936: -1
-      - lower_bound: -0.008383
+      - lower_bound: -0.007102
       - upper_bound: 0
       - gene_reaction_rule: "YALI0D24750g"
       - subsystem:
@@ -83818,7 +83821,7 @@
       - name: "usage_prot_P29407"
       - metabolites: !!omap
           - prot_P29407: -1
-      - lower_bound: -0.151328
+      - lower_bound: -0.165053
       - upper_bound: 0
       - gene_reaction_rule: "YALI0D12400g"
       - subsystem:
@@ -83827,7 +83830,7 @@
       - name: "usage_prot_P30614"
       - metabolites: !!omap
           - prot_P30614: -1
-      - lower_bound: -0.267466
+      - lower_bound: -0.283276
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F09185g"
       - subsystem:
@@ -83836,7 +83839,7 @@
       - name: "usage_prot_P34229"
       - metabolites: !!omap
           - prot_P34229: -1
-      - lower_bound: -0.055647
+      - lower_bound: -0.070993
       - upper_bound: 0
       - gene_reaction_rule: "YALI0B15059g"
       - subsystem:
@@ -83845,7 +83848,7 @@
       - name: "usage_prot_P38997"
       - metabolites: !!omap
           - prot_P38997: -1
-      - lower_bound: -0.078733
+      - lower_bound: -0.079165
       - upper_bound: 0
       - gene_reaction_rule: "YALI0B15444g"
       - subsystem:
@@ -83854,7 +83857,7 @@
       - name: "usage_prot_P41555"
       - metabolites: !!omap
           - prot_P41555: -1
-      - lower_bound: -0.088708
+      - lower_bound: -0.025256
       - upper_bound: 0
       - gene_reaction_rule: "YALI0C16885g"
       - subsystem:
@@ -83863,7 +83866,7 @@
       - name: "usage_prot_P41923"
       - metabolites: !!omap
           - prot_P41923: -1
-      - lower_bound: -0.057933
+      - lower_bound: -0.067889
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F21527g"
       - subsystem:
@@ -83872,7 +83875,7 @@
       - name: "usage_prot_P41943"
       - metabolites: !!omap
           - prot_P41943: -1
-      - lower_bound: -0.03541
+      - lower_bound: -0.010848
       - upper_bound: 0
       - gene_reaction_rule: "YALI0C23617g"
       - subsystem:
@@ -83881,7 +83884,7 @@
       - name: "usage_prot_P59680"
       - metabolites: !!omap
           - prot_P59680: -1
-      - lower_bound: -0.002226
+      - lower_bound: -0.006462
       - upper_bound: 0
       - gene_reaction_rule: "YALI0D16357g"
       - subsystem:
@@ -83890,7 +83893,7 @@
       - name: "usage_prot_Q05493"
       - metabolites: !!omap
           - prot_Q05493: -1
-      - lower_bound: -0.015825
+      - lower_bound: -0.005136
       - upper_bound: 0
       - gene_reaction_rule: "YALI0E18568g"
       - subsystem:
@@ -83899,7 +83902,7 @@
       - name: "usage_prot_Q12725"
       - metabolites: !!omap
           - prot_Q12725: -1
-      - lower_bound: -0.001189
+      - lower_bound: -0.0078
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F05390g"
       - subsystem:
@@ -83908,7 +83911,7 @@
       - name: "usage_prot_Q12726"
       - metabolites: !!omap
           - prot_Q12726: -1
-      - lower_bound: -0.090355
+      - lower_bound: -0.0336
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F31075g"
       - subsystem:
@@ -83917,7 +83920,7 @@
       - name: "usage_prot_Q6BZP5"
       - metabolites: !!omap
           - prot_Q6BZP5: -1
-      - lower_bound: -0.018545
+      - lower_bound: -0.022128
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F31999g"
       - subsystem:
@@ -83946,7 +83949,7 @@
       - name: "usage_prot_Q6BZT7"
       - metabolites: !!omap
           - prot_Q6BZT7: -1
-      - lower_bound: -0.020601
+      - lower_bound: -0.02455
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F30987g"
       - subsystem:
@@ -84155,7 +84158,7 @@
       - name: "usage_prot_Q6C074"
       - metabolites: !!omap
           - prot_Q6C074: -1
-      - lower_bound: -0.007967
+      - lower_bound: -0.006556
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F27247g"
       - subsystem:
@@ -84174,7 +84177,7 @@
       - name: "usage_prot_Q6C097"
       - metabolites: !!omap
           - prot_Q6C097: -1
-      - lower_bound: -0.011816
+      - lower_bound: -0.008571
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F26609g"
       - subsystem:
@@ -84293,7 +84296,7 @@
       - name: "usage_prot_Q6C0G5"
       - metabolites: !!omap
           - prot_Q6C0G5: -1
-      - lower_bound: -0.000729
+      - lower_bound: -0.031314
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F24937g"
       - subsystem:
@@ -84372,7 +84375,8 @@
       - name: "usage_prot_Q6C0L2"
       - metabolites: !!omap
           - prot_Q6C0L2: -1
-      - lower_bound: -0.001235
+          - prot_pool: 1
+      - lower_bound: -1000
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F23727g"
       - subsystem:
@@ -84401,7 +84405,7 @@
       - name: "usage_prot_Q6C0M4"
       - metabolites: !!omap
           - prot_Q6C0M4: -1
-      - lower_bound: -0.006588
+      - lower_bound: -0.004656
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F23441g"
       - subsystem:
@@ -84480,7 +84484,7 @@
       - name: "usage_prot_Q6C0U0"
       - metabolites: !!omap
           - prot_Q6C0U0: -1
-      - lower_bound: -0.001046
+      - lower_bound: -0.002122
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F21791g"
       - subsystem:
@@ -84549,7 +84553,7 @@
       - name: "usage_prot_Q6C0Z3"
       - metabolites: !!omap
           - prot_Q6C0Z3: -1
-      - lower_bound: -0.002434
+      - lower_bound: -0.00165
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F20570g"
       - subsystem:
@@ -84558,7 +84562,7 @@
       - name: "usage_prot_Q6C0Z6"
       - metabolites: !!omap
           - prot_Q6C0Z6: -1
-      - lower_bound: -0.040968
+      - lower_bound: -0.090653
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F20504g"
       - subsystem:
@@ -84577,7 +84581,7 @@
       - name: "usage_prot_Q6C105"
       - metabolites: !!omap
           - prot_Q6C105: -1
-      - lower_bound: -0.095298
+      - lower_bound: -0.076353
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F20306g"
       - subsystem:
@@ -84586,7 +84590,7 @@
       - name: "usage_prot_Q6C107"
       - metabolites: !!omap
           - prot_Q6C107: -1
-      - lower_bound: -0.001887
+      - lower_bound: -0.002118
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F20262g"
       - subsystem:
@@ -84655,7 +84659,7 @@
       - name: "usage_prot_Q6C141"
       - metabolites: !!omap
           - prot_Q6C141: -1
-      - lower_bound: -0.004226
+      - lower_bound: -0.005222
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F19448g"
       - subsystem:
@@ -84744,7 +84748,7 @@
       - name: "usage_prot_Q6C1E0"
       - metabolites: !!omap
           - prot_Q6C1E0: -1
-      - lower_bound: -0.016641
+      - lower_bound: -0.024604
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F17138g"
       - subsystem:
@@ -84763,7 +84767,7 @@
       - name: "usage_prot_Q6C1F3"
       - metabolites: !!omap
           - prot_Q6C1F3: -1
-      - lower_bound: -0.454234
+      - lower_bound: -0.369478
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F16819g"
       - subsystem:
@@ -84912,7 +84916,7 @@
       - name: "usage_prot_Q6C1T4"
       - metabolites: !!omap
           - prot_Q6C1T4: -1
-      - lower_bound: -0.00744
+      - lower_bound: -0.006391
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F13541g"
       - subsystem:
@@ -85200,7 +85204,7 @@
       - name: "usage_prot_Q6C2D9"
       - metabolites: !!omap
           - prot_Q6C2D9: -1
-      - lower_bound: -0.053464
+      - lower_bound: -0.01159
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F08701g"
       - subsystem:
@@ -85209,7 +85213,7 @@
       - name: "usage_prot_Q6C2E3"
       - metabolites: !!omap
           - prot_Q6C2E3: -1
-      - lower_bound: -0.258542
+      - lower_bound: -0.20045
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F08613g"
       - subsystem:
@@ -85418,7 +85422,7 @@
       - name: "usage_prot_Q6C2T9"
       - metabolites: !!omap
           - prot_Q6C2T9: -1
-      - lower_bound: -0.167954
+      - lower_bound: -0.206834
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F05214g"
       - subsystem:
@@ -85427,7 +85431,7 @@
       - name: "usage_prot_Q6C2U0"
       - metabolites: !!omap
           - prot_Q6C2U0: -1
-      - lower_bound: -0.004969
+      - lower_bound: -0.006171
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F05192g"
       - subsystem:
@@ -85446,7 +85450,7 @@
       - name: "usage_prot_Q6C2V6"
       - metabolites: !!omap
           - prot_Q6C2V6: -1
-      - lower_bound: -0.017634
+      - lower_bound: -0.029299
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F04774g"
       - subsystem:
@@ -85545,7 +85549,7 @@
       - name: "usage_prot_Q6C326"
       - metabolites: !!omap
           - prot_Q6C326: -1
-      - lower_bound: -0.519879
+      - lower_bound: -0.489724
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F03179g"
       - subsystem:
@@ -85564,7 +85568,7 @@
       - name: "usage_prot_Q6C338"
       - metabolites: !!omap
           - prot_Q6C338: -1
-      - lower_bound: -0.153281
+      - lower_bound: -0.117046
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F02893g"
       - subsystem:
@@ -85593,7 +85597,7 @@
       - name: "usage_prot_Q6C354"
       - metabolites: !!omap
           - prot_Q6C354: -1
-      - lower_bound: -0.046986
+      - lower_bound: -0.026317
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F02497g"
       - subsystem:
@@ -85632,7 +85636,7 @@
       - name: "usage_prot_Q6C399"
       - metabolites: !!omap
           - prot_Q6C399: -1
-      - lower_bound: -0.080229
+      - lower_bound: -0.153672
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F01496g"
       - subsystem:
@@ -85661,7 +85665,8 @@
       - name: "usage_prot_Q6C3E0"
       - metabolites: !!omap
           - prot_Q6C3E0: -1
-      - lower_bound: -0.013935
+          - prot_pool: 1
+      - lower_bound: -1000
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F00506g"
       - subsystem:
@@ -85690,7 +85695,7 @@
       - name: "usage_prot_Q6C3E5"
       - metabolites: !!omap
           - prot_Q6C3E5: -1
-      - lower_bound: -0.013979
+      - lower_bound: -0.013406
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F00396g"
       - subsystem:
@@ -85769,7 +85774,7 @@
       - name: "usage_prot_Q6C3K7"
       - metabolites: !!omap
           - prot_Q6C3K7: -1
-      - lower_bound: -0.040671
+      - lower_bound: -0.041201
       - upper_bound: 0
       - gene_reaction_rule: "YALI0E34037g"
       - subsystem:
@@ -85808,7 +85813,7 @@
       - name: "usage_prot_Q6C3M9"
       - metabolites: !!omap
           - prot_Q6C3M9: -1
-      - lower_bound: -0.018704
+      - lower_bound: -0.019081
       - upper_bound: 0
       - gene_reaction_rule: "YALI0E33495g"
       - subsystem:
@@ -85977,7 +85982,7 @@
       - name: "usage_prot_Q6C3Z9"
       - metabolites: !!omap
           - prot_Q6C3Z9: -1
-      - lower_bound: -0.057431
+      - lower_bound: -0.053827
       - upper_bound: 0
       - gene_reaction_rule: "YALI0E30965g"
       - subsystem:
@@ -86076,7 +86081,7 @@
       - name: "usage_prot_Q6C482"
       - metabolites: !!omap
           - prot_Q6C482: -1
-      - lower_bound: -0.130604
+      - lower_bound: -0.141093
       - upper_bound: 0
       - gene_reaction_rule: "YALI0E28963g"
       - subsystem:
@@ -86195,8 +86200,7 @@
       - name: "usage_prot_Q6C4H7"
       - metabolites: !!omap
           - prot_Q6C4H7: -1
-          - prot_pool: 1
-      - lower_bound: -1000
+      - lower_bound: -0.000607
       - upper_bound: 0
       - gene_reaction_rule: "YALI0E26719g"
       - subsystem:
@@ -86685,7 +86689,7 @@
       - name: "usage_prot_Q6C5K1"
       - metabolites: !!omap
           - prot_Q6C5K1: -1
-      - lower_bound: -0.001987
+      - lower_bound: -0.002121
       - upper_bound: 0
       - gene_reaction_rule: "YALI0E17391g"
       - subsystem:
@@ -87014,7 +87018,7 @@
       - name: "usage_prot_Q6C627"
       - metabolites: !!omap
           - prot_Q6C627: -1
-      - lower_bound: -0.017571
+      - lower_bound: -0.027281
       - upper_bound: 0
       - gene_reaction_rule: "YALI0E13057g"
       - subsystem:
@@ -87073,7 +87077,7 @@
       - name: "usage_prot_Q6C673"
       - metabolites: !!omap
           - prot_Q6C673: -1
-      - lower_bound: -0.002097
+      - lower_bound: -0.005955
       - upper_bound: 0
       - gene_reaction_rule: "YALI0E11913g"
       - subsystem:
@@ -87282,7 +87286,8 @@
       - name: "usage_prot_Q6C6Q7"
       - metabolites: !!omap
           - prot_Q6C6Q7: -1
-      - lower_bound: -0.001657
+          - prot_pool: 1
+      - lower_bound: -1000
       - upper_bound: 0
       - gene_reaction_rule: "YALI0E07161g"
       - subsystem:
@@ -87351,7 +87356,7 @@
       - name: "usage_prot_Q6C6U9"
       - metabolites: !!omap
           - prot_Q6C6U9: -1
-      - lower_bound: -0.011764
+      - lower_bound: -0.007968
       - upper_bound: 0
       - gene_reaction_rule: "YALI0E06061g"
       - subsystem:
@@ -87480,7 +87485,8 @@
       - name: "usage_prot_Q6C741"
       - metabolites: !!omap
           - prot_Q6C741: -1
-      - lower_bound: -0.003307
+          - prot_pool: 1
+      - lower_bound: -1000
       - upper_bound: 0
       - gene_reaction_rule: "YALI0E03960g"
       - subsystem:
@@ -87529,7 +87535,7 @@
       - name: "usage_prot_Q6C791"
       - metabolites: !!omap
           - prot_Q6C791: -1
-      - lower_bound: -0.367939
+      - lower_bound: -0.235598
       - upper_bound: 0
       - gene_reaction_rule: "YALI0E02728g"
       - subsystem:
@@ -87538,7 +87544,7 @@
       - name: "usage_prot_Q6C793"
       - metabolites: !!omap
           - prot_Q6C793: -1
-      - lower_bound: -0.184514
+      - lower_bound: -0.103585
       - upper_bound: 0
       - gene_reaction_rule: "YALI0E02684g"
       - subsystem:
@@ -87597,7 +87603,7 @@
       - name: "usage_prot_Q6C7B8"
       - metabolites: !!omap
           - prot_Q6C7B8: -1
-      - lower_bound: -0.044279
+      - lower_bound: -0.035232
       - upper_bound: 0
       - gene_reaction_rule: "YALI0E02090g"
       - subsystem:
@@ -87696,7 +87702,7 @@
       - name: "usage_prot_Q6C7L4"
       - metabolites: !!omap
           - prot_Q6C7L4: -1
-      - lower_bound: -0.011832
+      - lower_bound: -0.010854
       - upper_bound: 0
       - gene_reaction_rule: "YALI0D27126g"
       - subsystem:
@@ -87905,7 +87911,7 @@
       - name: "usage_prot_Q6C846"
       - metabolites: !!omap
           - prot_Q6C846: -1
-      - lower_bound: -0.022045
+      - lower_bound: -0.019933
       - upper_bound: 0
       - gene_reaction_rule: "YALI0D22847g"
       - subsystem:
@@ -88094,7 +88100,7 @@
       - name: "usage_prot_Q6C8M8"
       - metabolites: !!omap
           - prot_Q6C8M8: -1
-      - lower_bound: -0.007524
+      - lower_bound: -0.023539
       - upper_bound: 0
       - gene_reaction_rule: "YALI0D18403g"
       - subsystem:
@@ -88193,7 +88199,7 @@
       - name: "usage_prot_Q6C8S0"
       - metabolites: !!omap
           - prot_Q6C8S0: -1
-      - lower_bound: -0.005
+      - lower_bound: -0.008715
       - upper_bound: 0
       - gene_reaction_rule: "YALI0D17490g"
       - subsystem:
@@ -88232,7 +88238,7 @@
       - name: "usage_prot_Q6C8V1"
       - metabolites: !!omap
           - prot_Q6C8V1: -1
-      - lower_bound: -0.001308
+      - lower_bound: -0.002817
       - upper_bound: 0
       - gene_reaction_rule: "YALI0D16797g"
       - subsystem:
@@ -88261,7 +88267,8 @@
       - name: "usage_prot_Q6C8W4"
       - metabolites: !!omap
           - prot_Q6C8W4: -1
-      - lower_bound: -0.000562
+          - prot_pool: 1
+      - lower_bound: -1000
       - upper_bound: 0
       - gene_reaction_rule: "YALI0D16379g"
       - subsystem:
@@ -88400,7 +88407,7 @@
       - name: "usage_prot_Q6C9B1"
       - metabolites: !!omap
           - prot_Q6C9B1: -1
-      - lower_bound: -0.098423
+      - lower_bound: -0.096879
       - upper_bound: 0
       - gene_reaction_rule: "YALI0D12584g"
       - subsystem:
@@ -88439,7 +88446,7 @@
       - name: "usage_prot_Q6C9E6"
       - metabolites: !!omap
           - prot_Q6C9E6: -1
-      - lower_bound: -0.169471
+      - lower_bound: -0.171905
       - upper_bound: 0
       - gene_reaction_rule: "YALI0D11814g"
       - subsystem:
@@ -88458,7 +88465,7 @@
       - name: "usage_prot_Q6C9F5"
       - metabolites: !!omap
           - prot_Q6C9F5: -1
-      - lower_bound: -0.00141
+      - lower_bound: -0.002443
       - upper_bound: 0
       - gene_reaction_rule: "YALI0D11616g"
       - subsystem:
@@ -88527,7 +88534,7 @@
       - name: "usage_prot_Q6C9M8"
       - metabolites: !!omap
           - prot_Q6C9M8: -1
-      - lower_bound: -0.003138
+      - lower_bound: -0.003281
       - upper_bound: 0
       - gene_reaction_rule: "YALI0D09867g"
       - subsystem:
@@ -88546,7 +88553,7 @@
       - name: "usage_prot_Q6C9Q0"
       - metabolites: !!omap
           - prot_Q6C9Q0: -1
-      - lower_bound: -0.074616
+      - lower_bound: -0.002203
       - upper_bound: 0
       - gene_reaction_rule: "YALI0D09273g"
       - subsystem:
@@ -88615,7 +88622,7 @@
       - name: "usage_prot_Q6C9V7"
       - metabolites: !!omap
           - prot_Q6C9V7: -1
-      - lower_bound: -0.001922
+      - lower_bound: -0.025968
       - upper_bound: 0
       - gene_reaction_rule: "YALI0D07942g"
       - subsystem:
@@ -88644,7 +88651,7 @@
       - name: "usage_prot_Q6C9Y4"
       - metabolites: !!omap
           - prot_Q6C9Y4: -1
-      - lower_bound: -0.056886
+      - lower_bound: -0.048317
       - upper_bound: 0
       - gene_reaction_rule: "YALI0D07370g"
       - subsystem:
@@ -88743,7 +88750,7 @@
       - name: "usage_prot_Q6CA45"
       - metabolites: !!omap
           - prot_Q6CA45: -1
-      - lower_bound: -0.009908
+      - lower_bound: -0.015642
       - upper_bound: 0
       - gene_reaction_rule: "YALI0D05995g"
       - subsystem:
@@ -88772,7 +88779,7 @@
       - name: "usage_prot_Q6CA53"
       - metabolites: !!omap
           - prot_Q6CA53: -1
-      - lower_bound: -0.006252
+      - lower_bound: -0.009163
       - upper_bound: 0
       - gene_reaction_rule: "YALI0D05797g"
       - subsystem:
@@ -88821,7 +88828,7 @@
       - name: "usage_prot_Q6CAB8"
       - metabolites: !!omap
           - prot_Q6CAB8: -1
-      - lower_bound: -0.004335
+      - lower_bound: -0.007388
       - upper_bound: 0
       - gene_reaction_rule: "YALI0D04202g"
       - subsystem:
@@ -89040,7 +89047,7 @@
       - name: "usage_prot_Q6CAW6"
       - metabolites: !!omap
           - prot_Q6CAW6: -1
-      - lower_bound: -0.001785
+      - lower_bound: -0.001265
       - upper_bound: 0
       - gene_reaction_rule: "YALI0C23793g"
       - subsystem:
@@ -89149,7 +89156,7 @@
       - name: "usage_prot_Q6CBB0"
       - metabolites: !!omap
           - prot_Q6CBB0: -1
-      - lower_bound: -0.00337
+      - lower_bound: -0.00419
       - upper_bound: 0
       - gene_reaction_rule: "YALI0C20427g"
       - subsystem:
@@ -89218,7 +89225,7 @@
       - name: "usage_prot_Q6CBE4"
       - metabolites: !!omap
           - prot_Q6CBE4: -1
-      - lower_bound: -0.008758
+      - lower_bound: -0.010785
       - upper_bound: 0
       - gene_reaction_rule: "YALI0C19624g"
       - subsystem:
@@ -89257,7 +89264,7 @@
       - name: "usage_prot_Q6CBH3"
       - metabolites: !!omap
           - prot_Q6CBH3: -1
-      - lower_bound: -0.007985
+      - lower_bound: -0.002411
       - upper_bound: 0
       - gene_reaction_rule: "YALI0C18755g"
       - subsystem:
@@ -89526,7 +89533,7 @@
       - name: "usage_prot_Q6CC39"
       - metabolites: !!omap
           - prot_Q6CC39: -1
-      - lower_bound: -0.004679
+      - lower_bound: -0.001648
       - upper_bound: 0
       - gene_reaction_rule: "YALI0C12749g"
       - subsystem:
@@ -89755,7 +89762,7 @@
       - name: "usage_prot_Q6CCU3"
       - metabolites: !!omap
           - prot_Q6CCU3: -1
-      - lower_bound: -0.059364
+      - lower_bound: -0.026292
       - upper_bound: 0
       - gene_reaction_rule: "YALI0C06490g"
       - subsystem:
@@ -89774,7 +89781,7 @@
       - name: "usage_prot_Q6CCU7"
       - metabolites: !!omap
           - prot_Q6CCU7: -1
-      - lower_bound: -0.669301
+      - lower_bound: -0.758963
       - upper_bound: 0
       - gene_reaction_rule: "YALI0C06369g"
       - subsystem:
@@ -89803,7 +89810,7 @@
       - name: "usage_prot_Q6CCW0"
       - metabolites: !!omap
           - prot_Q6CCW0: -1
-      - lower_bound: -0.006144
+      - lower_bound: -0.003227
       - upper_bound: 0
       - gene_reaction_rule: "YALI0C06083g"
       - subsystem:
@@ -90072,7 +90079,7 @@
       - name: "usage_prot_Q6CDL9"
       - metabolites: !!omap
           - prot_Q6CDL9: -1
-      - lower_bound: -0.005231
+      - lower_bound: -0.009972
       - upper_bound: 0
       - gene_reaction_rule: "YALI0B22924g"
       - subsystem:
@@ -90081,7 +90088,7 @@
       - name: "usage_prot_Q6CDM0"
       - metabolites: !!omap
           - prot_Q6CDM0: -1
-      - lower_bound: -0.006507
+      - lower_bound: -0.00573
       - upper_bound: 0
       - gene_reaction_rule: "YALI0B22902g"
       - subsystem:
@@ -90130,7 +90137,7 @@
       - name: "usage_prot_Q6CDR5"
       - metabolites: !!omap
           - prot_Q6CDR5: -1
-      - lower_bound: -0.001664
+      - lower_bound: -0.016338
       - upper_bound: 0
       - gene_reaction_rule: "YALI0B21846g"
       - subsystem:
@@ -90329,7 +90336,7 @@
       - name: "usage_prot_Q6CE86"
       - metabolites: !!omap
           - prot_Q6CE86: -1
-      - lower_bound: -0.007626
+      - lower_bound: -0.00544
       - upper_bound: 0
       - gene_reaction_rule: "YALI0B17688g"
       - subsystem:
@@ -90348,7 +90355,7 @@
       - name: "usage_prot_Q6CE88"
       - metabolites: !!omap
           - prot_Q6CE88: -1
-      - lower_bound: -0.023995
+      - lower_bound: -0.018347
       - upper_bound: 0
       - gene_reaction_rule: "YALI0B17644g"
       - subsystem:
@@ -90417,8 +90424,7 @@
       - name: "usage_prot_Q6CEE9"
       - metabolites: !!omap
           - prot_Q6CEE9: -1
-          - prot_pool: 1
-      - lower_bound: -1000
+      - lower_bound: -0.004193
       - upper_bound: 0
       - gene_reaction_rule: "YALI0B16192g"
       - subsystem:
@@ -90437,7 +90443,7 @@
       - name: "usage_prot_Q6CEF3"
       - metabolites: !!omap
           - prot_Q6CEF3: -1
-      - lower_bound: -0.055885
+      - lower_bound: -0.067217
       - upper_bound: 0
       - gene_reaction_rule: "YALI0B16104g"
       - subsystem:
@@ -90636,7 +90642,7 @@
       - name: "usage_prot_Q6CES3"
       - metabolites: !!omap
           - prot_Q6CES3: -1
-      - lower_bound: -0.062992
+      - lower_bound: -0.050995
       - upper_bound: 0
       - gene_reaction_rule: "YALI0B13420g"
       - subsystem:
@@ -90685,7 +90691,7 @@
       - name: "usage_prot_Q6CF18"
       - metabolites: !!omap
           - prot_Q6CF18: -1
-      - lower_bound: -0.002832
+      - lower_bound: -0.006355
       - upper_bound: 0
       - gene_reaction_rule: "YALI0B11044g"
       - subsystem:
@@ -90774,7 +90780,7 @@
       - name: "usage_prot_Q6CFA0"
       - metabolites: !!omap
           - prot_Q6CFA0: -1
-      - lower_bound: -0.026382
+      - lower_bound: -0.02714
       - upper_bound: 0
       - gene_reaction_rule: "YALI0B08943g"
       - subsystem:
@@ -90793,7 +90799,7 @@
       - name: "usage_prot_Q6CFD2"
       - metabolites: !!omap
           - prot_Q6CFD2: -1
-      - lower_bound: -0.203921
+      - lower_bound: -0.104909
       - upper_bound: 0
       - gene_reaction_rule: "YALI0B08184g"
       - subsystem:
@@ -90852,7 +90858,7 @@
       - name: "usage_prot_Q6CFH4"
       - metabolites: !!omap
           - prot_Q6CFH4: -1
-      - lower_bound: -0.008655
+      - lower_bound: -0.01285
       - upper_bound: 0
       - gene_reaction_rule: "YALI0B06941g"
       - subsystem:
@@ -90861,7 +90867,7 @@
       - name: "usage_prot_Q6CFH9"
       - metabolites: !!omap
           - prot_Q6CFH9: -1
-      - lower_bound: -0.083699
+      - lower_bound: -0.052179
       - upper_bound: 0
       - gene_reaction_rule: "YALI0B06831g"
       - subsystem:
@@ -90930,7 +90936,7 @@
       - name: "usage_prot_Q6CFS9"
       - metabolites: !!omap
           - prot_Q6CFS9: -1
-      - lower_bound: -0.031963
+      - lower_bound: -0.024891
       - upper_bound: 0
       - gene_reaction_rule: "YALI0B04180g"
       - subsystem:
@@ -90939,7 +90945,7 @@
       - name: "usage_prot_Q6CFT7"
       - metabolites: !!omap
           - prot_Q6CFT7: -1
-      - lower_bound: -0.662223
+      - lower_bound: -0.518334
       - upper_bound: 0
       - gene_reaction_rule: "YALI0B03982g"
       - subsystem:
@@ -90978,7 +90984,7 @@
       - name: "usage_prot_Q6CFX1"
       - metabolites: !!omap
           - prot_Q6CFX1: -1
-      - lower_bound: -0.003944
+      - lower_bound: -0.005853
       - upper_bound: 0
       - gene_reaction_rule: "YALI0B02852g"
       - subsystem:
@@ -91037,7 +91043,7 @@
       - name: "usage_prot_Q6CG11"
       - metabolites: !!omap
           - prot_Q6CG11: -1
-      - lower_bound: -0.003936
+      - lower_bound: -0.016281
       - upper_bound: 0
       - gene_reaction_rule: "YALI0B01826g"
       - subsystem:
@@ -91086,7 +91092,7 @@
       - name: "usage_prot_Q6CG56"
       - metabolites: !!omap
           - prot_Q6CG56: -1
-      - lower_bound: -0.007323
+      - lower_bound: -0.009107
       - upper_bound: 0
       - gene_reaction_rule: "YALI0B00726g"
       - subsystem:
@@ -91095,7 +91101,7 @@
       - name: "usage_prot_Q6CG57"
       - metabolites: !!omap
           - prot_Q6CG57: -1
-      - lower_bound: -0.015404
+      - lower_bound: -0.011922
       - upper_bound: 0
       - gene_reaction_rule: "YALI0B00704g"
       - subsystem:
@@ -91154,7 +91160,7 @@
       - name: "usage_prot_Q6CG88"
       - metabolites: !!omap
           - prot_Q6CG88: -1
-      - lower_bound: -0.004966
+      - lower_bound: -0.003446
       - upper_bound: 0
       - gene_reaction_rule: "YALI0A21263g"
       - subsystem:
@@ -91193,7 +91199,7 @@
       - name: "usage_prot_Q6CGD3"
       - metabolites: !!omap
           - prot_Q6CGD3: -1
-      - lower_bound: -0.004142
+      - lower_bound: -0.0061
       - upper_bound: 0
       - gene_reaction_rule: "YALI0A20295g"
       - subsystem:
@@ -91222,7 +91228,7 @@
       - name: "usage_prot_Q6CGH7"
       - metabolites: !!omap
           - prot_Q6CGH7: -1
-      - lower_bound: -0.022988
+      - lower_bound: -0.035328
       - upper_bound: 0
       - gene_reaction_rule: "YALI0A19206g"
       - subsystem:
@@ -91291,7 +91297,7 @@
       - name: "usage_prot_Q6CGS4"
       - metabolites: !!omap
           - prot_Q6CGS4: -1
-      - lower_bound: -0.004051
+      - lower_bound: -0.00359
       - upper_bound: 0
       - gene_reaction_rule: "YALI0A16698g"
       - subsystem:
@@ -91390,7 +91396,7 @@
       - name: "usage_prot_Q6CH03"
       - metabolites: !!omap
           - prot_Q6CH03: -1
-      - lower_bound: -0.002726
+      - lower_bound: -0.004244
       - upper_bound: 0
       - gene_reaction_rule: "YALI0A14498g"
       - subsystem:
@@ -91499,7 +91505,7 @@
       - name: "usage_prot_Q6CHE9"
       - metabolites: !!omap
           - prot_Q6CHE9: -1
-      - lower_bound: -0.006806
+      - lower_bound: -0.005243
       - upper_bound: 0
       - gene_reaction_rule: "YALI0A09636g"
       - subsystem:
@@ -91578,7 +91584,7 @@
       - name: "usage_prot_Q6CHP1"
       - metabolites: !!omap
           - prot_Q6CHP1: -1
-      - lower_bound: -0.035095
+      - lower_bound: -0.05961
       - upper_bound: 0
       - gene_reaction_rule: "YALI0A06787g"
       - subsystem:
@@ -91717,7 +91723,7 @@
       - name: "usage_prot_Q6L8K7"
       - metabolites: !!omap
           - prot_Q6L8K7: -1
-      - lower_bound: -0.014717
+      - lower_bound: -0.020196
       - upper_bound: 0
       - gene_reaction_rule: "YALI0E11099g"
       - subsystem:
@@ -91726,7 +91732,7 @@
       - name: "usage_prot_Q99145"
       - metabolites: !!omap
           - prot_Q99145: -1
-      - lower_bound: -0.030844
+      - lower_bound: -0.020431
       - upper_bound: 0
       - gene_reaction_rule: "YALI0C05170g"
       - subsystem:
@@ -91735,7 +91741,7 @@
       - name: "usage_prot_Q99148"
       - metabolites: !!omap
           - prot_Q99148: -1
-      - lower_bound: -0.076
+      - lower_bound: -0.065769
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F21010g"
       - subsystem:
@@ -91744,7 +91750,7 @@
       - name: "usage_prot_Q9UVF4"
       - metabolites: !!omap
           - prot_Q9UVF4: -1
-      - lower_bound: -0.060255
+      - lower_bound: -0.023112
       - upper_bound: 0
       - gene_reaction_rule: "YALI0B02948g"
       - subsystem:
@@ -91753,7 +91759,7 @@
       - name: "usage_prot_Q9Y753"
       - metabolites: !!omap
           - prot_Q9Y753: -1
-      - lower_bound: -0.009147
+      - lower_bound: -0.005402
       - upper_bound: 0
       - gene_reaction_rule: "YALI0A10076g"
       - subsystem:
@@ -91782,7 +91788,7 @@
       - name: "prot_pool_exchange"
       - metabolites: !!omap
           - prot_pool: -1
-      - lower_bound: -14.60795748076
+      - lower_bound: -14.707083842094
       - upper_bound: 0
       - subsystem:
     - !!omap
@@ -113063,7 +113069,7 @@
     - enzymes: "Q6CHP1"
     - mw: 42475
     - sequence: "MVYVNAKNYFCDSIINNTDRVLSALIKYHGLSIIAVFLLAIGLFHVALKVVSYVAVLLDVFVLPPTNYLPYGSQRGAWAVVTGASDGIGKEYARQLGLRGFNVFLISRTESKLRELAQEIAEKSKVETKFLAIDVSTDSPQNYKDIETVLETIPSVSILINNVGLSHSIPTPFLETPPAELHNIIAINNLATLKITQLIAPKIVESVKEARATKKFQKGLILTMGSFGGLLPTPLLATYSGSKAFLQHWSNALAVELAPEHVDVELVVSYLVTSAMSKVRKTSALIPNPKQFVTATLSSVGRAGGAQEKFATSTPYWSHALLHWWIAQTVGVFSKLVAGFNYKMHVDIRKRALKKQARQAAGGVADPKNTTAAREGYATESLKNETLKH"
-    - concs: 0.035095
+    - concs: 0.05961
   - !!omap
     - genes: "YALI0A06974g"
     - enzymes: "Q6CHN2"
@@ -113099,7 +113105,7 @@
     - enzymes: "F2Z6J4"
     - mw: 51068
     - sequence: "MLRSTTLQRLRPAVFRVQRWNSTTTSAPKPSTTHSDIVVVGGGPAGLTIAAALKHYPETVNKSVTLVEFGSLDNLKTWGPDMERFENRVSSLTPSSVEYLTKIGVWEHVNRDRVQAYRHMTAWDGVSGSKVQFNTTQLMGEGRDIAYMTENFNLQNGLLKQLANKPNLTILDKTKVEGVERTPESHNKPLVKLSNGSTISTDLLIGADGANSPVRTFSGIEARGWDYNTHGLVATVRLANEQQSAWQRFLPTGPIALLPLPNRFGSLVWSTTPKMAAQLKQLTPEQFVMMVNCAFNLEPTDIEYLVEHPDEIMTDAPYRLSQRSSNPDVPCPIVAVQDKSRASFPLKMKHADTYIAENVALVGDAAHTTHPLAGQGLNMGQGDAQSLAIAIRNAAGRGADIGSTLTLEPYWADQYFKNHKLLGVVDKLHKLYSTRNPLVVGLRSLGLDAVNSVKPVKDFLMSQAS"
-    - concs: 0.01614
+    - concs: 0.011543
   - !!omap
     - genes: "YALI0A09427g"
     - enzymes: "Q6CHF9"
@@ -113110,7 +113116,7 @@
     - enzymes: "Q6CHE9"
     - mw: 30729
     - sequence: "MSDIEDLASGGLFDEPKDFYKPEEQPGSDSYARQEKHVAASEYKEPTNFNLRLTAKNPLWGHLLWNAGKVTSDYLDEHSKELVEGKKVIEFGAGAGLPSLLCHAVGAKQVVITDYPDADLLYNLKYNVDQLKKDWDAKNADFSGPSPCADVSSMKVEGFIWGNDASELIEMSGGTGYDLVILSDVVFNHSEHAKLVRSAKELLAPGGKVFVVFTPHRAKLFNEDLDFFRRAKDEAGFESEKLFELKYYPMFEEEEETKELRSMVFGYMLTLKE"
-    - concs: 0.006806
+    - concs: 0.005243
   - !!omap
     - genes: "YALI0A09856g"
     - enzymes: "Q6CHE0"
@@ -113131,7 +113137,7 @@
     - enzymes: "Q9Y753"
     - mw: 51145
     - sequence: "MGKLIELLLHPSELSAAIHYKLWRQPLHPRDLSKESTELRRCYELLDVCSRSFAAVIRELHPEVRDAVMLFYLILRALDTIEDDMTLSRDIKIPILRDFTKCMKTPGWKFTDSDPNERDRVVLQEFPVVMTEFNKLKPKYQEVIYDITDRMGNGMADYVIDDDFNNNGVDTIAAYDLYCHHVAGIVGEGLTRITILAGFGTDVLHENPRLQESMGLFLQKVNIIRDYREDIDVNRAFWPREIWHKYAEEMRDFKDPKYSKKALHCTSDLVANALGHATDCLDYLDNVTDPSTFTFCAIPQVMAIATLDLVYRNPDVFQKNVKLRKGTTVSLILEASNVSGVCDIFTRYARKVYKKSDPNDPNYFRVSVLCGKIEQHAALIKRQRGPPAKTIAQLEGERKEMALSLIVCLAVIFSMSGLMAYIAYVSGFRWSPREIFDSKMFPLRD"
-    - concs: 0.009147
+    - concs: 0.005402
   - !!omap
     - genes: "YALI0A10310g"
     - enzymes: "Q6CHC2"
@@ -113142,7 +113148,7 @@
     - enzymes: "F2Z5Z3"
     - mw: 32817
     - sequence: "MSDFLVDFMMGGISAAVSKTAAAPIERVKLLIQNQEEMIKQGRLSRPYAGIIDCFKRTAAEEGVVSFWRGNTANVIRYFPTQALNFAFKDKFKKMFGFKKSEGYWMWMMGNLASGGLAGATSLAFVYSLDFARTRLANDAKSVAKDGKAAGERQFNGLIDVYRKTIASDGIAGLYRGFGVSVVGIIVYRGLYFGLYDSLKPVVLVGPLEGNFLAAFLLGWTVTTGASTASYPLDTIRRRMMMTSGTGVKYSSAFDCGVQIVKAEGVASLFRGCGANILRGVAGAGVISMYDQMQMILFGKKF"
-    - concs: 0.329387
+    - concs: 0.256205
   - !!omap
     - genes: "YALI0A11143g"
     - enzymes: "Q6CH91"
@@ -113178,7 +113184,7 @@
     - enzymes: "Q6CH03"
     - mw: 20356
     - sequence: "MKFYYHDNDSSVDQCAPHDSGEPVTAEQLEKIGVLAFHYPDVEDVNRLAKERKYTNRDEVTITPEAMGGQENYEKKLKVFYEEHLHEDEEIRYILDGEGYFDVRDKDDRWIRAQLNAGDLLILPSGIYHRFTLSEKNYVHTMRLFQAEPKWVALPRPVDNNPYRQEYVKAISA"
-    - concs: 0.002726
+    - concs: 0.004244
   - !!omap
     - genes: "YALI0A14784g"
     - enzymes: "Q6CGZ0"
@@ -113229,7 +113235,7 @@
     - enzymes: "Q6CGS4"
     - mw: 40234
     - sequence: "MSLEAIRYDEKNHTLTILDQLRLPHESEYVPINNSDDGWKAIKDMVVRGAPAIAIVAILSLAVELVHGGKVSRDQTRAEVGSFISDRLDYLNTSRPTAVNLSDAVGSFKKLVQTQTGSASELIEAFLSASHKMLLDDVQDNKNIGKYGLEWIQKNVPQAANGHKISALTICNTGSLATAGYGTALGIIRALHEAGVLERVYALETRPYNQGSRLTAYELVHDGIPATLVTDSMAAALLRKNKDIGVIIVGADRVVLNGDTANKIGTFQLSILANHFDRKFIVAAPTTSIDVQTKSGEDIEIEERPAIELTQVKGVDANKQPLTVSVAAPGIEVWNPAFDYAPYKLIDAIVTEKGVAEKTGGEFNLKEFKSAN"
-    - concs: 0.004051
+    - concs: 0.00359
   - !!omap
     - genes: "YALI0A16863g"
     - enzymes: "Q6CGR6"
@@ -113265,7 +113271,7 @@
     - enzymes: "Q6CGH7"
     - mw: 45793
     - sequence: "MASLYTIVIKLGTSSLVDEVTREPRIANMSLLVETIVKLKRDGHRVIIVSSGGIAVGLKRLGITDRPKGIAEVQAVAAVGQARLIGLWDDLFRQMGQPIAQILLTRNDLADRTQYLNATATLNELLNMGVIPIVNENDTLSAYEIRFGDNDTLSAITAGMANADYLFLMTDVDCLYTANPRSDPTAKPILIVDDISSLKVDVSSTGSNVGTGGMTTKLIAAELATSVGTTTVICKSSVPGNIRAIVKYNQKYDVEADAKEIVTPAYQAQELERLVVEDVPLHTKFIADKEPIKDRQFWLLHGLSAAGKIYIDAGCYKALTRKNRAGMLPAGLLGTVGTFHTSETVSIHVGRKLEDGGWIPHPDFADMEVGRALVNYGSTEMELIKGLQSNQIESVLGFMDSEYLAFRDNIAFLPHTNAPSSPA"
-    - concs: 0.022988
+    - concs: 0.035328
   - !!omap
     - genes: "YALI0A19558g"
     - enzymes: "Q6CGG5"
@@ -113281,13 +113287,12 @@
     - enzymes: "Q6CGD3"
     - mw: 24632
     - sequence: "MGTSLWLQPPRNSPIWQQLATTIQGLKPIFSDSENFEPHITLTSNISVNTQGQVDFVLDRAVAAAKCVPQGFQIHLSSVKYGSRFFKKVYLQVEPTPELLSLARICREDFVYMPEAMSQARNYQAMSAEERQKIDTQVGQRAAEWTRNEYDPHVSLVYSDLYPVEDADRRTIETRLEDTFGSGYDESGLGWKNGRFALVRCEGPVDEWEVLGVRDF"
-    - concs: 0.004142
+    - concs: 0.0061
   - !!omap
     - genes: "YALI0A20350g"
     - enzymes: "F2Z685"
     - mw: 36783
     - sequence: "MKLSTILFTACATLAAALPSPITPSEAAVLQKRVYTSTETSHIDQESYNFFEKYARLANIGYCVGPGTKIFKPFNCGLQCAHFPNVELIEEFHDPRLIFDVSGYLAVDHASKQIYLVIRGTHSLEDVITDIRIMQAPLTNFDLAANISSTATCDDCLVHNGFIQSYNNTYNQIGPKLDSVIEQYPDYQIAVTGHSLGGAAALLFGINLKVNGHDPLVVTLGQPIVGNAGFANWVDKLFFGQENPDVSKVSKDRKLYRITHRGDIVPQVPFWDGYQHCSGEVFIDWPLIHPPLSNVVMCQGQSNKQCSAGNTLLQQVNVIGNHLQYFVTEGVCGI"
-    - concs: 0.000582
   - !!omap
     - genes: "YALI0A20922g"
     - enzymes: "Q6CGA3"
@@ -113308,7 +113313,7 @@
     - enzymes: "Q6CG88"
     - mw: 58900
     - sequence: "MSLRNSTTAKRFHSHKTWAGTFWSRPSLYFQPASIEELQAIVTRARDLGKTIMVVGSAHSPSDLTMTSQWLVNLDKLSKAVSFKPHTSGLYTDVTVEAGIRIHQLNEVLKRKGLAMQNLGSISDQSVAGIISTGTHGSSAYHGLVSQQIVSLTIMIASGELLTCSPDENPTLFRAALLSLGKLGIIVYATLRTVPAYTIHSTQHVITFETLIREWDNLWTASEYIRVWWFPYAERCILWRASKSELPLSAPRPSWYGTWLGRLFYETLLWVSVRLWPSLTPSVERFIFSRQYGMEDTLGSGTGSEAVQGSVEGLNMDCLFSQFVNEWGMPLDNGPDVLRALRAKIEAAAKDNIYYVHSPVEVRCSNMSVPDSGDRNVEPNTQEFSASRRGAITGNTLRPLLDINPRDRPYASPHGHVTNSNLTLYINATMYRPFGVNSPVGKWYRDFEGIVAEAGGKPHWAKNFLGPETAELKDNESEDGKMLGLKPIIDEWYGDDLKQWKSLREKYDPTGVFLSGKVWMDRNGLL"
-    - concs: 0.004966
+    - concs: 0.003446
   - !!omap
     - genes: "YALI0A21307g"
     - enzymes: "Q6CG86"
@@ -113339,13 +113344,13 @@
     - enzymes: "Q6CG57"
     - mw: 27619
     - sequence: "MSTIEDLKATVERLAARVHELEASAKSKIAPEVPKSIRMVLIGPPGAGKGTQAPNLVEKYCACHLATGDMLRSQVQQQTPLGVEAKKIMDAGGLVSDDIMVNMIRSELENNSKCKNGFILDGFPRTIPQAEKLDEMLAEKKQPLEKAVELKIPDDLLVARITGRLVHPASGRSYHKVFNPPKKEMIDDITGEALVQRSDDNADALKKRLVSFHKQTEPIVGYYQKTGIWKGVDAAQDPKKVWGDILKCLGQ"
-    - concs: 0.015404
+    - concs: 0.011922
   - !!omap
     - genes: "YALI0B00726g"
     - enzymes: "Q6CG56"
     - mw: 37437
     - sequence: "MSETPNLATEAVLVHSAPVPEDAVPVSGIDFDKPENKNTRAADLVGAMNGMGFQATSLGQACNIIDEMRTWEGVDKEGNPAKTTIFLGYTSNLISSGLRSTLKYLVKNKMVSAIVSSAGGIEEDLIKCLAETYLGDFALKGSVLRETGMNRIGNLLVPNDNYCKFEEWVVPILDTMLEEQEKQGVSWTPSTVIDRLGKEIDNEDSVLYWAHKNQIPVFCPALTDGSLGDMLFFHTFKASPLQLKIDIVADIRKINSMSMAATRAGMIILGGGLVKHHIANACLMRNGADYAVYINTGQEFDGSDAGARPDEAISWGKIKAGAKHVKVYADATLVFPLVVAATFAKE"
-    - concs: 0.007323
+    - concs: 0.009107
   - !!omap
     - genes: "YALI0B00836g"
     - enzymes: "Q6CG51"
@@ -113376,7 +113381,7 @@
     - enzymes: "Q6CG11"
     - mw: 21820
     - sequence: "MMISCTRTAILPLRRRLMTASTAYPIKFASSIIPGYGRGSADLGIPTANIPIDDVPVLDALDTGIYYGLVQILKTDKPSEKKTSEFQKDRVVDFQYTNKLNDQEINAVLPMVMSVGWNPFYKNDQKSAEIHIIHKFAHTFYGASIKVMVLGYLRPEKNFTSLEALVDEIHNDIKVSEEKMEGTREKKDQFWQ"
-    - concs: 0.003936
+    - concs: 0.016281
   - !!omap
     - genes: "YALI0B01848g"
     - enzymes: "F2Z623"
@@ -113412,13 +113417,13 @@
     - enzymes: "Q6CFX1"
     - mw: 19550
     - sequence: "MLQEPINLPKWLEENQHLLKPPVNNFCIQRGGYTVMIVGGPNARTDYHINQTPEWFHQKKGHMTLKVVDDGEFRDITINEGDIFLLPANVPHNPVRYADTIGVVVEQDRPEGMKDALRWYCPNEKCREIVFENSFQLVDLGTQIKEAILDFDGDIEKRTCKACGTVATSRP"
-    - concs: 0.003944
+    - concs: 0.005853
   - !!omap
     - genes: "YALI0B02948g"
     - enzymes: "Q9UVF4"
     - mw: 43459
     - sequence: "MSALLRSSLRFKHMSAVNRLTQQLRLLTASAPLSAANTAGKAPFKVAVVGSGNWGTTVAKIVAENCTAHPELFEPEVRVWVREEKVNGKNLTDIFNAEHENVRYLPKIKLPHNLIAEPDLLKAVEGANIIVFNLPHQFLAGVCKQLKGHVNPKARAISCLKGLDVTPQGVYLLSDVIENETGLHCGVLSGANLATEIALEKYSETTVAYNRPKDFFGEGDVTNDVLKALFHRPYFHVRCVQDVAGVSIGGALKNVVALCAGFVEGKNWGDNAKAAIMRRGMLEMINFSKRFFPETDINTLTVESAGVADLITSCAGGRNFKVGRAFGKESGSGKTIQDVEKELLNGQSAQGVITCNEVHELLKNKNMQKDFPLFESTWGIIHGELKIDDLPEILYHAN"
-    - concs: 0.060255
+    - concs: 0.023112
   - !!omap
     - genes: "YALI0B03344g"
     - enzymes: "Q6CFV5"
@@ -113439,13 +113444,13 @@
     - enzymes: "Q6CFT7"
     - mw: 54535
     - sequence: "MVLPRLIPRLSRSAFKVAQANNRVFNAPFRGMASSAGVGSGKIRTVIGAVVDVQFEQDNLPAILNALTIDRGEGNKLVLEVAQHLGENTVRTIAMDGTEGLVRGTSVADTGAPITIPVGRGTLGRIINVCGEPIDERGPIEATKFLPIHADPPTFAEQSTTAEVLETGIKVVDLLAPYARGGKIGLFGGAGVGKTVFIQELINNIAKAHGGFSVFCGVGERTREGNDLYREMKETGVINLEGESKVTLVFGQMNEPPGARARVALTGLTIAEYFRDEEGQDVLLFVDNIFRFTQAGSEVSALLGRIPSAVGYQPTLATDMGALQERITTTQKGSVTSVQAVYVPADDLTDPAPATTFAHLDATTVLSRGISELGIYPAVDPLDSKSRLLDIDVVGQEHYDVASNVQQTLQAYKSLQDIIAILGMDELSEQDKLTVERARKIQRFLSQPFTVAEVFTGIEGRLVSLKDTVRSFKEILDGKHDALPEAAFYMVGGIEEVVAKAEKLAAESK"
-    - concs: 0.662223
+    - concs: 0.518334
   - !!omap
     - genes: "YALI0B04180g"
     - enzymes: "Q6CFS9"
     - mw: 104635
     - sequence: "MPLNPETWPATKVRKTFLDYFGEKRAHSFVPSSSVIPYDDPTLLFANAGMNQYKPIFLGTCDPSSPLSKLNRAANSQKCIRAGGKHNDLDDVGRDSYHHTFFEMLGNWSFGDYFKAEACAWAWELLTQVYGLDADRLYVSYFGGDDKLGLQPDLEAKQIWMDLGVAEDHILPGDSADNFWEMGDQGPCGPCSEIHYDRIGGGRNARDLVNMDDPNVLEIWNIVFIQYNREADKSLKPLPAKHIDTGMGFERLVSVLQDKSSNYDTDVFTPIFAKIQELTGARDYAGKFGAEDADGIDTAYRVVADHVRTLTFALADGGVPNNDGRGYVLRRILRRGARFVRKKFDVPIGSFFSQLAPTLIEQVNEIFPELSKRTEDIFEILNDEEQSFSRTLDRGEKLFEQYAADAKANSKTVLAGKDVWRLYDTYGFPVDLTRIMAEEAGLDIDEAAFDKAKQESLEASKGGKKTAGGVQLVKLDVHALAELEKNDAVPKTDDQAKFTESNLSDAKVVAIYNGTGFVDSVDESAGQVGLLLDKTCMYAESGGQEYDTGKIVIDGQTEFDVNNVQVYAGYVLHTGNFNYGSLKIGDVVNVGFDTARRTPLKNNHTGTHVLNYALKETLGDTIDQKGSLVASEKLRFDFSHKAGLTPAEVAKVEDISNAYITKNLAVYAKSVDLTTAKKINGVRAVFGETYPDPVRVVSVGVPVEDLIANPDDAKWAEYSVEFCGGTHVGKTGEIKHLVIIEESGIAKGIRRIVAVTGKEAADVQKLAAEFDERLDKLAAQPLGADKEQAAKAIGVELKKLSVSTTSKLALQEKFNKIQKTITDGIKAKLKAESKASTDLVSSYFEKNPEATYLVAHVPDISANSKALSETINHVKSKLPGKSVYLFAGSPAEGKVAHACFIDESVSNKGLTAQQMGAIAAGLVGGRSGGKGPTIQGSGDNADKIADAVSELEKEITKLGL"
-    - concs: 0.031963
+    - concs: 0.024891
   - !!omap
     - genes: "YALI0B04202g"
     - enzymes: "Q6CFS8"
@@ -113481,13 +113486,13 @@
     - enzymes: "Q6CFH9"
     - mw: 19821
     - sequence: "MSVAAARSSAVKVDWGKIVSSLGLTGATVSSLQAFRKRHEEAKKNAYELQNQPTTVDFAHYRKVLKNQKVVDEIEQHFKSFKPVTYDVSKQLKTIDAFEAKAIEDAKATEGKVNQEIGDLQKTLENIESARPFDQLSVDDVFKARPDLEKKIEEMVKKGRWSVPGYNEKFGSVVLM"
-    - concs: 0.083699
+    - concs: 0.052179
   - !!omap
     - genes: "YALI0B06941g"
     - enzymes: "Q6CFH4"
     - mw: 25954
     - sequence: "MSSELPPLEQAKRIAAHQAVEQHYPKDAKVVGIGSGSTVVYVAEKIASLPKELTKDTVFISTGFQSKQLIQNAGLRLGCIDQYSNGDLDVAFDGADETDPQLNCIKGGGACLFQEKIVAECARKFVVVADYRKQSKALGTVWIQGIPIEVVPDAYNKVIADLKKMGAQSAVLRPGSPGKAGPIITDNGNFIVDAYFGEIQPDAVKDLHIKIKLLLGVVETGLFTNADVAYFGNADGTISTITK"
-    - concs: 0.008655
+    - concs: 0.01285
   - !!omap
     - genes: "YALI0B07117g"
     - enzymes: "Q6CFG7"
@@ -113508,7 +113513,7 @@
     - enzymes: "F2Z5Z5"
     - mw: 43721
     - sequence: "MDFLYSSTCLHPVGEFKGQLNGLMVPKYTEADAEEWYRWIMANKDAQALIYTDSSIGVEQGRLVRDLYRQFDPRPMIIRRLDQDAIEVAQIQKSRVMGCDGLVFPHSANISDLADEVRDSGLHILRDGFSYEGEKVSVNLVTDKNTGHSEKTSPTPETCPNPSTCPTHSSPTAPVAPPAHPTNANIASPETAGPVVKICGLRTLEAAVVAMESGADMLGMILVPGRARTVNFDVAREIAAVVRSGKYRNAHSGKRPLLVGVFRNQPLPYILSCVADLNLDIVQLHGDEPLDWCRQIPVSVIKRVSPGKRDFRQSLVAGYQSFSLLDSEVGGEGQLVDWTSAEKWYDNHVRFILAGGLTPENVAQAVQVKGVIGVDVSGGVETDGEKDLDKIRLFVKNARG"
-    - concs: 0.002878
+    - concs: 0.004433
   - !!omap
     - genes: "YALI0B08052g"
     - enzymes: "Q6CFD7"
@@ -113524,7 +113529,7 @@
     - enzymes: "Q6CFD2"
     - mw: 64034
     - sequence: "MANTPHGGVLKDLLSRDQPIRGELLKESETLASILLSERQLCDLELILSGGFSPLEGFMNEKDYNGVVNDLRLADGALFSMPITLDVSQEDIDELKLKAGGRYTLRDFRDDSPLAIITVDDIYRPDKAVEAKKVFRGDPEHPAVKYLYNTAKEFYVGGKIQAINKLNHYDYVGLRYTPAELRQEFGKLGWNKVVAFQTRNPMHRAHRELTVRAARSRQANVLIHPVVGLTKPGDIDHFTRVRVYQALLPRYPNGMALLGLLPLAMRMGGDREAMWHAIIRKNYGATHFIVGRDHAGPGKNSKGEEFYGPYDAQKLVEKYKDELGIEVVPFQMMTYLPDSDEYMPKDEVPEGTKTLDISGTELRKRLKFGLPIPEWFSYPEVVKVLRESHPPRAKQGFTIFLTGHYNSGKDAIARALQVSLNQQAGRTTTLLLGETVRSELSAELGFSREDRHKNVQRIAFVAAELTRAGSAVIAAPIAPHEAGRKEARETVEQGGNFFLVHVNTPLEYCEATDRKGRFAAAKRGEIKGFTGVDDEYEVPSNADLVVDASQTQVRTIVHQIILLLESQGFFGN"
-    - concs: 0.203921
+    - concs: 0.104909
   - !!omap
     - genes: "YALI0B08536g"
     - enzymes: "Q6CFB6"
@@ -113535,7 +113540,7 @@
     - enzymes: "Q6CFA0"
     - mw: 49605
     - sequence: "MSDPVENVAEQLQDTSIAPSAASKAVEQNITPWDVEGAVDESGKQQAIDYDKLIQQFGTRKITEETLARFKEVTGHEPHIFLKRGVFFSERDLTKILDRYEQGKPFFLYTGRGPSSDSMHLGHMTPFVFTKWLQDVFDVPLVIELTDDEKFLFKPKLKIEDVKKFAVENAKDIIACGFDMNKTFIFSDLQYMGGPFYENVVRVSRQITTSTAKAVFGFQDSDCIGKVHFASIQIATAFSNSFPTIFGDKKDIPCLIPCAIDQDPYFRVCRDVASKLKYPKPSLIHAKFFPALQGSTTKMSASDDTSAIFMTDTANQIKKKINKYAFSGGRTTLAEQQEFGGDPDVDVAYQYLTFFLEDDSELEKLYADYKSGALMTGDLKKRCIEVLQGFVAEFQANRAKATDEVVKEFMNPNREFKWGEVERRVPVKEVVKEKKETK"
-    - concs: 0.026382
+    - concs: 0.02714
   - !!omap
     - genes: "YALI0B08965g"
     - enzymes: "Q6CF99"
@@ -113586,7 +113591,7 @@
     - enzymes: "Q6CF18"
     - mw: 158153
     - sequence: "MDSLHVSSTSVLVDVVEAVETATSLVVDTAEAVATEQATPTAVISNALARSAYAAHTSLSYLAWAFGLWFLRLIGWVCYGIPTYVLGLLGRTINISLQFSSLLLILIALVTVVVAVVRYKYLTVYSRLPQEQPRQEPEIDMYDESDNEDEKTGFANYFDEFLSAVKIFGYLERPVFHELTRHMQTWKLSADEMVPLDDEQGFSVVVEGTVQVFAKQSSFVQNPTSVPDSRKEDSIMFNGERYTLLSEIKNGAPLTSLFNILSLFTDDLQLHKNFDSAVNSPMTSASDVPNMSLSSDGSDDLQKGEPQFGEPRLSEKPAAKLSVTVRAATDSTIAIIPAAAFRRITKKFPQATAHIVQVILTRFQRVTFQTGHHYFGLTPEIFQTEVNLNSHARNELPGYLREGAVKKLNQVYDASQMGGRPKKYTVTLNKKNKGKGSRRQRFSVQLNNQGHLNSQSRMVSLDSLEAVGDHMNPGDLLTNVPLSRQGRPVFELSSVKHKASIQNLSFSGNDDENEDTALRTALVEAIFKVLGIDRDSIQSSIMAVKTMSNTASPMFTGATTGGSSGSLGEELRSRRTGQDSLGASHFGVGLPSERSQNSFYARSETSTSSVDEDSLMAAPFDTIRNDVAQYMDVVLFKKDSLLIKQDDPTPGLYYLIDGVLEVGYTDHHKIYHDLYTVQPGGVGGYIGSILGHRSFADLRARTDVYAGFLPRAAIERMSDKYPMVHLTMAKSLTKVLSRLLLHLDFAMEWVQVRAGQKIYKEGQEADAIYIVLNGRVRSVAETKGDSGIVGGESGDAKDGKSHRKNLTSIGEYGKGESVGELEVLTLTRRPSTLVAIRDAELAKIPRALFESLALHYPSITFEISRIVASRVRTLMEDSAPIPRRMHTFDMAAHHDSYLTIAVVPISQDVDVSEFGRRLYNGMQAVGREACHLNHASVLNHMGRHAFNPLGKLKLSGFLDDIEDRYQTVLYVADTPPGSSWTHTCISQADCVLLVADARSEPDIGEYERVLVKMRTTARTEMVLIHPERYVPPGLTSAWLKPRVWVHTHHHVQMDLPRHEADVLASIRKMKRTGTLANLKNKVQTIQEEFRSMYRPKANIYSTSSANKDDFNRLARILSGQAIGLVLGGGGARGISHIGIIKALEDSGIPIDFVGGTSIGSFIGGLYAKEYDLVPIYGRAKKFSGRVSSLWRMALDLTYPATSYTTGHEFNRGIWKAFGDSRIEDFWLRYFTNTTNITHSRMEIHTSGYAWRYIRASMSLAGLLPPLTDNGSMLLDGGYVDNLPVSEMKAQGASVVFAVDVGSIDDTTPMNYGDSLSGAWVMWNRWNPFGRHPNVPNLAEIQARLAYVSSVGALEKAKHTPGVIYMRPPIDDFATLDFAKFLDIYRVGNKYGHKFLTELREDGKFPAIPGMENVKTKHKRTIARRNSI"
-    - concs: 0.002832
+    - concs: 0.006355
   - !!omap
     - genes: "YALI0B11154g"
     - enzymes: "W0TYP2"
@@ -113602,7 +113607,6 @@
     - enzymes: "F2Z6G2"
     - mw: 49185
     - sequence: "MAPHILGPEPVQADSSFLGTRPCPTLSYPASFVDEVSASIDQGLSESEKLIANAMKTRIEAIDLETCSPGSEDSFFVADLGIVYSQFMRWSNCLPRVTPFYAMKCNGDPKVLQLLAALGTGFDCASRNEIQTILDLGVSQDRIIYAHPCKVASYIRYASSVGVEKMVFDNAEELYKCAKYHPTAKLFLRIVTDDSQSLCQFSVKYGAALENTQSLLQLAKDLGLNVAGVSFHVGSGAGDPNAFLDAVRNAKRVFDQGAAIGMHLNTLDVGGGFSDDSFESSAAVLGDALDKYFPEESGVNLMAEPGRFFVSEAFTIASHVIARRIIENQNKAMLYLNDGVYGNMNCILFDHQEPVPKVLTYQGKFMYGERYQKQKSSQDVSVWGPTCDGIDCISKSCQLPVLLDVGDWMYFTSFGAYTVAASTTFNGFNSDCETLYVCSKKEVEQYIKL"
-    - concs: 0.000416
   - !!omap
     - genes: "YALI0B12078g"
     - enzymes: "Q6CEX7"
@@ -113623,7 +113627,7 @@
     - enzymes: "Q6CES3"
     - mw: 34334
     - sequence: "MAFLPNLVATPMSLASSYSKPVTLGIIGGTGLYKLGALTPVAQIDIDTPWGKPSSPITISETKSGFPVAFLARHGVNHDLTPTDVPSRANIAALKKVGVKAIVAFSAVGSLQEEIAPRDFVVPTQIIDRTKGIRPSSFFEKGFVGHVGFGEPFDVALGKLVAEHADKAFDNSKYKIHTKAKAGKDLTLVCMEGPAFSTRAESQLYRSWNGAVINMSAIPESKLAKEAEIAYQMICMSTDYDAWKEDEEPVTVEQVVSNLTANAESATGVVEALLEPLEKALADKSIGYDLDGSMKFAVSTAPAARDATVAKNLDFLHPGYW"
-    - concs: 0.062992
+    - concs: 0.050995
   - !!omap
     - genes: "YALI0B13464g"
     - enzymes: "Q6CES1"
@@ -113639,7 +113643,7 @@
     - enzymes: "F2Z6H3"
     - mw: 59324
     - sequence: "MLTNLTIVLITLLVTYTVLTRTALRIQRARKAKQMGATLPPRVNNGILGWYGLWLVIQNARSMKLPHTLGKRFANGPTWLTPVAGNEPINTIDPENVKAILATQFKDFCLGIRHRALSPSIGDGIFTLDGEGWTHSRALLRPQFSRQQISRVHSLERLMQILFKLIRKENGEYFDLQNLFFMFTLDSATEFLYGASVDTLADLLGEPVEGDHGGVGEEVRKAYQQSINNAQDISAIRTRLQGLYWIAGNIYQRNLYQKSNKGVKDFSQFFVDKALNTSKEKLKEMEDSDNYVFLYELVKSTRNPVVIRDQLINILVAGRDTTASLLSFTFYTLGRRPDVLKKLRAAILEDFGTSPDEITFESLKRCDYLRYVLNEVLRLYPSVPINARSATRDTTLPRGGGPDGKQPVFVYKGQMVAYCVYWMHRDKKYWGEDALEFNPDRWDPKVQPQNKGWEYLPFNGGPRICLGQQFALTEAGYVVTRMLQEFDTVHCKNQKEEEHPPYALDLTMRHGEGVWVSMK"
-    - concs: 0.000607
+    - concs: 0.002239
   - !!omap
     - genes: "YALI0B13970g"
     - enzymes: "Q6CEQ0"
@@ -113700,7 +113704,7 @@
     - enzymes: "P34229"
     - mw: 231342
     - sequence: "MYPTTGVNTPQSAASLRPLVLSHGQTEHSLLVPTSLYINCTTLRDQFYASLPPATEDKADDDEPSSSTELLAAFLGFTAKTVEEEPGPYDDVLSLVLNEFETRYLRGNDIHAVASSLLQDEDVPTTVGKIKRVIRAYYAARIACNRPIKAHSSALFRAASEDSDNVSLYAIFGGQGNTEDYFEELREIYDIYQGLVGDFIRECGAQLLALSRDHIAAEKIYTKGFDIVKWLEHPETIPDFEYLISAPISVPIIGVIQLAHYAVTCRVLGLNPGQVRDNLKGATGHSQGLITAIAISASDSWDEFYNSASRILKIFFFIGVRVQQAYPSTFLPPSTLEDSVKQGEGKPTPMLSIRDLSLNQVQEFVDATNLHLPEDKQIVVSLINGPRNVVVTGPPQSLYGLCLVLRKQKAETGLDQSRVPHSQRKLKFTHRFLPITSPFHSYLLEKSTDLIINDLESSGVEFVSSELKVPVYDTFDGSVLSQLPKGIVSRLVNLITHLPVKWEKATQFQASHIVDFGPGGASGLGLLTHKNKDGTGVRTILAGVIDQPLEFGFKQELFDRQESSIVFAQNWAKEFSPKLVKISSTNEVYVDTKFSRLTGRAPIMVAGMTPTTVNPKFVAATMNSGYHIELGGGGYFAPGMMTKALEHIEKNTPPGSGITINLIYVNPRLIQWGIPLIQELRQKGFPIEGLTIGAGVPSLEVANEWIQDLGVKHIAFKPGSIEAISSVIRIAKANPDFPIILQWTGGRGGGHHSFEDFHAPILQMYSKIRRCSNIVLIAGSGFGASTDSYPYLTGSWSRDFDYPPMPFDGILVGSRVMVAKEAFTSLGAKQLIVDSPGVEDSEWEKTYDKPTGGVITVLSEMGEPIHKLATRGVLFWHEMDKTVFSLPKKKRLEVLKSKRAYIIKRLNDDFQKTWFAKNAQGQVCDLEDLTYAEVIQRLVDLMYVKKESRWIDVTLRNLAGTFIRRVEERFSTETGASSVLQSFSELDSEPEKVVERVFELFPASTTQIINAQDKDHFLMLCLNPMQKPVPFIPVLDDNFEFFFKKDSLWQCEDLAAVVDEDVGRICILQGPVAVKHSKIVNEPVKEILDSMHEGHIKQLLEDGEYAGNMANIPQVECFGGKPAQNFGDVALDSVMVLDDLNKTVFKIETGTSALPSAADWFSLLAGDKNSWRQVFLSTDTIVQTTKMISNPLHRLLEPIAGLQVEIEHPDEPENTVISAFEPINGKVTKVLELRKGAGDVISLQLIEARGVDRVPVALPLEFKYQPQIGYAPIVEVMTDRNTRIKEFYWKLWFGQDSKFEIDTDITEEIIGDDVTISGKAIADFVHAVGNKGEAFVGRSTSAGTVFAPMDFAIVLGWKAIIKAIFPRAIDADILRLVHLSNGFKMMPGADPLQMGDVVSATAKIDTVKNSATGKTVAVRGLLTRDGKPVMEVVSEFFYRGEFSDFQNTFERREEVPMQLTLKDAKAVAILCSKEWFEYNGDDTKDLEGKTIVFRNSSFIKYKNETVFSSVHTTGKVLMELPSKEVIEIATVNYQAGESHGNPVIDYLERNGTTIEQPVEFEKPIPLSKADDLLSFKAPSSNEPYAGVSGDYNPIHVSRAFASYASLPGTITHGMYSSAAVRSLIEVWAAENNVSRVRAFSCQFQGMVLPNDEIVTRLEHVGMINGRKIIKVTSTNRETEAVVLSGEAEVEQPISTFVFTGQGSQEQGMGMDLYASSEVAKKVWDKADEHFLQNYGFSIIKIVVENPKELDIHFGGPKGKKIRDNYISMMFETIDEKTGNLISEKIFKEIDETTDSFTFKSPTGLLSATQFTQPALTLMEKASFEDMKAKGLVPVDATFAGHSLGEYSALASLGDVMPIESLVDVVFYRGMTMQVAVPRDAQGRSNYGMCAVNPSRISTTFNDAALRFVVDHISEQTKWLLEIVNYNVENSQYVTAGDLRALDTLTNVLNVLKLEKINIDKLLESLPLEKVKEHLSEIVTEVAKKSVAKPQPIELERGFAVIPLKGISVPFHSSYLRNGVKPFQNFLVKKVPKNAVKPANLIGKYIPNLTAKPFEITKEYFEEVYKLTGSEKVKSIINNWESYESKQ"
-    - concs: 0.055647
+    - concs: 0.070993
   - !!omap
     - genes: "YALI0B15125g"
     - enzymes: "Q6CEJ7"
@@ -113716,7 +113720,7 @@
     - enzymes: "P38997"
     - mw: 40612
     - sequence: "MTAPVKLHLRAETKPLEHRSALTPTTTRKLLDAGFEVFVEKSPLRIFDDQEFVDVGATLVEEGSWVSAPEDRMIIGLKELPEESFPLSHEHIQFAHCYKDQGGWKDVLSRFPAGNGTLYDLEFLEDDNGRRVAAFGFHAGFAGAAIGVETWAFQQTHPDSENLPGVSAYPNETELVDKIKKDLAAAVEKGSKLPTVLVIGALGRCGSGAIDLARKVGIPEENIIRWDMNETKKGGPFQEIADADIFINCIYLSQPIPPFINYDLLNKETRKLSVIVDVSADTTNPHNPVPVYTIATTFDHPTVPVETTAGPKLSVCSIDHLPSLLPREASEAFSEALLPSLLQLPQRDTAPVWTRAKALFDKHVLRIGE"
-    - concs: 0.078733
+    - concs: 0.079165
   - !!omap
     - genes: "YALI0B15598g"
     - enzymes: "Q6CEH4"
@@ -113742,7 +113746,7 @@
     - enzymes: "Q6CEF3"
     - mw: 58350
     - sequence: "MPAPVNIPSMFDTILVLDFGSQYSHLITRRLREFNVYAEMLPCTQKIAELPWKPKGVILSGGPYSVYAEGSPHVDHAVFDLGVPILGICYGMQELAWINGKGVHAGEKKEFGHATIHVEKPSDPLFHGIDNFQVWMSHGDKLNALPTGYEVVATSDNSPYAGIAHTSEKIWGIQFHPEVTHTTKGKQLLQNFAVDICGAAQKWSMENFVDTEIQRIRDLVGPHAEVIGAVSGGVDSTVGAKLMKEAIGDRFHAILVDNGVMRLNECENVKKTLGEGLGINLNVVDAADLFLGKLKGVTDPEKKRKIIGNTFIEVFEEEAAKIQPTHPEAGEIEFLLQGTLYPDVIESISFKGPSQTIKTHHNVGGLLDNMKLKLIEPLRELFKDEVRKLGEIMGIPHDLVWRHPFPGPGIAIRVLGEVTPSQVEIARKADFIYIEEIKKAGIYEEISQAFACLLPVKSVGVMGDQRTYEQVIALRAIETVDFMTADWYIFDANFLKTVARRIVNEVPGVARVVYDITSKPPATVEWE"
-    - concs: 0.055885
+    - concs: 0.067217
   - !!omap
     - genes: "YALI0B16126g"
     - enzymes: "Q6CEF2"
@@ -113753,6 +113757,7 @@
     - enzymes: "Q6CEE9"
     - mw: 30033
     - sequence: "MPAPATYATGLTPLPTPVPKVSKNIMERFSLKGKVASITGSSSGIGFAVAEAFAQAGADVAIWYNSKPSDEKAEYLSKTYGVRSKAYKCAVTNAKQVETTIQTIEKDFGKIDIFIANAGIPWTAGPMIDVPNNEEWDKVVDLDLNGAYYCAKYAGQIFKKQGYGSFIFTASMSGHIVNIPQMQACYNAAKCAVLHLSRSLAVEWAGFARCNTVSPGYMATEISDFIPRDTKEKWWQLIPMGREGDPSELAGAYIYLASDASTYTTGADILVDGGYCCP"
+    - concs: 0.004193
   - !!omap
     - genes: "YALI0B16214g"
     - enzymes: "Q6CEE8"
@@ -113788,7 +113793,7 @@
     - enzymes: "Q6CE88"
     - mw: 38724
     - sequence: "MIHNRKTQTVVITGASSNLGIAIGKRLIDEKKEDAHLTIVVTSRTLRNVRVAIKTLKAHAVAKEVGPEVDFDYLLFDLADMTSINGALVELKLRFSRIDTLIFNSNAANYIGINWPLAMWRFTTQFKSEIENPSCMIQAVGVKSDDGMGSAYQSNVFGPWYMVLELTEQLKNGGKVIWISSITSSEKYVDLEDIELIHNKEPYKGSKRLIDVAHNYYSPKLEEEHGIYSYLTDPGIFTSSSASEYLNIFSAFGMYLMFYFARLIGLTTMNIDPYKGANVPVWVTLSEDPSALKREYRLGSRTGRWGTEMMDATKLQYEGSEEVGAYIDKGVGEWREKLKDQIN"
-    - concs: 0.003078
+    - concs: 0.004157
   - !!omap
     - genes: "YALI0B17666g"
     - enzymes: "Q6CE87"
@@ -113799,7 +113804,7 @@
     - enzymes: "Q6CE86"
     - mw: 40734
     - sequence: "MIFPISEIPDKVTHSILEGVSALQNMSHTAFWSTVLGFLVVARIAVILATPKRRVLDIKGKKVVISGGSQGAGAALAELCYTKGANVVIVSRTVSKLEAQVQKIVTKHEPVFEGQTIRYISADLTKEEEAIRVFSEETMPAPPDVIFSCAGAAETGFILDFKASQLARAFSTNYLSALFFVHAGTTRMAKEPISPKNPRYVAIFSSVLAFYPLLGYGQYCASKAAVRSLIDSLRVEALPFNIRVVGVFPGNFQSEGFEEENKSKPEITRQIEGPSQAISAEECAKIVFAQMEKGGQMITTDLIGWILQSIALSSSPRSFSLLQIPLAIFMCIFSPVWNAFVNRDVRKYFHANTEYVTRHQRGGVGSENPTPQ"
-    - concs: 0.007626
+    - concs: 0.00544
   - !!omap
     - genes: "YALI0B17864g"
     - enzymes: "Q6CE78"
@@ -113900,7 +113905,7 @@
     - enzymes: "Q6CDR5"
     - mw: 44190
     - sequence: "MSPSVEVTPAHTPTSYEVTNSLDSYRGYDHVHWYVGNAKQAASFYITRMGFSPIAYKGLETGSRDVTTHVVGNGQVRFAFSSALRTGEPQADEIHAHLVKHGDAVKDVAFEVDNVEQLFSAAVKKGVRVISEPKVLKDAHGSVTYAVISTYGDTTHTLIERGSYEGAFLPGFVDTSANKDPIAAFLPNIELMHIDHCVGNQDWNEMDNACKYYEETLGFHRFWSVDDKDICTEFSALKSVVMASPNEKIKMPVNEPAVGKKKSQIEEYIDFYDGPGIQHIALRTDCILDTVRDLRARGVEFISVPGSYYENMKERLAKSSLKLEEKFEDIQALNILIDFDEGGYLLQLFTKPLMDRPTVFIEIIQRRNFEGFGAGNFKSLFEAIEREQAKRGNL"
-    - concs: 0.001664
+    - concs: 0.016338
   - !!omap
     - genes: "YALI0B22066g"
     - enzymes: "Q6CDQ7"
@@ -113911,7 +113916,7 @@
     - enzymes: "F2Z672"
     - mw: 59174
     - sequence: "MVHLGPRKPPSRKGSMADVPRDLLEQISQLETIFTVSPEKLRQITDHFVSELAKGLTKEGGDIPMNPTWILGWPTGKESGCYLALDMGGTNLRVVKVTLDGDRGFDVMQSKYHMPPNIKVGKQEELWEYIAECLGKFLADNYPEALDAHERGRDVDRTAAQSFTRDKSPPPHNQHISCSPGFDIHKIPLGFTFSYPCSQPAVNRGVLQRWTKGFDIEGVEGEDVVPMLEAALERKNIPISITALINDTTGTMVASNYHDPQIKLGNIFGTGVNAAYYEKVKDIPKLKGLIPDSIDPETPMAVNCEYGAFDNEHKVLPRTKWDIIIDEESPRPGQQTFEKMSAGYYLGELLRLVLLDLYKDGFVFENQGKNGQELGNGNINKSYFFDTSFLSLIEEDPWENLTDVEILFKEKLGINTTEPERKLIRRLAELIGTRSARISACGVAAICKKAGYKEAHAGADGSVFNKYPGFKERGAQALNEIFEWNLPNPKDHPIKIVPAEDGSGVGAALCAALTIKRVKQGLPVGVKPGVKYDI"
-    - concs: 0.012635
+    - concs: 0.02259
   - !!omap
     - genes: "YALI0B22506g"
     - enzymes: "Q6CDN8"
@@ -113932,13 +113937,13 @@
     - enzymes: "Q6CDM0"
     - mw: 48411
     - sequence: "MPLNFRDRFNVPVLKNGEEVAYLVGNSLGLMPHKTRDYVNQEMDAWSQLGVKGHFVSGKEDLGQDVHQGPWYSCDEPLHGLVGPILGASEDEVAIMNTLTSNIHSLFSAFYKPTAKRSKILFEAKAFPSDTYAMEAQARLHNLDPSEALIKLAPKDGLHTLSDDDIIKVIEEQGDEIAVVFFSGIQFYTGQLFDIPRITAAAKAKGCVVGWDLAHAAGNVPLKLHDWNVDFAVFCTYKYMNSGPGGIGGLFVHDKYADDQRPRLAGWWGNNAETRFKMLDEFDPIRGARGYKQSNPSVLCVLALRASLELFKEAGGIEKLRERSIELTNRLLKGLLASPHYIAPENIEIFGNSGKAWFTIITPQAEHQRGAQLSLLFGPDGTMKKVFDYLDDHGVLGDERNPDVIRLAPAPLYNNERDVDLAIKLINDSINLINGSA"
-    - concs: 0.006507
+    - concs: 0.00573
   - !!omap
     - genes: "YALI0B22924g"
     - enzymes: "Q6CDL9"
     - mw: 20483
     - sequence: "MSVVFVTGNAGKLRETNHILAPTGIELTSHKLDLEETQGTIEEVSIAKAKAAAKILNKPVLVEDTALGFAALKGLPGVYIKWFLDSLGHEGLNKMLAGFEDKSATAWCTFAYCGGPDEDVLLFQGTCEGTIVPPRGENNFGWNAVFEPKGYTETFAEMSEETKNAISHRFKALEKLKVFLAEKAEQSK"
-    - concs: 0.005231
+    - concs: 0.009972
   - !!omap
     - genes: "YALI0B23188g"
     - enzymes: "Q6CDK7"
@@ -114054,7 +114059,7 @@
     - enzymes: "Q99145"
     - mw: 32061
     - sequence: "MDLVNNLNDRLLFAVPKKGRLYEKAVELLKGSDIQFHRHNRLDIALSTNLPLALVFLPAADIPRFVGEGRVALGITGIDQVREAKMDVENALDLNFGSCKLQVQVPEKGPYTDPKQLIGKSIVTSFTSLAEEYFAELEGVPVKDITTNIKFVGGSVEAACALGVADGIIDLVESGETMRAAGLKPIATVLETSASLIVSKNPSHPELVQMIKSRIEGVLAANKYVLCNYNAPRDKLDALLKITPGRRAATVSPLDDEGWCAVSSMAEKKKIAQIMDELKKEGASDILVFSISNCRV"
-    - concs: 0.030844
+    - concs: 0.020431
   - !!omap
     - genes: "YALI0C05258g"
     - enzymes: "Q6CCZ6"
@@ -114085,7 +114090,7 @@
     - enzymes: "Q6CCW0"
     - mw: 61237
     - sequence: "MESLVRQSKKLCPYIGRTSASSLKQLGNGRLTQKAGQCPIMGKAMGVRGFKSDAGSNAESATVDVHAAVDTSKGTCPHAAQYSPVYPSSRLDNYPFGMTQRGLGKVPTQDAHNATTFNYESFYENKINAKHQDKSYRYFNNINRLAAEFPRAHRGSIEEDKVTVWCANDYLGMGRNPVVVDAMHETLDKYGAGAGGTRNIAGHNRHAVELEAAIADLHKKEAALVFSSCYVANDSTLSLLGQALPNCVYFSDASNHASMIHGIRHGGSEKVVWKHNDLADLEAKLARYPKSTPKVIAFESVYSMCGSIGPIEEICDLADKYGAITFLDEVHAVGMYGPTGAGVAEHLDFEHYHSGAQTQRQPIMDRVDIFTGTLGKAYGCVGGYIAGSAKFVDMVRSYAPGFIFTTTLPPATMAGARAAINYQKATMKDRVAQQTHTRYVKDKLANRGIPVVPNPSHIVPVLVGDAQKAKAASDLLLTKHQIYVQAINFPTVPIGQERLRVTPTPGHHEGLCDELVAALEDVWQELDLKRVEDWTAEGGLCGVGEGVEVEPLWSEEQLSYGRD"
-    - concs: 0.006144
+    - concs: 0.003227
   - !!omap
     - genes: "YALI0C06281g"
     - enzymes: "Q6CCV1"
@@ -114101,7 +114106,7 @@
     - enzymes: "Q6CCU7"
     - mw: 35819
     - sequence: "MAIKVGINGFGRIGRIVLRNALKNPEVEVVAVNDPFIDTEYAAYMFKYDSTHGRFKGKVEAKDGGLIIDGKHIQVFGERDPSNIPWGKAGADYVVESTGVFTGKEAASAHLKGGAKKVIISAPSGDAPMFVVGVNLDAYKPDMTVISNASCTTNCLAPLAKVVNDKYGIIEGLMTTVHSITATQKTVDGPSHKDWRGGRTASGNIIPSSTGAAKAVGKVIPELNGKLTGMSLRVPTVDVSVVDLTVRIKNGASYEDIKATMKAASESPELKGILGYTDEDVVSTDFIGDTHSSIFDAKAGIGLNDNFVKLISWYDNEYGYSARVVDLIVAVAKKDASA"
-    - concs: 0.669301
+    - concs: 0.758963
   - !!omap
     - genes: "YALI0C06446g"
     - enzymes: "Q6CCU5"
@@ -114112,7 +114117,7 @@
     - enzymes: "Q6CCU3"
     - mw: 39767
     - sequence: "MKGLILVGGYGTRLRPLTLTLPKPLVEFGNKPMILHQVESLAAAGVKDIVLAVNYRPEVMIETLKKYEEKYGVNITFSVETEPLGTAGPLKLAEEILCKDDTPFFVLNSDVICDYPFAELAEFHKKNNAEATIVATKVEEPSKYGVIVHKQGTSKIDRFVEKPVEFVGNRINAGIYILNPSVVDLIDLRPTSIEKETFPQLAARESLYSFDLEGYWMDVGQPKDFLSGTCLYLSSLSKKNPEALVPTSEPYVTGGNVLVDPTAKISPQAKIGPNVVIGPGAVIGEGARLSRCVVLANSTIKPHAFVKNSIIGWNGRVGRWARIENVSVFGDDVEVKDEVYVNGGRVLPHKTISGNIEKPEIIM"
-    - concs: 0.059364
+    - concs: 0.026292
   - !!omap
     - genes: "YALI0C06732g"
     - enzymes: "Q6CCT4"
@@ -114228,7 +114233,7 @@
     - enzymes: "Q6CC39"
     - mw: 60051
     - sequence: "MSEPTTTPVVGNSASGDSAEQHDLGQKRGKGGNWNRPRGDHQAKKQKMDRRGDRQREQEKQGEGRDTRRKTDGPLVADEVRQPKRKVACMIGYCGTGYHGMQLNPPQKTIEGDIFQAFVKAGAISQNNADDPKKSAFMRAARTDKGVHAAGNVISLKMIIEDENIVEKINSHLPEQLRVWGVSRTNKAFECRKLCSSRVYEYLMPTYSFLNPRPGTVMSEKLLKDGTSPDEEGKKYWESVAADLESQGVSYDEWMKRACIDEIKGEETKEVAESEVKTDSKTDAATLEKIKAVERRHREEFRISGERLAKIREILKIYEGTHNFHNFTLGKAFKDPSAMRTMKSLTCSDPFLIDGTEWVSIKIHGQSFMLHQIRKMISMVALSVRCNADPQKLIPQTFEKARINIPKAPALGLLLERPVYDSYNKKLQGEFGREGVHFDNWNDQIEAFKHKFIYDKIYAEEKGQHVFHAFFSFVDVFTGDASFDFLLKQGITKECTTDYMNKKAKEEGKEIKKLEEDDDEVANEQNEG"
-    - concs: 0.004679
+    - concs: 0.001648
   - !!omap
     - genes: "YALI0C12771g"
     - enzymes: "Q6CC38"
@@ -114314,7 +114319,7 @@
     - enzymes: "P41555"
     - mw: 60049
     - sequence: "MSEQQRFNNEVEEIKKWWSSPRWKHTKRVYSPEDIASRRGTIKVPQASSQQADKLFKLLQEHEKNHTASFTYGALDPVQVTQMAKYLDSIYVSGWQSSSTASTSNEPSPDLADYPMDTVPNKVEHLWFAQLFHDRKQNEERLSLPESERSKLPAPVDYLRPIIADADTGHGGLTAVVKLTKMFIERGAAGIHIEDQAPGTKKCGHMAGKVLVPIQEHINRLIAIRASADIFGSDLLAIARTDSEAATLITSSIDYRDHYFIAGATNKDAGHLVDVMVAAELEGKQGAALQAVEDEWNRKAGVKLFHEAFADEVNAGSYSNKAELIAEFNKKVTPLSNTPALEARALAARLLGKDIYFNWEAARVREGYYRYQGGTQCAVNRGIAYAPYADLIWMESKLPDYAQAKEFAEGVKNAVPHQWLAYNLSPSFNWTTAMSPEDQETYISRLAKLGYVWQFITLAGLHTNALISDKFAKAYSERGMKAYGGEIQQPEIDQGCEVVKHQKWSGAEYIDGILRMVTGGITSTAAMGAGVTEDQFKSKL"
-    - concs: 0.088708
+    - concs: 0.025256
   - !!omap
     - genes: "YALI0C16907g"
     - enzymes: "Q6CBN8"
@@ -114370,7 +114375,7 @@
     - enzymes: "Q6CBH3"
     - mw: 49382
     - sequence: "MLRVGRIGTKTLASSSLRFVAGARPKSTLTEAVLETTGLLKTTPQNPEWSGAVKQASRLVETDTPIRDPFSIVSQEMSTLANNIGSLIGSGHPTLNKVATYYFQSEGKHVRPLIVLLLSRALSAIPESERDRGTFDASDVTENVGELNPEPSINDPLSPIEILHGINPDIVLNPLSRPSDPLPYESNGILPKQRRLAEIVEMIHTASLLHDDVIDNSATRRGSPTGNVAFGNKMAILAGDFLLGRASVAIARLRNAEVIELLSTTIANLVEGEFMQLKNTIVDNSEIANKATFEYYIHKTYLKTASLMSKSCRAAAVLSGARNPIVDASYKFGKNLGLCFQVVDDMLDYSEGESHLGKPAGADLKLGLATAPVLFAWEKYPELGDMIKRKFDGPGDVERARFLVQQADGLSRTRELAQKYCDEAVANLDLLPYSESREALRNLTMKMMNRSK"
-    - concs: 0.007985
+    - concs: 0.002411
   - !!omap
     - genes: "YALI0C18799g"
     - enzymes: "Q6CBH1"
@@ -114391,7 +114396,7 @@
     - enzymes: "Q6CBE4"
     - mw: 41206
     - sequence: "MLRTLRTSQLARSGFGTPSFGLRFNSVGRAFVFSQTGEPKDVIQVLEYPIEKPLENQVLLKSLGFTINPADINQLEGVYPSVPPKSVQINNEDAAIGGNEGLFQVLDPGAKSGLKKGDWVLPRKTCFGTWRSHALVEADTVVKIDNTDLTKVQATTVSVNPSTAYEMLKDLKEGDWFIQNGGNSGVGRAAIQIGHIRGLKSISVVRDRPDLEVLKKELTDLGATHVITEEEASDKLFSKQIKSWTGGKIKLALNCIGGKSATSIMRQLGAGGSIVTYGGMSKKPLTFPTGPFIFKDITAKGYWLTRWADKHPEEKAKTIENIFKFYREKKFVAPPVNISTLDFSKGNDVVLSEFLDALGKAQKGGGKKQLVQWVEY"
-    - concs: 0.008758
+    - concs: 0.010785
   - !!omap
     - genes: "YALI0C19712g"
     - enzymes: "Q6CBD9"
@@ -114427,7 +114432,7 @@
     - enzymes: "Q6CBB0"
     - mw: 26591
     - sequence: "MTDTESLVVSSDPKHPANLIVELCKLFYDNNWVTGTGGGISIREGDTVWLAPSGVQKERMQPTDMFVMDLKSRDYLRRSPTFKPSACTPLFLSAYTLRDAGACIHTHSQAAVMCTLLYDKVFKISNIEQIKAIPQVVESGYLSFFDTLEIPIIENTAHEEDLTDTLQAAIKEYPTCTAVLVRRHGIYVWGETVWKAKVYNEAIDYLLELAVKMIQMGIDPEGGIGSEKQGKFFRGLQG"
-    - concs: 0.00337
+    - concs: 0.00419
   - !!omap
     - genes: "YALI0C20669g"
     - enzymes: "Q6CBA5"
@@ -114488,19 +114493,19 @@
     - enzymes: "P41943"
     - mw: 29438
     - sequence: "MNTEIPDLEKQQIDHNSGSDDPQPIHDDMAPVSRIRSSGPNHEYIHIADQKFHRDDFYRAFGGTLNPGGAPQPSRKFGNPAPLGLSAFALTTLVFSLCTVQARGVPNPSIAVGLALFYGGVCQFAAGMWEFVQENTFGAAALTSYGGFWMSWAAIEMNAFGIKDSYNDPIEVQNAVGIYLFGWFIFTLMLTLCTLKSTVAFFGLFFMLMMTFLVLACANVTQHHGTAIGGGWLGIITAFFGFYNAYAGLANPGNSYIVPVPLDMPFVKKD"
-    - concs: 0.03541
+    - concs: 0.010848
   - !!omap
     - genes: "YALI0C23793g"
     - enzymes: "Q6CAW6"
     - mw: 53912
     - sequence: "MSSQKLLKEEHVSGLTGGSIGEIYVVTCVNLTAYVAWALLRKRYGDHSPWDVDFVIFDFLLNWLGLLLSVTIYSNQPLLLNALIIVPAGVWYIWGRRDRVKKRKELRPDFQQEKDKEVKRADKEMPFLSVYRGSMMVITCIAILAVDFNIFPRRFAKVETWGTSMMDLGVGSFVFSMGVVSKPRTDEPFGPQMKKSLKHAFPVLVLGFIRLISVKSLDYQEHVSEYGVHWNFFFTLGFLPPFVTLVGGLFKKTKIPLMGQSVIIALAYDVLLSVTSLKEYILTAPRVDIFSQNKEGIFSFIGYLAIFLAGQAVGTVILRTKLPEPTPANSKRTPHNLRYRQIIKYLTISSILFHVARLYYDGTIEINVSRRLVNMPYYLWVCAYNTFFLGCYAAIEVILVPIRASQPATPRVPLTLDAVNYNGLVIFLLANIGTGLINMSVNTLEASPAKTMVILVAYCAALSGISLVLYKKEIRLKL"
-    - concs: 0.001785
+    - concs: 0.001265
   - !!omap
     - genes: "YALI0C23859g"
     - enzymes: "F2Z630"
     - mw: 78350
     - sequence: "MNNNPTNVILGGKEYDTFTEPPAQMELERAKTQFKVRDVTNFLTGSEQETLLTERIMREIERDPVLNVAGDYDADLPTKRRQAVERIGALARYLPKDSEKEAILRGQLHGIVDMGTRTRIAVHYGLFMGAIRGSGTKEQYDYWVAKGAATLHKFYGCFAMTELGHGSNVAGLETTATLDKDTDEFIINTPNSGATKWWIGGAAHSATHTACLARLIVDGKDYGVKIFIVQLRDLNSHSLLNGIAIGDIGKKMGRDAIDNGWIQFTDVRIPRQNMLMRYDRVSRDGEVTTSELAQLTYGALLSGRVTMIAESHLLSARFLTIALRYACIRRQFGAVPDKPETKLIDYPYHQRRLLPLLAYTYAMKMGADEAQQQYNSSFGALLKLNPVKDAEKFAVATADLKALFASSAGMKAFTTWAAAKIIDECRQACGGHGYSGYNGFGQAYADWVVQCTWEGDNNVLCLSMGRSLIQSCIAMRKKKGHVGKSVEYLQRRDELQNARVDNKPLTDPAVLITAWEKVACEAINRATDSFIKLTQEGLSPDQAFEELSQQRFECARIHTRKHLITSFYARISKAKARVKPHLTVLANLFAVWSIEEDSGLFLREGCFEPAEMDEITALVDELCCEAREQVIGFTDAFNLSDFFINAPIGRFDGDAYKHYMDEVKAANNPRNTHAPYYETKLRPFLFRPDEDEEICDLDE"
-    - concs: 0.004609
+    - concs: 0.006237
   - !!omap
     - genes: "YALI0C23969g"
     - enzymes: "Q6CAV8"
@@ -114611,7 +114616,7 @@
     - enzymes: "Q6CAB8"
     - mw: 58336
     - sequence: "MMQHKEIKHPYQGIKYTVLVVIAAFRVANALTTKTFFQPDEYWQSLEPAHRLAYGYGYLTWEWHEGLRSSLPPLVGAGIYKALQLLGLDDPRIVRIAPKIVMALFASAGDVYTWKLSARLQGPAEAPWALFVSLLSAFNWFFLTRTFSNSAEMVLTAVALNYWSFNGKEVNFKRLSVALFIGAISCVLRPTNAILWAVLGLHLVLTTTAKMRVLWLAVRNVALVFAATYYIDYLYYGEPVFPLLNFLKFNLLQSLAHFYGTSPTLYYFYEALPLLTVGWLPLTLWGLWINRSQVLVKAALAVVVAFSLIRHKEVRFIYPLVPILHMAAAEAITQTPKKLRKWLVWSLALVNILVAGYFSQVHQRGVVDVVEYLSTEPQVTSVGFLMPCHSTPYQSHLHRDIPVWFLTCEPPIGFTAEEQMTYRDQADQFYDDPLQFVQTQFPESVAVSAREARTPLFHPSHLAIFESLEKKSPEVIEHLVELGYKRGKTFFNSHFHDDWRREGDVVVYNL"
-    - concs: 0.004335
+    - concs: 0.007388
   - !!omap
     - genes: "YALI0D04246g"
     - enzymes: "Q6CAB6"
@@ -114627,7 +114632,7 @@
     - enzymes: "F2Z6C9"
     - mw: 80177
     - sequence: "MALLDSLDFIVLVLVGVATLAFFTKGKLWAKEPETDPYAGGLGSQGFGSTTSFGSFGGNSNKTRDITKKLEQTGKNVIIFYGSQTGTAEDYANRLSKEATQRYGLKSMTADLEDYDYENLNSLGDDIVVGFVMATYGEGEPTDNAVNFYEFINDDSSEWAESDEPSADPDSPLSSLNYVIFGLGNNTYEHYNEIGRNLDKRLKKLGAKRIGDYGEGDDGQGTMEEDYLAWKDDLFSAWKEAKGLDEHEAKYEPSVKISETGETASSEDSSSVAEPDAEAMSVYLGEPNKKILRGEIKGPYNAGNPFLANVSETRELFHDPKRSCIHVEFDVGTNVKYTTGDHLALHIQNSDEEVERFLKVIGLWDKRHNVIKAKPIDPTYKPSFPVPTTYDTVVRYYLEINGAVSRQLLAFIAPFAPTETAKKEALRLGSDKNAFADEVAKHYTNIAHVLSKLSGGEPWTNVPFSFLVESLPHLIPRYYSISSSSLVDKSKISITAVVESLEAPEYAIKGVATNLLLDMKIKKDGVDPSKSKDPQAVHYELSGPRGKFGGHKLPVHIRRSNFKLPSDPKKPIIMIGPGTGLAPFRAFVMERAKQAESGTDVGQQLLFFGCRNPNEDFIYKEQWAGIEKELGDKFTMVTAFSRVDPVQKVYVQHRMQEYAKQINDLMQQGAYFYVCGDASRMAREVQATLAKILSDQRGIPLSSAEQLVKSLKVQNVYQEDVW"
-    - concs: 0.019237
+    - concs: 0.012305
   - !!omap
     - genes: "YALI0D04741g"
     - enzymes: "Q6CA97"
@@ -114643,7 +114648,7 @@
     - enzymes: "Q6CA53"
     - mw: 20029
     - sequence: "MSLQTLQTELKAKLRQYQDFPSKGIVFEDILPIFQDPKSFQQLIDAFKLHIKDTFGDKKIDVIVGLDARGFLFGPTLALAIGAAFVPVRKQGKLPGKTVHAEFQKEYGKDVFEIQEDAIKPGQTVIVVDDIIATGGSAACAGDLVTKLKGEVLEFIFILELLFLKGRDKLCAPAYTLLSGQE"
-    - concs: 0.006252
+    - concs: 0.009163
   - !!omap
     - genes: "YALI0D05819g"
     - enzymes: "Q6CA52"
@@ -114659,7 +114664,7 @@
     - enzymes: "Q6CA45"
     - mw: 68819
     - sequence: "MKYAEDHNGYYFQLPGEKTSLTIAKGSGAIAANEGVVAPGGKEIAAIVGTIRLLASQYIIVASKTETVGAIFGQQVHRVTAFDILPINGGSADPQEQQYLKILQFHLDSSRLYFCRTWDLTTSLQAQSHAQRAPGVSFETADERFFWNKYVCTDLIDAARTQPGVALFVTPMSFGFVELSQSTINGRSITFGVITRRSRHRAGTRYFRRGIDAHGNVANFNETEQLLIVEGTAEPPRVFSYLQTRGSVPVYWGEVINLKYKPNLQIGQPATDAAKLHFDDQIKRYGRNYLVNLVNQKGYELPVKRAYEQLVDQLGYPEDQVSYVYFDFHHECSKMRWHRVLLLIERLQELGLDQQGYFEATLMPNRQLQPQANQTSVVRTNCMDCLDRTNVVQSTLGRWVLQKQFEAAGILAPGQKWETTEPKFELIFRNVWADNANAVSVTYSGTGALKTDFTRLGKRTKQGALNDGLNSATRYIKNNFQDGIRQDSFDLFLGNYVPYSGRPARFYDVRPILFQAVPYMVLSAVVLILCATFFPRQDLSALVSRSFVGFWVLVLVWSVRYMTKNGLQFVNWPKLIKPDFVSENEIVNNGKVSGIVYKVGDSDRVNKLD"
-    - concs: 0.009908
+    - concs: 0.015642
   - !!omap
     - genes: "YALI0D06281g"
     - enzymes: "Q6CA34"
@@ -114710,7 +114715,7 @@
     - enzymes: "Q6C9Y4"
     - mw: 48911
     - sequence: "MFKNIARLASMARSAPRTTASFQTRFMATTASGTASASATPATFTLQNGPVFTGRSFGANRVVSGEAVFSTGMVGYPESMTDPSYRGQILVFTQPLIGNYGVPSGKETDPFGLIKYFESPHIQCIGIVVADAALKYSHWTAVESLGEWCKREGVAAISGVDTRAIVTYLREQGSSLGRITVGEEYDAEEDAAFVDPGEINLVRRVSTKQPFHVSAAADVENPLHIAVIDCGVKENILRSLVSRGASITVFPYEYPINDIAHHFDGIFISNGPGDPTHCQQTVLNLRDIMYEKPELSELPIFGICLGHQLLALAAGAKTVKLKYGNRAHNIPALDLTTGQCHITSQNHGYAVDVNTLPAEFKPYFINLNDQSNEGMIHTEKPIFSTQFHPEAKGGPLDTSILFDKYLGQVHQYRAARKSGVDTRPNKLLVDLLPKQRIGVEIDAWDYVQ"
-    - concs: 0.056886
+    - concs: 0.048317
   - !!omap
     - genes: "YALI0D07392g"
     - enzymes: "Q6C9Y3"
@@ -114726,7 +114731,7 @@
     - enzymes: "Q6C9V7"
     - mw: 53205
     - sequence: "MQVTLPDGKSYDQPTKLFINNEWVDGHGGSIESVNPATEQVICSVEAADESDVDKAVQAARNCYENVWRKVTGAERAQLMRKLADLVEKNKDLLTSIEAADSGKPKYGNCDGDVDELIYVLRYYSGLAEKAGNGVTISTSNEKFAYTIHEPYGVCGQIIPWNYPIAMAAWKLGPCLAAGNVLVMKLSEYTPLSMLVICNLVKEAGFPPGVVNVVNGYGAKAGNRLAEHPDVDKIAFTGSTATGRSVMKAATGNMKAVTMELGGKSPLLIFDDCDLAKAIEWAHIGIMYNMGQVCSATSRILVQEGIADKFVEGFIKQCNEASILGCPLDQKTSHGPQVNKIQYEKVLGYIEKGKAEGAKCILGGEAAPQNGKGYFIKPTAFTNVNKDMTIWKEEIFGPVVVIDTFKTEEEAIAKANDTPYGLAAALFTENIRRAHRVVKELRAGQVWVNSDNDSDPRVPFGGVKQSGIGRELGEYGLSIYTQAKAVHINLD"
-    - concs: 0.001922
+    - concs: 0.025968
   - !!omap
     - genes: "YALI0D08206g"
     - enzymes: "Q6C9U9"
@@ -114737,7 +114742,7 @@
     - enzymes: "F2Z694"
     - mw: 33207
     - sequence: "MSDKSNFLVDFLMGGVSAAVSKTAAAPIERVKLLIQNQEEMIKQGRLSRPYKGIIDCFKRTAADEGIASFWRGNTANVIRYFPTQALNFAFKDKFKKMFGFKKSEGYWWWMAGNLASGGLAGATSLAFVYSLDYARTRLANDAKSVAKDGKAAGERQYNGLIDVYRKTIASDGIAGLYRGFGVSVVGIIVYRGLYFGLYDSLKPVVLVGPLEGNFLASFLLGWTVTTGASTASYPLDTVRRRMMMTSGTGVKYSSSMACMASIIKNEGVGALFKGCGANILRGVAGALVISMYDQMQMIMFGKKF"
-    - concs: 0.065936
+    - concs: 0.045545
   - !!omap
     - genes: "YALI0D08382g"
     - enzymes: "Q6C9U1"
@@ -114768,7 +114773,7 @@
     - enzymes: "Q6C9Q0"
     - mw: 11959
     - sequence: "MGYKEGSAKKGATLFKTRCAQCHTTEAGGPHKVGPNLHGVINRHSGEAEGYSYSDANKRKGIEWTTEHLFEYLENPKKYIPGTKMAFGGLKKPKDRNDLITWMVENC"
-    - concs: 0.074616
+    - concs: 0.002203
   - !!omap
     - genes: "YALI0D09361g"
     - enzymes: "Q6C9P6"
@@ -114779,7 +114784,7 @@
     - enzymes: "Q6C9M8"
     - mw: 52387
     - sequence: "MHEVTVVGAGLVGCLAALAFADRGHKVALYDARPDLRSEAELKNASLRSINLAVSARGIEALRSVDTKMAERVLADIIPMYGRMIHDLQGGQHAQAYGLWGECINSIDRAQLNRTMLDVIEDNANITFFPEHKLTNISLSRKDKKYQRPTSTFETKEGEERVVESDYIIGADGAFSKTRDRLQRYVRMNYAQQYIDCVYLELKIPKADGPDPFSISPNHLHIWPRHKYMLIALANGDGSFTSTLFAPPALMEQVCESQNTFISFFKEQFPDAYELMGESQILESYENNPRSPLVSLKCSPYNHKGECLLVGDAAHCMVPFYGQGMNAGFEDIRVLMEILDEKKWNVEEAFNTYTERRHKDLVAIVDLAMRNYVEMSHSVVSLPYLIRKKVDGVLGRVFSSAWVPLYSMVSFRADIPYSKALSRSARQDRIIGNIVNWTSFAGLVGMGALFYYKGRHLFGRLFE"
-    - concs: 0.003138
+    - concs: 0.003281
   - !!omap
     - genes: "YALI0D10043g"
     - enzymes: "Q6C9M0"
@@ -114815,7 +114820,7 @@
     - enzymes: "Q6C9F5"
     - mw: 37854
     - sequence: "MPPTSLVTGSTGFLASHVVDQLLSAGHRVIGTVRSPHKAARLAEAFKQQIASGQLELETLSDVRNAGEFKAIFEKHPEIKYILHTASPFNYNTTDPEKEMLQPAVEGTTTVLKAAKDHAPNVEKVVITSSLAAILNIATFNDPSTTLTEKDWNPITWEQAAEKGNPYANYIGSKAMAEKASVEFEKMEKPKFKLTWVNPVLILGPGIILDPLAINTSNEAIVTNAFETKPGQKPPVKAGYFVDVRDCAKAHVSALNPEFDGRRLFLSTSKYCTQDFLNIANQLPEFKGKIAEFDPIEREKELHSLAQIDNSATLKLLNYDLISLEHSVTDFAKEWLSYERND"
-    - concs: 0.00141
+    - concs: 0.002443
   - !!omap
     - genes: "YALI0D11704g"
     - enzymes: "Q6C9F1"
@@ -114826,7 +114831,7 @@
     - enzymes: "Q6C9E6"
     - mw: 11454
     - sequence: "MIFRRQLSTLIPPKVASPATLHGAPNAKRMADVVSFYKALPQGAAPALPKTANPFKLYYRKYFHPKSGKASGAPLLHLILGIFLFGYISDYQFHLKHHKNGAH"
-    - concs: 0.169471
+    - concs: 0.171905
   - !!omap
     - genes: "YALI0D11836g"
     - enzymes: "Q6C9E5"
@@ -114847,13 +114852,13 @@
     - enzymes: "P29407"
     - mw: 44772
     - sequence: "MSLTNKLSIKDLDLKNKRVFIRVDFNVPLDGTTITNNQRIVAALPSIKYAIDQGAKAVILASHLGRPNGQRVEKYSLKPVQAELSKLLGKPVTFLDDCVGPKVEEEVSKAKDGEVILLENLRFHPEEEGSHKDADGKKIKADPAKVEEFRKSLTSLADVYVNDAFGTAHRAHSSMVGIELPQRAAGFLVAKELEFFAKALEHPERPFLAILGGAKVSDKIQLIDNLLDKVNALIIGGGMAFTFKKTLENVKIGNSLFDEDGSKIVAGLVEKAKKNNVKLVFPVDYVTADKFSKDAKVGHATDAEGIPDGWQGLDCGPKSIEEFQKVIGESKTILWNGPPGVFEFDNFAKGTKAVLDACVKAVDNGATVIIGGGDTATVAKKYGAEDKLSHVSTGGGASLELLEGKTLPGVAALSEKK"
-    - concs: 0.151328
+    - concs: 0.165053
   - !!omap
     - genes: "YALI0D12584g"
     - enzymes: "Q6C9B1"
     - mw: 22776
     - sequence: "MFASRAIRMMSMRPMARTMATKAAAPVKVPVQLFGLDGTYATALYTAAAKESDLSKTEGSLAKLRDVFAQQPEVAQIVSNPTLSHEDKQTVVNVLSQAVGGDKTLTNFLTVISDNNRLALIPGIIEKFETLVNASKGLVEATVTSASELDKKTVNRIQAAIAGSSFVGEGELKLNLKVNPDILGGLIVEVAERTVDVSVASKIARLNHVLSEPI"
-    - concs: 0.098423
+    - concs: 0.096879
   - !!omap
     - genes: "YALI0D13112g"
     - enzymes: "Q6C985"
@@ -114924,13 +114929,12 @@
     - enzymes: "P59680"
     - mw: 103753
     - sequence: "MIEGISFASFVTHEKPKFVRALDFYKALGFLPTKEYKHGTDHHATDEEGAGSIQEVWLTSSRAGVPSVTVKLRLSRHGNEHVSLPNLKHDWRSLVPSLVYYAPDLDAVRAAITPFLHEDHSTLLERPSHTNFIELYAIDPMGNLVGFSRRENPYSSAMQKPFSADDIGPQNFSKPNETKIKGKKRIGVMTSGGDAPGMCAAVRAVVRAGIARGCEVYAVREGYEGLVKGGDLIEPLSWEDVRGWLSLGGTLIGTARCKEFREREGRLAGALNMVKNGIDALIVIGGDGSLTGADLFREEWPSLIEELVTNGSITAEQAERHRHLDICGMVGSIDNDMATTDVTIGAYSSLDRICELVDFIDATAQSHSRAFVVEVMGRHCGWLALMAGTATGADYIFIPEAAPDATQWAEKMTRVVKRHRSQGKRKTVVIVAEGAIDSDLNPITAKMVKDVLDGIGLDTRISTLGHVQRGGPPVAADRVLASLQGVEAIDAILSLTPETPSPMIALNENKITRKPLVESVALTKKVADAIGNKDFAEAMRLRNPEFVEQLQGFLLTNSADKDRPQEPAKDPLRVAIVCTGAPAGGMNAAIRSAVLYGLARGHQMFAIHNGWSGLVKNGDDAVRELTWLEVEPLCQKGGCEIGTNRSLPECDLGMIAYHFQRQRFDGLIVIGGFEAFRALNQLDDARHAYPALRIPMVGIPATISNNVPGTDYSLGADTCLNSLVQYCDVLKTSASATRLRLFVVEVQGGNSGYIATVAGLITGAYVVYTPESGINLRLLQHDISYLKDTFAHQADVNRTGKLLLRNERSSNVFTTDVITGIINEEAKGSFDARTAIPGHVQQGGHPSPTDRVRAQRFAIKAVQFIEEHHGSKNNADHCVILGVRGSKFKYTSVSHLYAHKTEHGARRPKHSYWHAIGDIANMLVGRKAPPLPETLNDEIEKNIAKEQGIIDPC"
-    - concs: 0.002226
+    - concs: 0.006462
   - !!omap
     - genes: "YALI0D16379g"
     - enzymes: "Q6C8W4"
     - mw: 93855
     - sequence: "MLKLKFRWNKPDDGPRVKRQKSQQLTLDSPEGSETSSRPGGGYDNDRDVNGTFKRPWDITKIPGYNQTYVNEASLDKFAAYLKEEEVPVESSTPVSSEEMLPLEPVQKEYITSKHDWTPVFSVLKNNNSVNKRKMSHTALKSDFKHYLDMYDKEEKRRRGKSKKDKEGSEGDKTKTKEPKELVRKSVFSSILGVFSIFSKTKDGRKLKRDEIGEGIGFWLMRWPALFFIGMWLLFLTTIYASVRVLVAGYENILTWRGKRAKLRKVLRGARTYEQWVQAAQDLDVELGNAEWRENPKFGYYDHVTISKLTKMVRKLRLQDQAEDLSNILQGCIKNNFAGTESSTLYSQTYYGTKKVVEQWNEELGKAVTYVLESPKIDDEEKRDLFRLYSKNFGKSALCLSGGGCFAYLHFGIVKAMLDQDLLPQIISGTSGGALIAALACTRTDEELRQILVPELAYKITACWEPFPKWVFRWWRTGARFDSVDWARRSCWFTLGDMTFKEAYQRTGRILNVSTVPADPHSPVILCNYITSPDCLIWSALLASAAVPGILNPVMLMNKTKSGDIVPFSFGSKWKDGSLRTDIPVDALNTYFNVNCSIVSQVNPHIALFFYAPRGTVGRPVSHRKGKGWRGGFLGAALESMIKLEIRKWLKFIKAVELLPRFVDQDWTNVWLQRFSGSVTLWPKIHLADFWHILGDPWPEKMEDLLYRGQQCAFPKLLFLKHRMNIEKRIRNGRQATRHRKRKLEETDVCDLVRKTFSESDPDSDVKHSFVFPALMAPRSAGTDISSSNSDYDHEPQWEMDEGDSFLTADEEYPTTIL"
-    - concs: 0.000562
   - !!omap
     - genes: "YALI0D16643g"
     - enzymes: "Q6C8V7"
@@ -114946,7 +114950,7 @@
     - enzymes: "Q6C8V1"
     - mw: 25744
     - sequence: "MATLLDIEGTVCSISFVHDILFPYALEKLPQLLKNEQFPIKPGGNQTSDLTPYLESFPEEYKQSAQALEDHVIDLTEKNVKAPYLKALQGYIWKSGYQSGEIKAPLYPDAVDYMKRVVDGGNKVFIYSSGSVPAQKLLFGYSSAGDLTPLISDYFDTVNAGPKMEAASYTTILKAIGFEADRVLFLSDNVREIEAAKKAGLRAYVAERPGNAKLTPQEKEDNVIKTSFEGIEI"
-    - concs: 0.001308
+    - concs: 0.002817
   - !!omap
     - genes: "YALI0D17050g"
     - enzymes: "Q6C8T9"
@@ -114967,7 +114971,7 @@
     - enzymes: "Q6C8S0"
     - mw: 6941
     - sequence: "MAFGIRRAYPTPIVKPLWPYAVGGVITFFLFAKAANASMNTEEFINDPRNPRFKAGGVKEEH"
-    - concs: 0.005
+    - concs: 0.008715
   - !!omap
     - genes: "YALI0D17534g"
     - enzymes: "Q6C8R8"
@@ -115018,7 +115022,7 @@
     - enzymes: "Q6C8M8"
     - mw: 159607
     - sequence: "MLSASQFLKHRVSCLPMLNKVESDSTDGDPDDACQHPHDCNIFSVLVNGATDRLEGFFDESDEEDGDEVETPSTTTTAVSPSATMSAPSPTATAPTPHSGTHTPKSPLHSISHCPSFNSVAQALPHSLSPHSLCHTSSHEASRRGSAEQPSRTQSELARRIKTENILNSFHDSLEAAYEKCHGGANPEEHQSNKTEYFQQKLKGFAALDVDEQLIADYPVWLLKNVLIQGHLYITAKHMCFLSYLPRRQNANIRSGTLVKARKRSLREGTRYWCVLKNDSFSYYPDSTDVYFPAGTIDLSEALAAELCDDEGDVTEPESFRIVMPKKSVLFKADSHSAAHEWVKALQKEIFRAHNQGDTVRIVIPLQNIVDLEKTKIFEFATTIKTSVVESNETYAIDEYIFTFFKFGDDVLRTLTENGVEISGGNFSPRQSQLAVGHKHVTESVRDSTLLHASGHHHHFFHSAHHESDGKSNSKSHTSSRSHTPRNLTPQVTGEQPHERDEKRDSKLPRLPKFLRRFKDKVDDKCDDKPTLVPSFLKSRASSRRNSAEGSDRPNLASQRTSSSTLFPSAPPTPGSQPTTPGVHAPGSSTPGGSYGTTTPGTPASADSVSLAGTPGVAAPVGDIEGLNGNPMPAGIAAELKEKRKSGGATSSGAATGATTPGGAAAPGSTGNSSPGTPGGLGGPGAVGAGGPGVMGGAESAPAGTVPQQSHHAGISVVAPHDPAAAAAAADAAAPFTRGPGSGIPEIQDDSDSSDDDHWGHIGTAEVDEDPEQDTFKKKNKRFSTLSKVSDLWSGSTKHYGKHHTERLGDDDDKHLASAEEITESNERFQKRFALGTEERLIASYHCHLHRGGIPTYGKMYVSTNYVTFRSFLRTKTLMIVPLKVVENATKDSGFKFGYSGLVLTIQGYEEIFFEFASASHRDDAEVMLLRQLDIIRPHINDDIKSDDQYMLQSARLCTYEDALKAEANVEMPPVIIDGNLASVLPGLVTPQSKMLFTLLTIGSRGDVQPYISLGKALIEEGHRVRIATHSEFKDWIEGYGIEFKEVAGDPSELMKIMVDHGVFSVSFLRDAASKFRGWINELLASSWEACQGSDVLIESPSAMAGIHIAEALQIPYFRAFTMPWSRTRAYPHAFIVPDQKMGGSYNYLTYVMFDNVFWKGISGQVNRWRKKTLHLPRTNLDHMEQNKVPFLYNVSPAVLPPPVDFPDWIKITGYWFLDEGSKDYTPDDKLCRFMEKARNDGKKLVYIGFGSIVVSDPTALTKSVVESVLKADVRCILNKGWSDRLGKKDAKEPEIPLPEEVLQITNCPHDWLFPQIDACVHHGGSGTTGAGLRAGLPTIIKPFFGDQFFYANRVEDLGAGIHLRKLNVSQFSKALWEATHNERIIAKAAAVGRQIRSENGVISAIQAIYRDLDYARSLVQKKRGYTPTSDKEEETWTLVDDIERQMQDEVEKHNL"
-    - concs: 0.007524
+    - concs: 0.023539
   - !!omap
     - genes: "YALI0D18458g"
     - enzymes: "Q6C8M5"
@@ -115114,7 +115118,7 @@
     - enzymes: "Q6C846"
     - mw: 44433
     - sequence: "MNRFSKIRQYSTLLQTAEKYSVPTYAKPSVILTKGKGAYLWDSNDNKYIDFSAGIAVTALGHSNPEITKILAEQSSQLMHCSNLFNNEWAPRLQESLVEETLKSGGMKGARKVFLANSGTEANEAALKFARKVGTLSSPDKTEFVNFEKAFHGRTMGALSVTPNPKYQAPFAPLVPGVKTGVYNDPKAADLITEKTCGVIVEPVQGEGGVYKANDEFLQALRNKCDEVGAMLIFDEIQCGLGRTGRLWAHDKVHPDILTMAKALGNGFPIGATMVTEAVADKIAIGDHGTTYGGNPLASRVGHYVLSQVASKEVLDNVKKVSQQIRDAVAEVQEEFPELITEVRGDGLLLGIQFSKDPSKVVAAARENGLLVITAGTNTVRLVPALNIDQEAVTEGLEILKKAIRDNAKDL"
-    - concs: 0.022045
+    - concs: 0.019933
   - !!omap
     - genes: "YALI0D22891g"
     - enzymes: "Q6C844"
@@ -115170,7 +115174,7 @@
     - enzymes: "O74936"
     - mw: 78010
     - sequence: "MISPNLTANVEIDGKQYNTFTEPPKALAGERAKVKFPIKDMTEFLHGGEENVTMIERLMTELERDPVLNVSGDYDMPKEQLRETAVARIAALSGHWKKDTEKEALLRSQLHGIVDMGTRIRLGVHTGLFMGAIRGSGTKEQYDYWVRKGAADVKGFYGCFAMTELGHGSNVAGLETTATYIQDTDEFIINTPNTGATKWWIGGAAHSATHTACFARLLVDGKDYGVKIFVVQLRDVSSHSLMPGIALGDIGKKMGRDAIDNGWIQFTNVRIPRQNMLMKYAKVSSTGKVSQPPLAQLTYGALIGGRVTMIADSFFVSQRFITIALRYACVRRQFGTTPGQPETKIIDYPYHQRRLLPLLAFTYAMKMAADQSQIQYDQTTDLLQTIDPKDKGALGKAIVDLKELFASSAGLKAFTTWTCANIIDQCRQACGGHGYSGYNGFGQAYADWVVQCTWEGDNNVLCLSMGRGLIQSCLGHRKGKPLGSSVGYLANKGLEQATLSGRDLKDPKVLIEAWEKVANGAIQRATDKFVELTKGGLSPDQAFEELSQQRFQCAKIHTRKHLVTAFYERINASAKADVKPYLINLANLFTLWSIEEDSGLFLREGFLQPKDIDQVTELVNHYCKEVRDQVAGYTDAFGLSDWFINAPIGNYDGDVYKHYFAKVNQQNPAQNPRPPYYESTLRPFLFREDEDDDICELDEE"
-    - concs: 0.008383
+    - concs: 0.007102
   - !!omap
     - genes: "YALI0D25168g"
     - enzymes: "Q6C7U9"
@@ -115226,7 +115230,7 @@
     - enzymes: "Q6C7L4"
     - mw: 34244
     - sequence: "MTHSPVVIIGSGPAAHTAAIYLSRAEIKPTLYEGMMANGIAAGGQLTTTTEIENFPGFPDGIMGSQLMEDMRKQSIRFGTEIITETVSKVDLSQRPFKYWTEFNEDEEPHTADAIILATGASAKRLSLPGEDQYWQQGISACAVCDGAVPIFRNKPLAVVGGGDSAAEEALFLTKYGSKVYVIVRKDKLRASAVMAKRLASHPKVEILFNHVSIEAKGDGKLLNALEIENTLTGEKRDLEVNGLFYAIGHIPATSIVKGQVETDEEGYVVTVPGTANTSVKGVFAAGDVQDKRYRQAITSAGTGCMAALDCEKLLAEEE"
-    - concs: 0.011832
+    - concs: 0.010854
   - !!omap
     - genes: "YALI0D27170g"
     - enzymes: "Q6C7L2"
@@ -115267,7 +115271,7 @@
     - enzymes: "F2Z650"
     - mw: 100194
     - sequence: "MASIIDGNSIAKNIRERLHTEIADVQQTNPRFQPSLVIIQVGDRPDSSTYVRMKLKAADEAAIKCELKKLDENVSQHELLREITHLNEDPSVDGVLVQLPLPKHIDETTITNAVAADKDVDGFGPLNIGELAKRGGNPSFVACTPKGVMELLKVAGIDVAGKTAVVLGRSDIVGAPVSYLLRNADATVTVVHSKTANIPEIVKTADIVVAAIGQPGFVKGEWLKPGAVVIDVGTNYIPDDTKKSGQRLVGDVDFESAKNVASHITPVPGGVGPMTVAMLLDNVVLSAKRQAEKLTARSITPLPLKKENPVPSDFAISRAQEPKHITEVAAEIGVLPSELEPYGAYKAKVQLPILDRLAHRKNGKYVLVTGITPTPLGEGKSTTTIGLVQALGAHLGKMAFANVRQPSMGPTFGIKGGAAGGGYAQVIPMDEFNMHLTGDIHAISAANNLLAAAIDTRMFHESTQKDAALYKRLVPAKKGVRTFTRGMQTRLKKLGIDKTNPDDLTEEEIAKFVRLDIDPETITWRRVVDCNDRHLRGITVGQAPTEKGRTRETGFDISVASECMAILALANDLEDMRERLGNMVIGSSKNGDPVTCDDIGAGGALTALMKDAIKPNLMQTLEGTPVFVHAGPFANISIGANSVLADKMALKLAGTEPNESDDKAGFVVTEAGFDFTMGGERFFNIKCRSSGLAPDVVVIVATVRALKSHGGGPEVKAGAPLPKEYTEENVELLREGCKNLGKHIENARQYGLPVVVAINEFVSDTAAEHDVIREEALKYGAEDAVVAKHWAEGGAGAVDLAQAVVDASNKIDKDFKLLYEADTTAEEKLNTIAQKMYGAKDVELSELARKKIDAYTKQGFGNLPICVAKTQYSLSHDPTLKGVPTGFTVPIRDVRASVGAGYLYALAAEIQTIPGLPTHCGFMNVEVNDKGEIEGLF"
-    - concs: 0.110178
+    - concs: 0.057138
   - !!omap
     - genes: "YALI0E01254g"
     - enzymes: "Q6C7F4"
@@ -115283,7 +115287,7 @@
     - enzymes: "Q6C7B8"
     - mw: 59150
     - sequence: "MPAVATTPFEGQKPGTSGLRKKVTVFQQPHYTENFVQAIMDSIPEGAKDATLVIGGDGRYYNDKVCQIIAEIAAGNGVKKLIVGQDGILSTPAASHVIRKRGATGGIILTASHNPGGPTEDFGIKYNLANGGPAPESVTNKIFDVTTKIKEYQRVDVGEVDLKTVGTKQYGPIEIEIIDSVADYVAMIKDIFDLELIKDFLKSNPDFKVLFDGLNGVTGSYAQAIFLGELGLDKSSIQNCTPLPDFGGLHPDPNLTYAKTLVDAVDSGSIPFGAASDGDGDRNMIYGANTFVSPGDSVAIIADHADKIPYFKKQGVYGLARSMPTSNALDLVGKKKGLNVYEVPTGWKFFCALFDSDKLSICGEESFGTGSNHIREKDGLWAVIAWLNIIAGVGKEDPKKASIAAIQEDFWKTYGRTFFTRYDYENVSSEGAAKVVAGLNDKLNSLVGTKIGSLEVAEAGDFEYTDLDGSVSSHQGLYVKFTNGARFVIRLSGTGSSGATIRLYVEKHESDPSKFGESAQDYLEDIINEVVSYLKFKELVGRDEPTVRT"
-    - concs: 0.044279
+    - concs: 0.035232
   - !!omap
     - genes: "YALI0E02156g"
     - enzymes: "Q6C7B5"
@@ -115314,13 +115318,13 @@
     - enzymes: "Q6C793"
     - mw: 51709
     - sequence: "MISAIRPAVRSSVRVAPMANTAFRAYSTQDGLKERFAELIPENVEKIKKLRKEKGNTVIGEVILDQAYGGMRGIKGLVWEGSVLDPEEGIRFRGLTIPDLQKQLPHAPGGKEPLPEGLFWLLLTGEIPTDAQVKGLSADWASRAEIPKHVEELIDRCPPTLHPMAQLGIAVNALESESQFTKAYEKGVNKKEYWQYTYEDSMNLIAKLPVIASRIYRNLFKDGKIVGSIDNSLDYSANFASLLGFGDNKEFIELLRLYLTIHADHEGGNVSAHTTKLVGSALSSPFLSLSAGLNGLAGPLHGRANQEVLEWILEMKSKIGSDVTKEDIEKYLWDTLKAGRVVPGYGHAVLRKTDPRYTAQREFALEHMPDYDLFHLVSTIYEVAPKVLTEHGKTKNPWPNVDSHSGVLLQYYGLTEQSYYTVLFGVSRAIGVLPQLIMDRAYGAPIERPKSFSTEKYAELVGLKL"
-    - concs: 0.184514
+    - concs: 0.103585
   - !!omap
     - genes: "YALI0E02728g"
     - enzymes: "Q6C791"
     - mw: 73785
     - sequence: "MFAFRNRAVTQTLLVRRYSTKRIPQNLTEKIVQRYAVGLPEGKQVQSGDYVSIRPSHCMTHDNSWPVATKFKGLGAKAVKDNRQVVMTLDHDVQNKSEKNLEKYANIENFAGEQGIDFYPAGRGIGHQVMVEEGYAFPYNLTVASDSHSNMYGGIGCLGTPIVRTDAASVWATGQTWWQIPPVARVELKGQLPAGVFGKDVIIALCGIFNNDEVLNHAIEFVGDGVEHLSVDERLTIANMTTEWGALTGLFPVDETLRQWYEYRLTRLPQPHARVNDGTVAALKDAVQADTDAKYAKNLTIDLSTLSPFLSGPNSVKVYNSLADLSAQDIKINKAYLVSCTNSRLSDIEAAANVIKNNKVAEGVEFYVAAASSFVQKDAEASGAWQTLINAGAKPLPAGCGPCIGLGTGLLEDGEVGISATNRNFKGRMGSKDALAYLASPEVVAASAVLGKIGFPEEVYGSPVPGAKGVSSSISVTEAVEAEADAEAAESDPAPSGGVLDGFPAQITGELVLCDADNINTDGIYPGKYTYQDDVPREKMAEVCMENYDPDFGSKTGAGDIIVSGFNFGTGSSREQAATCILARDMQLVIAGSFGNIFSRNSINNALLTLEIPALINKLRKRYEGQPAELTRRTGWFATWDVPAATVTVTDGKNGPVILKQKVGELGQNLQEIIVKGGLEGWVKAQL"
-    - concs: 0.033449
+    - concs: 0.021418
   - !!omap
     - genes: "YALI0E03058g"
     - enzymes: "Q6C780"
@@ -115346,7 +115350,6 @@
     - enzymes: "Q6C741"
     - mw: 24057
     - sequence: "MATRKAAKTKANGPAHVPSGPSQVLAVVYGTLLLVYLRFIFSAGITHDPAKVMTQALPGLLLLHMGYCVVVLGNKPGRKIGTDVSTAMIAAALSVFFSVIIFGLLVLFGAPAISLVHNTFVCAMHMSILAVLPLFFTYHLDSKVWADIIAMRRPLDHVYAASVCTLIGAWLGAIPIPYDWDRPWQQWPITILAGAYLGYFVGTLGGIALELTKSLCSKTKKTE"
-    - concs: 0.003307
   - !!omap
     - genes: "YALI0E04048g"
     - enzymes: "Q6C737"
@@ -115412,7 +115415,7 @@
     - enzymes: "Q6C6U9"
     - mw: 107859
     - sequence: "MAVPSAAIKASGVDMGDLKKRHDTKLDVEESVIDEKINENESDEKLTEKLTEKLTEKLTEKTSTEPIAYVGKCPDGTTFIVPETEDMLTNLFDPRITKSLTDVIIVSILVTFMGLFFVVPKSWRVPLYLFLFAAWRLAYNGGIGWLLHNQSNYHKLTKWALKYKVFDKDNKTWWHQLIKREFETRFQNQPNYSFYEVPVEFNTWILFRHVVDLILMSDFTCYFMLAWSCALSVRTNQPWWLVIGRWLAGALMLAFNLWAKTDAHRVVKDYAWYWGDFFFLKDMELTFDGVFEMAPHPMYSIGYAGFYAASLMACSYTLFLASLAGHAAQFVFLSIVENPHIEKTYNPHQPKQRRKASHVRDRSSIQLGLDQKQKDELSAIVEGDESVSIASTPISTTFDEPETVQKHSLPPLVVFSNFQITRVTDIMTVGAAVYTMLLYFLPANRLWYTVTFFMALSARLFHTLGLGVILRRQSERRSFTKTFLKFGIYPFEAYEQWQVWYNVSTVLSYTTFGLFCLRQWRAPSTDPLWPLKYILGALLIALHGWTSKSIHDSLGHFGWFYGDFFLDRKQNLTYSGIYRYLNNPERFFGIAGIWGLALMTNSPGVGILAFLWTLEGMAFIKFVEQPHMQRIYGTSIRHDAGVTKTIKNSLKLPSPFEKRVRQFQGSVDKVINDTLTVVEEFIGLAKPTLNEVVNDSKILLRQYPAKLTLTRMLDVPENIDTADYSVKLVGGEKCADSNRISYAFGTPIHVKWQASPNRSAKDWIGLYRVHDNTSPEVTSLPSKGRWSGIDETGHESHLDGIVSSSKTNGEVVFRGDTLFWECGVYEFRYHHAGKHTVLSTSEPFEIVAPKIDLSGEVDAKTLALEILPIVQRCFSLSMEFPPEEVDDYWALEEPKVINRVQAAVQAYFNVELAQEVLQSDESVENLAERLLRIRDALKGLTV"
-    - concs: 0.011764
+    - concs: 0.007968
   - !!omap
     - genes: "YALI0E06193g"
     - enzymes: "Q6C6U3"
@@ -115448,7 +115451,6 @@
     - enzymes: "Q6C6Q7"
     - mw: 32942
     - sequence: "MSSLPTPLPPYKWTLLTAGNANVVYKSDETDLLLRLRRNRNAPSTAEVDEYLTGTIRPAIGPFLFHYTVVNLPLGFLESLPEAENLDLGEPLGLLMENLGPKPNETNVLKSHAVKINYSDNWESYTVELKPKWLLQSPTAPKDSINCRTCALQLKREKPRICPLKLFNEDEQTSLQALEDVFPGTQKQFEPLAKFFSNSELFAEIRHMQHGDELGILGYANYVQVPPQFVTAMTMRDVSLFVHVQGDSVNGKIVDADLKSVSEKRDYWASLETDLIEGGWYEKPGTNCLLRN"
-    - concs: 0.001657
   - !!omap
     - genes: "YALI0E07205g"
     - enzymes: "Q6C6Q5"
@@ -115539,7 +115541,7 @@
     - enzymes: "Q6L8K7"
     - mw: 41357
     - sequence: "MRLTLPRLNAAYIVGAARTPVGKFNGALKSVSAIDLGITAAKAAVQRSKVPADQIDEFLFGQVLTANSGQAPARQVVIKGGFPESVEATTINKVCSSGLKTVALAAQAIKAGDRNVIVAGGMESMSNTPYYSGRGLVFGNQKLEDSIVKDGLWDPYNNIHMGNCCENTNKRDGITREQQDEYAIESYRRANESIKNGAFKDEIVPVEIKTRKGTVTVSEDEEPKGANAEKLKGLKPVFDKQGSVTAGNASPINDGASAVVVASGTKAKELGTPVLAKIVSYADAATAPIDFTIAPSLAIPAALKKAGLTKDDIALWEINEAFSGVALANLMRLGIDKSKVNVKGGAVALGHPIGASGNRIFVTLVNALKEGEYGVAAICNGGGASTAIVIKKVSSVE"
-    - concs: 0.014717
+    - concs: 0.020196
   - !!omap
     - genes: "YALI0E11355g"
     - enzymes: "W0TYM5"
@@ -115565,7 +115567,7 @@
     - enzymes: "Q6C673"
     - mw: 47198
     - sequence: "MTSRYRVEYSLKQHRRDEFIEWVKTLLATPFVLHAGSTGDGRPGDENRSVVETRRRYAEIFYDVEKLIENQLYHDNNDSGERARLRQLVPTIGQFFTKLPLERAFYTQDEIRSISHRRFVSPSFNDVRMILNTAQVMALATGRQPLKLVTFDGDVTLYADGGNIDPDSPIIPVLLGLLRNDVYVGIVTAAGYSEKDGSKYGVRLYGLLEAIVKTDTLTEQQKNHLLVMGGESNFLFKFIAAENRFEWIDPEEWTLPEVRTWSQEDITSVLNIGERVFTNALTKCSLPATIIRKVRGVGIVPLPGKKIMREQLEEMVLAAQKTLETSKATGNVQFCAFNGGSDVWVDIGDKDLGVRSLQAYLGNITGTQTLHVGDQFAALGANDFKARLAATTVWIANPSETVEIIAELIDYIEHERQCSA"
-    - concs: 0.002097
+    - concs: 0.005955
   - !!omap
     - genes: "YALI0E12089g"
     - enzymes: "Q6C664"
@@ -115601,7 +115603,7 @@
     - enzymes: "Q6C627"
     - mw: 45851
     - sequence: "MQVRHFSSCRIVQAGKERFVPSSGTYPKGFKVGGFFTGVKKNAFNMDLAMLSSDKPCNAAAVFTTNVFKAAPVQVDRKILDVTQGKGIKTVVVNSGCANAVTGEGGIHDAQQMVKKADQVFGSESDLPASLVMSTGVIGQRLKIDKILKGIEEHAPAMKDDHEAWLNTAKGICTTDTFPKLMSQQFKIGDNTYTIAGLTKGAGMIHPRMATLLGFFATDAPVSASALGVALKHAADRSFNAISVDGDTSTNDTIVCLANGAAGGPEITETSASFPVFQDILTDFSSRLSQLVVRDGEGATKFVKISVNDAVSEQEAAKVAETVACSPLVKTALYGKDANWGRILCAVGYSGMQVEPTKTTVSFMPTDGSSELKLLVNGEPEQVDEARASEILDMEDLEIQINLGTGGGKNANFWTCDFSHEYVTINGDYRT"
-    - concs: 0.017571
+    - concs: 0.027281
   - !!omap
     - genes: "YALI0E13123g"
     - enzymes: "Q6C624"
@@ -115647,7 +115649,7 @@
     - enzymes: "O74932"
     - mw: 53259
     - sequence: "MPNVLVISNRLPVTISREEDGTYKYTMSSGGLVTALSGLKQSTTFQWFGWPGLEIPEKDKPRLINDLETMFSCVPVFMDDDLADLHYNGFSNSILWPLFHYHPGEMNFDQVAWEAYTQANRLFAKKVASIVKPGDIVWVHDYHLMLLPEMLREECENNSALDGLKIGFFLHTPFPSSEIYRILPVRKEVLTGVLSCNLIGFHTYDYARHFLSSVSRILDLETMPNGTYYKGRHVVVGAFPIGIDVNKFLEGCKRPAVQERIAQLQDKFKGIKVVVGVDRLDYIKGVPQKLHAFEVFLSEHPEWIGKVVLVQVAVPSRGLVEEYQNLRAVVNELVGRINGMFGTVEFTPIHFMHRSVDFNELIALYSISDVCFVSSTRDGMNLVSYEYVACQTEKHGSLILSEFTGAAQSLNGALIVNPWNTEDMAEALYDSLTFSPEKKAENHRKLFKYVSKYTSQHWGEAFVSELKRC"
-    - concs: 0.006631
+    - concs: 0.011863
   - !!omap
     - genes: "YALI0E14729g"
     - enzymes: "Q6C5V9"
@@ -115678,7 +115680,7 @@
     - enzymes: "F2Z6I5"
     - mw: 97300
     - sequence: "MSGELRYDGKVVIVTGAGGGLGKAYALFYGSRGASVVVNDLGGDFKGDGAQAGSGKRVADVVVDEIVSKGGKAVANYDSVENGDKIVETAVKAFGSVHIVINNAGILRDISFKKMTDKDWDLVYKVHVFGAYKVTRAAWPYFRKQKYGRVISTSSAAGLYGNFGQTNYSAAKLALVGFGETLAKEGAKYNITSNVIAPLAASRMTETVMPEDILKLLKPEYVVPLVGYLTHDSVTESYGIYEVGAGYMAKIRWERGNGAVFKGDDTFTPSAILKRWDEVTSFESPTYPNGPADFFKYAEESVKRPENPQGPTVSFKDQVVIVTGAGAGIGRAYSHLLAKLGAKVVVNDFGNPQKVVDEIKALGGIAVADKNNVIHGEKVVQTAIDAFGAVHAVVNNAGILRDKSFANMDDEMWQLIFDVHLNGTYSVTKAAWPHFLKQKYGRVINTTSTSGIYGNFGQANYSAAKAGILGFSRALAREGEKYNILVNTIAPNAGTAMTASVFTEEMLELFKPDFIAPITVLLASDQAPVTGDLFETGSAWIGQTRWQRAGGKAFNTKKGVTPEMVRDSWAKIVDFDDGNSTHPTTPSESTTQILENIFNVPDEEVEETALVAGPGGPGILNKEGEPFDYTYTYRDLILYNLGLGAKANELKYVFEGDDDFQTVPTFGVIPYMGGLITTNYGDFVPNFNPMMLLHGEQYLEIRQWPIPTNATLENKAKVIDVVDKGKAALLVTATTTTNKETGEEVFYNESSLFIRGSGGFGGKSTGTDRGAATAANKPPARAPDFVKEIKIQEDQAAIYRLSGDYNPLHIDPAFAAVGNFDRPILHGLCSFGVSGKALYDQFGPFKNAKVRFAGHVFPGETLKVEGWKEGNKVIFQTKVVERGTTAISNAAIELFPKDAKL"
-    - concs: 0.058174
+    - concs: 0.035927
   - !!omap
     - genes: "YALI0E15488g"
     - enzymes: "Q6C5S9"
@@ -115779,7 +115781,7 @@
     - enzymes: "Q6C5K1"
     - mw: 59010
     - sequence: "MRRRATILADLQQHGDKISFKPGDNNKSKLTVSVNAPRQDRFSAPVSNADLDVLNHVADVSVAWGRPSAAQQPVLFAAAYEPGLHVTVVKKQASEPRKWGEEKPSEAAPELVHVAKFLEEQLGLPVDPKTFIESRSDYTYYDPLVGPEAFGHFVDKHSACSDESEEFVNDLDTFNYAQSASFHIDHDKKELVTEVTIPDLEHYFNQKKQHISRACKNDRLEVGIFDLNNLATSYAFRGVAELKGLLHDSTKEKPQETFLVIEPRHNIGAGSVSVDFERPVGLHPKSELKLRHIAIPTDHNDENDGVKHCRLFAKYSAPSSIFFDKYQLADLERTTSEHPNGQGRLLALWGEADLEEPRYHTEGWGSEALVEIFPITDAPEGTPFNLNFTLPLHLRYEEPKEGETYEPNEAPWPLVFWVCAETDEQLANFKQSPFDVTHNSYMRLFPEGVSYHHIGPREANGRGFPLLSTSWGTPVADIDRFAAVRDYTSIMMVAGFLMVTIAILRKVFRGKAMSEELKEKKEQ"
-    - concs: 0.001987
+    - concs: 0.002121
   - !!omap
     - genes: "YALI0E17479g"
     - enzymes: "Q6C5J7"
@@ -115795,7 +115797,7 @@
     - enzymes: "F2Z678"
     - mw: 37315
     - sequence: "MSAPVIPKTQKGVIFETSGGPLMYKDIPVPVPADDEILVNVKFSGVCHTDLHAWKGDWPLDTKLPLVGGHEGAGVVVAKGKNVDTFEIGDYAGIKWINKACYTCEFCQVAAEPNCPNATMSGYTHDGSFQQYATANAVQAAHIPKNCDLAEIAPILCAGITVYKALKTAAILAGQWVAVTGAGGGLGTLAVQYAKAMGYRVLAIDTGADKEKMCKDLGAEVFIDFAKTKDLVKDVQEATKGGPHAVINVSVSEFAVNQSIEYVRTLGTVVLVGLPAGAVCKSPIFQQVARSIQIKGSYVGNRADSQEAIEFFSRGLVKSPIIIIGLSELEKVYKLMEEGKIAGRYVLDTSK"
-    - concs: 0.024802
+    - concs: 0.023403
   - !!omap
     - genes: "YALI0E17919g"
     - enzymes: "Q6C5H9"
@@ -115841,7 +115843,7 @@
     - enzymes: "Q05493"
     - mw: 43059
     - sequence: "MDRLNNLATQLEQNPAKGLDAITSKNPDDVVITAAYRTAHTKGGKGLFKDTSSSELLASLLEGLVKESKIDPKLIGDVVCGNVLAAGAGATEHRAACLVAGIPETVPFVALNRQCSSGLMAVNDVANKIRAGQIDIGIGCGVESMSNQYGPNSVTPFSNKFQNNEEAKKCLIPMGITSENVAAKYNVSRKAQDAFAAKSYEKAAAAQAAGKFDQEILPIKTTVLDDDDNEKEVTVNKDDGIRPGVTAEKLGKLKPAFSAEGTTHAGNASQISDGAGAVLLMRRSVAEKLGQPILAKFVHCKTVGVPPELMGIGPAYAIPAVLEDLGLTVNDVDVFEINEAFASQALFSIQHCGIDESKVNPRGGAIAIGHPLGATGARQFATLLSELKESGKKVGVTSMCIGTGMGAASLVVAE"
-    - concs: 0.015825
+    - concs: 0.005136
   - !!omap
     - genes: "YALI0E18590g"
     - enzymes: "Q6C5F2"
@@ -116037,6 +116039,7 @@
     - enzymes: "Q6C4H7"
     - mw: 62420
     - sequence: "MKLATAFTILTAVLAAPLAAPAEAFLFLLAGFAAKISASMTNETSDRPLVHFTPNKGWMNDPNGLWYDEKDAKWHLYFQYNPNDTVWGTPLFWGHATSDDLTNWEDQPIAIAPKRNDSGAFSGSMVVDYNNTSGFFNDTIDPRQRCVAIWTYNTPESEEQYISYSLDGGYTFTEYQKNPVLAANSTQFRDPKVFWYEPSQKWIMTAAKSQDYKIEIYSSDDLKSWKLESAFANEGFLGYQYECPGLIEVPTEQDPSKSYWVMFISINPGAPAGGSFNQYFVGSFNGTHFEAFDNQSRVVDFGKDYYALQTFFNTDPTYGSALGIAWASNWEYSAFVPTNPWRSSMSLVRKFSLNTEYQANPETELINLKAEPILNISNAGPWSRFATNTTLTKANSYNVDLSNSTGTLEFELVYAVNTTQTISKSVFADLSLWFKGLEDPEEYLRMGFEVSASSFFLDRGNSKVKFVKENPYFTNRMSVNNQPFKSENDLSYYKVYGLLDQNILELYFNDGDVVSTNTYFMTTGNALGSVNMTTGVDNLFYIDKFQVREVK"
+    - concs: 0.000607
   - !!omap
     - genes: "YALI0E26829g"
     - enzymes: "Q6C4H2"
@@ -116102,7 +116105,7 @@
     - enzymes: "Q6C482"
     - mw: 47643
     - sequence: "MADVVLGSQWGDEGKGKLVDILCDQIDVCARCQGGNNAGHTIVVGDVKYDFHMLPSGLVNPNCQNLLGSGVVIHVPSFFDELKAIEDKGLNCRDRLFVSSRCHLVFDFHQLTDGLKEQELSTTKKAIGTTGKGIGPTYSTKASRSGIRVHHLVSQEPGAWEEFESRLRRLVGTRQKRYGDFDYDVEEEIKRYKKLADDLRPFVIDAVPFMHKAIKANKRILIEGANALMLDLDFGTYPYVTSSNTGIGGVCTGLGIPPTAIRNIYGVVKAYTTRVGAGPFPTEQLNNVGEHLQEVGAEFGVTTGRRRRCGWLDLVVLQYSTWINGYTSLNITKLDVLDQLEELKVAVGYKHNGKVLESFPEDLHVLEQVECIYETLPGWKSDTTKITEYAELPENAKKYIAFIEKFLDCPVQWVGVGPGRSHMLSKSVN"
-    - concs: 0.130604
+    - concs: 0.141093
   - !!omap
     - genes: "YALI0E29139g"
     - enzymes: "Q6C474"
@@ -116153,7 +116156,7 @@
     - enzymes: "Q6C3Z9"
     - mw: 58051
     - sequence: "MSAVLKQRIRYKPYLDKIRTAAQCVDLFGAKPNQYIGWSGFTGVGAPKVVPDAVSKHVEENNLQGHENWRYNLFVGASAGMEIESRWANNNMIARRSPHQVGKPIAAAINEGRTDFFDKHLSMWAQDLTYGFYTRDKKENSLDIAVIEATAITEDGHLIPGPAVGASPEIVHMADKIIIELNTKTPSFEGLHDINMPVLPPFRQPYQITDVSQKMGTPYIPLDPSKVVAIVESEFADVVGANSPADEGSKAIAANLIELFQQEVKAGRLPENLLPLQSGIGNIANAVVEGLADASFKDLNVWTEVLQDSFLDFFESGNLNFATATSIRLTEDGFKRFFDNWDEFSKKLLLRSQVVSNNPEIIRRLGVIAMNTPVEVDIYAHANSTCVNGSKMLHGLGGSGDFLRNAKLSIMHTPSARPSKTDPLGISCIVPFATHIDQTEHDLDIVVTEQGLADLRGLSPKERSREMINKCAHPSYRDQLLAYVEQAEFECAKSRSLHEPHVLKNAFKMHTNLAENGTMRLDKW"
-    - concs: 0.057431
+    - concs: 0.053827
   - !!omap
     - genes: "YALI0E31009g"
     - enzymes: "Q6C3Z7"
@@ -116199,7 +116202,7 @@
     - enzymes: "B5FVG3"
     - mw: 9989
     - sequence: "MSATLNVLRWSALGAGVVYGFVHNRTLYSQAEKKVADAKFKKQEKLIEQAKAEWARLHPAPVASTGVVTDISDDKFDIEAYLNHAFPEKA"
-    - concs: 0.010558
+    - concs: 0.017159
   - !!omap
     - genes: "YALI0E32351g"
     - enzymes: "Q6C3T1"
@@ -116230,7 +116233,6 @@
     - enzymes: "O74934"
     - mw: 77282
     - sequence: "MTTNTFTDPPVEMAKERGKTQFTVRDVTNFLNGGEEETQIVEKIMSSIERDPVLSVTADYDCNLQQARKQTMERVAALSPYLVTDTEKLSLWRAQLHGMVDMSTRTRLSIHNNLFIGSIRGSGTPEQFKYWVKKGAVAVKQFYGCFAMTELGHGSNLKGLETTATYDQDSDQFIINTPHIGATKWWIGGAAHTSTHCVCFAKLIVHGKDYGTRNFVVPLRNVHDHSLKVGVSIGDIGKKMGRDGVDNGWIQFTNVRIPRQNMLMRYAKVSDTGVVTKPALDQLTYGALIRGRVSMIADSFHVSKRFLTIALRYACVRRQFGTSGDTKETKIIDYPYHQRRLLPLLAYCYAMKMGADEAQKTWIETTDRILALNPNDPAQKNDLEKAVTDTKELFAASAGMKAFTTWGCAKIIDECRQACGGHGYSGYNGFGQGYADWVVQCTWEGDNNVLCLSMGRGLVQSALQILAGKHVGASIQYVGDKSKISQNGQGTPREQLLSPEFLVEAFRTASRNNILRTTDKYQELVKTLNPDQAFEELSQQRFQCARIHTRQHLISSFYARIATAKDDIKPHLLKLANLFALWSIEEDTGIFLRENILTPGDIDLINSLVDELCVAVRDQVIGLTDAFGLSDFFINAPIGSYDGNVYEKYFAKVNQQNPATNPRPPYYESTLKPFLFREEEDDEICDLDE"
-    - concs: 0.004927
   - !!omap
     - genes: "YALI0E32901g"
     - enzymes: "Q6C3Q6"
@@ -116256,7 +116258,7 @@
     - enzymes: "Q6C3M9"
     - mw: 36043
     - sequence: "MDEDSPAPSLQNIIDQDSLRWIFVGGKGGVGKTTTSCSLAIQLAKNRESVLLISTDPAHNLSDAFGQKFGKDARPVNGIDNLHCMEIDPSGSIQEMIEQAQSAGGAGAGMTNMMQDIAFSIPGVDEAMSFAEVLKQVKSTSYSVIIFDTAPTGHTLRFLTFPTVLEKALGKISELSGRFGPMLGSLMGGQGGPSADDMFAKLNETRATISEVNTQFKNPDLTTFVCVCIPEFLSLYETERMVQDLTSFDIDTHNIVVNQLLYPKKGDDCELCSSRYKMQQKYLEQILDLYEDFHIVRLPQQTQEVRGVQALEKFSNLLVHPYQHIEN"
-    - concs: 0.018704
+    - concs: 0.019081
   - !!omap
     - genes: "YALI0E33517g"
     - enzymes: "Q6C3M8"
@@ -116277,7 +116279,7 @@
     - enzymes: "Q6C3K7"
     - mw: 14656
     - sequence: "MASITSVVKTSELILKSPLLSKIVVPLAKTYVKFSGYRQLGFKMNDLIIEETPNMQLALRRLPPTESYDRVYRLIRATQFSLSHKLATGNDITKPEEDDHYLIPYILDVEAEAFEKDALDNLEVVKRK"
-    - concs: 0.040671
+    - concs: 0.041201
   - !!omap
     - genes: "YALI0E34133g"
     - enzymes: "Q6C3K2"
@@ -116318,7 +116320,7 @@
     - enzymes: "Q6C3E5"
     - mw: 72895
     - sequence: "MFSLRALSGVVTRSLVRAPHRRTMSHAARLLPHRVPQKKGPERDPSTLSNYEHFKPTNTTVCLKVDWTDQKLAGSVTYDLTVENSPKNLVLDTSYLDIQEVQVNGHKADFSIGERHNIFGSPLTITLPPNSGDKLQVKIAYSTTPSCTALQWLTPEQTAGKKAPYFFSQCQAIHARSVMPAFDTPSVKSTFDIEIESDHPVVASGLPIKSSNDTGKFVFRQKVPIPAYLFALAGGDLDSAPIGPRSDVYSEPCDLHKCQYEFEADTEKFINAAENIVFPYEWEKYDVLVLPPSFPYGGMENPNITFATPTLVSGDRQNVDVIAHELAHSWSGNLVTNCSWEHFWLNEGWTVYLERRIVGALEGEQQRHFSAIIGWNALEESVKLMSRDPVQESYTQLVVDLKPNGGADPDDAFSSVPYEKGSTFLFFLETEIGQAKFDPFVKHYFKHFRYKSLDTYQFIDCLFDFYANDKEVTDKLNAIDWEKTLFAPGLPNKPKFDTTLADECYSLASRWKDASDASAFSAKDIASFNSSQMVVFLITLSEYEGKDGFSWANKKELISNMGDIYSLANSSNPEVIAKWYSIAILAKVESEYPKLADWLATVGRMKFVRPGYRALNSVDPKLAKETFEKNKDFYHPICRDMVSKDLQ"
-    - concs: 0.013979
+    - concs: 0.013406
   - !!omap
     - genes: "YALI0F00462g"
     - enzymes: "Q6C3E2"
@@ -116334,7 +116336,6 @@
     - enzymes: "Q6C3E0"
     - mw: 40715
     - sequence: "MVLSKYLDLPQHGAVLAEYIWIDAHFNIRSKCKTLDKKPTSIEDLPEWNFDGSSTDQAPGHDSDIYLRPAAIYPDPFRRGDNIIVLAECWNNDGTPNKFNHRHECAKLMSAHEKEVIWFGIEQEYTMFDESDNPVGWPKGGFPAPQGPYYCGVGTGKVFARDVVEAHYRACLYSGINISGINAEVMPSQWEYQVGPCEGISMADELWMSRYLLHRVAEEFGIKISFHPKPLQGDWNGAGCHTNVSTKSMREPGGMKHIEAAIEKLAARHKEHIAVYGEDNDMRLTGRHETGSIGSFSSGVANRGCSIRIPRSVAKEGYGYFEDRRPASNIDPYLVTGIMTETICGSIPDADMVEETKRGEEEGF"
-    - concs: 0.013935
   - !!omap
     - genes: "YALI0F01078g"
     - enzymes: "Q6C3B4"
@@ -116350,13 +116351,13 @@
     - enzymes: "F2Z6J3"
     - mw: 60451
     - sequence: "MIILYVLAVAVSFLIFKRVTYTMRSRELAKKWHCEEPHNLNEFPLNLPLFFLIINASRRHELLDTLLGLFRSFAPTKTVKQVLLGSFTIIPTNDPENIKAVLATQFKDFCLGQRHGQLAPVLGDGIFTLDGQGWQHSRAMLRPQFARDQVSDVEMIERHVQMMLLRIPNNKKFDIQELFFNLTLDTATEFLFGQTVGSQTVEMPNEDKSTVSDMPKDMRKSFQEDFNVAQHHGGIRTRFQMFYWLWRPTELFSSSKRVHAFVDHYVEKALANSDEEKSDDKYIFLRELAREVKDPRVLRDQALNILLAGRDTTAGVLSWIVYELARHPEVWKKLRAEIHQDFGDGSDLSQITFEGLKRCEYLRFVINETLRLYPSVPLNVRYASRDTTLPRGGGPDESKPILVRKGDTIVYNVFSMHRTEEFWGKDCDEFRPERWAEKGSRGWEYLPFNGGPRICLGQQYALTETSYVITRICQLFTNIENADTAVEPPQKLHALTLCHLNGVFVKMTRDEAAFAETEKLINA"
-    - concs: 0.000863
+    - concs: 0.002371
   - !!omap
     - genes: "YALI0F01496g"
     - enzymes: "Q6C399"
     - mw: 11336
     - sequence: "MAVTQITSVSDFQNAIKSDKLTVIDFYATWCGPCKMIAPTFDKFSETFTDAQFYRCDVDEASAVAQEVGVTAMPTFAFYKNGEKITTVMGANPSALNAAIKQNV"
-    - concs: 0.080229
+    - concs: 0.153672
   - !!omap
     - genes: "YALI0F01672g"
     - enzymes: "Q6C391"
@@ -116377,7 +116378,7 @@
     - enzymes: "Q6C354"
     - mw: 57737
     - sequence: "MRAFRSAANFGAASNIYRKSFTPASIASNRFVSARMSSIMTDNARPNTDKVVQDIADYIHDYKIDSSVAMETARLCFLDTLGCGLEGLKYQQCANIVGPVVPGTIVPNGTKVPGTDYQVDPVRGAFNIGTIIRWLDFNDCWLAAEWGHPSDNLGGILAVADWQTRSAKAGLEGKVFKVKDVLEGMIKAHEIQGGLAIENSFNRVGLDHVVLVKIASTAVVSGMLGLSREQTADAISQAFVDGQSLRTYRHAPNTMSRKSWAAGDATSRAVNLALLVKKGEGGMPSILTAKTWGFYDVLFGGKEFKFQRPYGSYVMENVLFKISFPAEFHAQTACESAMLLHEELKKLGKTSDDIASIKIRTQEAAMRIIDKKGPLHNYADRDHCIQYMVAIPLIHGRLTADDYTDEIASDPRIDALREKMECVEDKRFSEEYHAPDKRYIGNAIEITLKDGTVLDEIEVNYPIGHRQRREEGTPVLLEKFARHLRGRFPEGQVEKILAASNQDIVNMDIDEYVDLYVKKD"
-    - concs: 0.046986
+    - concs: 0.026317
   - !!omap
     - genes: "YALI0F02629g"
     - enzymes: "Q6C350"
@@ -116393,7 +116394,7 @@
     - enzymes: "Q6C338"
     - mw: 32337
     - sequence: "MFALRTAARPAARSVGATRNYATLREIEMRLKSIKNIEKITNTMKIVASTKLGKAQRAMATSKVYNEASEKVFENSETAVPENIEKRLWVVVSSDKGLCGSIHSQLARTVRRKLLDFESGEKLIDIVAVGEKIKAQLGRSNPEQMRLSFGGTGKEAPTFEEAAHIADEILALDTQYDDIEIVYNKVLSGISFEPIMKESYSAKAIEDAPKFGQYELEDDVVKNLADFSLANTIYAAMAEGHAAEISARRNAMDNASKNASDMINKYSILYNRTRQAVITNELVDIITGASSLE"
-    - concs: 0.153281
+    - concs: 0.117046
   - !!omap
     - genes: "YALI0F02937g"
     - enzymes: "Q6C336"
@@ -116404,7 +116405,7 @@
     - enzymes: "Q6C326"
     - mw: 58079
     - sequence: "MFKNALRRAGVAAPRISRVAQRGYAEAKATPTEVTSILEERIRGVSGEANLNETGRVLSVGDGIARVFGLNNIQAEELVEFASGVKGMALNLEAGQVGIVLFGSDRLVKEGETVKRSGSIVDVPVGPALLGRVVDALGNPIDGKGPIETEFRIRAQVKAPGILPRTSVNEPMQTGLKAVDALVPIGRGQRELIIGDRQTGKTQIAIDTILNQKRWNYGQDEKKKLYCVYVAVGQKRSTVAQLVQTLEHHDALKYSIIVAATASEAAPLQYLAPFTGTAMGEWFRDNGKGALIVFDDLSKQAVAYRQMSLLLRRPPGREAYPGDVFYLHSRLLERAAKMNEREGGGSLTALPIIETQGGDVSAYIPTNVISITDGQIFLEAELFYKGIRPAINVGLSVSRVGSAAQVKAMKQVAGSLKLFLAQYREVAAFAQFGSDLDASTKQTLTRGERLTLLLKQKQASPMSSEEMVPLIYAGVNGYIDNIPVKQVEKFEAEFVSYLHANESDLLKDIAATGELSKENLEKLKSITENFVGSFAK"
-    - concs: 0.519879
+    - concs: 0.489724
   - !!omap
     - genes: "YALI0F03201g"
     - enzymes: "Q6C325"
@@ -116460,7 +116461,7 @@
     - enzymes: "Q6C2V6"
     - mw: 11637
     - sequence: "MFTLRAASRRAFSTSIARRNLISEAYTREVRAFKAPKLSAKDAEGQVKPWSAPSAPKPPVVEGADAAELQAYAEAPVDVEGQTNSKSASPQANDEDWLAFEEEEGVAV"
-    - concs: 0.017634
+    - concs: 0.029299
   - !!omap
     - genes: "YALI0F05038g"
     - enzymes: "Q6C2U7"
@@ -116471,19 +116472,19 @@
     - enzymes: "Q6C2U0"
     - mw: 29098
     - sequence: "MTKFRGCIDIHSGQVKQIVGGTLTDSDADLKTNFVATQPPGYFAQLYKDNNVVGTHVIKLGPGCDEAAEEALAGWPDHLQIGGGINHDNAEKWIKLGASHVIVTSFLFPDAKLDMKRLTDLEAILEPYGGKKRIVVDLSCRRKDGKWVVAMNRWQTLTDTEVNKETLEQLAKHCDEFLIHAADVEGLCNGIDEELVTKLGEWLEEGHLPPVTYAGGAKNIDDLALVQKLSHGKVDLTYGSALDVFGGDKVKFSDCVEWNEKMHK"
-    - concs: 0.004969
+    - concs: 0.006171
   - !!omap
     - genes: "YALI0F05214g"
     - enzymes: "Q6C2T9"
     - mw: 26810
     - sequence: "MSRTFFVGGNFKMNGSLESIKAIVERLNASELDPKTEVVISPPFPYLLLAKESLKKPTVSVAGQNSFDKGDGAFTGEVSVAQLKDVGAKWVILGHSERRTINKESSEWIADKTKYALDNGLDVILCIGETIDEKKAGKTLDVVRSQLDPVIAKIKDWSNVVIAYEPVWAIGTGLAATAEDAQQIHHEIRAYLKDKIGAQADKVRIIYGGSVNGKNSGTFKDKSDVDGFLVGGASLKPEFVDIINSRL"
-    - concs: 0.167954
+    - concs: 0.206834
   - !!omap
     - genes: "YALI0F05390g"
     - enzymes: "Q12725"
     - mw: 48275
     - sequence: "MKLTKLVALAGAALASPIQLVPREGSFLGFNYGSEKVHGVNLGGWFVLEPFITPSLFEAFGNNDANVPVDEYHYTAWLGKEEAEKRLTDHWNTWITEYDIKAIAENYKLNLVRIPIGYWAFSLLPNDPYVQGQEAYLDRALGWCRKYGVKAWVDVHGVPGSQNGFDNSGLRDHWDWPNADNVQHSINVINYIAGKYGAPEYNDIVVGIELVNEPLGPAIGMEVIEKYFQEGFWTVRHAGSDTAVVIHDAFQEKNYFNNFMTTEQGFWNVVLDHHQYQVFSPGELARNIDQHIAEVCNVGRQASTEYHWRIFGEWSAALTDCTHWLNGVGKGPRLDGSFPGSYYQRSCQGRGDIQTWSEQDKQESRRYVEAQLDAWEHGGDGWIYWTYKTENALEWDFRRLVDNGIFPFPYWDRQFPNQCGF"
-    - concs: 0.001189
+    - concs: 0.0078
   - !!omap
     - genes: "YALI0F05500g"
     - enzymes: "Q6C2S7"
@@ -116589,13 +116590,13 @@
     - enzymes: "Q6C2E3"
     - mw: 44230
     - sequence: "MTRGVPRLAVAARHFSTAEAAGVKVAAQDGQSPISDLSVVLRGGSRYATVPGVSHILEKFAFQNTVPKSALRFVRELELFGGKLYTHTTREHIVLRTQFLKQDLPYFVDAFANVLKETKFQQFELTERVAPVAELDLLKRESDPAFTALEAAHEVAFRTGLGNSVYAQGYSPVTLEDVKEFARQVYAKQNVAVVGNNVVPADLQQLVGTAFADLQEGSKVTQAGTTTLHGGEARVRTSTGNALTIALPIAEPKPVYHALASFLGGPASMPWSVGASPLAQATVGTHTSVKATYHNYGDAGLFAITIKGDSPAEISQVAHKAVQALKDTGAEVTEEQAARAYAKSKFAAAEAFENPDSSASVIGMELLSGVSRIAPENVQKFTPAELSEAAAQLSASAKPVVAAVGQVHALPFADELF"
-    - concs: 0.258542
+    - concs: 0.20045
   - !!omap
     - genes: "YALI0F08701g"
     - enzymes: "Q6C2D9"
     - mw: 42703
     - sequence: "MSSNIKLAQKDYKGDKEFAAALHGKEGHKKHGLGAVMSKNKDAQAAAVEGFFRNWGDKDRSKIEDADEQGRIEDYAGLTKHYYNLVTDFYEYGWGSSFHFSRYYKGEAFRQATARHEHYLAYKMGIQPGMKVLDVGCGVGGPAREIARFTGANIVGLNNNDYQVERGTHYSEVQGFGDQVTYVKGDFMQMDFPDNSFDAVYAIEATVHAPVLEGVYSEIFRVLKPGGVFGVYEWVMTDEYDESNPEHRDICYGIEKGDGIPKMYKREVAVKALENVGFDIEYQEDLAADDAEVPWYYPLAGEWKYVQSLNDIVTIGRTSRLGRMVTMNVIGALEKIGLAPQGSRQVTEALEDAAVNLVAGGKKKLFTPMMLFVSRKPEDKN"
-    - concs: 0.053464
+    - concs: 0.01159
   - !!omap
     - genes: "YALI0F08723g"
     - enzymes: "Q6C2D8"
@@ -116611,7 +116612,7 @@
     - enzymes: "P30614"
     - mw: 56668
     - sequence: "MIYTANSSPSTNLQWLSTLNTDDIPTKNYRKSSIIGTIGPNTNSAEMISKLRQAGLNIVRMNFSHGSYEYHQSVIENARESEQQFQGRPLAIALDTKGPEIRTGVTKDDKDWDVKAGHVMLFSTNPKYKDQCDDKIMYIDYTNIVKQIDIGKIIFVDDGVLSFKVLEKIDGETLKVETLNNGKISSRKGVNLPGTDVDLPALSEKDKADLKFGVEHGVDMIFASFVRTANDVQAIRDVLGEKGKGIQVISKIENQQGVNNFDEILKETDGVMVARGDLGIEIPAPQVFIAQKQLIAKCNLAGKPVICATQMLDSMTYNPRPTRAEVSDVGNAVLDGADCVMLSGETAKGTYPIESVKMMHETCLVAEKAIAYAPLFNEMRTLTVRPTETVETIAISAVSASFEQQARAIIVLSTSGTSARLCSKYRPNCPILMVTRNAQAARFSHLYRGVYPFIYHKARASNPAEWQHDVEERLKWGMDEAVALGILNKGDVVVAIQGWTGGLGHTNTLRVLECV"
-    - concs: 0.267466
+    - concs: 0.283276
   - !!omap
     - genes: "YALI0F09229g"
     - enzymes: "Q6C2B5"
@@ -116672,7 +116673,7 @@
     - enzymes: "O74935"
     - mw: 78691
     - sequence: "MNPNNTGTIEINGKEYNTFTEPPVAMAQERAKTSFPVREMTYFLDGGEKNTLKNEQIMEEIERDPLFNNDNYYDLNKEQIRELTMERVAKLSLFVRDQPEDDIKKRFALIGIADMGTYTRLGVHYGLFFGAVRGTGTAEQFGHWISKGAGDLRKFYGCFSMTELGHGSNLAGLETTAIYDEETDEFIINTPHIAATKWWIGGAAHTATHTVVFARLIVKGKDYGVKTFVVQLRNINDHSLKVGISIGDIGKKMGRDGIDNGWIQFTNVRIPRQNLLMKYTKVDREGNVTQPPLAQLTYGSLITGRVSMASDSHQVGKRFITIALRYACIRRQFSTTPGQPETKIIDYPYHQRRLLPLLAYVYALKMTADEVGALFSRTMLKMDDLKPDDKAGLNEVVSDVKELFSVSAGLKAFSTWACADVIDKTRQACGGHGYSGYNGFGQAYADWVVQCTWEGDNNILTLSAGRALIQSAVALRKGEPVGNAVSYLKRYKDLANAKLNGRSLTDPKVLVEAWEVAAGNIINRATDQYEKLIGEGLNADQAFEVLSQQRFQAAKVHTRRHLIAAFFSRIDTEAGEAIKQPLLNLALLFALWSIEEDSGLFLREGFLEPKDIDTVTELVNKYCTTVREEVIGYTDAFNLSDYFINAPIGCYDGDAYRHYFQKVNEQNPARDPRPPYYASTLKPFLFREEEDDDICELDEE"
-    - concs: 0.002382
+    - concs: 0.003422
   - !!omap
     - genes: "YALI0F10923g"
     - enzymes: "Q6C246"
@@ -116728,7 +116729,7 @@
     - enzymes: "Q6C1X5"
     - mw: 167465
     - sequence: "MFAEGQIQKVPILGKESIHIGYKMQDHIVSEIVANIKSSTYILVTDTNIEDLGYVESLKTKFEAAFAKDGIKSRLLTYTVAPGETSKSRATKAAIEDWMLSKGCTRDTVILAVGGGVIGDMIGYVAATFMRGVRFVQIPTTLLAMVDSSIGGKTAIDTPLGKNLVGAFWQPVNIFIDTSFLETLPVREFINGMAEVIKTAAFYDAEEFTRLESASEIFLSTIKKRDAKDPRRVDLSPITDTIGRIVLGSARIKAAVVSADEREGGLRNLLNFGHSIGHAYEAILTPYILHGECVAIGMVKEAELSRYLGILSPVAVARLAKCIKAYELPVSLDDATVKARSHGKKCPVDDLLRIMGVDKKNDGSTKKIVILSAIGKTHEQKASSVADKDIRFVLSEEVIVGEAPVGDKKSYTVTPPGSKSISNRAFVLTALGKGPCKLRNLLHSDDTQHMLEAIELLGGASFEWEADGETLLVTGNGGKLTAPAQELYLGNAGTASRFLTTAATLVQKGDKDHVILTGNKRMQERPIGPLVDALRSNGADIAFQNAEGSLPLKIEAGVGLKGGLIEVAATVSSQYVSSLLMCAPYAQTPVTLSLVGGKPISQFYIDMTIAMMADFGVVVTKDETKEHTYHIPQGVYTNPEEYVVESDASSATYPLAYAAMTGHTVTVPNIGSKSLQGDARFAIDVLKAMGCTVEQTATSTTVTGVPNLKAIAVDMEPMTDAFLTACVVAAVSEGTTVITGIANQRVKECNRIEAMRVQLAKYGVVCRELEDGIEVDGISRSDLKTPVSVHSYDDHRVAMSFSLLSSIMAAPVAIEERRCVEKTWPGWWDVLSGVFNVPLEGVTLAKTVSKAESGLSKPSIFIVGMRGAGKTHLGAQAANHLGYEFIDLDQLLEKDLDTTIPQLIADKGWDHFRAEELRLLKQCLNDKSEGYVISCGGGVVETPAARDALQTFKGVGGIVLHVHRPVSRILEYLNKDQSRPAFVDDLEAVWQRRKELYRSVSSNVFFAPHCDSAEATAKVQQMLGAFLDRVTGKSEFVIPHKDQFTSFLSLTFPDVSIAATMLPSLSEGCSALELRVDLLNENDEAIPSEEYVLSQLAILRQNVDLPILYTVRTKAQGGRFPDDKPVELANLVNLGLKTAVELLDVELTYPAELVSSVGASRGYTKLLGSHHDFPGALNWSSLEWENMYARAEAVPVDVVKLVGMAKSFSDNFALENFREAHTSSPLLAINMGSHGQLSRVTNTLLTPVTHADLPVAAAPGQLSVEEINQTRSTIGMFNKNLSFFIVGTPIGHSKSPILHNTMFKKLGLPYEYSRFKTDDAAAVNAKARALLAQGNLGGISVTIPLKQDIIPFLDEVSPLAQQIGAVNTIIPGPNGTLKGDNTDILGLVNALTRFGANSLDKKTALIVGAGGTSLAAVHGLRSLGFAKILIANRTLSKAEAIADKFDNVEAVTLDSFVANKYTPSVIVSCVPATTFSMLDESNKLVSAALAASPKGLVLEAAYSAEATPLLKQVMDVEGWEFISGLYMLTEQGFEQFRLWTGIPAPKEVGEKAVLGN"
-    - concs: 0.023995
+    - concs: 0.018347
   - !!omap
     - genes: "YALI0F12749g"
     - enzymes: "Q6C1X0"
@@ -116754,7 +116755,7 @@
     - enzymes: "Q6C1T4"
     - mw: 32140
     - sequence: "MSTYTTRSIGAPNTLDYKVYIEKDGKPVSAFHDIPLYANAEKTILNMIVEVPRWTNAKMEISKDLALNPIIQDTKKGKLRFVRNCFPHHGYIHNYGAFPQTWEDPNHVHPETKAKGDNDPLDVCEIGETVGYTGQVKQVKVLGVMALLDEGETDWKIIAIDVKDPLASKVNDIEDVERHLPGLLRATNEWFRIYKIPDGKPENQFAFSGECKNKKYADEVIRECEEAWETLIAGKASDDKGISLENTTLENTPTFTASASIPEGQNLAPAPIDQSIDKWFYISGASV"
-    - concs: 0.00744
+    - concs: 0.006391
   - !!omap
     - genes: "YALI0F13937g"
     - enzymes: "Q6C1S2"
@@ -116830,7 +116831,7 @@
     - enzymes: "Q6C1F3"
     - mw: 47306
     - sequence: "MPVEKLHARYVYDSRGNPTVEVDLTTQHGLFRAIVPSGASTGVHEALELRDKDASKWGGKGVLKAVQNVNEIIAPAVIDAKLDVKDQAAFDKFLLELDGTENKSKLGANAILGVSIAAARAGAGEKGVPLYEHIASLASSPQPYVLPVPFLNVLNGGSHAGGRLAIQEFMIAPTEFESFSESLRAGTEVYHELKKLAKKEYGASAGNVGDEGGVAPDIQTAEEALNLITEAIDAAGYTGKIKIAIDAASSEFYNEEANKYDLDFKNPDSDKSLWKTGEELAAYYSELIKKYPIVSFEDPFAEDDWAAWSHFVSTTDIQIVGDDLTVTNPVRIKRAIEEKSANALLLKVNQIGTITESIQAANDSYDAKWGVMVSHRSGETEDVTIADLAVGLRAGQIKTGAPSRSERLAKYNQLLRIEEELGDKAIFAGPKFHLSRAI"
-    - concs: 0.454234
+    - concs: 0.369478
   - !!omap
     - genes: "YALI0F16896g"
     - enzymes: "Q6C1F0"
@@ -116841,7 +116842,7 @@
     - enzymes: "Q6C1E0"
     - mw: 33656
     - sequence: "MLHLIGLGLSHETDITVRGLETIKKCKRVYLEAYTSILMAAEKETLEKFYGKELILADREMVEQASDDILAGAQEDDIAFLVVGDPFGATTHTDLVIRARELGIKYQTIHNASVMNAVGACGLQLYNFGQTVSLVFFTDSWKPDSFYDKIHENRKIGLHTLVLLDIKVKEQSIENIMRGRNVFEPPRYMSIEQAASQLLEIEESRDEKVYCSDTPAIAVSRLGSPRQCIKAGSLGELAEYESGEPLHSLIVLGNNVHDLEIDFLVEFADDPEAFKALITKDAENFKKEVKIMSYSDDDDE"
-    - concs: 0.016641
+    - concs: 0.024604
   - !!omap
     - genes: "YALI0F17644g"
     - enzymes: "Q6C1B7"
@@ -116887,7 +116888,7 @@
     - enzymes: "Q6C141"
     - mw: 16857
     - sequence: "MSLKVAFLNENARAPTRGSVHAAGYDLYAAEEKTIPANGRGLVDLGLSMSIPEGTYARIAPRSGLAVKNGLSTGAGVIDYDYRGPVKVMLFNHSTEDFNVTIGDRVAQMILERIVTPEVQVVQTNDLESTERGAGGFGSTGINDEKKRKLDEAEAKE"
-    - concs: 0.004226
+    - concs: 0.005222
   - !!omap
     - genes: "YALI0F19470g"
     - enzymes: "Q6C140"
@@ -116928,13 +116929,13 @@
     - enzymes: "Q6C107"
     - mw: 37139
     - sequence: "MSNHLSSDSDISSTESMLCGGIAGMVSRFCIAPLDVVKIRLQLQKDGSRYYRGIFQTMQQIVRDEGVTALWKGNIPAELLYVFYGATQFVTYHHVNQVINAYNETAEKWKISSGAQSFIAGATAGAGATIATYPFDLFRTLFAAQGAKNCNVKNYTSLFQTFKLIYKTEGPLGFFRGVSSSIISIAPYMGLFFASYGRVKDSLDAFSNKHHDLLVSYNLPTKGWQEATAGLCAGTASKALVFPLDTIRKRLQTQGRMDVSYKELSGKPGVQRLLDSYNPFVMARRIIVAEGCRGLYKGFLVSLIKSAPTSAITMYTFEKSLSILRWWKAQGKSLEA"
-    - concs: 0.001887
+    - concs: 0.002118
   - !!omap
     - genes: "YALI0F20306g"
     - enzymes: "Q6C105"
     - mw: 24003
     - sequence: "MPFARVGALSARHYSNQVDPKVKATSILDSIPGNNVLSKTGVLATGVLGSIYAISNELYIVNDESIVLGVFAAFVVVVAKLGGPGYTSWADGYIENMRNILNTTRDKHTDAVKERIGDVSKLKDVVKTTQDLFAVSKDTVKLEAEVFETKQQVVLAAEAKSVLDSWVRYENSVRQREQKLLTETVISKIEKDLKDPKFQQKILQQSVEDIEKLFAKA"
-    - concs: 0.095298
+    - concs: 0.076353
   - !!omap
     - genes: "YALI0F20328g"
     - enzymes: "Q6C104"
@@ -116945,13 +116946,13 @@
     - enzymes: "Q6C0Z6"
     - mw: 37646
     - sequence: "MRSFRAVRNFSTTAKRLSQAPKASTPNASSGNGFVLAFVAAAAGAGAYYYYANSPAAKVETFNATKADYQKVYDAIADKLIEDDDYDDGSYGPVLLRLAWHSSGTYNKSDNKFGSSGGTMRFKPEASHAANNGLVNARNFLKPIHEKFPWISTGDLYTLGGVTAVQELGGPIIPWKRGRVDEPESASPPDGSLPDASQGATHVRNVFNRQGFNDQEMVALIGAHALGRCHKQNSGFEGPWTFSPTMFTNDFYKLLLDDKWQWKKWDGNPQYEDVKTKSLMMLPTDMALATDKNFKKWATAYAKDQDLFFKDFSAAFSKMLNNGVDFPQGTEIWEFKPKNA"
-    - concs: 0.040968
+    - concs: 0.090653
   - !!omap
     - genes: "YALI0F20570g"
     - enzymes: "Q6C0Z3"
     - mw: 104114
     - sequence: "MISLNKKLVLLVGVIFHVAFMWSIFDIYFVSPLIHGMKHHQSTATPPAKRLFLIVGDGLRADKAFEKVRHPTTGESEYLAPFLRSKVMSDATFGISHTRMPTESRPGHVALIAGFYEDVSAVTKGWKENPVDFDSVFNQSRHTYSLGSPDILPMFKHGAEDQSRIDAIMYGHDFEDFTKGSIELDAFVFDHLDEIFDKSKTNKTLDDQLRSDKTVFFLHLLGIDTAGHSYRPYSAEYYDNIKYIDENIEKLVDKVNKFYNDDEQTAWVFTADHGMSDWGSHGDGHPDNTRTPLIAWGAGVNKPIPAFEDKGNHDDYSEVWDLPVKRNDVNQADIASLMSYLVGLNYPSNSVGELPLAFVNATSETKALAIRNNALALVEQYLVKEEQQKGSQIIFKPYPPLSDAGKTIDERLAHIDELIAQGLDQESIVASEELMTYAITGLKYLQTYNWLFLRTLVTIGFFGWIAVAFCSYLLAFVVQSDKPFTTSLPLKGVAYVALAILSGFFVFQKSPLHYHLYAVFPVVFWEAVLQRRTAVAEGISILARRSTSKAPALAAILDIGLSLVLLEAIVYGYFHREIFSVCFGLATLWPFVHNFTVAKREWPTTLAWVVMCAIMSSFTLLEVVKVESIEQILLSGALMLVIGLVFTIHLQRKLALAASTVCVLFAQILLVVATMYFTRESVESLTARNGLPLFSQVGGWISLLLSLAVPFLHFLGSDAKDYRLRLLIIFLAFGPTFVILTISWEGFFYVCFFAILVIWIELETQMRDARVTPQTRADLTPGDFRMALFTFFMSQIGFFGIGNIASISSFSLDSVYRLIPVFDPFSMGALLMFKILVPFAVLSACLGILNLKLGVPPSALFSMVLCVSDILTLNFFYLVVDEGSWLDIGTGISHYCIASGLSLFMMVLEYLSGVLVAGVTIAPHVSKIKKDM"
-    - concs: 0.002434
+    - concs: 0.00165
   - !!omap
     - genes: "YALI0F20702g"
     - enzymes: "Q6C0Y7"
@@ -116972,7 +116973,7 @@
     - enzymes: "Q99148"
     - mw: 83759
     - sequence: "MSLRILLVGNGGREHALAWKLAQSPLVERIFVAPGNGGTDNPQGKIENIAIGSSQKDFAKLVEFAQSKDVGLVIPGPEQPLVEGIETHFRKVGIPVFGPSEKAAVMEGSKTFSKDFMKKHNIPTAAFENFTDYNKAVDYVKKVGHRVVIKASGLAAGKGVLIPTSTEEAIAAVKEVMQDKAFGEAGDEVVIEEFLEGDELSILAFSDGYTVVDMPPAQDHKRIGDGDQGLNTGGMGAYCPAPIGTPALLQEIKESILQPTIDGMRRDGIPFVGMLFTGIMLTPDGKPKVLEYNVRFGDPETQTILPLLSDDTDLAEVMLACVERRLDAVTLRVKPDAHAVTVVMSAGGYPESYKKGDAITVGGLPEQTYIFHAGTASENGQVITAGGRVIASTAVAPTLKDAVAQAYKGADAVEFNGKYNRKDIAYKAFRDAEKTSGGITYAQAGVSIDNGNKLVQQIKEKVKSTARPGTDSVIGGFGGLFDLKAAGFRDPLLVGATDGVGTKLKIAQSIDKHDTVGIDLVAMNVNDLVVQGAEPLVFLDYYATGKLDVNAAAAFVGGVADGCIQAGCALIGGETAEMPGIYYGNDYDANGTSIGAVERDAVLPRMDEIAKGDAILGLASSGVHSNGFSLVRKIIEHAGLTYTDACPWDQSKSLGEALLTPTRIYVKQLLPVINAKLTSALAHITGGGLVENIPRILPENYSAKIDVSTWPLPPVFQWLGKAGNVPKEDISKTLNMGIGMILVVKQEKVAEVTQLLEKVGEKVYQIGEIVPDNDVDEKTVLINTENWY"
-    - concs: 0.076
+    - concs: 0.065769
   - !!omap
     - genes: "YALI0F21109g"
     - enzymes: "Q6C0W8"
@@ -116993,13 +116994,13 @@
     - enzymes: "P41923"
     - mw: 23682
     - sequence: "MQAYKKDFLDLATKYEALKFGSFTLKSGRTSPYFFNLGLFNTGVALSTVGASFAQVIINSGVEFDVIFGPAYKGIPLAAVTAAKIAELGGEKYATKEYAFNRKEAKDHGEGGNIVGASLKGKKVLIIDDVITAGTAIKEAFSIIDANGATVSAVVIALDRQETTVDSPKSAVQVVSQTYNVPVLNIFNLNDVIQYTDGILTEDEKKKIEQYRDQYSPKE"
-    - concs: 0.057933
+    - concs: 0.067889
   - !!omap
     - genes: "YALI0F21791g"
     - enzymes: "Q6C0U0"
     - mw: 35155
     - sequence: "MEKSITNSPVLSILSYCAASILMTVTNKYVLSGTSFNLNLALLAVQSIVCLTAISIGKSFGLCKFRSFNADEAKKWFPIALLLVVMIYTSSKALQFLSIPVYTIFKNLTIILIAYGEVLWFGGSVTSMALASFVLMVLSSVIAAWSDISGAIAVSGSATTTVTALNIGYFWMMSNCFASAAFVLYMRKRIKLTNFGDFDTTFYNNLLSIPVLLIASLLFEDWSPANLAVNFPPESRNLIFFSMVVSGLMSIGISYCSAWCVRVTSSTTYSMVGALNKLPLALSGIVFFGTPATFSSVSAIFVGFVAGIVYAVAQIQKKKAEAALPK"
-    - concs: 0.001046
+    - concs: 0.002122
   - !!omap
     - genes: "YALI0F22121g"
     - enzymes: "Q6C0S5"
@@ -117040,7 +117041,7 @@
     - enzymes: "Q6C0M4"
     - mw: 49970
     - sequence: "MENIIKSNPYSNALISTAENPQVAQSGALAGIALAVKDNICTNEMHTTCASGILETFTSPFDATVVDLLKQEGVSIVGKANLDEFGMGSDNANSWFGPVFNPLYPDEPHTPGGSSGGSAAAVAADMCHFALGTDTGGSVRYPAAQCSVIGLKPSYGLISRHGVIAYAQSLDTVGILTKDIDLLEKVFNILNKYDPLDPTSLTPHKRAKLKPPKPHRKLTFGLVKEYNIKGISENVKMAWSQIMDELIKMGHEVVTCSIPAIKNALPAYYAIAPAEASSNFARFDGIRYGSRAPEDRGEHGTLYAPTRQEYFGNEVKRRMWLGTWNLSTDAFNHDYIRSQKIRRILQEDFDEVFNRPNVLSGNEGQKANDEPGVDFIIAPTSNCAPYPLSKLNDSAPVDTYLNDVLTVPASLTGIPSLNIPWKTKQGNVGMQIMGQYGDDLGVMKVGRLLLDKCKELHQD"
-    - concs: 0.006588
+    - concs: 0.004656
   - !!omap
     - genes: "YALI0F23463g"
     - enzymes: "Q6C0M3"
@@ -117056,7 +117057,6 @@
     - enzymes: "Q6C0L2"
     - mw: 51187
     - sequence: "MLLSNVAVNRTVVHTQLVSGSRSALHALSRTSHSVPVTHTHQRRHIFSHKRRLSSSTLAIPFALSNTNSATTAPLQFLSNVSLCRVTPGTITTSAKATAPNLDKMSAEAATTAAQASASPVEDSFLKKAVSCQSETEREAVMAARAAKKALRETKETWWAPYVALTKPRLTVLVVLSAMSSYALTPEAVSLTNLLFLTVGTALCSGSANAINMGREPAYDSMMTRTRGRPVVRGAVTPNQAFTFAGITGTVGTAALYFGVNPTVAILGASNIALYGGLYTTLKRKHIINTWVGAVVGAIPPLMGWAASGGSLLHPGAWCLAGLLYAWQFPHFNALSYSIRDEYKKAGYVMTAWKNPGLNARVGLRYALLMFPLCVGLSYYNVTDWWFVLDSSVLNAWMAWWAFKFWQQENVNIALAAAGKQYSQNPFARKLFWGSVVHLPGVLLLAMIHKKGQWDWLFGPSEDEKKKTLSS"
-    - concs: 0.001235
   - !!omap
     - genes: "YALI0F23749g"
     - enzymes: "Q6C0L1"
@@ -117097,7 +117097,7 @@
     - enzymes: "Q6C0G5"
     - mw: 37250
     - sequence: "MPTTLVTGATGFLAGHCVDQLLKAGHTVIGTIRSPQKAERLAEAFKNEVESGKFELETLKDVQDEVEFQVIFEKHPEIDYILHTASPFNMKAEDPEKDMLQPAVKGTTAVLKMAKTHAPNVKKIVITSSLAAIMDVSKYNDPTHTLTEKDWNPMTREQAAEKGNPFANYVGSKLYAEKAGLEFLNNEKPHFSITWINPSYIFGPGIALDMSALNTSNELIAAVLQSKKGQNPEGSAGWFVDVRDCAEAHVIALKPELDRRRLLLGTSAFCTQDIEDIANKIPQLEGNIATGNPANRDKELKTVCQLDCSETDKLLGIKWIPLQKSVTDFAEQWIKSQ"
-    - concs: 0.000729
+    - concs: 0.031314
   - !!omap
     - genes: "YALI0F25047g"
     - enzymes: "Q6C0G0"
@@ -117108,7 +117108,7 @@
     - enzymes: "F2Z699"
     - mw: 65815
     - sequence: "MLRLRPAVRAVSVARSVALTRSLHVSVAKFNKIEGTAPAGLPKEVKQTAGHQGHHQEIPKPDENHPRRKKFHFWRSLWRLTYLSAIASLGYIGYRIYVIRNPSDQLPADPSKKTLVVLGSGWGSVSFLKKLDTSNYNVIVVSPRNYFLFTPLLPSCPTGTIEHRSIMEPIRGIIRHKQAECQYLEADATKIDHEKRIVTIRSAVSENSKEEVIKEIPFDYLVVGVGAMSSTFGIPGVQENACFLKEIPDAQQIRRTLMDCIEKAQFEKDPEVRKRLLHTVVVGGGPTGVEFAAELQDFFEDDLRKWIPDIRDDFKVTLVEALPNVLPSFSKKLIDYTEKTFSDEKISILTKTMVKSVDENVIRAEQTKGDGTKETLEMPYGTLVWATGNTVRPVVRELMSKIPAQKGSRRGLLVNEYLVVEGTEGIWALGDCSATKYAPTAQVASQEGSYLANLLNGIAKTEDLNNEITNLEKQSEHTFDEQERKNIFAQLESKSRKLRRSRAMLPFEYSHQGSLAYIGSDRAVADLSFNFWGIMNWSSGGTMTYYFWRSAYVSMCFSMRNKILVCIDWMKVRVFGRDISRE"
-    - concs: 0.043058
+    - concs: 0.062681
   - !!omap
     - genes: "YALI0F25641g"
     - enzymes: "Q6C0D6"
@@ -117164,7 +117164,7 @@
     - enzymes: "Q6C097"
     - mw: 36947
     - sequence: "MSVEERPVIFDDQSELPKVFVGGRKSKLALVQTQHVAAMLKKVHPDYSFPVLGLTTLGDQVQSKPLYSFDGKALWTKELETLLLEKVPGFDQQDIIVHSLKDMPTVLPDGCELGAILTREDPRDALVMAAGSPYKTLADLPAGSVVGTSSIRRSAQLKKSYPGLVYESVRGNVGTRLSKLDDPETPYKCLILAAAGLKRLDLGDRITGYLQKPDMLHAVGQGALGLEIRQGDEKTKKILEAIYDKESTLCCLAERAVMRTLEGGCSVPIGVETKYENGKLTLDAIVVSVEGTEFVECTQVRAVEENWEAEQLGKDVAEQLVKDGAKKILDAIHLENIK"
-    - concs: 0.011816
+    - concs: 0.008571
   - !!omap
     - genes: "YALI0F26785g"
     - enzymes: "Q6C090"
@@ -117175,7 +117175,7 @@
     - enzymes: "Q6C074"
     - mw: 30313
     - sequence: "MFRTVPKTTLLAPIQRRTLLNGNYPKAYPEHVPLTCLGRAVLAVGSGFGTFFDSRRGDLVATLGEATAQPYFIYKLREQMLKDPTGRRLLREQPRMTSKSLDLDKLRNMKVGSIGRTYVEWLDKEGVSPDTRAQVRYIDDPECAYVMQRYRESHDFYHALTGLPIIMEGELALKAFEWANTGLPMSGLGMVLTPLKFKPKQRKRYFDVYLPWALYNGFRSKPVINVYWEEVLEKDAEELRRDLGIEQPPDLRQMKKDMAKKK"
-    - concs: 0.007967
+    - concs: 0.006556
   - !!omap
     - genes: "YALI0F27313g"
     - enzymes: "Q6C071"
@@ -117281,13 +117281,13 @@
     - enzymes: "Q6BZT7"
     - mw: 55821
     - sequence: "MSGKRVPTYTTTNGNPVKDPLASQRIGKHGPLLLQDFALIDLLAHFDRERIPERVVHAKGSGAYGEFEVTDDITDLNCADFLSKIGKKTKTFTRFSTVGGEKGSADAARDPRGFATKFYTDEGNIDWVYNNTPVFFIRDPSKFPVFIHTQKRNPETNLKDATMMWDYIANNQECCHQIMVLFSDRGTPANYRQMNGYSGHTYKWIKKDGSFNYVQIHMKTDQGIKNLTNDEAVALSGTNPDHAQEDLFNSIKSGSFPSWTCYVQVCTPEQAEKLKWSVFDLTKVWPHDQFPLRRFGKLTLNKNVQNYFAETEQAAFSPSNTVPGWETSADPVLQSRLFSYPDTQRHRLGTNFAQIPVNCPYHAHTPYHRDGQMAVNGNSGSLPNYPSSFEPLQYRQDINLHEKHEKWVGEAVAYQWVVGTDGVDFQQPAELWKVLGKTPDQQEHLVYNIAVSLSGARPEVQDKTFGMFDKVDAHFGKLVRDATLQRSPRSKL"
-    - concs: 0.020601
+    - concs: 0.02455
   - !!omap
     - genes: "YALI0F31075g"
     - enzymes: "Q12726"
     - mw: 48437
     - sequence: "MCATDNAPAANAAPEKPSNVGVEVGHTGEQTNPYGANPADFLSNVSKFQLIESTLREGEQFASAFFDTETKIEIAKALDDFGVDYIELTSPAASEQSRSDCEAICKLGLKAKILTHIRCHMDDARLAVSTGVDGVDVVIGTSQFLRQYSHGKDMNYIAQSAVEVIEFVKSHGIEIRFSSEDSFRSDLVDLLNIYRTVDKIGVNRVGIADTVGCANPRQVYELVRTLKSVVSCDIECHFHNDTGCAIANAYTALEAGANLIDVSVLGIGERNGITSLGGLMARMIAADRDYVLSKYKLHKLRDLENLVADAVQVNIPFNNPITGFCAFTHKAGIHAKAILANPSTYEILNPADFGLTRYIHFANRLTGWNAIKSRVDQLNLHLTDAQCKDVTAKIKKLGDVRSLNIDDVDSIIREFHADVTSTPTVAATEGPAVEDEPAAKKAKTEE"
-    - concs: 0.090355
+    - concs: 0.0336
   - !!omap
     - genes: "YALI0F31273g"
     - enzymes: "Q6BZS4"
@@ -117303,7 +117303,7 @@
     - enzymes: "Q6BZP5"
     - mw: 63005
     - sequence: "MLRTRFINSVNSARAMSRNINTLSQFPYPTLQQEESFFKSQVEDIEKWWASPRYEGIKRPYTAEKVAIHRGTLPQTYASSVQAEKLFNIFTERGKQGLPVHTTGSVDPVQMTQSAPHQEVVYISGWACSSLLTTTNEVSPDFGDYPYDTVPNQVDRIFRAQGLHDKKAWHEWMSLSHEERVKRDQEGKGRIDYLRPIIADADTGHGGLSAVMKLAKLFAERGAAAIHLEDQLHGGKKCGHLAGKVIVPTGSHISRLNATRMQWDIMGCSNLVIARTDSESAKLLSSAADPSDHEYILGVVKPIKPLAEVLLTAEANGATADMVNKLELEWTKEAEMMTYDEAVQRALTEAGKSDKIEEYLTKAKGKSNFEARQIADELAGKHIFFDWDAPKTREGHYHVQCGIEPAIKRALAFAPYADLIWLETKTPDLAQAQAFAKRIREKFPGKWLVYNLSPSFNWSAHGYSDEQLKSFVWDLAKSGFVMQLISLAGLHSNAVATHELSTRFKTEGMKAYVDLVQRKEKELGCDVLTHQKWSGANYLDSIISTVQSGSSGTSSTGGDSTENQF"
-    - concs: 0.018545
+    - concs: 0.022128
   - !!omap
     - genes: "standard"
     - enzymes: "standard"
