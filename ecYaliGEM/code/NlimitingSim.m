@@ -30,8 +30,9 @@ lipidProduction(1) = sol.f;
 for i = 2:length(CNratios)
     ecModel = setParam(ecModel,'lb',{'xBIOMASS', 'y001654'},[0 (-0.47*3)/CNratios(i)]);
     ecModel = setParam(ecModel,'obj','xBIOMASS',1);
-
     sol = solveLP(ecModel);
+    %printFluxes(ecModel,sol.x)
+
     ecModel = setParam(ecModel,'eq','xBIOMASS',-sol.f);
     ecModel = setParam(ecModel,'obj','EXC_OUT_m1640',1);
     sol = solveLP(ecModel);
