@@ -17,7 +17,7 @@ ecModel = setParam(ecModel,'eq','y001808',-0.47);
 sol = solveLP(ecModel,1);
 ecModel = setParam(ecModel,'eq','xBIOMASS',-sol.f);
 ecModel = setParam(ecModel,'obj','EXC_OUT_m1640',1);
-sol = solveLP(ecModel);
+sol = solveLP(ecModel,1);
 
 CNratios = [sol.x(CS_index)*3/sol.x(NsourcePos) CNratios];
 
@@ -30,12 +30,12 @@ lipidProduction(1) = sol.f;
 for i = 2:length(CNratios)
     ecModel = setParam(ecModel,'lb',{'xBIOMASS', 'y001654'},[0 (-0.47*3)/CNratios(i)]);
     ecModel = setParam(ecModel,'obj','xBIOMASS',1);
-    sol = solveLP(ecModel);
+    sol = solveLP(ecModel,1);
     %printFluxes(ecModel,sol.x)
 
     ecModel = setParam(ecModel,'eq','xBIOMASS',-sol.f);
     ecModel = setParam(ecModel,'obj','EXC_OUT_m1640',1);
-    sol = solveLP(ecModel);
+    sol = solveLP(ecModel,1);
 
     growthRates(i) = sol.x(growthPos);
     lipidProduction(i) = -sol.f;
@@ -60,26 +60,26 @@ title('Lipid Production vs CN Ratio');
 grid on;
 xlim([0, max(CNratios)]);
 
-%% Limiting proteins analysis
-% Define a logical index for elements containing 'prot_' in their names
-containsProt = contains(ecModel.metNames, 'prot_');
-
-% Define a logical index for non-null sPrices
-nonNullPrices = sol.sPrice ~= 0;
-
-% Combine the logical conditions using element-wise AND
-validIndices = containsProt & nonNullPrices;
-
-% Use the validIndices to filter metNames
-filteredNames = ecModel.metNames(validIndices);
-
-% Use the same validIndices to filter sPrice
-filteredPrices = sol.sPrice(validIndices);
-
-% Sort sPrice
-[sortedPrices, sortedIndices] = sort(filteredPrices,'descend');
-sortedNames = filteredNames(sortedIndices);
-
-% Get the indexes of filteredNames in ecModel.metNames
-indexesInOriginal = find(ismember(ecModel.metNames, sortedNames));
-indexesInOriginal = indexesInOriginal(sortedIndices);
+% %% Limiting proteins analysis
+% % Define a logical index for elements containing 'prot_' in their names
+% containsProt = contains(ecModel.metNames, 'prot_');
+% 
+% % Define a logical index for non-null sPrices
+% nonNullPrices = sol.sPrice ~= 0;
+% 
+% % Combine the logical conditions using element-wise AND
+% validIndices = containsProt & nonNullPrices;
+% 
+% % Use the validIndices to filter metNames
+% filteredNames = ecModel.metNames(validIndices);
+% 
+% % Use the same validIndices to filter sPrice
+% filteredPrices = sol.sPrice(validIndices);
+% 
+% % Sort sPrice
+% [sortedPrices, sortedIndices] = sort(filteredPrices,'descend');
+% sortedNames = filteredNames(sortedIndices);
+% 
+% % Get the indexes of filteredNames in ecModel.metNames
+% indexesInOriginal = find(ismember(ecModel.metNames, sortedNames));
+% indexesInOriginal = indexesInOriginal(sortedIndices);

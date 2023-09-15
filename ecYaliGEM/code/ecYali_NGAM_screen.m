@@ -5,7 +5,7 @@
 % Set up the adapter and load the model
 adapterLocation = fullfile(findGECKOroot, 'ecYaliGEM', 'ecYaliGEMAdapter.m');
 ModelAdapter = ModelAdapterManager.setDefault(adapterLocation);
-ecModel = loadEcModel('ecYaliGEM_stage4.yml');
+ecModel = loadEcModel('ecYaliGEM_SBY145_exp.yml');
 
 rxnID = 'xMAINTENANCE';
 
