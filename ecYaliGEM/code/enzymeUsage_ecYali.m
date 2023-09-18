@@ -1,8 +1,11 @@
 adapterLocation = fullfile(findGECKOroot,'ecYaliGEM','ecYaliGEMAdapter.m');
 ModelAdapter = ModelAdapterManager.setDefault(adapterLocation);
 params = ModelAdapter.getParameters();
-ecModel = loadEcModel('ecYaliGEM_stage4.yml');
+ecModel = loadEcModel('ecYaliGEM_SBY145_exp.yml');
 
+sol = solveLP(ecModel,1);
+ecModel = setParam(ecModel,'eq','xBIOMASS',-sol.f);
+ecModel = setParam(ecModel,'obj','EXC_OUT_m1640',1);
 sol = solveLP(ecModel,1);
 
 usageData = enzymeUsage(ecModel,sol.x);
@@ -10,7 +13,7 @@ usageData = enzymeUsage(ecModel,sol.x);
 usageReport = reportEnzymeUsage(ecModel, usageData);
 
 %ecModel = loadEcModel('ecYaliGEM_FSEOF.yml');
-ecModel = loadEcModel('ecYaliGEM_FSEOF_pooled.yml');
+ecModel = loadEcModel('ecYaliGEM_SBY145_Nlim.yml');
 
 %% from ecFactory
 CS_index = find(strcmpi(ecModel.rxns,'y001808'));

@@ -12,7 +12,6 @@ helpsearch*/
 geckopy/geckopy/data_files/*.xml
 *~
 *.mat
-*.xls*
 *.doc*
 *.ppt*
 # Only allowed .mat file
