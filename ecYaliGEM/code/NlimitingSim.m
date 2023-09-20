@@ -14,10 +14,10 @@ NsourcePos = find(strcmpi(ecModel.rxns,'y001654')); % NH4
 ecModel = setParam(ecModel,'eq','y001808',-0.47);
 
 % Set objective for lipids production with constrained biomass
-sol = solveLP(ecModel,1);
+sol = solveLP(ecModel);
 ecModel = setParam(ecModel,'eq','xBIOMASS',-sol.f);
 ecModel = setParam(ecModel,'obj','EXC_OUT_m1640',1);
-sol = solveLP(ecModel,1);
+sol = solveLP(ecModel);
 
 CNratios = [sol.x(CS_index)*3/sol.x(NsourcePos) CNratios];
 
@@ -30,12 +30,12 @@ lipidProduction(1) = sol.f;
 for i = 2:length(CNratios)
     ecModel = setParam(ecModel,'lb',{'xBIOMASS', 'y001654'},[0 (-0.47*3)/CNratios(i)]);
     ecModel = setParam(ecModel,'obj','xBIOMASS',1);
-    sol = solveLP(ecModel,1);
-    %printFluxes(ecModel,sol.x)
+    sol = solveLP(ecModel);
+    printFluxes(ecModel,sol.x)
 
     ecModel = setParam(ecModel,'eq','xBIOMASS',-sol.f);
     ecModel = setParam(ecModel,'obj','EXC_OUT_m1640',1);
-    sol = solveLP(ecModel,1);
+    sol = solveLP(ecModel);
 
     growthRates(i) = sol.x(growthPos);
     lipidProduction(i) = -sol.f;

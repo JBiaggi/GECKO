@@ -1,21 +1,24 @@
 adapterLocation = fullfile(findGECKOroot,'ecYaliGEM','ecYaliGEMAdapter.m');
 ModelAdapter = ModelAdapterManager.setDefault(adapterLocation);
 params = ModelAdapter.getParameters();
-ecModel = loadEcModel('ecYaliGEM_SBY145_exp.yml');
+ecModel = loadEcModel('ecYaliGEM_SBY145_Nlim.yml');
 
-sol = solveLP(ecModel,1);
+sol = solveLP(ecModel);
 ecModel = setParam(ecModel,'eq','xBIOMASS',-sol.f);
 ecModel = setParam(ecModel,'obj','EXC_OUT_m1640',1);
-sol = solveLP(ecModel,1);
+sol = solveLP(ecModel);
+
+%printFluxes(ecModel,sol.x,false,[],'ecYali_SBY145_Nlim_MaxLipids.json','"%rxnID": %flux,')
 
 usageData = enzymeUsage(ecModel,sol.x);
 
 usageReport = reportEnzymeUsage(ecModel, usageData);
 
-%ecModel = loadEcModel('ecYaliGEM_FSEOF.yml');
-ecModel = loadEcModel('ecYaliGEM_SBY145_Nlim.yml');
-
 %% from ecFactory
+ecModel = loadEcModel('ecYaliGEM_FSEOF_pooled.yml');
+%ecModel = loadEcModel('ecYaliGEM_SBY145_Nlim.yml');
+
+
 CS_index = find(strcmpi(ecModel.rxns,'y001808'));
 growthPos = find(strcmpi(ecModel.rxns,'xBIOMASS'));
 CS_MW = 0.09209;
@@ -24,8 +27,8 @@ CS_MW = 0.09209;
 ecModel = setParam(ecModel,'lb',growthPos, 0);
 ecModel = setParam(ecModel,'ub',growthPos, 1000);
 
-%Set a fixed unit glucose uptake rate
-ecModel = setParam(ecModel,'ub',CS_index,1);
+%Set a fixed unit glycerol uptake rate
+ecModel = setParam(ecModel,'eq',CS_index,-1);
 
 %Get biomass yield for a unit glycerol uptake rate
 ecModel = setParam(ecModel,'obj',growthPos,1);
@@ -39,9 +42,9 @@ disp('* The ecFactory method will scan flux distributions spanning from')
 disp(['a suboptimal biomass yield of: ' num2str(0.5*expYield) ' to: ' num2str(2*expYield) ' [g biomass/g carbon source]']);
 
 %%
-FC = ecFSEOF(ecModel,'EXC_OUT_m1640','y001808',[0.5*expYield 2*expYield],[],[]);
+%FC = ecFSEOF(ecModel,'EXC_OUT_m1640','y001808',[0.5*expYield 2*expYield],[],[]);
 
-%FC = ecFSEOF(ecModel,'EXC_OUT_m1727','y001808',[0.1 0.9]);
+FC = ecFSEOF(ecModel,'EXC_OUT_m1640','y001808',[0.5 0.9],[],[]);
 
 
 
