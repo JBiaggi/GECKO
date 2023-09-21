@@ -22,6 +22,7 @@ ecModel = loadEcModel('ecYaliGEM_FSEOF_pooled.yml');
 CS_index = find(strcmpi(ecModel.rxns,'y001808'));
 growthPos = find(strcmpi(ecModel.rxns,'xBIOMASS'));
 CS_MW = 0.09209;
+Yxs = 0.463*CS_MW;
 
 %Enable cellular growth
 ecModel = setParam(ecModel,'lb',growthPos, 0);
@@ -37,14 +38,14 @@ WT_yield      = -solution.x(growthPos)/(solution.x(CS_index)*CS_MW);
 disp(['* The maximum biomass yield is ' num2str(WT_yield) '[g biomass/g carbon source]']);
 
 %Obtain a suboptimal yield value to run ecFactory
-expYield = 0.49*WT_yield;
+expYield = 0.463;
 disp('* The ecFactory method will scan flux distributions spanning from')
-disp(['a suboptimal biomass yield of: ' num2str(0.5*expYield) ' to: ' num2str(2*expYield) ' [g biomass/g carbon source]']);
+disp(['a suboptimal biomass yield of: ' num2str(0.5*expYield) ' to: ' num2str(0.9*WT_yield) ' [g biomass/g carbon source]']);
 
 %%
-%FC = ecFSEOF(ecModel,'EXC_OUT_m1640','y001808',[0.5*expYield 2*expYield],[],[]);
+FC = ecFSEOF(ecModel,'EXC_OUT_m1640','y001808',[0.5*expYield/WT_yield 0.9],[],[]);
 
-FC = ecFSEOF(ecModel,'EXC_OUT_m1640','y001808',[0.5 0.9],[],[]);
+%FC = ecFSEOF(ecModel,'EXC_OUT_m1640','y001808',[0.5 0.9],[],[]);
 
 
 
