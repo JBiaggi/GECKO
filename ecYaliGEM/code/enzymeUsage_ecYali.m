@@ -16,13 +16,11 @@ usageReport = reportEnzymeUsage(ecModel, usageData);
 
 %% from ecFactory
 ecModel = loadEcModel('ecYaliGEM_FSEOF_pooled.yml');
-%ecModel = loadEcModel('ecYaliGEM_SBY145_Nlim.yml');
-
+%ecModel = loadEcModel('ecYaliGEM_SBY145_exp.yml');
 
 CS_index = find(strcmpi(ecModel.rxns,'y001808'));
 growthPos = find(strcmpi(ecModel.rxns,'xBIOMASS'));
 CS_MW = 0.09209;
-Yxs = 0.463*CS_MW;
 
 %Enable cellular growth
 ecModel = setParam(ecModel,'lb',growthPos, 0);
@@ -45,7 +43,7 @@ disp(['a suboptimal biomass yield of: ' num2str(0.5*expYield) ' to: ' num2str(0.
 %%
 FC = ecFSEOF(ecModel,'EXC_OUT_m1640','y001808',[0.5*expYield/WT_yield 0.9],[],[]);
 
-%FC = ecFSEOF(ecModel,'EXC_OUT_m1640','y001808',[0.5 0.9],[],[]);
+%FC = ecFSEOF(ecModel,'EXC_OUT_m1640','y001808',[0.826782579493708 0.9],[],[]);
 
 
 
