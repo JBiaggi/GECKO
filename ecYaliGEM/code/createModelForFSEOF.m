@@ -11,10 +11,10 @@ model = setParam(model,'eq','y001714',0);
 % rxns with wrong name in the original iYali - JSB
 model.rxnNames(find(strcmp(model.rxns,'y000027'))) = {'homoaconitase'};
 model.rxnNames(find(strcmp(model.rxns,'y000117'))) = {'2-methylcitrate dehydratase'};
-
+model = setParam(model,'rev','y001808',1);
 
 %Make irreversible with RAVEN function:
-model = ravenCobraWrapper(model);
+%model = ravenCobraWrapper(model);
 model = convertToIrrev(model);
 
 %Analysis will be around the experimental biomass yield:
@@ -32,9 +32,10 @@ function FC = compare_substrate(model,product,substrate,Ysx)
 FC.flux_WT = simulateGrowth(model,product,substrate,1);
 
 %Simulate forced (X% growth and the rest towards product) based on yield:
-posX     = strcmp(model.rxnNames,'growth');
+posX     = strcmp(model.rxnNames,'Biomass production');
 alphaExp = Ysx/FC.flux_WT(posX);
-alpha    = (alphaExp/2):(alphaExp/10):(2*alphaExp);
+%alpha    = (alphaExp/2):(alphaExp/10):(2*alphaExp);
+alpha    = (alphaExp/2):(alphaExp/10):(alphaExp);
 FC.alpha = alpha;
 v_matrix = zeros(length(model.rxns),length(alpha));
 k_matrix = zeros(length(model.rxns),length(alpha));
@@ -45,7 +46,7 @@ for i = 1:length(alpha)
 end
 
 %Generate rxn equations:
-rxnEqs = printRxnFormula(model,model.rxns,true,true,true);
+rxnEqs = printRxnFormula(model,model.rxns,false,true,true);
 
 %Take out rxns with no grRule:
 withGR   = ~cellfun(@isempty,model.grRules);
@@ -121,13 +122,14 @@ end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function flux = simulateGrowth(model,rxn,substrate,alpha)
 
-if strcmp(substrate,'gycerol')
+if strcmp(substrate,'glycerol')
     model.ub(strcmp(model.rxnNames,'glycerol exchange'))              = 0;
+    model.lb(strcmp(model.rxnNames,'glycerol exchange'))              = 0;
     model.ub(strcmp(model.rxnNames,'glycerol exchange (reversible)')) = 1;
 end
 
 %Positions of biomass & target rxn:
-posX = strcmp(model.rxnNames,'xBIOMASS');
+posX = strcmp(model.rxnNames,'Biomass production');
 posP = strcmp(model.rxnNames,rxn);
 
 %Max growth:
@@ -138,8 +140,13 @@ model.lb(posX) = sol.x(posX)*0.999*alpha;
 sol            = optModel(model,1:length(model.rxns),-1);
 
 %Max product:
-model.lb(1:length(model.rxns)) = sol.x(1:length(model.rxns))*0.999;
+model.lb(1:length(model.rxns)) = sol.x(1:length(model.rxns));
 sol            = optModel(model,posP,+1);
+flux           = sol.x;
+
+%Fix also product and minimize fluxes:
+model.lb(posP) = sol.x(posP)*0.999;
+sol            = optModel(model,1:length(model.rxns),-1);
 flux           = sol.x;
 
 % %Fix growth suboptimal and then max product:
