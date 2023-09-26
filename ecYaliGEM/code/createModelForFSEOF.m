@@ -26,6 +26,25 @@ Ysx = Ysx/1000; %gDW/mmol(gluc)
 results.model   = model;
 results.glycerol = compare_substrate(model,'triglyceride exchange (OUT)','glycerol',Ysx);
 
+% Initialize a cell array to store gene names
+results.glycerol.geneNames = cell(size(results.glycerol.genes));
+
+% Loop through each gene and find the corresponding name in results.glycerol.rxns
+for i = 1:numel(results.glycerol.genes)
+    gene = results.glycerol.genes{i};
+    
+    % Find rows in results.glycerol.rxns where the gene identifier partially matches
+    idx = cellfun(@(x) contains(x, gene), results.glycerol.rxns(:, 3));
+    
+    if any(idx)
+        % Retrieve the corresponding name from column 2 for the first partial match found
+        results.glycerol.geneNames{i} = results.glycerol.rxns{idx, 2};
+    else
+        results.glycerol.geneNames{i} = 'Gene not found';  % Set a placeholder if gene is not found
+    end
+end
+
+%% Functions
 function FC = compare_substrate(model,product,substrate,Ysx)
 
 %Simulate WT (100% growth):
@@ -35,7 +54,7 @@ FC.flux_WT = simulateGrowth(model,product,substrate,1);
 posX     = strcmp(model.rxnNames,'Biomass production');
 alphaExp = Ysx/FC.flux_WT(posX);
 %alpha    = (alphaExp/2):(alphaExp/10):(2*alphaExp);
-alpha    = (alphaExp/2):(alphaExp/10):(alphaExp);
+alpha    = (alphaExp/2):(alphaExp/30):(alphaExp);
 FC.alpha = alpha;
 v_matrix = zeros(length(model.rxns),length(alpha));
 k_matrix = zeros(length(model.rxns),length(alpha));
@@ -116,6 +135,26 @@ FC.k_genes   = FC.k_genes(~unchanged);
 FC.genes     = FC.genes(order,:);
 FC.geneNames = FC.geneNames(order,:);
 FC.k_genes   = FC.k_genes(order,:);
+
+% %% Create cell array for genes names
+% % Initialize a cell array to store gene names
+% FC.geneNames = cell(size(genes));
+% 
+% % Loop through each gene and find the first corresponding name in results.glycerol.rxns
+% for i = 1:numel(genes)
+%     gene = genes{i};
+% 
+%     % Find the first row in results.glycerol.rxns where the gene identifier matches
+%     idx = find(strcmp(results.glycerol.rxns(:, 3), gene), 1);
+% 
+%     if ~isempty(idx)
+%         % Retrieve the corresponding name from column 2
+%         geneNames{i} = results.glycerol.rxns{idx, 2};
+%     else
+%         geneNames{i} = 'Gene not found';  % Set a placeholder if gene is not found
+%     end
+% end
+
 
 end
 
