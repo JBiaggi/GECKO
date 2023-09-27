@@ -22,7 +22,7 @@ ecModel = setParam(ecModel,'eq','prot_pool_exchange',sol.x(strcmp(ecModel.rxns,'
 
 lipOG = -sol.f;
 
-Qa = 1.001;
+Qa = 1.01;
 
 FCCs = zeros(numel(ecModel.ec.kcat),1);
 
@@ -35,8 +35,24 @@ for i = 1:numel(ecModel.ec.kcat)
     sol = solveLP(ecModel,1);
     Qlip = -sol.f;
     %FCCs(i) = 1000*(Qlip-lipOG)/lipOG;
-    FCCs(i) = 
+    kcat_i = ecModel_OG.ec.kcat(i);
+    FCCs(i) = (Qlip - lipOG)*kcat_i/(lipOG*(kcat_i * Qa - kcat_i));
     ecModel = ecModel_OG;
     progressbar(i/numel(ecModel.ec.kcat))
 end
 progressbar(1)
+
+% Create output variable 
+result.FCCs = FCCs;
+result.kcat = ecModel_OG.ec.kcat;
+result.rxns = ecModel_OG.ec.rxns;
+
+% Organize output variable
+[result.FCCs, sortOrder] = sort(result.FCCs,'descend');
+result.kcat = result.kcat(sortOrder);
+result.rxns = result.rxns(sortOrder);
+
+for i = 1:length(result.rxns)
+    result.rxnNames(i,1) = ecModel.rxnNames(strcmp(ecModel.rxns,result.rxns(i)));
+end
+
