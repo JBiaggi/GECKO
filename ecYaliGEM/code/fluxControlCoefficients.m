@@ -7,24 +7,26 @@ params = ModelAdapter.getParameters();
 
 % Load the ecModel
 ecModel = loadEcModel('ecYaliGEM_FSEOF_pooled.yml');
+Yxs = 0.463;
+exprGrowth = 0.02;
+CsourceMM = 92.05;
+uptakeCsource = (exprGrowth/Yxs)*1000/CsourceMM;
 
-% Set objective function and solve
-ecModel = setParam(ecModel, 'obj', 'xBIOMASS', 1);
-sol = solveLP(ecModel, 1);
+% Get relevant rxn indexes
+poolIdx      = strcmpi(ecModel.rxns, 'prot_pool_exchange');
 
-% Set lower bound for xBIOMASS
-ecModel = setParam(ecModel, 'lb', 'xBIOMASS', -sol.f * 0.99);
+% Fix experimental growth and carbon source uptake
+ecModel = setParam(ecModel,'eq',{'xBIOMASS', 'y001808'}, [exprGrowth -uptakeCsource]);
 
-% Fix carbon source and protein pool uptakes
-ecModel = setParam(ecModel, 'eq', 'y001808', sol.x(strcmp(ecModel.rxns, 'y001808')));
+% Minimize protein pool
+ecModel = setParam(ecModel, 'obj', 'prot_pool_exchange', 1);
+sol   = solveLP(ecModel);
+ecModel = setParam(ecModel, 'lb', 'prot_pool_exchange', sol.x(poolIdx) * 1.01);
 
-% Set a new objective function and solve
+% Maximize target, store original ecModel
 ecModel = setParam(ecModel, 'obj', 'EXC_OUT_m1640', 1);
 ecModel_OG = ecModel;
-sol = solveLP(ecModel, 1);
-
-% Fix protein pool exchange
-ecModel = setParam(ecModel, 'eq', 'prot_pool_exchange', sol.x(strcmp(ecModel.rxns, 'prot_pool_exchange')));
+sol = solveLP(ecModel);
 
 % Calculate lipOG
 lipOG = -sol.f;
@@ -133,3 +135,13 @@ end
 
 % Save the chart as an SVG file
 saveas(gcf, 'FCC_ecYali_lipids.svg', 'svg')
+
+%% Make output file
+% Create a table from the result variable
+resultTable = table(result.FCCs, result.kcat, result.rxns, result.rxnNames, result.enzymes,  'VariableNames', {'FCCs', 'kcat', 'rxns', 'rxnNames', 'enzymes'});
+
+% Define the file path and name
+filePath = fullfile(params.path, 'output', 'ecYali_FCCs_lipids.csv');
+
+% Save the result as a CSV file to the specified folder
+writetable(resultTable, filePath);

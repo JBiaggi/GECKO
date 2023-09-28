@@ -14,7 +14,6 @@ model.rxnNames(find(strcmp(model.rxns,'y000117'))) = {'2-methylcitrate dehydrata
 model = setParam(model,'rev','y001808',1);
 
 %Make irreversible with RAVEN function:
-%model = ravenCobraWrapper(model);
 model = convertToIrrev(model);
 
 %Analysis will be around the experimental biomass yield:
