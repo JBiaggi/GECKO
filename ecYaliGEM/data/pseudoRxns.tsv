@@ -1,0 +1,174 @@
+xAMINOACID	Amino acid composition
+xBIOMASS	Biomass production
+xLIPID	Lipids pool
+xMAINTENANCE	Non-growth associated maintenance (NGAM)
+xPOOL_AC_EM	Acyl-CoAs pool
+xPOOL_AC_LP	Acyl-CoAs pool
+xPOOL_AC_MM	Acyl-CoAs pool
+xPOOL_FA_EM	Fatty acids pool
+xPOOL_FA_EN	Fatty acids pool
+xPOOL_FA_LP	Fatty acids pool
+xPOOL_FA_MI	Fatty acids pool
+xPOOL_FA_MM	Fatty acids pool
+y001664	bicarbonate formation
+y001665	bicarbonate formation
+y001667	bicarbonate formation
+y001668	bicarbonate formation
+y001674	carnitine-acetylcarnitine carrier
+y002080	trehalose vacuolar transport
+y000208_REV
+y001664_REV
+y001665_REV
+y001667_REV
+y001668_REV
+xPOOL_AC_EM_REV
+xPOOL_AC_LP_REV
+xPOOL_AC_MM_REV
+xPOOL_FA_EM_REV
+xPOOL_FA_EN_REV
+xPOOL_FA_LP_REV
+xPOOL_FA_MI_REV
+xPOOL_FA_MM_REV
+y001096	(R)-mevalonate transport
+y001099	2-oxoadipate and 2-oxoglutarate transport
+y001100	3-hexaprenyl-4,5-dihydroxybenzoate transport
+y001101	4-aminobutyrate transport
+y001102	5-aminolevulinate transport
+y001103	5-formyltetrahydrofolic acid transport
+y001104	8-Amino-7-oxononanoate transport
+y001106	acetate transport
+y001107	acetic ester transport
+y001108	adenine transport
+y001109	adenosine transport
+y001110	ADP/ATP transporter
+y001111	ADP/ATP transporter
+y001112	AKG transporter, mitochonrial
+y001113	allantoate uniport
+y001114	allantoin uniport
+y001115	ammonia transport
+y001116	AMP/ATP transporter
+y001118	aspartate-glutamate transporter
+y001119	biotin uptake
+y001120	carnithine-acetylcarnithine carrier
+y001121	ceramide-2' (sphinganine:n-C24:0OH) transport
+y001122	ceramide-2' (sphinganine:n-C26:0OH) transport
+y001123	ceramide-3 (Phytosphingosine:n-C24:0OH) transport
+y001124	ceramide-3 (Phytosphingosine:n-C26:0OH) transport
+y001125	choline transport
+y001126	citrate transport
+y001127	citrate transport
+y001128	citrate transport
+y001129	coenzyme A transport
+y001130	CTP transport
+y001131	CTP/CMP antiport
+y001132	cytidine transport
+y001133	cytosine transport
+y001134	D-fructose transport
+y001135	D-galactose transport
+y001136	D-lactate transport
+y001137	D-lactate transport
+y001139	D-mannose transport
+y001146	episterol transport
+y001147	ergosterol transport
+y001149	ethanolamine transport
+y001151	fadH2 transport
+y001161	fecosterol transport
+y001164	folic acid transport
+y001165	GDP-mannose antiport
+y001166	glucose transport
+y001167	glutathione transport
+y001168	glutathione transport
+y001169	glycero-3-phospho-1-inositol transport
+y001170	glycero-3-phosphocholine transport
+y001171	glycerol transport
+y001172	glycerol transport via channel
+y001173	glycine transport
+y001174	glycogen vacuolar 'transport' via autophagy
+y001175	GTP/GDP translocase
+y001176	guanine transport
+y001177	inositol transport
+y001179	iron (II) transport
+y001180	isoamyl acetate transport
+y001181	isobutyl acetate transport
+y001182	isopentenyl diphosphate transport
+y001183	L-alanine transport
+y001184	L-arganine transport
+y001186	L-asparagine transport
+y001187	L-asparagine transport
+y001188	L-aspartate transport
+y001189	L-aspartate transport
+y001190	L-aspartate transport
+y001191	L-carnitine transport
+y001192	L-cystine transport
+y001194	L-glutamate transport
+y001195	L-glutamate transport
+y001196	L-glutamate transport
+y001197	L-glutamine transport
+y001198	L-glutamine transport
+y001199	L-glutamine transport
+y001201	L-histidine transport
+y001203	L-isoleucine transport
+y001204	L-isoleucine transport
+y001205	L-isoleucine transport
+y001206	L-lactate transport
+y001207	L-lactate transport
+y001209	L-leucine transport, vacuoluar
+y001210	L-leucine transport, vacuoluar
+y001211	L-leucine transport
+y001213	L-lysine transport
+y001214	L-methionine transport
+y001215	L-phenylalanine transport
+y001216	L-proline transport
+y001217	L-serine transport
+y001218	L-threonine transport
+y001219	L-tryptophan transport
+y001221	L-tyrosine transport
+y001222	L-tyrosine transport
+y001223	L-tyrosine transport
+y001224	L-valine transport
+y001225	lanosterol transport
+y001226	malate transport
+y001227	maltose transport
+y001229	NAD transport
+y001230	NAD transport
+y001231	NAD transport
+y001232	NAD transport
+y001235	nicotinate transport
+y001236	octadecanoate (n-C18:0) transport
+y001237	ornithine transport
+y001238	orntithine transport
+y001239	oxaloacetate transport
+y001241	pantothenate transport
+y001242	pentaprenyl diphosphate transport
+y001244	phosphate transport
+y001245	phosphate transport
+y001249	potassium transport
+y001251	putrescine transport
+y001252	putrescine transport
+y001253	pyridoxine symport
+y001254	pyruvate transport
+y001255	S-adenosyl-L-methionine transport
+y001256	S-adenosyl-L-methionine transport
+y001257	S-methylmethionine permease
+y001258	sodium proton antiporter
+y001260	spermidine transport
+y001261	spermidine transport
+y001262	spermine transport
+y001263	spermine transport
+y001264	succinate transport
+y001265	succinate-fumarate transport
+y001266	sulfate uniport
+y001267	sulfite transport
+y001268	taurine transport
+y001269	thiamine diphosphate transport
+y001270	thiamine transport
+y001271	UDPgalactose transport
+y001272	uracil transport
+y001273	urea transport
+y001274	uridine transport
+y001275	UTP transport
+y001276	UTP/UMP antiport
+y001277	water diffusion
+
+
+

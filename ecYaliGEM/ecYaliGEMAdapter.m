@@ -21,7 +21,7 @@ classdef ecYaliGEMAdapter < ModelAdapter
             
             % Growth rate the model should be able to reach when not
             % constraint by nutrient uptake (e.g. max growth rate) [1/h]
-			obj.params.gR_exp = 0.46;
+			obj.params.gR_exp = 0.455;
 
 			% Provide your organism scientific name
 			obj.params.org_name = 'yarrowia lipolytica';

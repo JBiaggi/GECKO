@@ -150,10 +150,11 @@ runDLKcat();
 kcatList_DLKcat = readDLKcatOutput(ecModel);
 
 % STEP 8 Combine kcat from BRENDA and DLKcat
-kcatList_merged = mergeDLKcatAndFuzzyKcats(kcatList_DLKcat, kcatList_fuzzy);
+kcatList_merged = mergeDLKcatAndFuzzyKcats(kcatList_DLKcat, kcatList_fuzzy, 3); % JSB: Changed DLKcat priority
 
 % STEP 9 Take kcatList and populate edModel.ec.kcat
 ecModel  = selectKcatValue(ecModel, kcatList_merged);
+ecModel  = selectKcatValue(ecModel, kcatList_DLKcat,'max','ifHigher'); % JSB: another way of prioritizing DLKcat
 
 % STEP 10 Apply custom kcat values
 % During the development of yeast-GEM ecModels (through GECKO 1 & 2),

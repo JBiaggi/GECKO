@@ -12,6 +12,7 @@ model = setParam(model,'eq','y001714',0);
 model.rxnNames(find(strcmp(model.rxns,'y000027'))) = {'homoaconitase'};
 model.rxnNames(find(strcmp(model.rxns,'y000117'))) = {'2-methylcitrate dehydratase'};
 model = setParam(model,'rev','y001808',1);
+model = changeGeneAssoc(model,'y000958','YALI0C24101g'); % had another GPR associated to an enzyme with a different function
 
 %Make irreversible with RAVEN function:
 model = convertToIrrev(model);
