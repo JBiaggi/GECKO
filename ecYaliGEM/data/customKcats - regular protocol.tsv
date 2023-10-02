@@ -8,7 +8,7 @@ Q6CCZ6	YALI0C05258g		576		Was constraining growth after adding proteomics in int
 Q6CE88	YALI0B17644g		1.2		Was constraining growth after adding proteomics in interation #6 (max 0.3469). Got the highest kcat in Brenda.			
 Q6C1K5	YALI0F15433g		311.561	y001129	Was constraining growth after adding proteomics in interation #8 (max 0.38409). Adjusted 10x.			
 Q6CFV5	YALI0B03344g		3847.5	y001226	Was constraining growth after adding proteomics in interation #9 (max 0.38703). Adjusted 10x.			
-Q6CDD3	YALI0C01411g		51.419		Output of sensitivityTuning. Calculated from teh specific activity of N. crassa (Brenda)			
+Q6CDD3	YALI0C01411g		51.419		Output of sensitivityTuning. Calculated from the specific activity of N. crassa (Brenda)			
 Q6CDI7	YALI0C00209g		2.0469	y000496	Output of sensitivityTuning. Got the value of DLKcat instead.			
 Q6C5R8	YALI0E15730g		0.4689	y001011	Output of sensitivityTuning. Got the value of DLKcat instead.			
 Q6C7B8	YALI0E02090g		7.9985	y000888	Output of sensitivityTuning. Got the value of DLKcat instead.			
