@@ -17,7 +17,7 @@ classdef ecYaliGEMAdapter < ModelAdapter
 			obj.params.Ptot = 0.202;
 
 			% Fraction of enzymes in the model [g enzyme/g protein]
-			obj.params.f = 0.3101;
+			obj.params.f = 0.5;
             
             % Growth rate the model should be able to reach when not
             % constraint by nutrient uptake (e.g. max growth rate) [1/h]

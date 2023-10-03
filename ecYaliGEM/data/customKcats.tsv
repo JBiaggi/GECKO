@@ -1,33 +1,12 @@
 proteins	genes	gene_name	kcat	rxns	notes	stoicho
-Q6C2Y4	YALI0F04095g	YALI0F04095g	72	"y002131, y000661"	kcat of Yali listed in BRENDA (EC: 1.1.1.42)	1
-	YALI0E16929g	YALI0E16929g	186	"y000505, y000831, y000832"	kcat of Yali listed in BRENDA (EC: 2.3.1.61)	1
-Q6CEP8	YALI0B14014g	YALI0B14014g	0.0788	"y300022, y300023, y300024"	Calculated from the specific activity of Yali EC 1.1.3.20 (Brenda)	1
-Q6C7I2	YALI0E00638g	YALI0E00638g	136.9609	y000028	Calculated from the specific activity of Yali EC 2.3.3.1 (Brenda)	1
-Q6C8R8	YALI0D17534g	YALI0D17534g	2.89E+04	y001053	Calculated from the specific activity of Yali EC 3.1.1.3 (Brenda)	1
-Q6C8W4	YALI0D16379g	YALI0D17534g	2.89E+04	y000009	Calculated from the specific activity of Yali EC 3.1.1.3 (Brenda)	1
-Q6C3X3	YALI0E31515g	YALI0E31515g	2.89E+04	y103304	Calculated from the specific activity of Yali EC 3.1.1.3 (Brenda)	1
-Q6C0K8	YALI0F23837g	YALI0F23837g	0.2052	y000251	Brenda kcat > DLKcat. Adjusted with Brenda data (highest specific activity)	1
-Q6CGV1	YALI0A15972g	YALI0A15972g	24.3	y000449	Brenda kcat > DLKcat. Got the highest non-mutant value in Brenda (Salmonella enterica).	1
-Q6CAF8	YALI0D03135g	YALI0D03135g	3.81	y000096	Output of sensitivityTuning. Got the highest value in Brenda for matching substrate (Meiothermus ruber).	1
-Q6CDD3	YALI0C01411g	YALI0C01411g	51.419		Output of sensitivityTuning. Calculated from the specific activity of N. crassa (Brenda)	1
 Q6C791	YALI0E02728g	YALI0E02728g	9.592	y000027	Output of sensitivityTuning. Calculated from the specific activity of S. oneidensis (Brenda EC 4.2.1.117)	1
-Q6C564	YALI0E20691g	YALI0E20691g	377.824	y000354	Output of sensitivityTuning. Calculated from the specific activity of Candida methylica (Brenda) x10.	1
-Q6CAF8	YALI0D03135g	YALI0D03135g	13.616		Output of sensitivityTuning. Calculated from the specific activity of N. crassa (Brenda)	1
-Q6CAV2	YALI0E07271g	YALI0E07271g	499.3925	y000958	Output of sensitivityTuning. Calculated from the specific activity of M. smegmatis (Brenda EC 6.4.1.1)	1
+Q6C120	YALI0F19910g	YALI0F19910g	17.0475	y000029	Limits model with DLKcat priority 2.  Calculated from the specific activity of N. crassa (Brenda)	1
+Q6CAF8	YALI0D03135g	YALI0D03135g	3.81	y000096	Output of sensitivityTuning. Got the highest value in Brenda for matching substrate (Meiothermus ruber).	1
 Q6C231	YALI0F11297g	YALI0F11297g	10.1681	"y000238, y000239, y000240"	Output of sensitivityTuning. Calculated from the specific activity of R. norvegicus (Brenda EC 1.14.18.9)	1
-Q6CGM4	YALI0A18062g	YALI0A18062g	0.584	y000233	Limits model with DLKcat priority 5. Calculatedby multiplying highest kcat/Km * Km (Brenda EC 1.14.19.41)	1
-Q6C968	YALI0D13596g	YALI0D13596g	47.5498	y000219	Limits model with DLKcat priority 5. Calculated from the specific activity of S. cerevisae (Ec 1.2.1.11)	1
-Q6C5V2	YALI0E14949g	YALI0E14949g	142.73	y000302	Limits model with DLKcat priority 5. Calculated from the specific activity of Y. lipolytica (Ec 4.2.1.3)	1
-Q6C638	YALI0E12683g	YALI0E12683g	1428.4	y000727	Output of sensitivityTuning. Calculated from the specific activity of N. crassa (Brenda)	1
-Q12726	YALI0F31075g	YALI0F31075g	5.133	y001838	Output of sensitivityTuning. Got the highest value in Brenda (EC 2.3.3.14).	1
-F2Z694			3054.42		Transport reaction. Kcat set to 10^3 order of magnitude	1
-Q6C1W2			1930		Transport reaction. Kcat set to 10^3 order of magnitude	1
-Q6C0B0			7992		Transport reaction. Kcat set to 10^3 order of magnitude	1
-Q6C428			1216.9		Transport reaction. Kcat set to 10^3 order of magnitude	1
-Q6C7R0			2081.9		Transport reaction. Kcat set to 10^3 order of magnitude	1
-Q6CCX5			1930		Transport reaction. Kcat set to 10^3 order of magnitude	1
-Q6C3A8			1930		Transport reaction. Kcat set to 10^3 order of magnitude	1
-Q6CAH9			1249.6		Transport reaction. Kcat set to 10^3 order of magnitude	1
-Q6CG86			7204.3		Transport reaction. Kcat set to 10^3 order of magnitude	1
-Q6C8F4			1610.991		Transport reaction. Kcat set to 10^3 order of magnitude	1
-Q6CD72 + Q6C3F1			4492		Transport reaction. Kcat set to 10^3 order of magnitude	1 + 1
+Q6CAY2	YALI0C23408g	YALI0C23408g	10.3331		Limits model with DLKcat priority 2.  Calculated from the specific activity of N. crassa (EC 4.2.1.9)	1
+Q6C564	YALI0E20691g	YALI0E20691g	42.93	y000354	Limits model with DLKcat priority 2. Limits model with DLKcat priority 2. Calculated by multiplying highest kcat/Km * Km of Escherichia coli (EC 2.7.1.29)	1
+Q6C1F3	YALI0F16819g	YALI0F16819g	230	y000366	Limits model with DLKcat priority 2. Using kcat of S. cerevisiae (EC 4.2.1.11)	1
+Q6C6H1	YALI0E09603g	YALI0E09603g	130.5365	y000470	Limits model with DLKcat priority 2.  Calculated from the specific activity of Aspergillus nidulans (EC 1.4.1.2)	1
+Q6CGV2	YALI0A15950g	YALI0A15950g	507.794	y000910	Limits model with DLKcat priority 2. Calculated from the specific activity of S. cerevisiae (EC 3.6.1.31)	1
+Q6C7Y2	YALI0D24409g	YALI0D24409g	4.97	y000912	Limits model with DLKcat priority 2. Using kcat of E. coli (EC 2.1.2.3)	1
+P38997	YALI0B15444g	YALI0B15444g	71.7479	y000988	Limits model with DLKcat priority 2. Calculated from the specific activity of S. cerevisiae (EC 1.5.1.7)	1

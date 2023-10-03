@@ -150,7 +150,7 @@ runDLKcat();
 kcatList_DLKcat = readDLKcatOutput(ecModel);
 
 % STEP 8 Combine kcat from BRENDA and DLKcat
-kcatList_merged = mergeDLKcatAndFuzzyKcats(kcatList_DLKcat, kcatList_fuzzy, 3); % JSB: Changed DLKcat priority
+kcatList_merged = mergeDLKcatAndFuzzyKcats(kcatList_DLKcat, kcatList_fuzzy, 2); % JSB: Changed DLKcat priority
 
 % STEP 9 Take kcatList and populate edModel.ec.kcat
 ecModel  = selectKcatValue(ecModel, kcatList_merged);
@@ -360,7 +360,7 @@ sol = solveLP(ecModel)
 struct2table(flexProt)
 
 % Growth is reached! Let's make sure we store this functional model.
-saveEcModel(ecModel,'ecYaliGEM_stage4');
+saveEcModel(ecModel,'ecYaliGEM_stage4.yml');
 
 %% STAGE 5: simulation and analysis
 % STEP 23 Example of various useful RAVEN functions
