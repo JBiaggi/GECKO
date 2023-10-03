@@ -1,10 +1,14 @@
 adapterLocation = fullfile(findGECKOroot,'ecYaliGEM','ecYaliGEMAdapter.m');
 ModelAdapter = ModelAdapterManager.setDefault(adapterLocation);
 params = ModelAdapter.getParameters();
-ecModel = loadEcModel('ecYaliGEM_SBY145_Nlim.yml');
+ecModel = loadEcModel('ecYaliGEM_SBY145_exp.yml');
 
 sol = solveLP(ecModel);
-ecModel = setParam(ecModel,'eq','xBIOMASS',-sol.f);
+ecModel = setParam(ecModel,'eq','y001808',sol.x(find(strcmpi(ecModel.rxns,'y001808'))));
+ecModel = setParam(ecModel,'eq','xBIOMASS',-sol.f*0.99);
+ecModel = setParam(ecModel, 'obj', 'prot_pool_exchange', 1);
+sol   = solveLP(ecModel);
+ecModel = setParam(ecModel, 'lb', 'prot_pool_exchange', sol.x(strcmpi(ecModel.rxns, 'prot_pool_exchange')) * 1.01);
 ecModel = setParam(ecModel,'obj','EXC_OUT_m1640',1);
 sol = solveLP(ecModel);
 
@@ -15,8 +19,8 @@ usageData = enzymeUsage(ecModel,sol.x);
 usageReport = reportEnzymeUsage(ecModel, usageData);
 
 %% from ecFactory
-ecModel = loadEcModel('ecYaliGEM_FSEOF_pooled.yml');
-%ecModel = loadEcModel('ecYaliGEM_SBY145_exp.yml');
+ecModel = loadEcModel('ecYaliGEM.yml');
+%ecModel = loadEcModel('ecYaliGEM_SBY145_Nlim.yml');
 
 CS_index = find(strcmpi(ecModel.rxns,'y001808'));
 growthPos = find(strcmpi(ecModel.rxns,'xBIOMASS'));
