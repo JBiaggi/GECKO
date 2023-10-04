@@ -6,9 +6,9 @@ ModelAdapter = ModelAdapterManager.setDefault(adapterLocation);
 params = ModelAdapter.getParameters();
 
 % Load the ecModel
-ecModel = loadEcModel('ecYaliGEM_FSEOF_pooled.yml');
+ecModel = loadEcModel('ecYaliGEM.yml');
 Yxs = 0.463;
-exprGrowth = 0.02;
+exprGrowth = 0.03;
 CsourceMM = 92.05;
 uptakeCsource = (exprGrowth/Yxs)*1000/CsourceMM;
 

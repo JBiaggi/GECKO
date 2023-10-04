@@ -7,7 +7,7 @@ adapterLocation = fullfile(findGECKOroot, 'ecYaliGEM', 'ecYaliGEMAdapter.m');
 ModelAdapter = ModelAdapterManager.setDefault(adapterLocation);
 params = ModelAdapter.getParameters();
 
-ecModel = loadEcModel('ecYaliGEM_stage4.yml');
+ecModel = loadEcModel('ecYaliGEM_SBY145_Nlim.yml');
 
 rxnID = 'prot_pool_exchange';
 
