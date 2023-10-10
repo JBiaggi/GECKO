@@ -12,11 +12,13 @@ ecModel = setParam(ecModel, 'lb', 'prot_pool_exchange', sol.x(strcmpi(ecModel.rx
 ecModel = setParam(ecModel,'obj','EXC_OUT_m1640',1);
 sol = solveLP(ecModel,1);
 
-printFluxes(ecModel,sol.x,false,[],'fluxes_ecYali_SBY145_exp_MaxLipids.json','"%rxnID": %flux,')
+%printFluxes(ecModel,sol.x,false,[],'fluxes_ecYali_SBY145_exp_MaxLipids.json','"%rxnID": %flux,')
 
 usageData = enzymeUsage(ecModel,sol.x);
 
 usageReport = reportEnzymeUsage(ecModel, usageData);
+
+OptKnock
 
 %% from ecFactory
 ecModel = loadEcModel('ecYaliGEM.yml');
@@ -42,13 +44,13 @@ disp(['* The maximum biomass yield is ' num2str(WT_yield) '[g biomass/g carbon s
 %Obtain a suboptimal yield value to run ecFactory
 expYield = 0.463;
 disp('* The ecFactory method will scan flux distributions spanning from')
-%disp(['a suboptimal biomass yield of: ' num2str(0.5*expYield) ' to: ' num2str(0.9*WT_yield) ' [g biomass/g carbon source]']); %ecFactory
-disp(['a suboptimal biomass yield of: ' num2str(expYield) ' to: ' num2str(0.9*WT_yield) ' [g biomass/g carbon source]']); %JSB
+disp(['a suboptimal biomass yield of: ' num2str(0.5*expYield) ' to: ' num2str(0.9*WT_yield) ' [g biomass/g carbon source]']); %ecFactory
+%disp(['a suboptimal biomass yield of: ' num2str(expYield) ' to: ' num2str(0.9*WT_yield) ' [g biomass/g carbon source]']); %JSB
 
 %%
-%FC = ecFSEOF(ecModel,'EXC_OUT_m1640','y001808',[0.5*expYield/WT_yield 0.9],[],[]); %ecFactory
+FC = ecFSEOF(ecModel,'EXC_OUT_m1640','y001808',[0.5*expYield/WT_yield 0.9],[],[]); %ecFactory
 
-FC = ecFSEOF(ecModel,'EXC_OUT_m1640','y001808',[0.736825014 0.74139142],[],[]); %JSB
+%FC = ecFSEOF(ecModel,'EXC_OUT_m1640','y001808',[0.736825014 0.74139142],[],[]); %JSB
 
 
 
