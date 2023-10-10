@@ -136,12 +136,12 @@ end
 % Save the chart as an SVG file
 saveas(gcf, 'FCC_ecYali_lipids.svg', 'svg')
 
-%% Make output file
-% Create a table from the result variable
-resultTable = table(result.FCCs, result.kcat, result.rxns, result.rxnNames, result.enzymes,  'VariableNames', {'FCCs', 'kcat', 'rxns', 'rxnNames', 'enzymes'});
-
-% Define the file path and name
-filePath = fullfile(params.path, 'output', 'ecYali_FCCs_lipids.csv');
-
-% Save the result as a CSV file to the specified folder
-writetable(resultTable, filePath);
+% %% Make output file
+% % Create a table from the result variable
+% resultTable = table(result.FCCs, result.kcat, result.rxns, result.rxnNames, result.enzymes,  'VariableNames', {'FCCs', 'kcat', 'rxns', 'rxnNames', 'enzymes'});
+% 
+% % Define the file path and name
+% filePath = fullfile(params.path, 'output', 'ecYali_FCCs_lipids.csv');
+% 
+% % Save the result as a CSV file to the specified folder
+% writetable(resultTable, filePath);
