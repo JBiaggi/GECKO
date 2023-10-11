@@ -7,6 +7,7 @@ model = loadConventionalGEM();
 model = setParam(model,'eq','y001714',0);
 
 [model, addedRxns] = addExchangeRxns(model,'out','m1640');
+model.subSystems(1) = model.subSystems(29);
 
 % rxns with wrong name in the original iYali - JSB
 model.rxnNames(find(strcmp(model.rxns,'y000027'))) = {'homoaconitase'};

@@ -1,7 +1,7 @@
 adapterLocation = fullfile(findGECKOroot,'ecYaliGEM','ecYaliGEMAdapter.m');
 ModelAdapter = ModelAdapterManager.setDefault(adapterLocation);
 params = ModelAdapter.getParameters();
-ecModel = loadEcModel('ecYaliGEM_SBY145_Nlim.yml');
+ecModel = loadEcModel('ecYaliGEM.yml');
 
 sol = solveLP(ecModel);
 ecModel = setParam(ecModel,'eq','y001808',sol.x(find(strcmpi(ecModel.rxns,'y001808'))));
@@ -12,13 +12,11 @@ ecModel = setParam(ecModel, 'lb', 'prot_pool_exchange', sol.x(strcmpi(ecModel.rx
 ecModel = setParam(ecModel,'obj','EXC_OUT_m1640',1);
 sol = solveLP(ecModel,1);
 
-%printFluxes(ecModel,sol.x,false,[],'fluxes_ecYali_SBY145_exp_MaxLipids.json','"%rxnID": %flux,')
+printFluxes(ecModel,sol.x,false,[],'fluxes_ecYali_MaxLipids.json','"%rxnID": %flux,')
 
 usageData = enzymeUsage(ecModel,sol.x);
 
 usageReport = reportEnzymeUsage(ecModel, usageData);
-
-OptKnock
 
 %% from ecFactory
 ecModel = loadEcModel('ecYaliGEM.yml');

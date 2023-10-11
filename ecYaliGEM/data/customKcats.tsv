@@ -30,3 +30,8 @@ Q6CG86			7204.3		Transport reaction. Kcat set to 10^3 order of magnitude	1
 Q6C8F4			1610.991		Transport reaction. Kcat set to 10^3 order of magnitude	1
 Q6CD72 + Q6C3F1			4492		Transport reaction. Kcat set to 10^3 order of magnitude	1 + 1
 Q6C8F2	YALI0D20152g	YALI0D20152g	38	y000760	Limits model when adding proteomics data. Using kcat of Aspergillus fumigatus (EC 2.3.1.4)	1
+Q6CGM4	YALI0A18062g	YALI0A18062g	0.584	y000233	Limits model when adding proteomics data. Calculatedby multiplying highest kcat/Km * Km (EC 1.14.19.41)	1
+Q6CDD3	YALI0C01411g	YALI0C01411g	51.419		Limits model when adding proteomics data. Calculated from the specific activity of N. crassa (Brenda)	1
+Q6CAG1	YALI0D03069g	YALI0D03069g	13.5		Limits model when adding proteomics data. Using kcat of E. coli (EC 2.1.2.2)	1
+Q6CE88	YALI0B17644g	YALI0B17644g	14.3186	"y000236, y000237"	Limits model when adding proteomics data. Using standardKcat.	1
+Q6C5R8	YALI0E15730g	YALI0E15730g	1.43186		Limits model when adding proteomics data. Using standardKcat/10 instead.	1

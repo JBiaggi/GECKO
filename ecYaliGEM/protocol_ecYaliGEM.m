@@ -311,7 +311,7 @@ saveEcModel(ecModel,'ecYaliGEM_stage3.yml');
 saveEcModel(ecModel,'ecYaliGEM.yml');
 
 %% STAGE 4 integration of proteomics data into the ecModel.
-ecModel=loadEcModel('ecYaliGEM_stage3.yml'); % Uncomment if you want to
+%ecModel=loadEcModel('ecYaliGEM_stage3.yml'); % Uncomment if you want to
 %reload model.
 
 % STEP 19 Load proteomics data and constrain ecModel

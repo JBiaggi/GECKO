@@ -169,6 +169,25 @@ y001274	uridine transport
 y001275	UTP transport
 y001276	UTP/UMP antiport
 y001277	water diffusion
+y001901	L-malate transport
+y002034	pyruvate transport
+y002057	succinate transport
+y002079	trehalose transporter
+y002219	fatty acyl-CoA transport via ABC system (C12:0)
+y002220	fatty acyl-CoA transport via ABC system (C14:0)
+y002221	fatty acyl-CoA transport via ABC system (C16:0)
+y002222	fatty acyl-CoA transport via ABC system (C16:1)
+y002223	fatty acyl-CoA transport via ABC system (C18:0)
+y002224	fatty acyl-CoA transport via ABC system (C18:1)
+y002225	fatty acyl-CoA transport via ABC system (C20:0)
+y002226	fatty acyl-CoA transport via ABC system (C22:0)
+y002227	fatty acyl-CoA transport via ABC system (C24:0)
+y002228	fatty acyl-CoA transport via ABC system (C26:0)
+y300001	decane transport e--c
+y300002	hexadecane transport e--c
+y300014	fatty acyl-CoA transport via ABC system (C18:2)
+y300017	octadecenoate (n-C18:1) transport, cytoplasm-peroxisome
+y300021	dodecane transport e--c
 
 
 
