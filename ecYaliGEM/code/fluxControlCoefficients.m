@@ -32,7 +32,7 @@ sol = solveLP(ecModel);
 lipOG = -sol.f;
 
 % Set Qa
-Qa = 1.01;
+Qa = 1.001;
 
 % Initialize FCCs
 FCCs = zeros(numel(ecModel.ec.kcat), 1);
@@ -58,7 +58,7 @@ end
 progressbar(1)
 
 % Create output variable 
-result.FCCs = FCCs;
+result.FCCs = FCCs/sum(FCCs);
 result.kcat = ecModel_OG.ec.kcat;
 result.rxns = ecModel_OG.ec.rxns;
 
