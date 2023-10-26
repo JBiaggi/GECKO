@@ -42,7 +42,7 @@ disp(['* The maximum biomass yield is ' num2str(WT_yield) '[g biomass/g carbon s
 %Obtain a suboptimal yield value to run ecFactory
 expYield = 0.463;
 disp('* The ecFactory method will scan flux distributions spanning from')
-disp(['a suboptimal biomass yield of: ' num2str(0.5*expYield) ' to: ' num2str(0.9*WT_yield) ' [g biomass/g carbon source]']); %ecFactory
+disp(['a suboptimal biomass yield of: ' num2str(0.55*expYield) ' to: ' num2str(0.9*WT_yield) ' [g biomass/g carbon source]']); %ecFactory
 %disp(['a suboptimal biomass yield of: ' num2str(expYield) ' to: ' num2str(0.9*WT_yield) ' [g biomass/g carbon source]']); %JSB
 
 %%

@@ -14,6 +14,8 @@ model.rxnNames(find(strcmp(model.rxns,'y000027'))) = {'homoaconitase'};
 model.rxnNames(find(strcmp(model.rxns,'y000117'))) = {'2-methylcitrate dehydratase'};
 model = setParam(model,'rev','y001808',1);
 model = changeGeneAssoc(model,'y000958','YALI0C24101g'); % had another GPR associated to an enzyme with a different function
+model = changeGeneAssoc(model,'y000336','YALI0E32769g or YALI0D07986g'); % GPR for DGA2, which is missing in the original model
+model = changeGeneAssoc(model,'y000336_1','YALI0E32769g or YALI0D07986g'); % GPR for DGA2, which is missing in the original model
 
 %Make irreversible with RAVEN function:
 model = convertToIrrev(model);
