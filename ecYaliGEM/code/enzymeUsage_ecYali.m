@@ -12,7 +12,7 @@ ecModel = setParam(ecModel, 'lb', 'prot_pool_exchange', sol.x(strcmpi(ecModel.rx
 ecModel = setParam(ecModel,'obj','EXC_OUT_m1640',1);
 sol = solveLP(ecModel,1);
 
-printFluxes(ecModel,sol.x,false,[],'fluxes_ecYali_MaxLipids.json','"%rxnID": %flux,')
+printFluxes(ecModel,sol.x,false,[],'fluxes_ecYali_SBY145_Nlim_MaxLipids.json','"%rxnID": %flux,')
 
 usageData = enzymeUsage(ecModel,sol.x);
 
