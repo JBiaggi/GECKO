@@ -46,7 +46,7 @@ disp(['a suboptimal biomass yield of: ' num2str(0.55*expYield) ' to: ' num2str(0
 %disp(['a suboptimal biomass yield of: ' num2str(expYield) ' to: ' num2str(0.9*WT_yield) ' [g biomass/g carbon source]']); %JSB
 
 %%
-FC = ecFSEOF(ecModel,'EXC_OUT_m1640','y001808',[0.55*expYield/WT_yield 0.9],[],[]); %ecFactory
+FC = ecFSEOF(ecModel,'EXC_OUT_m1640','y001808',[0.6*expYield/WT_yield 0.9],[],[]); %ecFactory
 
 %FC = ecFSEOF(ecModel,'EXC_OUT_m1640','y001808',[0.736825014 0.74139142],[],[]); %JSB
 

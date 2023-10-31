@@ -30643,32 +30643,6 @@
 "id":"y000172_EXP_1",
 "name":"aldehyde dehydrogenase (3-aminopropanal, NAD)",
 "metabolites":{
-"prot_Q6CD79":-0.551417184997579,
-"s_0208":-1.0,
-"s_0441":1.0,
-"s_0794":2.0,
-"s_0803":-1.0,
-"s_1198":-1.0,
-"s_1203":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0C03025g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to bidirectional BLAST with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.2.1.3",
-"pubmed":"12586697",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000172_EXP_2",
-"name":"aldehyde dehydrogenase (3-aminopropanal, NAD)",
-"metabolites":{
 "prot_Q6C9V7":-1.71932743129476,
 "s_0208":-1.0,
 "s_0441":1.0,
@@ -30692,33 +30666,7 @@
 }
 },
 {
-"id":"y000172_EXP_3",
-"name":"aldehyde dehydrogenase (3-aminopropanal, NAD)",
-"metabolites":{
-"prot_Q6C7J6":-6.35378306557134,
-"s_0208":-1.0,
-"s_0441":1.0,
-"s_0794":2.0,
-"s_0803":-1.0,
-"s_1198":-1.0,
-"s_1203":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0E00264g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to bidirectional BLAST with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.2.1.3",
-"pubmed":"12586697",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000172_EXP_4",
+"id":"y000172_EXP_2",
 "name":"aldehyde dehydrogenase (3-aminopropanal, NAD)",
 "metabolites":{
 "prot_Q6C2W9":-1.18081982705904,
@@ -30744,10 +30692,10 @@
 }
 },
 {
-"id":"y000173_EXP_1",
+"id":"y000173",
 "name":"aldehyde dehydrogenase (acetaldehyde, NADP)",
 "metabolites":{
-"prot_Q6CD79":-0.0616875,
+"prot_Q6CD79":-1.19488632236508,
 "s_0359":-1.0,
 "s_0362":1.0,
 "s_0794":2.0,
@@ -30771,142 +30719,7 @@
 }
 },
 {
-"id":"y000173_EXP_2",
-"name":"aldehyde dehydrogenase (acetaldehyde, NADP)",
-"metabolites":{
-"prot_Q6C9V7":-0.0615798611111111,
-"s_0359":-1.0,
-"s_0362":1.0,
-"s_0794":2.0,
-"s_0803":-1.0,
-"s_1207":-1.0,
-"s_1212":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0D07942g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to orthology with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.2.1.4",
-"kegg.reaction":"R00711",
-"pubmed":"15256563",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000173_EXP_3",
-"name":"aldehyde dehydrogenase (acetaldehyde, NADP)",
-"metabolites":{
-"prot_Q6C7J6":-0.0654201388888889,
-"s_0359":-1.0,
-"s_0362":1.0,
-"s_0794":2.0,
-"s_0803":-1.0,
-"s_1207":-1.0,
-"s_1212":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0E00264g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to orthology with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.2.1.4",
-"kegg.reaction":"R00711",
-"pubmed":"15256563",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000173_EXP_4",
-"name":"aldehyde dehydrogenase (acetaldehyde, NADP)",
-"metabolites":{
-"prot_Q6C2W9":-0.0649027777777778,
-"s_0359":-1.0,
-"s_0362":1.0,
-"s_0794":2.0,
-"s_0803":-1.0,
-"s_1207":-1.0,
-"s_1212":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0F04444g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to orthology with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.2.1.4",
-"kegg.reaction":"R00711",
-"pubmed":"15256563",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000174_EXP_1",
-"name":"aldehyde dehydrogenase (acetylaldehyde, NAD)",
-"metabolites":{
-"prot_Q6CD79":-0.0616875,
-"s_0361":-1.0,
-"s_0365":1.0,
-"s_0799":2.0,
-"s_0807":-1.0,
-"s_1200":-1.0,
-"s_1205":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0C03025g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to orthology with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.2.1.5",
-"kegg.reaction":"R00710",
-"pubmed":"15256563",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000174_EXP_2",
-"name":"aldehyde dehydrogenase (acetylaldehyde, NAD)",
-"metabolites":{
-"prot_Q6C9V7":-0.0615798611111111,
-"s_0361":-1.0,
-"s_0365":1.0,
-"s_0799":2.0,
-"s_0807":-1.0,
-"s_1200":-1.0,
-"s_1205":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0D07942g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to orthology with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.2.1.5",
-"kegg.reaction":"R00710",
-"pubmed":"15256563",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000174_EXP_3",
+"id":"y000174",
 "name":"aldehyde dehydrogenase (acetylaldehyde, NAD)",
 "metabolites":{
 "prot_Q6C7J6":-0.0654201388888889,
@@ -30933,88 +30746,7 @@
 }
 },
 {
-"id":"y000174_EXP_4",
-"name":"aldehyde dehydrogenase (acetylaldehyde, NAD)",
-"metabolites":{
-"prot_Q6C2W9":-0.0649027777777778,
-"s_0361":-1.0,
-"s_0365":1.0,
-"s_0799":2.0,
-"s_0807":-1.0,
-"s_1200":-1.0,
-"s_1205":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0F04444g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to orthology with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.2.1.5",
-"kegg.reaction":"R00710",
-"pubmed":"15256563",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000175_EXP_1",
-"name":"aldehyde dehydrogenase (acetylaldehyde, NADP)",
-"metabolites":{
-"prot_Q6CD79":-0.0616875,
-"s_0361":-1.0,
-"s_0365":1.0,
-"s_0799":2.0,
-"s_0807":-1.0,
-"s_1210":-1.0,
-"s_1214":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0C03025g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to orthology with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.2.1.5",
-"kegg.reaction":"R00711",
-"pubmed":"15256563",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000175_EXP_2",
-"name":"aldehyde dehydrogenase (acetylaldehyde, NADP)",
-"metabolites":{
-"prot_Q6C9V7":-0.0615798611111111,
-"s_0361":-1.0,
-"s_0365":1.0,
-"s_0799":2.0,
-"s_0807":-1.0,
-"s_1210":-1.0,
-"s_1214":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0D07942g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to orthology with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.2.1.5",
-"kegg.reaction":"R00711",
-"pubmed":"15256563",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000175_EXP_3",
+"id":"y000175",
 "name":"aldehyde dehydrogenase (acetylaldehyde, NADP)",
 "metabolites":{
 "prot_Q6C7J6":-0.0654201388888889,
@@ -31041,86 +30773,7 @@
 }
 },
 {
-"id":"y000175_EXP_4",
-"name":"aldehyde dehydrogenase (acetylaldehyde, NADP)",
-"metabolites":{
-"prot_Q6C2W9":-0.0649027777777778,
-"s_0361":-1.0,
-"s_0365":1.0,
-"s_0799":2.0,
-"s_0807":-1.0,
-"s_1210":-1.0,
-"s_1214":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0F04444g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to orthology with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.2.1.5",
-"kegg.reaction":"R00711",
-"pubmed":"15256563",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000176_EXP_1",
-"name":"aldehyde dehydrogenase (indole-3-acetaldehyde, NAD)",
-"metabolites":{
-"prot_Q6CD79":-0.75180524664087,
-"s_0799":2.0,
-"s_0807":-1.0,
-"s_0852":-1.0,
-"s_0854":1.0,
-"s_1200":-1.0,
-"s_1205":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0C03025g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to orthology with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.2.1.5",
-"kegg.reaction":"R02678",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000176_EXP_2",
-"name":"aldehyde dehydrogenase (indole-3-acetaldehyde, NAD)",
-"metabolites":{
-"prot_Q6C9V7":-2.02604209506576,
-"s_0799":2.0,
-"s_0807":-1.0,
-"s_0852":-1.0,
-"s_0854":1.0,
-"s_1200":-1.0,
-"s_1205":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0D07942g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to orthology with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.2.1.5",
-"kegg.reaction":"R02678",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000176_EXP_3",
+"id":"y000176",
 "name":"aldehyde dehydrogenase (indole-3-acetaldehyde, NAD)",
 "metabolites":{
 "prot_Q6C7J6":-4.28235689868354,
@@ -31146,36 +30799,10 @@
 }
 },
 {
-"id":"y000176_EXP_4",
-"name":"aldehyde dehydrogenase (indole-3-acetaldehyde, NAD)",
-"metabolites":{
-"prot_Q6C2W9":-1.52998916271319,
-"s_0799":2.0,
-"s_0807":-1.0,
-"s_0852":-1.0,
-"s_0854":1.0,
-"s_1200":-1.0,
-"s_1205":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0F04444g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to orthology with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.2.1.5",
-"kegg.reaction":"R02678",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000177_EXP_1",
+"id":"y000177",
 "name":"aldehyde dehydrogenase (indole-3-acetaldehyde, NADP)",
 "metabolites":{
-"prot_Q6CD79":-0.75180524664087,
+"prot_standard":-0.83796962430056,
 "s_0794":2.0,
 "s_0803":-1.0,
 "s_0850":-1.0,
@@ -31185,7 +30812,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"YALI0C03025g",
+"gene_reaction_rule":"",
 "subsystem":"beta-Alanine metabolism",
 "notes":{
 "Confidence Level":"2",
@@ -31197,134 +30824,7 @@
 }
 },
 {
-"id":"y000177_EXP_2",
-"name":"aldehyde dehydrogenase (indole-3-acetaldehyde, NADP)",
-"metabolites":{
-"prot_Q6C9V7":-2.02604209506576,
-"s_0794":2.0,
-"s_0803":-1.0,
-"s_0850":-1.0,
-"s_0853":1.0,
-"s_1207":-1.0,
-"s_1212":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0D07942g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to orthology with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.2.1.4",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000177_EXP_3",
-"name":"aldehyde dehydrogenase (indole-3-acetaldehyde, NADP)",
-"metabolites":{
-"prot_Q6C7J6":-4.28235689868354,
-"s_0794":2.0,
-"s_0803":-1.0,
-"s_0850":-1.0,
-"s_0853":1.0,
-"s_1207":-1.0,
-"s_1212":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0E00264g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to orthology with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.2.1.4",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000177_EXP_4",
-"name":"aldehyde dehydrogenase (indole-3-acetaldehyde, NADP)",
-"metabolites":{
-"prot_Q6C2W9":-1.52998916271319,
-"s_0794":2.0,
-"s_0803":-1.0,
-"s_0850":-1.0,
-"s_0853":1.0,
-"s_1207":-1.0,
-"s_1212":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0F04444g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to orthology with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.2.1.4",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000178_EXP_1",
-"name":"aldehyde dehydrogenase (indole-3-acetaldehyde, NADP)",
-"metabolites":{
-"prot_Q6CD79":-0.75180524664087,
-"s_0799":2.0,
-"s_0807":-1.0,
-"s_0852":-1.0,
-"s_0854":1.0,
-"s_1210":-1.0,
-"s_1214":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0C03025g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to orthology with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.2.1.5",
-"pubmed":"9675847",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000178_EXP_2",
-"name":"aldehyde dehydrogenase (indole-3-acetaldehyde, NADP)",
-"metabolites":{
-"prot_Q6C9V7":-2.02604209506576,
-"s_0799":2.0,
-"s_0807":-1.0,
-"s_0852":-1.0,
-"s_0854":1.0,
-"s_1210":-1.0,
-"s_1214":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0D07942g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to orthology with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.2.1.5",
-"pubmed":"9675847",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000178_EXP_3",
+"id":"y000178",
 "name":"aldehyde dehydrogenase (indole-3-acetaldehyde, NADP)",
 "metabolites":{
 "prot_Q6C7J6":-4.28235689868354,
@@ -31338,32 +30838,6 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"YALI0E00264g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to orthology with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.2.1.5",
-"pubmed":"9675847",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000178_EXP_4",
-"name":"aldehyde dehydrogenase (indole-3-acetaldehyde, NADP)",
-"metabolites":{
-"prot_Q6C2W9":-1.52998916271319,
-"s_0799":2.0,
-"s_0807":-1.0,
-"s_0852":-1.0,
-"s_0854":1.0,
-"s_1210":-1.0,
-"s_1214":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0F04444g",
 "subsystem":"beta-Alanine metabolism",
 "notes":{
 "Confidence Level":"2",
@@ -31988,34 +31462,7 @@
 "id":"y000185_EXP_1",
 "name":"aldehyde dehydrogenase (phenylacetaldehyde, NAD)",
 "metabolites":{
-"prot_Q6CD79":-0.265773156641905,
-"s_0794":2.0,
-"s_0803":-1.0,
-"s_1198":-1.0,
-"s_1203":1.0,
-"s_1318":-1.0,
-"s_1321":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0C03025g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to bidirectional BLAST with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.2.1.3",
-"kegg.reaction":"R02536",
-"pubmed":"8801420",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000185_EXP_2",
-"name":"aldehyde dehydrogenase (phenylacetaldehyde, NAD)",
-"metabolites":{
-"prot_Q6C9V7":-0.295583333333333,
+"prot_Q6C9V7":-0.557378388741177,
 "s_0794":2.0,
 "s_0803":-1.0,
 "s_1198":-1.0,
@@ -32039,37 +31486,10 @@
 }
 },
 {
-"id":"y000185_EXP_3",
+"id":"y000185_EXP_2",
 "name":"aldehyde dehydrogenase (phenylacetaldehyde, NAD)",
 "metabolites":{
-"prot_Q6C7J6":-0.314016666666667,
-"s_0794":2.0,
-"s_0803":-1.0,
-"s_1198":-1.0,
-"s_1203":1.0,
-"s_1318":-1.0,
-"s_1321":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0E00264g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to bidirectional BLAST with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.2.1.3",
-"kegg.reaction":"R02536",
-"pubmed":"8801420",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000185_EXP_4",
-"name":"aldehyde dehydrogenase (phenylacetaldehyde, NAD)",
-"metabolites":{
-"prot_Q6C2W9":-0.311533333333333,
+"prot_Q6C2W9":-0.472219106431699,
 "s_0794":2.0,
 "s_0803":-1.0,
 "s_1198":-1.0,
@@ -32834,59 +32254,7 @@
 }
 },
 {
-"id":"y000201_EXP_1",
-"name":"Aminobutyraldehyde dehydrogenase",
-"metabolites":{
-"prot_Q6CD79":-0.471204188481675,
-"s_0275":-1.0,
-"s_0738":1.0,
-"s_0799":2.0,
-"s_0807":-1.0,
-"s_1200":-1.0,
-"s_1205":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0C03025g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Check"
-},
-"annotation":{
-"ec-code":"1.2.1.5",
-"kegg.reaction":"R02549",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000201_EXP_2",
-"name":"Aminobutyraldehyde dehydrogenase",
-"metabolites":{
-"prot_Q6C9V7":-1.49805046491513,
-"s_0275":-1.0,
-"s_0738":1.0,
-"s_0799":2.0,
-"s_0807":-1.0,
-"s_1200":-1.0,
-"s_1205":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0D07942g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Check"
-},
-"annotation":{
-"ec-code":"1.2.1.5",
-"kegg.reaction":"R02549",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000201_EXP_3",
+"id":"y000201",
 "name":"Aminobutyraldehyde dehydrogenase",
 "metabolites":{
 "prot_Q6C7J6":-4.99168097327314,
@@ -32900,32 +32268,6 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"YALI0E00264g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Check"
-},
-"annotation":{
-"ec-code":"1.2.1.5",
-"kegg.reaction":"R02549",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000201_EXP_4",
-"name":"Aminobutyraldehyde dehydrogenase",
-"metabolites":{
-"prot_Q6C2W9":-1.03006656967773,
-"s_0275":-1.0,
-"s_0738":1.0,
-"s_0799":2.0,
-"s_0807":-1.0,
-"s_1200":-1.0,
-"s_1205":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0F04444g",
 "subsystem":"beta-Alanine metabolism",
 "notes":{
 "Confidence Level":"2",
@@ -33136,7 +32478,7 @@
 "id":"y000208",
 "name":"argininosuccinate synthase",
 "metabolites":{
-"prot_standard":-0.813471832286521,
+"prot_standard":-0.83796962430056,
 "s_0015":1.0,
 "s_0423":1.0,
 "s_0434":-1.0,
@@ -46993,7 +46335,7 @@
 "id":"y000679",
 "name":"L-asparaginase",
 "metabolites":{
-"prot_standard":-0.813471832286521,
+"prot_standard":-0.83796962430056,
 "s_0419":1.0,
 "s_0803":-1.0,
 "s_0969":-1.0,
@@ -47016,7 +46358,7 @@
 "id":"y000679_REV",
 "name":"L-asparaginase (reversible)",
 "metabolites":{
-"prot_standard":-0.813471832286521,
+"prot_standard":-0.83796962430056,
 "s_0419":-1.0,
 "s_0803":1.0,
 "s_0969":1.0,
@@ -55990,7 +55332,7 @@
 "id":"y001032",
 "name":"thiamin diphosphatase",
 "metabolites":{
-"prot_Q6CCS5":-1.25920131856466,
+"prot_Q6CCS5":-1.29712230215827,
 "s_0796":1.0,
 "s_0805":-2.0,
 "s_1324":2.0,
@@ -56013,7 +55355,7 @@
 "id":"y001033",
 "name":"thiamin phosphatase",
 "metabolites":{
-"prot_Q6CCS5":-1.25920131856466,
+"prot_Q6CCS5":-1.29712230215827,
 "s_0805":-1.0,
 "s_1324":1.0,
 "s_1490":1.0,
@@ -69117,7 +68459,7 @@
 "id":"y001887",
 "name":"L-glutamate 5-semialdehyde dehydratase",
 "metabolites":{
-"prot_standard":-0.813471832286521,
+"prot_standard":-0.83796962430056,
 "s_0118":1.0,
 "s_0794":1.0,
 "s_0803":1.0,
@@ -69137,7 +68479,7 @@
 "id":"y001887_REV",
 "name":"L-glutamate 5-semialdehyde dehydratase (reversible)",
 "metabolites":{
-"prot_standard":-0.813471832286521,
+"prot_standard":-0.83796962430056,
 "s_0118":-1.0,
 "s_0794":-1.0,
 "s_0803":-1.0,
@@ -73142,33 +72484,7 @@
 "id":"y002116_EXP_1",
 "name":"acetaldehyde dehydrogenase",
 "metabolites":{
-"prot_Q6CD79":-0.0616875,
-"s_0359":-1.0,
-"s_0362":1.0,
-"s_0794":1.0,
-"s_0803":-1.0,
-"s_1198":-1.0,
-"s_1203":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0C03025g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to bidirectional BLAST with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.2.1.3",
-"kegg.reaction":"R00711",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y002116_EXP_2",
-"name":"acetaldehyde dehydrogenase",
-"metabolites":{
-"prot_Q6C9V7":-0.0615798611111111,
+"prot_Q6C9V7":-2.178982494422,
 "s_0359":-1.0,
 "s_0362":1.0,
 "s_0794":1.0,
@@ -73191,36 +72507,10 @@
 }
 },
 {
-"id":"y002116_EXP_3",
+"id":"y002116_EXP_2",
 "name":"acetaldehyde dehydrogenase",
 "metabolites":{
-"prot_Q6C7J6":-0.0654201388888889,
-"s_0359":-1.0,
-"s_0362":1.0,
-"s_0794":1.0,
-"s_0803":-1.0,
-"s_1198":-1.0,
-"s_1203":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0E00264g",
-"subsystem":"beta-Alanine metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to bidirectional BLAST with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.2.1.3",
-"kegg.reaction":"R00711",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y002116_EXP_4",
-"name":"acetaldehyde dehydrogenase",
-"metabolites":{
-"prot_Q6C2W9":-0.0649027777777778,
+"prot_Q6C2W9":-1.70978635902952,
 "s_0359":-1.0,
 "s_0362":1.0,
 "s_0794":1.0,
@@ -74064,7 +73354,7 @@
 "id":"y002148",
 "name":"3-hydroxyacyl-thioester dehydratase (trans-but-2-enoyl-ACP)",
 "metabolites":{
-"prot_Q6CGI2":-0.676625740877833,
+"prot_Q6CGI2":-0.697002398081535,
 "s_0807":1.0,
 "s_2775":-1.0,
 "s_2778":1.0
@@ -74086,7 +73376,7 @@
 "id":"y002148_REV",
 "name":"3-hydroxyacyl-thioester dehydratase (trans-but-2-enoyl-ACP) (reversible)",
 "metabolites":{
-"prot_Q6CGI2":-0.676625740877833,
+"prot_Q6CGI2":-0.697002398081535,
 "s_0807":-1.0,
 "s_2775":1.0,
 "s_2778":-1.0
@@ -74108,7 +73398,7 @@
 "id":"y002149",
 "name":"3-hydroxyacyl-thioester dehydratase (trans-hex-2-enoyl-ACP)",
 "metabolites":{
-"prot_Q6CGI2":-0.676625740877833,
+"prot_Q6CGI2":-0.697002398081535,
 "s_0807":1.0,
 "s_2776":-1.0,
 "s_2779":1.0
@@ -74130,7 +73420,7 @@
 "id":"y002149_REV",
 "name":"3-hydroxyacyl-thioester dehydratase (trans-hex-2-enoyl-ACP) (reversible)",
 "metabolites":{
-"prot_Q6CGI2":-0.676625740877833,
+"prot_Q6CGI2":-0.697002398081535,
 "s_0807":-1.0,
 "s_2776":1.0,
 "s_2779":-1.0
@@ -74152,7 +73442,7 @@
 "id":"y002150",
 "name":"3-hydroxyacyl-thioester dehydratase (trans-oct-2-enoyl-ACP)",
 "metabolites":{
-"prot_Q6CGI2":-0.676625740877833,
+"prot_Q6CGI2":-0.697002398081535,
 "s_0807":1.0,
 "s_2777":-1.0,
 "s_2780":1.0
@@ -74174,7 +73464,7 @@
 "id":"y002150_REV",
 "name":"3-hydroxyacyl-thioester dehydratase (trans-oct-2-enoyl-ACP) (reversible)",
 "metabolites":{
-"prot_Q6CGI2":-0.676625740877833,
+"prot_Q6CGI2":-0.697002398081535,
 "s_0807":-1.0,
 "s_2777":1.0,
 "s_2780":-1.0
@@ -85494,7 +84784,7 @@
 "m1647":-1.0,
 "m1648":1.0,
 "m567":-1.0,
-"prot_Q6C336":-0.899315885941673,
+"prot_Q6C336":-0.926398880895284,
 "s_2785":1.0
 },
 "lower_bound":0.0,
@@ -85655,7 +84945,7 @@
 "m789":-1.0,
 "m790":-1.0,
 "m791":1.0,
-"prot_standard":-0.813471832286521,
+"prot_standard":-0.83796962430056,
 "s_3321":1.0
 },
 "lower_bound":0.0,
@@ -86955,7 +86245,7 @@
 "metabolites":{
 "m1681":1.0,
 "m1684":-1.0,
-"prot_Q6C1Z2":-0.747105163912673,
+"prot_Q6C1Z2":-0.769604316546763,
 "s_2808":-1.0,
 "s_2966":1.0
 },
@@ -87269,7 +86559,7 @@
 "metabolites":{
 "m1687":1.0,
 "m1688":-1.0,
-"prot_standard":-0.813471832286521,
+"prot_standard":-0.83796962430056,
 "s_3359":-1.0,
 "s_3360":1.0
 },
@@ -87289,7 +86579,7 @@
 "metabolites":{
 "m1687":-1.0,
 "m1688":1.0,
-"prot_standard":-0.813471832286521,
+"prot_standard":-0.83796962430056,
 "s_3359":1.0,
 "s_3360":-1.0
 },
@@ -87309,7 +86599,7 @@
 "metabolites":{
 "m1685":1.0,
 "m1686":-1.0,
-"prot_standard":-0.813471832286521,
+"prot_standard":-0.83796962430056,
 "s_3341":-1.0,
 "s_3342":1.0
 },
@@ -87329,7 +86619,7 @@
 "metabolites":{
 "m1685":-1.0,
 "m1686":1.0,
-"prot_standard":-0.813471832286521,
+"prot_standard":-0.83796962430056,
 "s_3341":1.0,
 "s_3342":-1.0
 },
@@ -88965,7 +88255,7 @@
 "metabolites":{
 "m572":-1.0,
 "m577":1.0,
-"prot_standard":-0.813471832286521,
+"prot_standard":-0.83796962430056,
 "s_0798":-1.0,
 "s_2952":-1.0,
 "s_2953":1.0
@@ -88987,7 +88277,7 @@
 "metabolites":{
 "m572":1.0,
 "m577":-1.0,
-"prot_standard":-0.813471832286521,
+"prot_standard":-0.83796962430056,
 "s_0798":1.0,
 "s_2952":1.0,
 "s_2953":-1.0
@@ -92762,7 +92052,7 @@
 "metabolites":{
 "m1820":1.0,
 "m1822":-1.0,
-"prot_standard":-0.813471832286521,
+"prot_standard":-0.83796962430056,
 "s_0794":1.0,
 "s_1275":-1.0
 },
@@ -92784,7 +92074,7 @@
 "metabolites":{
 "m1819":1.0,
 "m1820":-1.0,
-"prot_standard":-0.813471832286521
+"prot_standard":-0.83796962430056
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
@@ -92804,7 +92094,7 @@
 "metabolites":{
 "m1819":-1.0,
 "m1820":1.0,
-"prot_standard":-0.813471832286521
+"prot_standard":-0.83796962430056
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
@@ -92824,7 +92114,7 @@
 "metabolites":{
 "m1819":-1.0,
 "m1821":1.0,
-"prot_standard":-0.813471832286521,
+"prot_standard":-0.83796962430056,
 "s_0725":1.0,
 "s_0794":1.0,
 "s_0803":-1.0
@@ -92846,7 +92136,7 @@
 "name":"erythrose kinase",
 "metabolites":{
 "m1827":1.0,
-"prot_standard":-0.813471832286521,
+"prot_standard":-0.83796962430056,
 "s_0394":-1.0,
 "s_0434":1.0,
 "s_0551":-1.0
@@ -92867,7 +92157,7 @@
 "name":"erythrose kinase (reversible)",
 "metabolites":{
 "m1827":-1.0,
-"prot_standard":-0.813471832286521,
+"prot_standard":-0.83796962430056,
 "s_0394":1.0,
 "s_0434":-1.0,
 "s_0551":1.0
@@ -93062,7 +92352,7 @@
 "name":"arabinitol dehydrogenase",
 "metabolites":{
 "m1823":1.0,
-"prot_standard":-0.813471832286521,
+"prot_standard":-0.83796962430056,
 "s_0580":-1.0,
 "s_0794":-1.0,
 "s_1198":1.0,
@@ -93085,7 +92375,7 @@
 "name":"arabinitol dehydrogenase (reversible)",
 "metabolites":{
 "m1823":-1.0,
-"prot_standard":-0.813471832286521,
+"prot_standard":-0.83796962430056,
 "s_0580":1.0,
 "s_0794":1.0,
 "s_1198":-1.0,
@@ -93275,7 +92565,7 @@
 "name":"3-methylglutaconyl-CoA dehydratase",
 "metabolites":{
 "m1832":-1.0,
-"prot_standard":-0.813471832286521,
+"prot_standard":-0.83796962430056,
 "s_0221":1.0,
 "s_0807":-1.0
 },

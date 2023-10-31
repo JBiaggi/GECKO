@@ -35,3 +35,8 @@ Q6CDD3	YALI0C01411g	YALI0C01411g	51.419		Limits model when adding proteomics dat
 Q6CAG1	YALI0D03069g	YALI0D03069g	13.5		Limits model when adding proteomics data. Using kcat of E. coli (EC 2.1.2.2)	1
 Q6CE88	YALI0B17644g	YALI0B17644g	14.3186	"y000236, y000237"	Limits model when adding proteomics data. Using standardKcat.	1
 Q6C5R8	YALI0E15730g	YALI0E15730g	1.43186		Limits model when adding proteomics data. Using standardKcat/10 instead.	1
+Q6CD79	YALI0C03025g	YALI0C03025g	12.3903	y000173	"Putative enzyme. Using the lowest kcat instead, which is the one predicted by DLKcat in this case."	1
+Q6C9V7	YALI0D07942g	YALI0D07942g	26.5155	y000185	"Putative enzyme. Using the lowest kcat instead, which is the one predicted by DLKcat in this case."	1
+Q6C2W9	YALI0F04444g	YALI0F04444g	32.9861	y000185	"Putative enzyme. Using the lowest kcat instead, which is the one predicted by DLKcat in this case."	1
+Q6C9V7	YALI0D07942g	YALI0D07942g	6.7826	y002116	"Putative enzyme. Using the lowest kcat instead, which is the one predicted by DLKcat in this case."	1
+Q6C2W9	YALI0F04444g	YALI0F04444g	9.1103	y002116	"Putative enzyme. Using the lowest kcat instead, which is the one predicted by DLKcat in this case."	1
