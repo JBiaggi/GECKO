@@ -27017,7 +27017,7 @@
 "id":"y000078",
 "name":"5'-nucleotidase (UMP)",
 "metabolites":{
-"prot_Q6C090":-0.476296356799501,
+"prot_Q6C090":-0.476296356799502,
 "s_0803":-1.0,
 "s_1322":1.0,
 "s_1545":-1.0,
@@ -30802,7 +30802,7 @@
 "id":"y000177",
 "name":"aldehyde dehydrogenase (indole-3-acetaldehyde, NADP)",
 "metabolites":{
-"prot_standard":-0.83796962430056,
+"prot_standard":-0.832129749690323,
 "s_0794":2.0,
 "s_0803":-1.0,
 "s_0850":-1.0,
@@ -32478,7 +32478,7 @@
 "id":"y000208",
 "name":"argininosuccinate synthase",
 "metabolites":{
-"prot_standard":-0.83796962430056,
+"prot_standard":-0.832129749690323,
 "s_0015":1.0,
 "s_0423":1.0,
 "s_0434":-1.0,
@@ -36535,7 +36535,7 @@
 "id":"y000317",
 "name":"cytochrome P450 lanosterol 14-alpha-demethylase (NADP)",
 "metabolites":{
-"prot_F2Z6C9":-1.81188995012031,
+"prot_F2Z6C9":-1.81188995012032,
 "prot_Q6CFP4":-1.33842615944505,
 "s_0262":1.0,
 "s_0722":1.0,
@@ -39267,7 +39267,7 @@
 "id":"y000446_REV_EXP_1",
 "name":"formate-tetrahydrofolate ligase (reversible)",
 "metabolites":{
-"prot_F2Z650":-5.00623568490604,
+"prot_F2Z650":-5.00623568490605,
 "s_0120":-1.0,
 "s_0394":-1.0,
 "s_0434":1.0,
@@ -39407,7 +39407,7 @@
 "id":"y000447_REV_EXP_1",
 "name":"formate-tetrahydrofolate ligase (reversible)",
 "metabolites":{
-"prot_F2Z650":-5.00623568490604,
+"prot_F2Z650":-5.00623568490605,
 "s_0121":-1.0,
 "s_0397":-1.0,
 "s_0437":1.0,
@@ -40544,231 +40544,6 @@
 }
 },
 {
-"id":"y000487_EXP_1",
-"name":"glycerol dehydrogenase (NADP-dependent)",
-"metabolites":{
-"prot_Q6CGV3":-3.98345896147404,
-"s_0765":-1.0,
-"s_0771":1.0,
-"s_0794":1.0,
-"s_1207":-1.0,
-"s_1212":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0A15906g",
-"subsystem":"Glycerolipid metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to bidirectional BLAST with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.1.1.156",
-"pubmed":"11113971",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000487_EXP_2",
-"name":"glycerol dehydrogenase (NADP-dependent)",
-"metabolites":{
-"prot_Q6CFG7":-0.22954340030168,
-"s_0765":-1.0,
-"s_0771":1.0,
-"s_0794":1.0,
-"s_1207":-1.0,
-"s_1212":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0B07117g",
-"subsystem":"Glycerolipid metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to bidirectional BLAST with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.1.1.156",
-"pubmed":"11113971",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000487_EXP_3",
-"name":"glycerol dehydrogenase (NADP-dependent)",
-"metabolites":{
-"prot_Q6CDR7":-1.03706606956435,
-"s_0765":-1.0,
-"s_0771":1.0,
-"s_0794":1.0,
-"s_1207":-1.0,
-"s_1212":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0B21780g",
-"subsystem":"Glycerolipid metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to bidirectional BLAST with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.1.1.156",
-"pubmed":"11113971",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000487_EXP_4",
-"name":"glycerol dehydrogenase (NADP-dependent)",
-"metabolites":{
-"prot_Q6CCI5":-0.0196516080044897,
-"s_0765":-1.0,
-"s_0771":1.0,
-"s_0794":1.0,
-"s_1207":-1.0,
-"s_1212":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0C09119g",
-"subsystem":"Glycerolipid metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to bidirectional BLAST with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.1.1.156",
-"pubmed":"11113971",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000487_EXP_5",
-"name":"glycerol dehydrogenase (NADP-dependent)",
-"metabolites":{
-"prot_Q6CC16":-0.972355646283918,
-"s_0765":-1.0,
-"s_0771":1.0,
-"s_0794":1.0,
-"s_1207":-1.0,
-"s_1212":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0C13508g",
-"subsystem":"Glycerolipid metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to bidirectional BLAST with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.1.1.156",
-"pubmed":"11113971",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000487_EXP_6",
-"name":"glycerol dehydrogenase (NADP-dependent)",
-"metabolites":{
-"prot_Q6CAC3":-2.39268753553393,
-"s_0765":-1.0,
-"s_0771":1.0,
-"s_0794":1.0,
-"s_1207":-1.0,
-"s_1212":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0D04092g",
-"subsystem":"Glycerolipid metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to bidirectional BLAST with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.1.1.156",
-"pubmed":"11113971",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000487_EXP_7",
-"name":"glycerol dehydrogenase (NADP-dependent)",
-"metabolites":{
-"prot_Q6C5G1":-2.05419077224189,
-"s_0765":-1.0,
-"s_0771":1.0,
-"s_0794":1.0,
-"s_1207":-1.0,
-"s_1212":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0E18348g",
-"subsystem":"Glycerolipid metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to bidirectional BLAST with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.1.1.156",
-"pubmed":"11113971",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000487_EXP_8",
-"name":"glycerol dehydrogenase (NADP-dependent)",
-"metabolites":{
-"prot_Q6C2L0":-0.116426403423391,
-"s_0765":-1.0,
-"s_0771":1.0,
-"s_0794":1.0,
-"s_1207":-1.0,
-"s_1212":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0F06974g",
-"subsystem":"Glycerolipid metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to bidirectional BLAST with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.1.1.156",
-"pubmed":"11113971",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"y000487_EXP_9",
-"name":"glycerol dehydrogenase (NADP-dependent)",
-"metabolites":{
-"prot_Q6C177":-6.54499764978125,
-"s_0765":-1.0,
-"s_0771":1.0,
-"s_0794":1.0,
-"s_1207":-1.0,
-"s_1212":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"YALI0F18590g",
-"subsystem":"Glycerolipid metabolism",
-"notes":{
-"Confidence Level":"2",
-"NOTES":"Reaction included due to bidirectional BLAST with S. cerevisiae gene, added by getModelFromHomology"
-},
-"annotation":{
-"ec-code":"1.1.1.156",
-"pubmed":"11113971",
-"sbo":"SBO:0000176"
-}
-},
-{
 "id":"y000488",
 "name":"glycerol kinase",
 "metabolites":{
@@ -40844,6 +40619,32 @@
 }
 },
 {
+"id":"y000491_REV",
+"name":"glycerol-3-phosphate dehydrogenase (NAD) (reversible)",
+"metabolites":{
+"prot_Q9UVF4":-0.0309537037037037,
+"s_0629":1.0,
+"s_0767":-1.0,
+"s_0794":1.0,
+"s_1198":-1.0,
+"s_1203":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0B02948g",
+"subsystem":"MAPK signaling pathway - yeast",
+"notes":{
+"Confidence Level":"2",
+"NOTES":"Reaction included due to orthology and bidirectional BLAST with S. cerevisiae gene, added by getModelFromHomology"
+},
+"annotation":{
+"ec-code":"1.1.1.8",
+"kegg.reaction":"R00842",
+"pubmed":"8196651",
+"sbo":"SBO:0000176"
+}
+},
+{
 "id":"y000492",
 "name":"glycerol-3-phosphate dehydrogenase (NAD)",
 "metabolites":{
@@ -40853,6 +40654,31 @@
 "s_0799":-1.0,
 "s_1200":1.0,
 "s_1205":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0B02948g",
+"subsystem":"MAPK signaling pathway - yeast",
+"notes":{
+"Confidence Level":"2",
+"NOTES":"Reaction included due to orthology and bidirectional BLAST with S. cerevisiae gene, added by getModelFromHomology"
+},
+"annotation":{
+"ec-code":"1.1.1.8",
+"kegg.reaction":"R00842",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"y000492_REV",
+"name":"glycerol-3-phosphate dehydrogenase (NAD) (reversible)",
+"metabolites":{
+"prot_Q9UVF4":-0.0309537037037037,
+"s_0632":1.0,
+"s_0770":-1.0,
+"s_0799":1.0,
+"s_1200":-1.0,
+"s_1205":1.0
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
@@ -42150,7 +41976,7 @@
 "name":"hexaprenyldihydroxybenzoate methyltransferase",
 "metabolites":{
 "prot_F2Z6J4":-0.0869226278316491,
-"prot_Q6C071":-0.0489012120624124,
+"prot_Q6C071":-0.0489012120624125,
 "prot_Q6C074":-0.0515956296988482,
 "prot_Q6C5T9":-0.0375005744573293,
 "prot_Q6CBJ6":-0.0564397943187447,
@@ -46335,7 +46161,7 @@
 "id":"y000679",
 "name":"L-asparaginase",
 "metabolites":{
-"prot_standard":-0.83796962430056,
+"prot_standard":-0.832129749690323,
 "s_0419":1.0,
 "s_0803":-1.0,
 "s_0969":-1.0,
@@ -46358,7 +46184,7 @@
 "id":"y000679_REV",
 "name":"L-asparaginase (reversible)",
 "metabolites":{
-"prot_standard":-0.83796962430056,
+"prot_standard":-0.832129749690323,
 "s_0419":-1.0,
 "s_0803":1.0,
 "s_0969":1.0,
@@ -48148,7 +47974,7 @@
 "id":"y000724_REV_EXP_1",
 "name":"methenyltetrahydrifikate cyclohydrolase (reversible)",
 "metabolites":{
-"prot_F2Z650":-5.00623568490604,
+"prot_F2Z650":-5.00623568490605,
 "s_0121":-1.0,
 "s_0305":1.0,
 "s_0799":-1.0,
@@ -48260,7 +48086,7 @@
 "id":"y000725_REV_EXP_1",
 "name":"methenyltetrahydrofolate cyclohydrolase (reversible)",
 "metabolites":{
-"prot_F2Z650":-5.00623568490604,
+"prot_F2Z650":-5.00623568490605,
 "s_0120":-1.0,
 "s_0304":1.0,
 "s_0794":-1.0,
@@ -50269,7 +50095,7 @@
 "id":"y000805",
 "name":"nucleoside triphosphatase",
 "metabolites":{
-"prot_Q6CBD9":-0.188244143563292,
+"prot_Q6CBD9":-0.188244143563293,
 "s_0794":1.0,
 "s_0803":-1.0,
 "s_1322":1.0,
@@ -55332,7 +55158,7 @@
 "id":"y001032",
 "name":"thiamin diphosphatase",
 "metabolites":{
-"prot_Q6CCS5":-1.29712230215827,
+"prot_Q6CCS5":-1.28808255730467,
 "s_0796":1.0,
 "s_0805":-2.0,
 "s_1324":2.0,
@@ -55355,7 +55181,7 @@
 "id":"y001033",
 "name":"thiamin phosphatase",
 "metabolites":{
-"prot_Q6CCS5":-1.29712230215827,
+"prot_Q6CCS5":-1.28808255730467,
 "s_0805":-1.0,
 "s_1324":1.0,
 "s_1490":1.0,
@@ -68459,7 +68285,7 @@
 "id":"y001887",
 "name":"L-glutamate 5-semialdehyde dehydratase",
 "metabolites":{
-"prot_standard":-0.83796962430056,
+"prot_standard":-0.832129749690323,
 "s_0118":1.0,
 "s_0794":1.0,
 "s_0803":1.0,
@@ -68479,7 +68305,7 @@
 "id":"y001887_REV",
 "name":"L-glutamate 5-semialdehyde dehydratase (reversible)",
 "metabolites":{
-"prot_standard":-0.83796962430056,
+"prot_standard":-0.832129749690323,
 "s_0118":-1.0,
 "s_0794":-1.0,
 "s_0803":-1.0,
@@ -73354,7 +73180,7 @@
 "id":"y002148",
 "name":"3-hydroxyacyl-thioester dehydratase (trans-but-2-enoyl-ACP)",
 "metabolites":{
-"prot_Q6CGI2":-0.697002398081535,
+"prot_Q6CGI2":-0.692144934887415,
 "s_0807":1.0,
 "s_2775":-1.0,
 "s_2778":1.0
@@ -73376,7 +73202,7 @@
 "id":"y002148_REV",
 "name":"3-hydroxyacyl-thioester dehydratase (trans-but-2-enoyl-ACP) (reversible)",
 "metabolites":{
-"prot_Q6CGI2":-0.697002398081535,
+"prot_Q6CGI2":-0.692144934887415,
 "s_0807":-1.0,
 "s_2775":1.0,
 "s_2778":-1.0
@@ -73398,7 +73224,7 @@
 "id":"y002149",
 "name":"3-hydroxyacyl-thioester dehydratase (trans-hex-2-enoyl-ACP)",
 "metabolites":{
-"prot_Q6CGI2":-0.697002398081535,
+"prot_Q6CGI2":-0.692144934887415,
 "s_0807":1.0,
 "s_2776":-1.0,
 "s_2779":1.0
@@ -73420,7 +73246,7 @@
 "id":"y002149_REV",
 "name":"3-hydroxyacyl-thioester dehydratase (trans-hex-2-enoyl-ACP) (reversible)",
 "metabolites":{
-"prot_Q6CGI2":-0.697002398081535,
+"prot_Q6CGI2":-0.692144934887415,
 "s_0807":-1.0,
 "s_2776":1.0,
 "s_2779":-1.0
@@ -73442,7 +73268,7 @@
 "id":"y002150",
 "name":"3-hydroxyacyl-thioester dehydratase (trans-oct-2-enoyl-ACP)",
 "metabolites":{
-"prot_Q6CGI2":-0.697002398081535,
+"prot_Q6CGI2":-0.692144934887415,
 "s_0807":1.0,
 "s_2777":-1.0,
 "s_2780":1.0
@@ -73464,7 +73290,7 @@
 "id":"y002150_REV",
 "name":"3-hydroxyacyl-thioester dehydratase (trans-oct-2-enoyl-ACP) (reversible)",
 "metabolites":{
-"prot_Q6CGI2":-0.697002398081535,
+"prot_Q6CGI2":-0.692144934887415,
 "s_0807":-1.0,
 "s_2777":1.0,
 "s_2780":-1.0
@@ -76606,7 +76432,7 @@
 "id":"y002239_EXP_4",
 "name":"acyl-CoA oxidase (icosanoyl-CoA)",
 "metabolites":{
-"prot_F2Z630":-2.40291134100547,
+"prot_F2Z630":-2.40291134100548,
 "s_0840":1.0,
 "s_1279":-1.0,
 "s_2879":-1.0,
@@ -76731,7 +76557,7 @@
 "id":"y002240_EXP_3",
 "name":"acyl-CoA oxidase (docosanoyl-CoA)",
 "metabolites":{
-"prot_O74936":-1.33468701153295,
+"prot_O74936":-1.33468701153296,
 "s_0840":1.0,
 "s_1279":-1.0,
 "s_2881":-1.0,
@@ -84784,7 +84610,7 @@
 "m1647":-1.0,
 "m1648":1.0,
 "m567":-1.0,
-"prot_Q6C336":-0.926398880895284,
+"prot_Q6C336":-0.919942736010548,
 "s_2785":1.0
 },
 "lower_bound":0.0,
@@ -84945,7 +84771,7 @@
 "m789":-1.0,
 "m790":-1.0,
 "m791":1.0,
-"prot_standard":-0.83796962430056,
+"prot_standard":-0.832129749690323,
 "s_3321":1.0
 },
 "lower_bound":0.0,
@@ -86245,7 +86071,7 @@
 "metabolites":{
 "m1681":1.0,
 "m1684":-1.0,
-"prot_Q6C1Z2":-0.769604316546763,
+"prot_Q6C1Z2":-0.76424088501202,
 "s_2808":-1.0,
 "s_2966":1.0
 },
@@ -86559,7 +86385,7 @@
 "metabolites":{
 "m1687":1.0,
 "m1688":-1.0,
-"prot_standard":-0.83796962430056,
+"prot_standard":-0.832129749690323,
 "s_3359":-1.0,
 "s_3360":1.0
 },
@@ -86579,7 +86405,7 @@
 "metabolites":{
 "m1687":-1.0,
 "m1688":1.0,
-"prot_standard":-0.83796962430056,
+"prot_standard":-0.832129749690323,
 "s_3359":1.0,
 "s_3360":-1.0
 },
@@ -86599,7 +86425,7 @@
 "metabolites":{
 "m1685":1.0,
 "m1686":-1.0,
-"prot_standard":-0.83796962430056,
+"prot_standard":-0.832129749690323,
 "s_3341":-1.0,
 "s_3342":1.0
 },
@@ -86619,7 +86445,7 @@
 "metabolites":{
 "m1685":-1.0,
 "m1686":1.0,
-"prot_standard":-0.83796962430056,
+"prot_standard":-0.832129749690323,
 "s_3341":1.0,
 "s_3342":-1.0
 },
@@ -88255,7 +88081,7 @@
 "metabolites":{
 "m572":-1.0,
 "m577":1.0,
-"prot_standard":-0.83796962430056,
+"prot_standard":-0.832129749690323,
 "s_0798":-1.0,
 "s_2952":-1.0,
 "s_2953":1.0
@@ -88277,7 +88103,7 @@
 "metabolites":{
 "m572":1.0,
 "m577":-1.0,
-"prot_standard":-0.83796962430056,
+"prot_standard":-0.832129749690323,
 "s_0798":1.0,
 "s_2952":1.0,
 "s_2953":-1.0
@@ -92052,7 +91878,7 @@
 "metabolites":{
 "m1820":1.0,
 "m1822":-1.0,
-"prot_standard":-0.83796962430056,
+"prot_standard":-0.832129749690323,
 "s_0794":1.0,
 "s_1275":-1.0
 },
@@ -92074,7 +91900,7 @@
 "metabolites":{
 "m1819":1.0,
 "m1820":-1.0,
-"prot_standard":-0.83796962430056
+"prot_standard":-0.832129749690323
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
@@ -92094,7 +91920,7 @@
 "metabolites":{
 "m1819":-1.0,
 "m1820":1.0,
-"prot_standard":-0.83796962430056
+"prot_standard":-0.832129749690323
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
@@ -92114,7 +91940,7 @@
 "metabolites":{
 "m1819":-1.0,
 "m1821":1.0,
-"prot_standard":-0.83796962430056,
+"prot_standard":-0.832129749690323,
 "s_0725":1.0,
 "s_0794":1.0,
 "s_0803":-1.0
@@ -92136,7 +91962,7 @@
 "name":"erythrose kinase",
 "metabolites":{
 "m1827":1.0,
-"prot_standard":-0.83796962430056,
+"prot_standard":-0.832129749690323,
 "s_0394":-1.0,
 "s_0434":1.0,
 "s_0551":-1.0
@@ -92157,7 +91983,7 @@
 "name":"erythrose kinase (reversible)",
 "metabolites":{
 "m1827":-1.0,
-"prot_standard":-0.83796962430056,
+"prot_standard":-0.832129749690323,
 "s_0394":1.0,
 "s_0434":-1.0,
 "s_0551":1.0
@@ -92352,7 +92178,7 @@
 "name":"arabinitol dehydrogenase",
 "metabolites":{
 "m1823":1.0,
-"prot_standard":-0.83796962430056,
+"prot_standard":-0.832129749690323,
 "s_0580":-1.0,
 "s_0794":-1.0,
 "s_1198":1.0,
@@ -92375,7 +92201,7 @@
 "name":"arabinitol dehydrogenase (reversible)",
 "metabolites":{
 "m1823":-1.0,
-"prot_standard":-0.83796962430056,
+"prot_standard":-0.832129749690323,
 "s_0580":1.0,
 "s_0794":1.0,
 "s_1198":-1.0,
@@ -92565,7 +92391,7 @@
 "name":"3-methylglutaconyl-CoA dehydratase",
 "metabolites":{
 "m1832":-1.0,
-"prot_standard":-0.83796962430056,
+"prot_standard":-0.832129749690323,
 "s_0221":1.0,
 "s_0807":-1.0
 },

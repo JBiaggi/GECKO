@@ -1,0 +1,10 @@
+cd C:\Users\jusabe\Documents\GECKO\ecYali4GEM\models
+
+python
+
+import cobra
+
+xml_model_path = "ecYali4GEM.xml"
+cobra_model = cobra.io.read_sbml_model(xml_model_path)
+json_model_path = "ecYali4GEM.json"
+cobra.io.save_json_model(cobra_model, json_model_path)

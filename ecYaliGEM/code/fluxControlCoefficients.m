@@ -15,15 +15,16 @@ uptakeCsource = (exprGrowth/Yxs)*1000/CsourceMM;
 % Get relevant rxn indexes
 poolIdx      = strcmpi(ecModel.rxns, 'prot_pool_exchange');
 
-% Fix experimental growth and carbon source uptake
-ecModel = setParam(ecModel,'eq',{'xBIOMASS', 'y001808'}, [exprGrowth -uptakeCsource]);
-
-% Minimize protein pool
-ecModel = setParam(ecModel, 'obj', 'prot_pool_exchange', 1);
-sol   = solveLP(ecModel);
-ecModel = setParam(ecModel, 'lb', 'prot_pool_exchange', sol.x(poolIdx) * 1.01);
+% % Fix experimental growth and carbon source uptake
+% ecModel = setParam(ecModel,'eq',{'xBIOMASS', 'y001808'}, [exprGrowth -uptakeCsource]);
+% 
+% % Minimize protein pool
+% ecModel = setParam(ecModel, 'obj', 'prot_pool_exchange', 1);
+% sol   = solveLP(ecModel);
+% ecModel = setParam(ecModel, 'lb', 'prot_pool_exchange', sol.x(poolIdx) * 1.01);
 
 % Maximize target, store original ecModel
+ecModel = setParam(ecModel, 'eq', 'y000173', 0);
 ecModel = setParam(ecModel, 'obj', 'EXC_OUT_m1640', 1);
 ecModel_OG = ecModel;
 sol = solveLP(ecModel);

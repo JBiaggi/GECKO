@@ -36,6 +36,7 @@ if nargin < 2 || isempty(filename)
 end
 filename = fullfile(params.path,'models',filename);
 
+%ecModel.id = params.org_name;
 ecModel.description = ['Enzyme-constrained model of ' ecModel.id];
 
 switch filename(end-3:end)

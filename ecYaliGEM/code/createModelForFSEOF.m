@@ -8,7 +8,7 @@ model = loadConventionalGEM();
 model = setParam(model,'eq','y001714',0);
 
 [model, addedRxns] = addExchangeRxns(model,'out','m1640');
-model.subSystems(1) = model.subSystems(29);
+model.subSystems(1988) = model.subSystems(1987);
 
 % rxns with wrong name in the original iYali - JSB
 model.rxnNames(find(strcmp(model.rxns,'y000027'))) = {'homoaconitase'};
@@ -17,6 +17,7 @@ model = setParam(model,'rev','y001808',1);
 model = changeGeneAssoc(model,'y000958','YALI0C24101g'); % had another GPR associated to an enzyme with a different function
 model = changeGeneAssoc(model,'y000336','YALI0E32769g or YALI0D07986g'); % GPR for DGA2, which is missing in the original model
 model = changeGeneAssoc(model,'y000336_1','YALI0E32769g or YALI0D07986g'); % GPR for DGA2, which is missing in the original model
+model = changeGeneAssoc(model,'y000310','YALI0F05874g'); % corrected cystathionine g-lyase GPR
 
 % Adjustment of aldehyde dehydrogenases grRules
 
@@ -44,6 +45,13 @@ grRules = {'YALI0D07942g or YALI0F04444g';...
            };
 
 model = changeGrRules(model,rxns,grRules);
+
+% Remove glycerol dehydrogenase and mitochondrial glycerol-3-phosphate dehydrogenase (NAD) rxns (likely not present in Yali)
+model = removeReactions(model,{'y000487', 'y000492'});
+
+% Change reversibility of glycerol-3-phosphate dehydrogenase (NAD)
+model = setParam(model,'rev',{'y000491'},1);
+model = setParam(model,'lb',{'y000491'},-1000);
 
 %% Make irreversible with RAVEN function:
 model = convertToIrrev(model);

@@ -25,7 +25,7 @@
 %     https://se.mathworks.com/help/matlab/matlab_env/get-add-ons.html
 %   - The installation of Gurobi as LP solver is highly recommended
 checkInstallation; % Confirm that RAVEN is functional, should be 2.8.3 or later.
-
+FC = ecFSEOF(ecModel,'r_2104',params.c_source);
 %   - Install GECKO by following the installation instructions:
 %     https://github.com/SysBioChalmers/GECKO/wiki/Installation-and-upgrade
 %   - As RAVEN, GECKO can also be installed as MATLAB Add-On (link above)
