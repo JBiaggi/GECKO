@@ -60,7 +60,7 @@ classdef ecYali4Adapter < ModelAdapter
 			obj.params.c_source = '1808'; 
 
 			% Reaction ID for biomass pseudoreaction
-			obj.params.bioRxn = 'biomass_C';
+			obj.params.bioRxn = 'xBIOMASS';
 
 			% Compartment name in which the added enzymes should be located
 			obj.params.enzyme_comp = 'cytoplasm';

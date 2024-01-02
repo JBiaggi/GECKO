@@ -93,7 +93,7 @@ saveEcModel(ecModel,'ecYali4GEM_stage2.yml');
 ecModel = setParam(ecModel,'eq','1714',0);
 ecModel = setParam(ecModel,'lb','1808',-1000);
 % And set growth maximization as the objective function.
-ecModel = setParam(ecModel,'obj','biomass_C',1);
+ecModel = setParam(ecModel,'obj','xBIOMASS',1);
 % Run FBA.
 sol = solveLP(ecModel,1);
 bioRxnIdx = getIndexes(ecModel,params.bioRxn,'rxns');
