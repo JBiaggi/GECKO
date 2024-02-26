@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="http://www.sbml.org/sbml/level3/version1/groups/version1" level="3" version="1" fbc:required="false" groups:required="false">
-  <model metaid="blankID" id="blankID" name="blankName" fbc:strict="true">
+  <model metaid="ecJFYL14_pooled" id="ecJFYL14_pooled" name="blankName" fbc:strict="true">
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <p>This file was generated using the exportModel function in RAVEN Toolbox 2 and OutputSBML in libSBML</p>
@@ -8,15 +8,15 @@
     </notes>
     <annotation>
       <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-        <rdf:Description rdf:about="#blankID">
+        <rdf:Description rdf:about="#ecJFYL14_pooled">
           <dcterms:creator>
             <rdf:Bag/>
           </dcterms:creator>
           <dcterms:created rdf:parseType="Resource">
-            <dcterms:W3CDTF>2024-02-20T11:53:37Z</dcterms:W3CDTF>
+            <dcterms:W3CDTF>2024-02-20T11:58:42Z</dcterms:W3CDTF>
           </dcterms:created>
           <dcterms:modified rdf:parseType="Resource">
-            <dcterms:W3CDTF>2024-02-20T11:53:37Z</dcterms:W3CDTF>
+            <dcterms:W3CDTF>2024-02-20T11:58:42Z</dcterms:W3CDTF>
           </dcterms:modified>
         </rdf:Description>
       </rdf:RDF>
@@ -2629,6 +2629,9 @@
       <species metaid="M_prot_W0TYP2" sboTerm="SBO:0000247" id="M_prot_W0TYP2" name="prot_W0TYP2" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species metaid="M_prot_pool" sboTerm="SBO:0000247" id="M_prot_pool" name="prot_pool" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species metaid="M_prot_standard" sboTerm="SBO:0000247" id="M_prot_standard" name="prot_standard" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species metaid="M_m1840" sboTerm="SBO:0000247" id="M_m1840" name="itaconate" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C5H6O4"/>
+      <species metaid="M_m1841" sboTerm="SBO:0000247" id="M_m1841" name="itaconate" compartment="e" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:chemicalFormula="C5H6O4"/>
+      <species metaid="M_prot_B3IUN8" sboTerm="SBO:0000247" id="M_prot_B3IUN8" name="prot_B3IUN8" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
     <listOfParameters>
       <parameter id="FB1N1000" value="-1000" constant="true"/>
@@ -3629,7 +3632,7 @@
         <listOfReactants>
           <speciesReference species="M_m1580" stoichiometry="1" constant="true"/>
           <speciesReference species="M_m1640" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_prot_Q6C8R8" stoichiometry="0.00134602549082259" constant="true"/>
+          <speciesReference species="M_prot_Q6C8R8" stoichiometry="0.0013460254908226" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_m1249" stoichiometry="1" constant="true"/>
@@ -3644,7 +3647,7 @@
         <listOfReactants>
           <speciesReference species="M_m1580" stoichiometry="1" constant="true"/>
           <speciesReference species="M_m1640" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_prot_Q6C282" stoichiometry="0.00161706962047786" constant="true"/>
+          <speciesReference species="M_prot_Q6C282" stoichiometry="0.00161706962047787" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_m1249" stoichiometry="1" constant="true"/>
@@ -7544,7 +7547,7 @@
           <fbc:geneProductRef fbc:geneProduct="YALI0E00418g"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_1542" sboTerm="SBO:0000176" id="R_1542" name="(1-3)-beta-D-glucan exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_1542" sboTerm="SBO:0000176" id="R_1542" name="(1-3)-beta-D-glucan exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m510" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -7565,47 +7568,47 @@
           <speciesReference species="M_m9" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1545" sboTerm="SBO:0000176" id="R_1545" name="(R)-carnitine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1545" sboTerm="SBO:0000176" id="R_1545" name="(R)-carnitine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1069" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1546" sboTerm="SBO:0000176" id="R_1546" name="(R)-lactate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_1546" sboTerm="SBO:0000176" id="R_1546" name="(R)-lactate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m1043" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1547" sboTerm="SBO:0000176" id="R_1547" name="(R)-mevalonate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_1547" sboTerm="SBO:0000176" id="R_1547" name="(R)-mevalonate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m1018" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1548" sboTerm="SBO:0000176" id="R_1548" name="(R)-pantothenate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1548" sboTerm="SBO:0000176" id="R_1548" name="(R)-pantothenate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1098" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1549" sboTerm="SBO:0000176" id="R_1549" name="(R,R)-2,3-butanediol exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1549" sboTerm="SBO:0000176" id="R_1549" name="(R,R)-2,3-butanediol exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1020" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1551" sboTerm="SBO:0000176" id="R_1551" name="(S)-lactate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_1551" sboTerm="SBO:0000176" id="R_1551" name="(S)-lactate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m1079" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1552" sboTerm="SBO:0000176" id="R_1552" name="(S)-malate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1552" sboTerm="SBO:0000176" id="R_1552" name="(S)-malate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1130" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1553" sboTerm="SBO:0000176" id="R_1553" name="1-(sn-glycero-3-phospho)-1D-myo-inositol exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1553" sboTerm="SBO:0000176" id="R_1553" name="1-(sn-glycero-3-phospho)-1D-myo-inositol exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1053" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1554" sboTerm="SBO:0000176" id="R_1554" name="1-acylglycerophosphocholine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1554" sboTerm="SBO:0000176" id="R_1554" name="1-acylglycerophosphocholine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1133" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -7656,22 +7659,22 @@
           <speciesReference species="M_m728" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1563" sboTerm="SBO:0000176" id="R_1563" name="2&apos;-deoxyadenosine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1563" sboTerm="SBO:0000176" id="R_1563" name="2&apos;-deoxyadenosine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1135" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1564" sboTerm="SBO:0000176" id="R_1564" name="2&apos;-deoxyguanosine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1564" sboTerm="SBO:0000176" id="R_1564" name="2&apos;-deoxyguanosine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1137" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1565" sboTerm="SBO:0000176" id="R_1565" name="2&apos;-deoxyinosine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1565" sboTerm="SBO:0000176" id="R_1565" name="2&apos;-deoxyinosine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1139" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1566" sboTerm="SBO:0000176" id="R_1566" name="2&apos;-deoxyuridine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1566" sboTerm="SBO:0000176" id="R_1566" name="2&apos;-deoxyuridine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1141" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -7724,7 +7727,7 @@
           <fbc:geneProductRef fbc:geneProduct="YALI0B04180g"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_1572" sboTerm="SBO:0000176" id="R_1572" name="2-isopropylmalate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_1572" sboTerm="SBO:0000176" id="R_1572" name="2-isopropylmalate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m1143" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -7777,7 +7780,7 @@
           <speciesReference species="M_m442" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1586" sboTerm="SBO:0000176" id="R_1586" name="2-oxoglutarate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1586" sboTerm="SBO:0000176" id="R_1586" name="2-oxoglutarate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1145" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -7874,7 +7877,7 @@
           <speciesReference species="M_m649" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1604" sboTerm="SBO:0000176" id="R_1604" name="4-aminobenzoate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1604" sboTerm="SBO:0000176" id="R_1604" name="4-aminobenzoate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1148" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -8170,7 +8173,7 @@
           <fbc:geneProductRef fbc:geneProduct="YALI0C19866g"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_1621" sboTerm="SBO:0000176" id="R_1621" name="5-aminolevulinate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1621" sboTerm="SBO:0000176" id="R_1621" name="5-aminolevulinate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1022" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -8217,12 +8220,12 @@
           <speciesReference species="M_m532" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1625" sboTerm="SBO:0000176" id="R_1625" name="5-formyltetrahydrofolic acid exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1625" sboTerm="SBO:0000176" id="R_1625" name="5-formyltetrahydrofolic acid exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1023" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1627" sboTerm="SBO:0000176" id="R_1627" name="7,8-diaminononanoate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1627" sboTerm="SBO:0000176" id="R_1627" name="7,8-diaminononanoate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1152" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -8243,17 +8246,17 @@
           <speciesReference species="M_m1152" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1629" sboTerm="SBO:0000176" id="R_1629" name="8-amino-7-oxononanoate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1629" sboTerm="SBO:0000176" id="R_1629" name="8-amino-7-oxononanoate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1024" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1630" sboTerm="SBO:0000176" id="R_1630" name="9H-xanthine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1630" sboTerm="SBO:0000176" id="R_1630" name="9H-xanthine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1155" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1631" sboTerm="SBO:0000176" id="R_1631" name="acetaldehyde exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1631" sboTerm="SBO:0000176" id="R_1631" name="acetaldehyde exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1157" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -8290,7 +8293,7 @@
           <speciesReference species="M_m1157" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1634" sboTerm="SBO:0000176" id="R_1634" name="acetate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1634" sboTerm="SBO:0000176" id="R_1634" name="acetate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1025" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -8335,7 +8338,7 @@
           <speciesReference species="M_m370" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1639" sboTerm="SBO:0000176" id="R_1639" name="adenine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1639" sboTerm="SBO:0000176" id="R_1639" name="adenine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1026" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -8431,7 +8434,7 @@
           <speciesReference species="M_m145" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1641" sboTerm="SBO:0000176" id="R_1641" name="adenosine 3&apos;,5&apos;-bismonophosphate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1641" sboTerm="SBO:0000176" id="R_1641" name="adenosine 3&apos;,5&apos;-bismonophosphate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1161" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -8452,7 +8455,7 @@
           <speciesReference species="M_m85" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1643" sboTerm="SBO:0000176" id="R_1643" name="adenosine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1643" sboTerm="SBO:0000176" id="R_1643" name="adenosine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1027" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -8505,12 +8508,12 @@
           <speciesReference species="M_m51" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1648" sboTerm="SBO:0000176" id="R_1648" name="allantoate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1648" sboTerm="SBO:0000176" id="R_1648" name="allantoate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1029" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1649" sboTerm="SBO:0000176" id="R_1649" name="allantoin exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1649" sboTerm="SBO:0000176" id="R_1649" name="allantoin exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1030" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -8680,12 +8683,12 @@
           <fbc:geneProductRef fbc:geneProduct="YALI0F29623g"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_1650" sboTerm="SBO:0000176" id="R_1650" name="alpha,alpha-trehalose exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1650" sboTerm="SBO:0000176" id="R_1650" name="alpha,alpha-trehalose exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1167" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1651" sboTerm="SBO:0000176" id="R_1651" name="alpha-D-glucosamine 6-phosphate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1651" sboTerm="SBO:0000176" id="R_1651" name="alpha-D-glucosamine 6-phosphate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1169" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -8801,7 +8804,7 @@
           <speciesReference species="M_m141" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1663" sboTerm="SBO:0000176" id="R_1663" name="bicarbonate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1663" sboTerm="SBO:0000176" id="R_1663" name="bicarbonate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1172" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -8895,12 +8898,12 @@
           <speciesReference species="M_m199" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1671" sboTerm="SBO:0000176" id="R_1671" name="biotin exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1671" sboTerm="SBO:0000176" id="R_1671" name="biotin exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1032" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1672" sboTerm="SBO:0000176" id="R_1672" name="carbon dioxide exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_1672" sboTerm="SBO:0000176" id="R_1672" name="carbon dioxide exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m1176" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -9049,7 +9052,7 @@
           <speciesReference species="M_m353" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1683" sboTerm="SBO:0000176" id="R_1683" name="choline exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1683" sboTerm="SBO:0000176" id="R_1683" name="choline exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1037" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -9096,7 +9099,7 @@
           <speciesReference species="M_m1187" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1687" sboTerm="SBO:0000176" id="R_1687" name="citrate(3-) exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_1687" sboTerm="SBO:0000176" id="R_1687" name="citrate(3-) exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m1187" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -9345,7 +9348,7 @@
           <speciesReference species="M_m1189" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1702" sboTerm="SBO:0000176" id="R_1702" name="cytidine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1702" sboTerm="SBO:0000176" id="R_1702" name="cytidine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -9406,12 +9409,12 @@
           <fbc:geneProductRef fbc:geneProduct="YALI0F09339g"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_1705" sboTerm="SBO:0000176" id="R_1705" name="cytosine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1705" sboTerm="SBO:0000176" id="R_1705" name="cytosine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1041" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1706" sboTerm="SBO:0000176" id="R_1706" name="D-arabinose exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1706" sboTerm="SBO:0000176" id="R_1706" name="D-arabinose exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1193" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -9448,22 +9451,22 @@
           <speciesReference species="M_m106" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1709" sboTerm="SBO:0000176" id="R_1709" name="D-fructose exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1709" sboTerm="SBO:0000176" id="R_1709" name="D-fructose exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m963" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1710" sboTerm="SBO:0000176" id="R_1710" name="D-galactose exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1710" sboTerm="SBO:0000176" id="R_1710" name="D-galactose exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1042" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1711" sboTerm="SBO:0000176" id="R_1711" name="D-galacturonate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1711" sboTerm="SBO:0000176" id="R_1711" name="D-galacturonate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1197" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1712" sboTerm="SBO:0000176" id="R_1712" name="D-glucitol exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1712" sboTerm="SBO:0000176" id="R_1712" name="D-glucitol exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1199" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -9484,17 +9487,17 @@
           <speciesReference species="M_m1169" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1714" sboTerm="SBO:0000176" id="R_1714" name="D-glucose exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB1N1000" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1714" sboTerm="SBO:0000176" id="R_1714" name="D-glucose exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB1N1000" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m511" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1715" sboTerm="SBO:0000176" id="R_1715" name="D-mannose exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1715" sboTerm="SBO:0000176" id="R_1715" name="D-mannose exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1044" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1716" sboTerm="SBO:0000176" id="R_1716" name="D-ribose exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1716" sboTerm="SBO:0000176" id="R_1716" name="D-ribose exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1203" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -9515,7 +9518,7 @@
           <speciesReference species="M_m1199" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1718" sboTerm="SBO:0000176" id="R_1718" name="D-xylose exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1718" sboTerm="SBO:0000176" id="R_1718" name="D-xylose exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1205" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -9628,7 +9631,7 @@
           <speciesReference species="M_m820" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1727" sboTerm="SBO:0000176" id="R_1727" name="decanoate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1727" sboTerm="SBO:0000176" id="R_1727" name="decanoate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1207" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -9717,7 +9720,7 @@
           <fbc:geneProductRef fbc:geneProduct="YALI0C03025g"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_1730" sboTerm="SBO:0000176" id="R_1730" name="deoxycytidine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1730" sboTerm="SBO:0000176" id="R_1730" name="deoxycytidine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1209" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -9933,7 +9936,7 @@
           <speciesReference species="M_m501" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1749" sboTerm="SBO:0000176" id="R_1749" name="dTTP exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1749" sboTerm="SBO:0000176" id="R_1749" name="dTTP exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1211" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -10002,7 +10005,7 @@
           <speciesReference species="M_m460" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1753" sboTerm="SBO:0000176" id="R_1753" name="episterol exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1753" sboTerm="SBO:0000176" id="R_1753" name="episterol exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1045" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -10023,7 +10026,7 @@
           <speciesReference species="M_m353" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1757" sboTerm="SBO:0000176" id="R_1757" name="ergosterol exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1757" sboTerm="SBO:0000176" id="R_1757" name="ergosterol exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1046" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -10076,7 +10079,7 @@
           <speciesReference species="M_m1000" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1761" sboTerm="SBO:0000176" id="R_1761" name="ethanol exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1761" sboTerm="SBO:0000176" id="R_1761" name="ethanol exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1217" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -10113,7 +10116,7 @@
           <speciesReference species="M_m275" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1764" sboTerm="SBO:0000176" id="R_1764" name="ethanolamine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1764" sboTerm="SBO:0000176" id="R_1764" name="ethanolamine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1047" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -10246,7 +10249,7 @@
           <speciesReference species="M_m1227" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1788" sboTerm="SBO:0000176" id="R_1788" name="fecosterol exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1788" sboTerm="SBO:0000176" id="R_1788" name="fecosterol exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1049" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -10263,17 +10266,17 @@
           <speciesReference species="M_m563" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1791" sboTerm="SBO:0000176" id="R_1791" name="FMN exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1791" sboTerm="SBO:0000176" id="R_1791" name="FMN exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m213" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1792" sboTerm="SBO:0000176" id="R_1792" name="folic acid exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1792" sboTerm="SBO:0000176" id="R_1792" name="folic acid exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1050" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1793" sboTerm="SBO:0000176" id="R_1793" name="formate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1793" sboTerm="SBO:0000176" id="R_1793" name="formate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1231" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -10330,12 +10333,12 @@
           <speciesReference species="M_m535" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1798" sboTerm="SBO:0000176" id="R_1798" name="fumarate(2-) exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1798" sboTerm="SBO:0000176" id="R_1798" name="fumarate(2-) exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1233" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1800" sboTerm="SBO:0000176" id="R_1800" name="gamma-aminobutyrate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1800" sboTerm="SBO:0000176" id="R_1800" name="gamma-aminobutyrate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1021" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -10396,17 +10399,17 @@
           <speciesReference species="M_m1236" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1806" sboTerm="SBO:0000176" id="R_1806" name="glutathione disulfide exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1806" sboTerm="SBO:0000176" id="R_1806" name="glutathione disulfide exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1237" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1807" sboTerm="SBO:0000176" id="R_1807" name="glutathione exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1807" sboTerm="SBO:0000176" id="R_1807" name="glutathione exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1052" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1808" sboTerm="SBO:0000176" id="R_1808" name="glycerol exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_1808" sboTerm="SBO:0000176" id="R_1808" name="glycerol exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m1056" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -10427,7 +10430,7 @@
           <speciesReference species="M_m562" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1810" sboTerm="SBO:0000176" id="R_1810" name="glycine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_1810" sboTerm="SBO:0000176" id="R_1810" name="glycine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m1057" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -10472,12 +10475,12 @@
           <speciesReference species="M_m1242" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1814" sboTerm="SBO:0000176" id="R_1814" name="glycolaldehyde exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1814" sboTerm="SBO:0000176" id="R_1814" name="glycolaldehyde exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1242" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1815" sboTerm="SBO:0000176" id="R_1815" name="glyoxylate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1815" sboTerm="SBO:0000176" id="R_1815" name="glyoxylate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1244" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -10514,7 +10517,7 @@
           <speciesReference species="M_m271" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1818" sboTerm="SBO:0000176" id="R_1818" name="guanine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1818" sboTerm="SBO:0000176" id="R_1818" name="guanine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1059" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -10535,7 +10538,7 @@
           <speciesReference species="M_m595" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1820" sboTerm="SBO:0000176" id="R_1820" name="guanosine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1820" sboTerm="SBO:0000176" id="R_1820" name="guanosine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1247" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -10693,7 +10696,7 @@
           <speciesReference species="M_m1251" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1834" sboTerm="SBO:0000176" id="R_1834" name="hexadecanal exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1834" sboTerm="SBO:0000176" id="R_1834" name="hexadecanal exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1252" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -10786,7 +10789,7 @@
           <speciesReference species="M_m646" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1841" sboTerm="SBO:0000176" id="R_1841" name="hypoxanthine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1841" sboTerm="SBO:0000176" id="R_1841" name="hypoxanthine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1257" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -10823,7 +10826,7 @@
           <speciesReference species="M_m1259" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1847" sboTerm="SBO:0000176" id="R_1847" name="inosine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1847" sboTerm="SBO:0000176" id="R_1847" name="inosine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1261" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11024,12 +11027,12 @@
           <speciesReference species="M_m1272" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1861" sboTerm="SBO:0000176" id="R_1861" name="iron(2+) exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1861" sboTerm="SBO:0000176" id="R_1861" name="iron(2+) exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1273" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1862" sboTerm="SBO:0000176" id="R_1862" name="isoamyl acetate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1862" sboTerm="SBO:0000176" id="R_1862" name="isoamyl acetate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1062" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11066,7 +11069,7 @@
           <speciesReference species="M_m1276" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1865" sboTerm="SBO:0000176" id="R_1865" name="isoamylol exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1865" sboTerm="SBO:0000176" id="R_1865" name="isoamylol exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1277" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11091,7 +11094,7 @@
           <speciesReference species="M_m82" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1873" sboTerm="SBO:0000176" id="R_1873" name="L-alanine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_1873" sboTerm="SBO:0000176" id="R_1873" name="L-alanine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m1063" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11104,7 +11107,7 @@
           <speciesReference species="M_m114" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1875" sboTerm="SBO:0000176" id="R_1875" name="L-arabinitol exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_1875" sboTerm="SBO:0000176" id="R_1875" name="L-arabinitol exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m1281" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11141,12 +11144,12 @@
           <speciesReference species="M_m1283" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1878" sboTerm="SBO:0000176" id="R_1878" name="L-arabinose exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1878" sboTerm="SBO:0000176" id="R_1878" name="L-arabinose exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1283" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1879" sboTerm="SBO:0000176" id="R_1879" name="L-arginine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1879" sboTerm="SBO:0000176" id="R_1879" name="L-arginine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1064" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11166,12 +11169,12 @@
           <fbc:geneProductRef fbc:geneProduct="YALI0F16709g"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_1880" sboTerm="SBO:0000176" id="R_1880" name="L-asparagine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_1880" sboTerm="SBO:0000176" id="R_1880" name="L-asparagine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m1065" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1881" sboTerm="SBO:0000176" id="R_1881" name="L-aspartate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_1881" sboTerm="SBO:0000176" id="R_1881" name="L-aspartate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m1068" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11184,7 +11187,7 @@
           <speciesReference species="M_m369" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1883" sboTerm="SBO:0000176" id="R_1883" name="L-cysteine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1883" sboTerm="SBO:0000176" id="R_1883" name="L-cysteine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1070" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11221,7 +11224,7 @@
           <speciesReference species="M_m759" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1886" sboTerm="SBO:0000176" id="R_1886" name="L-glucitol exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1886" sboTerm="SBO:0000176" id="R_1886" name="L-glucitol exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1289" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11248,7 +11251,7 @@
           <speciesReference species="M_m552" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1889" sboTerm="SBO:0000176" id="R_1889" name="L-glutamate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_1889" sboTerm="SBO:0000176" id="R_1889" name="L-glutamate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m1072" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11283,7 +11286,7 @@
           <speciesReference species="M_m50" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1891" sboTerm="SBO:0000176" id="R_1891" name="L-glutamine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1891" sboTerm="SBO:0000176" id="R_1891" name="L-glutamine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1074" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11304,7 +11307,7 @@
           <speciesReference species="M_m130" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1893" sboTerm="SBO:0000176" id="R_1893" name="L-histidine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1893" sboTerm="SBO:0000176" id="R_1893" name="L-histidine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1075" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11325,12 +11328,12 @@
           <speciesReference species="M_m1294" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1896" sboTerm="SBO:0000176" id="R_1896" name="L-homoserine transport" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1896" sboTerm="SBO:0000176" id="R_1896" name="L-homoserine transport" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1294" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1897" sboTerm="SBO:0000176" id="R_1897" name="L-isoleucine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1897" sboTerm="SBO:0000176" id="R_1897" name="L-isoleucine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1077" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11343,7 +11346,7 @@
           <speciesReference species="M_m743" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1899" sboTerm="SBO:0000176" id="R_1899" name="L-leucine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1899" sboTerm="SBO:0000176" id="R_1899" name="L-leucine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1081" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11475,7 +11478,7 @@
           <fbc:geneProductRef fbc:geneProduct="YALI0F23243g"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_1900" sboTerm="SBO:0000176" id="R_1900" name="L-lysine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_1900" sboTerm="SBO:0000176" id="R_1900" name="L-lysine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m1082" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11496,17 +11499,17 @@
           <speciesReference species="M_m1130" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1902" sboTerm="SBO:0000176" id="R_1902" name="L-methionine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1902" sboTerm="SBO:0000176" id="R_1902" name="L-methionine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1083" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1903" sboTerm="SBO:0000176" id="R_1903" name="L-phenylalanine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1903" sboTerm="SBO:0000176" id="R_1903" name="L-phenylalanine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1084" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1904" sboTerm="SBO:0000176" id="R_1904" name="L-proline exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1904" sboTerm="SBO:0000176" id="R_1904" name="L-proline exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1085" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11527,7 +11530,7 @@
           <speciesReference species="M_m765" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1906" sboTerm="SBO:0000176" id="R_1906" name="L-serine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_1906" sboTerm="SBO:0000176" id="R_1906" name="L-serine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m1086" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11564,7 +11567,7 @@
           <speciesReference species="M_m1289" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1909" sboTerm="SBO:0000176" id="R_1909" name="L-sorbose exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1909" sboTerm="SBO:0000176" id="R_1909" name="L-sorbose exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1303" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11599,32 +11602,32 @@
           <speciesReference species="M_m1303" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1911" sboTerm="SBO:0000176" id="R_1911" name="L-threonine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_1911" sboTerm="SBO:0000176" id="R_1911" name="L-threonine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m1087" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1912" sboTerm="SBO:0000176" id="R_1912" name="L-tryptophan exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1912" sboTerm="SBO:0000176" id="R_1912" name="L-tryptophan exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1088" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1913" sboTerm="SBO:0000176" id="R_1913" name="L-tyrosine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1913" sboTerm="SBO:0000176" id="R_1913" name="L-tyrosine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1090" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1914" sboTerm="SBO:0000176" id="R_1914" name="L-valine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1914" sboTerm="SBO:0000176" id="R_1914" name="L-valine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1091" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1915" sboTerm="SBO:0000176" id="R_1915" name="lanosterol exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1915" sboTerm="SBO:0000176" id="R_1915" name="lanosterol exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1092" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1916" sboTerm="SBO:0000176" id="R_1916" name="laurate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1916" sboTerm="SBO:0000176" id="R_1916" name="laurate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1310" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11922,7 +11925,7 @@
           <speciesReference species="M_m799" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1931" sboTerm="SBO:0000176" id="R_1931" name="maltose exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1931" sboTerm="SBO:0000176" id="R_1931" name="maltose exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1322" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -12124,7 +12127,7 @@
           <speciesReference species="M_m1334" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1947" sboTerm="SBO:0000176" id="R_1947" name="myo-inositol exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_1947" sboTerm="SBO:0000176" id="R_1947" name="myo-inositol exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m1060" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -12214,12 +12217,12 @@
           <speciesReference species="M_m829" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1967" sboTerm="SBO:0000176" id="R_1967" name="nicotinate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1967" sboTerm="SBO:0000176" id="R_1967" name="nicotinate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1095" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1968" sboTerm="SBO:0000176" id="R_1968" name="NMN exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1968" sboTerm="SBO:0000176" id="R_1968" name="NMN exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1337" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -12376,12 +12379,12 @@
           <speciesReference species="M_m1340" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1984" sboTerm="SBO:0000176" id="R_1984" name="octanoate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1984" sboTerm="SBO:0000176" id="R_1984" name="octanoate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1341" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1987" sboTerm="SBO:0000176" id="R_1987" name="ornithine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1987" sboTerm="SBO:0000176" id="R_1987" name="ornithine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1097" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -12402,7 +12405,7 @@
           <speciesReference species="M_m328" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1989" sboTerm="SBO:0000176" id="R_1989" name="oxaloacetate(2-) exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1989" sboTerm="SBO:0000176" id="R_1989" name="oxaloacetate(2-) exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1344" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -12450,12 +12453,12 @@
           <speciesReference species="M_m1339" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1993" sboTerm="SBO:0000176" id="R_1993" name="palmitate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_1993" sboTerm="SBO:0000176" id="R_1993" name="palmitate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m1254" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_1994" sboTerm="SBO:0000176" id="R_1994" name="palmitoleate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1994" sboTerm="SBO:0000176" id="R_1994" name="palmitoleate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1255" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -12520,7 +12523,7 @@
           <speciesReference species="M_m1161" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_1999" sboTerm="SBO:0000176" id="R_1999" name="pectin exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_1999" sboTerm="SBO:0000176" id="R_1999" name="pectin exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1351" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -12655,7 +12658,7 @@
           <fbc:geneProductRef fbc:geneProduct="YALI0D27170g"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_2020" sboTerm="SBO:0000176" id="R_2020" name="potassium exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2020" sboTerm="SBO:0000176" id="R_2020" name="potassium exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1099" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -12692,7 +12695,7 @@
           <speciesReference species="M_m253" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_2024" sboTerm="SBO:0000176" id="R_2024" name="putrescine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2024" sboTerm="SBO:0000176" id="R_2024" name="putrescine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1101" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -12732,7 +12735,7 @@
           <speciesReference species="M_m919" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_2028" sboTerm="SBO:0000176" id="R_2028" name="pyridoxine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2028" sboTerm="SBO:0000176" id="R_2028" name="pyridoxine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1357" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -12821,7 +12824,7 @@
           <speciesReference species="M_m203" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_2033" sboTerm="SBO:0000176" id="R_2033" name="pyruvate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2033" sboTerm="SBO:0000176" id="R_2033" name="pyruvate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1103" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -12868,7 +12871,7 @@
           <speciesReference species="M_m632" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_2038" sboTerm="SBO:0000176" id="R_2038" name="riboflavin exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2038" sboTerm="SBO:0000176" id="R_2038" name="riboflavin exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m216" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -12927,12 +12930,12 @@
           <speciesReference species="M_m255" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_2043" sboTerm="SBO:0000176" id="R_2043" name="S-adenosyl-L-methionine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2043" sboTerm="SBO:0000176" id="R_2043" name="S-adenosyl-L-methionine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1104" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_2044" sboTerm="SBO:0000176" id="R_2044" name="S-methyl-L-methionine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2044" sboTerm="SBO:0000176" id="R_2044" name="S-methyl-L-methionine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1105" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -12945,12 +12948,12 @@
           <speciesReference species="M_m582" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_2046" sboTerm="SBO:0000176" id="R_2046" name="sn-glycero-3-phosphocholine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2046" sboTerm="SBO:0000176" id="R_2046" name="sn-glycero-3-phosphocholine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1055" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_2049" sboTerm="SBO:0000176" id="R_2049" name="sodium exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2049" sboTerm="SBO:0000176" id="R_2049" name="sodium exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1108" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -12996,12 +12999,12 @@
           <speciesReference species="M_m898" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_2051" sboTerm="SBO:0000176" id="R_2051" name="spermidine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2051" sboTerm="SBO:0000176" id="R_2051" name="spermidine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1109" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_2052" sboTerm="SBO:0000176" id="R_2052" name="spermine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2052" sboTerm="SBO:0000176" id="R_2052" name="spermine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1111" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -13038,12 +13041,12 @@
           <speciesReference species="M_m959" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_2055" sboTerm="SBO:0000176" id="R_2055" name="stearate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_2055" sboTerm="SBO:0000176" id="R_2055" name="stearate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m1340" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_2056" sboTerm="SBO:0000176" id="R_2056" name="succinate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_2056" sboTerm="SBO:0000176" id="R_2056" name="succinate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m1368" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -13064,7 +13067,7 @@
           <speciesReference species="M_m1368" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_2058" sboTerm="SBO:0000176" id="R_2058" name="sucrose exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2058" sboTerm="SBO:0000176" id="R_2058" name="sucrose exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m962" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -13088,12 +13091,12 @@
           <speciesReference species="M_m1113" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_2061" sboTerm="SBO:0000176" id="R_2061" name="sulphite exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2061" sboTerm="SBO:0000176" id="R_2061" name="sulphite exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1114" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_2062" sboTerm="SBO:0000176" id="R_2062" name="taurine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2062" sboTerm="SBO:0000176" id="R_2062" name="taurine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1115" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -13137,17 +13140,17 @@
           <speciesReference species="M_m649" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_2066" sboTerm="SBO:0000176" id="R_2066" name="thiamine(1+) diphosphate(1-) exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2066" sboTerm="SBO:0000176" id="R_2066" name="thiamine(1+) diphosphate(1-) exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m971" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_2067" sboTerm="SBO:0000176" id="R_2067" name="thiamine(1+) exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2067" sboTerm="SBO:0000176" id="R_2067" name="thiamine(1+) exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m972" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_2068" sboTerm="SBO:0000176" id="R_2068" name="thiamine(1+) monophosphate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2068" sboTerm="SBO:0000176" id="R_2068" name="thiamine(1+) monophosphate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m973" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -13222,7 +13225,7 @@
           <speciesReference species="M_m771" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_2073" sboTerm="SBO:0000176" id="R_2073" name="thymidine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2073" sboTerm="SBO:0000176" id="R_2073" name="thymidine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1378" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -13384,17 +13387,17 @@
           <fbc:geneProductRef fbc:geneProduct="YALI0E17985g"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_2090" sboTerm="SBO:0000176" id="R_2090" name="uracil exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2090" sboTerm="SBO:0000176" id="R_2090" name="uracil exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1117" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_2091" sboTerm="SBO:0000176" id="R_2091" name="urea exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_2091" sboTerm="SBO:0000176" id="R_2091" name="urea exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m1118" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_2092" sboTerm="SBO:0000176" id="R_2092" name="uridine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2092" sboTerm="SBO:0000176" id="R_2092" name="uridine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1119" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -13599,7 +13602,7 @@
           <speciesReference species="M_m1155" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_2102" sboTerm="SBO:0000176" id="R_2102" name="xanthosine exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2102" sboTerm="SBO:0000176" id="R_2102" name="xanthosine exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1386" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -13612,7 +13615,7 @@
           <speciesReference species="M_m917" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_2104" sboTerm="SBO:0000176" id="R_2104" name="xylitol exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2104" sboTerm="SBO:0000176" id="R_2104" name="xylitol exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1388" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -13633,7 +13636,7 @@
           <speciesReference species="M_m1388" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_2106" sboTerm="SBO:0000176" id="R_2106" name="zymosterol exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2106" sboTerm="SBO:0000176" id="R_2106" name="zymosterol exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1390" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -13673,7 +13676,7 @@
           <fbc:geneProductRef fbc:geneProduct="YALI0A13387g"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_2111" sboTerm="SBO:0000176" id="R_2111" name="growth" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_2111" sboTerm="SBO:0000176" id="R_2111" name="growth" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m1401" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -14005,7 +14008,7 @@
           <speciesReference species="M_m538" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_2134" sboTerm="SBO:0000176" id="R_2134" name="14-demethyllanosterol exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2134" sboTerm="SBO:0000176" id="R_2134" name="14-demethyllanosterol exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1405" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -14026,7 +14029,7 @@
           <speciesReference species="M_m1405" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_2137" sboTerm="SBO:0000176" id="R_2137" name="ergosta-5,7,22,24(28)-tetraen-3beta-ol exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2137" sboTerm="SBO:0000176" id="R_2137" name="ergosta-5,7,22,24(28)-tetraen-3beta-ol exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1407" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -14640,7 +14643,7 @@
         <listOfReactants>
           <speciesReference species="M_m1447" stoichiometry="1" constant="true"/>
           <speciesReference species="M_m1449" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_prot_Q6C203" stoichiometry="0.0586374695863747" constant="true"/>
+          <speciesReference species="M_prot_Q6C203" stoichiometry="0.0586374695863745" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_m1441" stoichiometry="1" constant="true"/>
@@ -14748,7 +14751,7 @@
         <listOfReactants>
           <speciesReference species="M_m1447" stoichiometry="1" constant="true"/>
           <speciesReference species="M_m1451" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_prot_Q6C203" stoichiometry="0.0586374695863747" constant="true"/>
+          <speciesReference species="M_prot_Q6C203" stoichiometry="0.0586374695863745" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_m1443" stoichiometry="1" constant="true"/>
@@ -14800,7 +14803,7 @@
         <listOfReactants>
           <speciesReference species="M_m1447" stoichiometry="1" constant="true"/>
           <speciesReference species="M_m1453" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_prot_Q6C203" stoichiometry="0.0586374695863747" constant="true"/>
+          <speciesReference species="M_prot_Q6C203" stoichiometry="0.0586374695863745" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_m1445" stoichiometry="1" constant="true"/>
@@ -15078,17 +15081,17 @@
           <speciesReference species="M_m1310" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_2187" sboTerm="SBO:0000176" id="R_2187" name="butyrate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2187" sboTerm="SBO:0000176" id="R_2187" name="butyrate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1459" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_2188" sboTerm="SBO:0000176" id="R_2188" name="hexanoate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2188" sboTerm="SBO:0000176" id="R_2188" name="hexanoate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1461" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_2189" sboTerm="SBO:0000176" id="R_2189" name="oleate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2189" sboTerm="SBO:0000176" id="R_2189" name="oleate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1463" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -15213,7 +15216,7 @@
           <speciesReference species="M_m1463" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_2193" sboTerm="SBO:0000176" id="R_2193" name="myristate exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_2193" sboTerm="SBO:0000176" id="R_2193" name="myristate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1227" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -16601,7 +16604,7 @@
         <listOfReactants>
           <speciesReference species="M_m1529" stoichiometry="1" constant="true"/>
           <speciesReference species="M_m375" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_prot_Q6C203" stoichiometry="0.0586374695863747" constant="true"/>
+          <speciesReference species="M_prot_Q6C203" stoichiometry="0.0586374695863745" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_m1550" stoichiometry="1" constant="true"/>
@@ -16653,7 +16656,7 @@
         <listOfReactants>
           <speciesReference species="M_m1531" stoichiometry="1" constant="true"/>
           <speciesReference species="M_m375" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_prot_Q6C203" stoichiometry="0.0586374695863747" constant="true"/>
+          <speciesReference species="M_prot_Q6C203" stoichiometry="0.0586374695863745" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_m1552" stoichiometry="1" constant="true"/>
@@ -18221,7 +18224,7 @@
         <listOfReactants>
           <speciesReference species="M_m1623" stoichiometry="1" constant="true"/>
           <speciesReference species="M_m1651" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_prot_Q6C8Q4" stoichiometry="0.000971455959101076" constant="true"/>
+          <speciesReference species="M_prot_Q6C8Q4" stoichiometry="0.000971455959101078" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_m1654" stoichiometry="1" constant="true"/>
@@ -18965,7 +18968,7 @@
           <fbc:geneProductRef fbc:geneProduct="YALI0D17556g"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_2884g" sboTerm="SBO:0000176" id="R_2884g" name="PE diacylglycerol acyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_2884g" sboTerm="SBO:0000176" id="R_2884g" name="PE diacylglycerol acyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1633" stoichiometry="1" constant="true"/>
           <speciesReference species="M_m1649" stoichiometry="1" constant="true"/>
@@ -18979,7 +18982,7 @@
           <fbc:geneProductRef fbc:geneProduct="YALI0E16797g"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_2884g_REV" sboTerm="SBO:0000176" id="R_2884g_REV" name="PE diacylglycerol acyltransferase (reversible)" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_2884g_REV" sboTerm="SBO:0000176" id="R_2884g_REV" name="PE diacylglycerol acyltransferase (reversible)" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1634" stoichiometry="1" constant="true"/>
           <speciesReference species="M_m1656" stoichiometry="1" constant="true"/>
@@ -19207,7 +19210,7 @@
           <fbc:geneProductRef fbc:geneProduct="YALI0D17556g"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_2948g" sboTerm="SBO:0000176" id="R_2948g" name="PC diacylglycerol acyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_2948g" sboTerm="SBO:0000176" id="R_2948g" name="PC diacylglycerol acyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1632" stoichiometry="1" constant="true"/>
           <speciesReference species="M_m1649" stoichiometry="1" constant="true"/>
@@ -19221,7 +19224,7 @@
           <fbc:geneProductRef fbc:geneProduct="YALI0E16797g"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_2948g_REV" sboTerm="SBO:0000176" id="R_2948g_REV" name="PC diacylglycerol acyltransferase (reversible)" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_2948g_REV" sboTerm="SBO:0000176" id="R_2948g_REV" name="PC diacylglycerol acyltransferase (reversible)" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1634" stoichiometry="1" constant="true"/>
           <speciesReference species="M_m1657" stoichiometry="1" constant="true"/>
@@ -20596,7 +20599,7 @@
         <listOfReactants>
           <speciesReference species="M_m122" stoichiometry="1" constant="true"/>
           <speciesReference species="M_m454" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_prot_Q6BZU5" stoichiometry="0.0813352956917313" constant="true"/>
+          <speciesReference species="M_prot_Q6BZU5" stoichiometry="0.0813352956917311" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_m10" stoichiometry="1" constant="true"/>
@@ -21189,7 +21192,7 @@
         <listOfReactants>
           <speciesReference species="M_m1696" stoichiometry="1" constant="true"/>
           <speciesReference species="M_m26" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_prot_Q6C3X3" stoichiometry="0.000661607554940178" constant="true"/>
+          <speciesReference species="M_prot_Q6C3X3" stoichiometry="0.00066160755494018" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_m1697" stoichiometry="1" constant="true"/>
@@ -21423,7 +21426,7 @@
           <fbc:geneProductRef fbc:geneProduct="YALIUNK1"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_336u_1_EXP_1" sboTerm="SBO:0000176" id="R_336u_1_EXP_1" name="diacylglycerol acyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_336u_1_EXP_1" sboTerm="SBO:0000176" id="R_336u_1_EXP_1" name="diacylglycerol acyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1649" stoichiometry="1" constant="true"/>
           <speciesReference species="M_m567" stoichiometry="1" constant="true"/>
@@ -21437,7 +21440,7 @@
           <fbc:geneProductRef fbc:geneProduct="YALI0E32769g"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_336u_1_EXP_2" sboTerm="SBO:0000176" id="R_336u_1_EXP_2" name="diacylglycerol acyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_336u_1_EXP_2" sboTerm="SBO:0000176" id="R_336u_1_EXP_2" name="diacylglycerol acyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1649" stoichiometry="1" constant="true"/>
           <speciesReference species="M_m567" stoichiometry="1" constant="true"/>
@@ -21451,7 +21454,7 @@
           <fbc:geneProductRef fbc:geneProduct="YALI0D07986g"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_336u_EXP_1" sboTerm="SBO:0000176" id="R_336u_EXP_1" name="diacylglycerol acyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_336u_EXP_1" sboTerm="SBO:0000176" id="R_336u_EXP_1" name="diacylglycerol acyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1642" stoichiometry="1" constant="true"/>
           <speciesReference species="M_m570" stoichiometry="1" constant="true"/>
@@ -21465,7 +21468,7 @@
           <fbc:geneProductRef fbc:geneProduct="YALI0E32769g"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_336u_EXP_2" sboTerm="SBO:0000176" id="R_336u_EXP_2" name="diacylglycerol acyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_336u_EXP_2" sboTerm="SBO:0000176" id="R_336u_EXP_2" name="diacylglycerol acyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1642" stoichiometry="1" constant="true"/>
           <speciesReference species="M_m570" stoichiometry="1" constant="true"/>
@@ -25337,12 +25340,12 @@
           <fbc:geneProductRef fbc:geneProduct="YALI0F05192g"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_4043" sboTerm="SBO:0000176" id="R_4043" name="raffinose exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_4043" sboTerm="SBO:0000176" id="R_4043" name="raffinose exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1636" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_4044" sboTerm="SBO:0000176" id="R_4044" name="melibiose exchange" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
+      <reaction metaid="R_4044" sboTerm="SBO:0000176" id="R_4044" name="melibiose exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB3N0">
         <listOfReactants>
           <speciesReference species="M_m1637" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -35733,7 +35736,7 @@
         <listOfReactants>
           <speciesReference species="M_m570" stoichiometry="1" constant="true"/>
           <speciesReference species="M_m577" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_prot_Q6C282" stoichiometry="0.00161706962047786" constant="true"/>
+          <speciesReference species="M_prot_Q6C282" stoichiometry="0.00161706962047787" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_m1705" stoichiometry="1" constant="true"/>
@@ -35747,7 +35750,7 @@
         <listOfReactants>
           <speciesReference species="M_m570" stoichiometry="1" constant="true"/>
           <speciesReference species="M_m577" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_prot_Q6C8R8" stoichiometry="0.00134602549082259" constant="true"/>
+          <speciesReference species="M_prot_Q6C8R8" stoichiometry="0.0013460254908226" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_m1705" stoichiometry="1" constant="true"/>
@@ -35757,17 +35760,17 @@
           <fbc:geneProductRef fbc:geneProduct="YALI0D17534g"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_EXC_OUT_Dmannitol" sboTerm="SBO:0000176" id="R_EXC_OUT_Dmannitol" name="EXC OUT m1824" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_EXC_OUT_Dmannitol" sboTerm="SBO:0000176" id="R_EXC_OUT_Dmannitol" name="EXC OUT m1824" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m1824" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_EXC_OUT_erythritol" sboTerm="SBO:0000176" id="R_EXC_OUT_erythritol" name="EXC OUT m1826" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_EXC_OUT_erythritol" sboTerm="SBO:0000176" id="R_EXC_OUT_erythritol" name="EXC OUT m1826" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m1826" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="R_EXC_OUT_isocitrate_EXP_1" sboTerm="SBO:0000176" id="R_EXC_OUT_isocitrate_EXP_1" name="EXC OUT m1803" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_EXC_OUT_isocitrate_EXP_1" sboTerm="SBO:0000176" id="R_EXC_OUT_isocitrate_EXP_1" name="EXC OUT m1803" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m1803" stoichiometry="1" constant="true"/>
           <speciesReference species="M_prot_Q6CB42" stoichiometry="2.00151814614305" constant="true"/>
@@ -35776,7 +35779,7 @@
           <fbc:geneProductRef fbc:geneProduct="YALI0C22088g"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_EXC_OUT_isocitrate_EXP_2" sboTerm="SBO:0000176" id="R_EXC_OUT_isocitrate_EXP_2" name="EXC OUT m1803" reversible="true" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+      <reaction metaid="R_EXC_OUT_isocitrate_EXP_2" sboTerm="SBO:0000176" id="R_EXC_OUT_isocitrate_EXP_2" name="EXC OUT m1803" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
           <speciesReference species="M_m1803" stoichiometry="1" constant="true"/>
           <speciesReference species="M_prot_Q6C8S4" stoichiometry="1.10800382060385" constant="true"/>
@@ -36477,7 +36480,7 @@
         <listOfReactants>
           <speciesReference species="M_m1806" stoichiometry="1" constant="true"/>
           <speciesReference species="M_m214" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_prot_F2Z685" stoichiometry="0.000652944935562893" constant="true"/>
+          <speciesReference species="M_prot_F2Z685" stoichiometry="0.000652944935562894" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_m1056" stoichiometry="1" constant="true"/>
@@ -37264,31 +37267,31 @@
       </reaction>
       <reaction metaid="R_xBIOMASS" sboTerm="SBO:0000176" id="R_xBIOMASS" name="biomass pseudoreaction" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
-          <speciesReference species="M_m141" stoichiometry="24.3030741080348" constant="true"/>
+          <speciesReference species="M_m141" stoichiometry="21.6272721967184" constant="true"/>
           <speciesReference species="M_m1726" stoichiometry="1" constant="true"/>
           <speciesReference species="M_m1727" stoichiometry="1" constant="true"/>
           <speciesReference species="M_m1836" stoichiometry="1" constant="true"/>
           <speciesReference species="M_m1837" stoichiometry="1" constant="true"/>
           <speciesReference species="M_m1838" stoichiometry="1" constant="true"/>
           <speciesReference species="M_m1839" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_m32" stoichiometry="24.3030741080348" constant="true"/>
+          <speciesReference species="M_m32" stoichiometry="21.6272721967184" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_m10" stoichiometry="24.3030741080348" constant="true"/>
+          <speciesReference species="M_m10" stoichiometry="21.6272721967184" constant="true"/>
           <speciesReference species="M_m1401" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_m143" stoichiometry="24.3030741080348" constant="true"/>
-          <speciesReference species="M_m35" stoichiometry="24.3030741080348" constant="true"/>
+          <speciesReference species="M_m143" stoichiometry="21.6272721967184" constant="true"/>
+          <speciesReference species="M_m35" stoichiometry="21.6272721967184" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="R_xCARBOHYDRATE" sboTerm="SBO:0000176" id="R_xCARBOHYDRATE" name="carbohydrate pseudoreaction" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
-          <speciesReference species="M_m1123" stoichiometry="1.18509943856151" constant="true"/>
-          <speciesReference species="M_m1324" stoichiometry="0.296274859640376" constant="true"/>
-          <speciesReference species="M_m294" stoichiometry="0.00861753460730542" constant="true"/>
-          <speciesReference species="M_m401" stoichiometry="1.09083416204078" constant="true"/>
+          <speciesReference species="M_m1123" stoichiometry="1.60161730208845" constant="true"/>
+          <speciesReference species="M_m1324" stoichiometry="0.40040432552211" constant="true"/>
+          <speciesReference species="M_m294" stoichiometry="0.0116462737887712" constant="true"/>
+          <speciesReference species="M_m401" stoichiometry="1.4742213275827" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_m1836" stoichiometry="1.25620038007368" constant="true"/>
+          <speciesReference species="M_m1836" stoichiometry="1.69770754938356" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="R_xDNA" sboTerm="SBO:0000176" id="R_xDNA" name="DNA pseudoreaction" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
@@ -37312,20 +37315,19 @@
       </reaction>
       <reaction metaid="R_xLIPID" sboTerm="SBO:0000176" id="R_xLIPID" name="lipid pseudoreaction" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
-          <speciesReference species="M_m1000" stoichiometry="0.021176" constant="true"/>
-          <speciesReference species="M_m1579" stoichiometry="0.0001" constant="true"/>
-          <speciesReference species="M_m1581" stoichiometry="0.000305" constant="true"/>
-          <speciesReference species="M_m1631" stoichiometry="0.001967" constant="true"/>
-          <speciesReference species="M_m1640" stoichiometry="0.01251" constant="true"/>
-          <speciesReference species="M_m1641" stoichiometry="0.003152" constant="true"/>
-          <speciesReference species="M_m1648" stoichiometry="0.0036" constant="true"/>
-          <speciesReference species="M_m1651" stoichiometry="0.000842" constant="true"/>
-          <speciesReference species="M_m1700" stoichiometry="0.010101" constant="true"/>
-          <speciesReference species="M_m1701" stoichiometry="0.01424" constant="true"/>
-          <speciesReference species="M_m1705" stoichiometry="0.003399" constant="true"/>
+          <speciesReference species="M_m1000" stoichiometry="0.0124073643237352" constant="true"/>
+          <speciesReference species="M_m1579" stoichiometry="5.85932102694642e-05" constant="true"/>
+          <speciesReference species="M_m1581" stoichiometry="0.000178705100552179" constant="true"/>
+          <speciesReference species="M_m1631" stoichiometry="0.00115249387454242" constant="true"/>
+          <speciesReference species="M_m1641" stoichiometry="0.00184679613448679" constant="true"/>
+          <speciesReference species="M_m1648" stoichiometry="0.0021092917304486" constant="true"/>
+          <speciesReference species="M_m1651" stoichiometry="0.00049334520008415" constant="true"/>
+          <speciesReference species="M_m1700" stoichiometry="0.00591830909252167" constant="true"/>
+          <speciesReference species="M_m1701" stoichiometry="0.00834358390420675" constant="true"/>
+          <speciesReference species="M_m1705" stoichiometry="0.00199151551350951" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_m1727" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_m1727" stoichiometry="0.398566156625748" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="R_xMAINTENANCE" sboTerm="SBO:0000176" id="R_xMAINTENANCE" name="Non-growth associated maintenance (NGAM)" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
@@ -37339,245 +37341,221 @@
       </reaction>
       <reaction metaid="R_xPOOL_AC_EM" sboTerm="SBO:0000176" id="R_xPOOL_AC_EM" name="Acyl-CoAs pool" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
-          <speciesReference species="M_m1422" stoichiometry="0.003" constant="true"/>
-          <speciesReference species="M_m1426" stoichiometry="0.002" constant="true"/>
-          <speciesReference species="M_m1428" stoichiometry="0.19" constant="true"/>
-          <speciesReference species="M_m1430" stoichiometry="0.042" constant="true"/>
-          <speciesReference species="M_m1731" stoichiometry="0.199" constant="true"/>
-          <speciesReference species="M_m231" stoichiometry="0.515" constant="true"/>
+          <speciesReference species="M_m1428" stoichiometry="0.1865" constant="true"/>
+          <speciesReference species="M_m1430" stoichiometry="0.0359" constant="true"/>
+          <speciesReference species="M_m1731" stoichiometry="0.5736" constant="true"/>
+          <speciesReference species="M_m231" stoichiometry="0.1713" constant="true"/>
+          <speciesReference species="M_m243" stoichiometry="0.0327" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_m567" stoichiometry="0.951" constant="true"/>
+          <speciesReference species="M_m567" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="R_xPOOL_AC_EM_REV" sboTerm="SBO:0000176" id="R_xPOOL_AC_EM_REV" name="Acyl-CoAs pool (reversible)" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
-          <speciesReference species="M_m567" stoichiometry="0.951" constant="true"/>
-          <speciesReference species="M_prot_standard" stoichiometry="0.834666985150683" constant="true"/>
+          <speciesReference species="M_m567" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_m1422" stoichiometry="0.003" constant="true"/>
-          <speciesReference species="M_m1426" stoichiometry="0.002" constant="true"/>
-          <speciesReference species="M_m1428" stoichiometry="0.19" constant="true"/>
-          <speciesReference species="M_m1430" stoichiometry="0.042" constant="true"/>
-          <speciesReference species="M_m1731" stoichiometry="0.199" constant="true"/>
-          <speciesReference species="M_m231" stoichiometry="0.515" constant="true"/>
+          <speciesReference species="M_m1428" stoichiometry="0.1865" constant="true"/>
+          <speciesReference species="M_m1430" stoichiometry="0.0359" constant="true"/>
+          <speciesReference species="M_m1731" stoichiometry="0.5736" constant="true"/>
+          <speciesReference species="M_m231" stoichiometry="0.1713" constant="true"/>
+          <speciesReference species="M_m243" stoichiometry="0.0327" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="R_xPOOL_AC_LP" sboTerm="SBO:0000176" id="R_xPOOL_AC_LP" name="Acyl-CoAs pool" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
-          <speciesReference species="M_m1480" stoichiometry="0.003" constant="true"/>
-          <speciesReference species="M_m1482" stoichiometry="0.002" constant="true"/>
-          <speciesReference species="M_m1484" stoichiometry="0.19" constant="true"/>
-          <speciesReference species="M_m1488" stoichiometry="0.042" constant="true"/>
-          <speciesReference species="M_m1490" stoichiometry="0.515" constant="true"/>
-          <speciesReference species="M_m1735" stoichiometry="0.199" constant="true"/>
+          <speciesReference species="M_m1484" stoichiometry="0.1865" constant="true"/>
+          <speciesReference species="M_m1486" stoichiometry="0.0327" constant="true"/>
+          <speciesReference species="M_m1488" stoichiometry="0.0359" constant="true"/>
+          <speciesReference species="M_m1490" stoichiometry="0.1713" constant="true"/>
+          <speciesReference species="M_m1735" stoichiometry="0.5736" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_m570" stoichiometry="0.951" constant="true"/>
+          <speciesReference species="M_m570" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="R_xPOOL_AC_LP_REV" sboTerm="SBO:0000176" id="R_xPOOL_AC_LP_REV" name="Acyl-CoAs pool (reversible)" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
-          <speciesReference species="M_m570" stoichiometry="0.951" constant="true"/>
-          <speciesReference species="M_prot_standard" stoichiometry="0.834666985150683" constant="true"/>
+          <speciesReference species="M_m570" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_m1480" stoichiometry="0.003" constant="true"/>
-          <speciesReference species="M_m1482" stoichiometry="0.002" constant="true"/>
-          <speciesReference species="M_m1484" stoichiometry="0.19" constant="true"/>
-          <speciesReference species="M_m1488" stoichiometry="0.042" constant="true"/>
-          <speciesReference species="M_m1490" stoichiometry="0.515" constant="true"/>
-          <speciesReference species="M_m1735" stoichiometry="0.199" constant="true"/>
+          <speciesReference species="M_m1484" stoichiometry="0.1865" constant="true"/>
+          <speciesReference species="M_m1486" stoichiometry="0.0327" constant="true"/>
+          <speciesReference species="M_m1488" stoichiometry="0.0359" constant="true"/>
+          <speciesReference species="M_m1490" stoichiometry="0.1713" constant="true"/>
+          <speciesReference species="M_m1735" stoichiometry="0.5736" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="R_xPOOL_AC_MM" sboTerm="SBO:0000176" id="R_xPOOL_AC_MM" name="Acyl-CoAs pool" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
-          <speciesReference species="M_m1625" stoichiometry="0.515" constant="true"/>
-          <speciesReference species="M_m1738" stoichiometry="0.003" constant="true"/>
-          <speciesReference species="M_m1739" stoichiometry="0.002" constant="true"/>
-          <speciesReference species="M_m1741" stoichiometry="0.19" constant="true"/>
-          <speciesReference species="M_m1742" stoichiometry="0.042" constant="true"/>
-          <speciesReference species="M_m1743" stoichiometry="0.199" constant="true"/>
+          <speciesReference species="M_m1624" stoichiometry="0.0327" constant="true"/>
+          <speciesReference species="M_m1625" stoichiometry="0.1713" constant="true"/>
+          <speciesReference species="M_m1741" stoichiometry="0.1865" constant="true"/>
+          <speciesReference species="M_m1742" stoichiometry="0.0359" constant="true"/>
+          <speciesReference species="M_m1743" stoichiometry="0.5736" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_m790" stoichiometry="0.951" constant="true"/>
+          <speciesReference species="M_m790" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="R_xPOOL_AC_MM_REV" sboTerm="SBO:0000176" id="R_xPOOL_AC_MM_REV" name="Acyl-CoAs pool (reversible)" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
-          <speciesReference species="M_m790" stoichiometry="0.951" constant="true"/>
-          <speciesReference species="M_prot_standard" stoichiometry="0.834666985150683" constant="true"/>
+          <speciesReference species="M_m790" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_m1625" stoichiometry="0.515" constant="true"/>
-          <speciesReference species="M_m1738" stoichiometry="0.003" constant="true"/>
-          <speciesReference species="M_m1739" stoichiometry="0.002" constant="true"/>
-          <speciesReference species="M_m1741" stoichiometry="0.19" constant="true"/>
-          <speciesReference species="M_m1742" stoichiometry="0.042" constant="true"/>
-          <speciesReference species="M_m1743" stoichiometry="0.199" constant="true"/>
+          <speciesReference species="M_m1624" stoichiometry="0.0327" constant="true"/>
+          <speciesReference species="M_m1625" stoichiometry="0.1713" constant="true"/>
+          <speciesReference species="M_m1741" stoichiometry="0.1865" constant="true"/>
+          <speciesReference species="M_m1742" stoichiometry="0.0359" constant="true"/>
+          <speciesReference species="M_m1743" stoichiometry="0.5736" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="R_xPOOL_FA_EM" sboTerm="SBO:0000176" id="R_xPOOL_FA_EM" name="Fatty acids pool" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
-          <speciesReference species="M_m1470" stoichiometry="0.003" constant="true"/>
-          <speciesReference species="M_m1472" stoichiometry="0.002" constant="true"/>
-          <speciesReference species="M_m1473" stoichiometry="0.19" constant="true"/>
-          <speciesReference species="M_m1475" stoichiometry="0.042" constant="true"/>
-          <speciesReference species="M_m1476" stoichiometry="0.515" constant="true"/>
-          <speciesReference species="M_m1749" stoichiometry="0.199" constant="true"/>
+          <speciesReference species="M_m1473" stoichiometry="0.1865" constant="true"/>
+          <speciesReference species="M_m1474" stoichiometry="0.0327" constant="true"/>
+          <speciesReference species="M_m1475" stoichiometry="0.0359" constant="true"/>
+          <speciesReference species="M_m1476" stoichiometry="0.1713" constant="true"/>
+          <speciesReference species="M_m1749" stoichiometry="0.5736" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_m1658" stoichiometry="0.951" constant="true"/>
+          <speciesReference species="M_m1658" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="R_xPOOL_FA_EM_REV" sboTerm="SBO:0000176" id="R_xPOOL_FA_EM_REV" name="Fatty acids pool (reversible)" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
-          <speciesReference species="M_m1658" stoichiometry="0.951" constant="true"/>
-          <speciesReference species="M_prot_standard" stoichiometry="0.834666985150683" constant="true"/>
+          <speciesReference species="M_m1658" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_m1470" stoichiometry="0.003" constant="true"/>
-          <speciesReference species="M_m1472" stoichiometry="0.002" constant="true"/>
-          <speciesReference species="M_m1473" stoichiometry="0.19" constant="true"/>
-          <speciesReference species="M_m1475" stoichiometry="0.042" constant="true"/>
-          <speciesReference species="M_m1476" stoichiometry="0.515" constant="true"/>
-          <speciesReference species="M_m1749" stoichiometry="0.199" constant="true"/>
+          <speciesReference species="M_m1473" stoichiometry="0.1865" constant="true"/>
+          <speciesReference species="M_m1474" stoichiometry="0.0327" constant="true"/>
+          <speciesReference species="M_m1475" stoichiometry="0.0359" constant="true"/>
+          <speciesReference species="M_m1476" stoichiometry="0.1713" constant="true"/>
+          <speciesReference species="M_m1749" stoichiometry="0.5736" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="R_xPOOL_FA_EN" sboTerm="SBO:0000176" id="R_xPOOL_FA_EN" name="Fatty acids pool" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
-          <speciesReference species="M_m1598" stoichiometry="0.515" constant="true"/>
-          <speciesReference species="M_m1615" stoichiometry="0.19" constant="true"/>
-          <speciesReference species="M_m1616" stoichiometry="0.042" constant="true"/>
-          <speciesReference species="M_m1753" stoichiometry="0.003" constant="true"/>
-          <speciesReference species="M_m1754" stoichiometry="0.002" constant="true"/>
-          <speciesReference species="M_m1756" stoichiometry="0.199" constant="true"/>
+          <speciesReference species="M_m1596" stoichiometry="0.0327" constant="true"/>
+          <speciesReference species="M_m1598" stoichiometry="0.1713" constant="true"/>
+          <speciesReference species="M_m1615" stoichiometry="0.1865" constant="true"/>
+          <speciesReference species="M_m1616" stoichiometry="0.0359" constant="true"/>
+          <speciesReference species="M_m1756" stoichiometry="0.5736" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_m1661" stoichiometry="0.951" constant="true"/>
+          <speciesReference species="M_m1661" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="R_xPOOL_FA_EN_REV" sboTerm="SBO:0000176" id="R_xPOOL_FA_EN_REV" name="Fatty acids pool (reversible)" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
-          <speciesReference species="M_m1661" stoichiometry="0.951" constant="true"/>
-          <speciesReference species="M_prot_standard" stoichiometry="0.834666985150683" constant="true"/>
+          <speciesReference species="M_m1661" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_m1598" stoichiometry="0.515" constant="true"/>
-          <speciesReference species="M_m1615" stoichiometry="0.19" constant="true"/>
-          <speciesReference species="M_m1616" stoichiometry="0.042" constant="true"/>
-          <speciesReference species="M_m1753" stoichiometry="0.003" constant="true"/>
-          <speciesReference species="M_m1754" stoichiometry="0.002" constant="true"/>
-          <speciesReference species="M_m1756" stoichiometry="0.199" constant="true"/>
+          <speciesReference species="M_m1596" stoichiometry="0.0327" constant="true"/>
+          <speciesReference species="M_m1598" stoichiometry="0.1713" constant="true"/>
+          <speciesReference species="M_m1615" stoichiometry="0.1865" constant="true"/>
+          <speciesReference species="M_m1616" stoichiometry="0.0359" constant="true"/>
+          <speciesReference species="M_m1756" stoichiometry="0.5736" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="R_xPOOL_FA_LP" sboTerm="SBO:0000176" id="R_xPOOL_FA_LP" name="Fatty acids pool" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
-          <speciesReference species="M_m1478" stoichiometry="0.003" constant="true"/>
-          <speciesReference species="M_m1481" stoichiometry="0.002" constant="true"/>
-          <speciesReference species="M_m1483" stoichiometry="0.19" constant="true"/>
-          <speciesReference species="M_m1487" stoichiometry="0.042" constant="true"/>
-          <speciesReference species="M_m1489" stoichiometry="0.515" constant="true"/>
-          <speciesReference species="M_m1761" stoichiometry="0.199" constant="true"/>
+          <speciesReference species="M_m1483" stoichiometry="0.1865" constant="true"/>
+          <speciesReference species="M_m1485" stoichiometry="0.0327" constant="true"/>
+          <speciesReference species="M_m1487" stoichiometry="0.0359" constant="true"/>
+          <speciesReference species="M_m1489" stoichiometry="0.1713" constant="true"/>
+          <speciesReference species="M_m1761" stoichiometry="0.5736" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_m1641" stoichiometry="0.951" constant="true"/>
+          <speciesReference species="M_m1641" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="R_xPOOL_FA_LP_REV" sboTerm="SBO:0000176" id="R_xPOOL_FA_LP_REV" name="Fatty acids pool (reversible)" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
-          <speciesReference species="M_m1641" stoichiometry="0.951" constant="true"/>
-          <speciesReference species="M_prot_standard" stoichiometry="0.834666985150683" constant="true"/>
+          <speciesReference species="M_m1641" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_m1478" stoichiometry="0.003" constant="true"/>
-          <speciesReference species="M_m1481" stoichiometry="0.002" constant="true"/>
-          <speciesReference species="M_m1483" stoichiometry="0.19" constant="true"/>
-          <speciesReference species="M_m1487" stoichiometry="0.042" constant="true"/>
-          <speciesReference species="M_m1489" stoichiometry="0.515" constant="true"/>
-          <speciesReference species="M_m1761" stoichiometry="0.199" constant="true"/>
+          <speciesReference species="M_m1483" stoichiometry="0.1865" constant="true"/>
+          <speciesReference species="M_m1485" stoichiometry="0.0327" constant="true"/>
+          <speciesReference species="M_m1487" stoichiometry="0.0359" constant="true"/>
+          <speciesReference species="M_m1489" stoichiometry="0.1713" constant="true"/>
+          <speciesReference species="M_m1761" stoichiometry="0.5736" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="R_xPOOL_FA_MI" sboTerm="SBO:0000176" id="R_xPOOL_FA_MI" name="Fatty acids pool" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
-          <speciesReference species="M_m1765" stoichiometry="0.003" constant="true"/>
-          <speciesReference species="M_m1766" stoichiometry="0.002" constant="true"/>
-          <speciesReference species="M_m1768" stoichiometry="0.19" constant="true"/>
-          <speciesReference species="M_m1770" stoichiometry="0.042" constant="true"/>
-          <speciesReference species="M_m1771" stoichiometry="0.515" constant="true"/>
-          <speciesReference species="M_m1772" stoichiometry="0.199" constant="true"/>
+          <speciesReference species="M_m1768" stoichiometry="0.1865" constant="true"/>
+          <speciesReference species="M_m1769" stoichiometry="0.0327" constant="true"/>
+          <speciesReference species="M_m1770" stoichiometry="0.0359" constant="true"/>
+          <speciesReference species="M_m1771" stoichiometry="0.1713" constant="true"/>
+          <speciesReference species="M_m1772" stoichiometry="0.5736" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_m1698" stoichiometry="0.951" constant="true"/>
+          <speciesReference species="M_m1698" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="R_xPOOL_FA_MI_REV" sboTerm="SBO:0000176" id="R_xPOOL_FA_MI_REV" name="Fatty acids pool (reversible)" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
-          <speciesReference species="M_m1698" stoichiometry="0.951" constant="true"/>
-          <speciesReference species="M_prot_standard" stoichiometry="0.834666985150683" constant="true"/>
+          <speciesReference species="M_m1698" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_m1765" stoichiometry="0.003" constant="true"/>
-          <speciesReference species="M_m1766" stoichiometry="0.002" constant="true"/>
-          <speciesReference species="M_m1768" stoichiometry="0.19" constant="true"/>
-          <speciesReference species="M_m1770" stoichiometry="0.042" constant="true"/>
-          <speciesReference species="M_m1771" stoichiometry="0.515" constant="true"/>
-          <speciesReference species="M_m1772" stoichiometry="0.199" constant="true"/>
+          <speciesReference species="M_m1768" stoichiometry="0.1865" constant="true"/>
+          <speciesReference species="M_m1769" stoichiometry="0.0327" constant="true"/>
+          <speciesReference species="M_m1770" stoichiometry="0.0359" constant="true"/>
+          <speciesReference species="M_m1771" stoichiometry="0.1713" constant="true"/>
+          <speciesReference species="M_m1772" stoichiometry="0.5736" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="R_xPOOL_FA_MM" sboTerm="SBO:0000176" id="R_xPOOL_FA_MM" name="Fatty acids pool" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
-          <speciesReference species="M_m1626" stoichiometry="0.19" constant="true"/>
-          <speciesReference species="M_m1627" stoichiometry="0.042" constant="true"/>
-          <speciesReference species="M_m1777" stoichiometry="0.003" constant="true"/>
-          <speciesReference species="M_m1778" stoichiometry="0.002" constant="true"/>
-          <speciesReference species="M_m1781" stoichiometry="0.515" constant="true"/>
-          <speciesReference species="M_m1782" stoichiometry="0.199" constant="true"/>
+          <speciesReference species="M_m1626" stoichiometry="0.1865" constant="true"/>
+          <speciesReference species="M_m1627" stoichiometry="0.0359" constant="true"/>
+          <speciesReference species="M_m1780" stoichiometry="0.0327" constant="true"/>
+          <speciesReference species="M_m1781" stoichiometry="0.1713" constant="true"/>
+          <speciesReference species="M_m1782" stoichiometry="0.5736" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_m1655" stoichiometry="0.951" constant="true"/>
+          <speciesReference species="M_m1655" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="R_xPOOL_FA_MM_REV" sboTerm="SBO:0000176" id="R_xPOOL_FA_MM_REV" name="Fatty acids pool (reversible)" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
-          <speciesReference species="M_m1655" stoichiometry="0.951" constant="true"/>
-          <speciesReference species="M_prot_standard" stoichiometry="0.834666985150683" constant="true"/>
+          <speciesReference species="M_m1655" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_m1626" stoichiometry="0.19" constant="true"/>
-          <speciesReference species="M_m1627" stoichiometry="0.042" constant="true"/>
-          <speciesReference species="M_m1777" stoichiometry="0.003" constant="true"/>
-          <speciesReference species="M_m1778" stoichiometry="0.002" constant="true"/>
-          <speciesReference species="M_m1781" stoichiometry="0.515" constant="true"/>
-          <speciesReference species="M_m1782" stoichiometry="0.199" constant="true"/>
+          <speciesReference species="M_m1626" stoichiometry="0.1865" constant="true"/>
+          <speciesReference species="M_m1627" stoichiometry="0.0359" constant="true"/>
+          <speciesReference species="M_m1780" stoichiometry="0.0327" constant="true"/>
+          <speciesReference species="M_m1781" stoichiometry="0.1713" constant="true"/>
+          <speciesReference species="M_m1782" stoichiometry="0.5736" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="R_xPROTEIN" sboTerm="SBO:0000176" id="R_xPROTEIN" name="protein pseudoreaction" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
         <listOfReactants>
-          <speciesReference species="M_m1008" stoichiometry="0.17277" constant="true"/>
-          <speciesReference species="M_m114" stoichiometry="0.56794" constant="true"/>
-          <speciesReference species="M_m130" stoichiometry="0.24387" constant="true"/>
-          <speciesReference species="M_m267" stoichiometry="0.18653" constant="true"/>
-          <speciesReference species="M_m272" stoichiometry="0.50994" constant="true"/>
-          <speciesReference species="M_m310" stoichiometry="0.12556" constant="true"/>
-          <speciesReference species="M_m319" stoichiometry="0.1865" constant="true"/>
-          <speciesReference species="M_m441" stoichiometry="0.2847" constant="true"/>
-          <speciesReference species="M_m443" stoichiometry="0.003632" constant="true"/>
-          <speciesReference species="M_m50" stoichiometry="0.2439" constant="true"/>
-          <speciesReference species="M_m615" stoichiometry="0.053881" constant="true"/>
-          <speciesReference species="M_m74" stoichiometry="0.044232" constant="true"/>
-          <speciesReference species="M_m743" stoichiometry="0.090566" constant="true"/>
-          <speciesReference species="M_m765" stoichiometry="0.20637" constant="true"/>
-          <speciesReference species="M_m770" stoichiometry="0.21054" constant="true"/>
-          <speciesReference species="M_m772" stoichiometry="0.002154" constant="true"/>
-          <speciesReference species="M_m775" stoichiometry="0.19455" constant="true"/>
-          <speciesReference species="M_m793" stoichiometry="0.275" constant="true"/>
-          <speciesReference species="M_m859" stoichiometry="0.082571" constant="true"/>
-          <speciesReference species="M_m992" stoichiometry="0.041282" constant="true"/>
+          <speciesReference species="M_m1008" stoichiometry="0.115019670623829" constant="true"/>
+          <speciesReference species="M_m114" stoichiometry="0.378099622238221" constant="true"/>
+          <speciesReference species="M_m130" stoichiometry="0.16235369031101" constant="true"/>
+          <speciesReference species="M_m267" stoichiometry="0.124180234771447" constant="true"/>
+          <speciesReference species="M_m272" stoichiometry="0.339486779174136" constant="true"/>
+          <speciesReference species="M_m310" stoichiometry="0.0835901478470104" constant="true"/>
+          <speciesReference species="M_m319" stoichiometry="0.124160262611241" constant="true"/>
+          <speciesReference species="M_m441" stoichiometry="0.189535800350779" constant="true"/>
+          <speciesReference species="M_m443" stoichiometry="0.00241796286221999" constant="true"/>
+          <speciesReference species="M_m50" stoichiometry="0.162373662471216" constant="true"/>
+          <speciesReference species="M_m615" stoichiometry="0.0358706654678621" constant="true"/>
+          <speciesReference species="M_m74" stoichiometry="0.02944695300708" constant="true"/>
+          <speciesReference species="M_m743" stoichiometry="0.0602932887058963" constant="true"/>
+          <speciesReference species="M_m765" stoichiometry="0.137388490054058" constant="true"/>
+          <speciesReference species="M_m770" stoichiometry="0.140164620322631" constant="true"/>
+          <speciesReference species="M_m772" stoichiometry="0.00143400110275932" constant="true"/>
+          <speciesReference species="M_m775" stoichiometry="0.129519458933067" constant="true"/>
+          <speciesReference species="M_m793" stoichiometry="0.183078135217648" constant="true"/>
+          <speciesReference species="M_m859" stoichiometry="0.0549707080111142" constant="true"/>
+          <speciesReference species="M_m992" stoichiometry="0.0274830239201998" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_m1726" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_m1726" stoichiometry="0.665738673518719" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="R_xRNA" sboTerm="SBO:0000176" id="R_xRNA" name="RNA pseudoreaction" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
@@ -49412,6 +49390,57 @@
           <fbc:geneProductRef fbc:geneProduct="standard"/>
         </fbc:geneProductAssociation>
       </reaction>
+      <reaction metaid="R_AtMTT" sboTerm="SBO:0000176" id="R_AtMTT" name="tricarboxylic acid transporter" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+        <listOfReactants>
+          <speciesReference species="M_m409" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_m539" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_m436" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_m538" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="ATEG09970"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_ITACNce" sboTerm="SBO:0000176" id="R_ITACNce" name="itaconate transport" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+        <listOfReactants>
+          <speciesReference species="M_m1840" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_m1841" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="R_EX_ITACN_OUT" sboTerm="SBO:0000176" id="R_EX_ITACN_OUT" name="itaconate exchange" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+        <listOfReactants>
+          <speciesReference species="M_m1841" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="R_AtCAD" sboTerm="SBO:0000176" id="R_AtCAD" name="cis-aconitate decarboxylase" reversible="false" fast="false" fbc:lowerFluxBound="FB3N0" fbc:upperFluxBound="FB4N1000">
+        <listOfReactants>
+          <speciesReference species="M_m10" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_m436" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_prot_B3IUN8" stoichiometry="0.408918728778533" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_m82" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_m1840" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="ATEG09971"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_usage_prot_B3IUN8" sboTerm="SBO:0000176" id="R_usage_prot_B3IUN8" name="usage_prot_B3IUN8" reversible="false" fast="false" fbc:lowerFluxBound="FB1N1000" fbc:upperFluxBound="FB3N0">
+        <listOfReactants>
+          <speciesReference species="M_prot_B3IUN8" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_prot_pool" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="ATEG09971"/>
+        </fbc:geneProductAssociation>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -50326,6 +50355,8 @@
       <fbc:geneProduct metaid="YALIUNK1" sboTerm="SBO:0000243" fbc:id="YALIUNK1" fbc:label="YALIUNK1"/>
       <fbc:geneProduct metaid="YALIUNK2" sboTerm="SBO:0000243" fbc:id="YALIUNK2" fbc:label="YALIUNK2"/>
       <fbc:geneProduct metaid="standard" sboTerm="SBO:0000243" fbc:id="standard" fbc:label="std"/>
+      <fbc:geneProduct metaid="ATEG09970" sboTerm="SBO:0000243" fbc:id="ATEG09970" fbc:label="mttA"/>
+      <fbc:geneProduct metaid="ATEG09971" sboTerm="SBO:0000243" fbc:id="ATEG09971" fbc:label="cad1"/>
     </fbc:listOfGeneProducts>
     <groups:listOfGroups>
       <groups:group sboTerm="SBO:0000633" groups:id="group1" groups:name="ATPase" groups:kind="partonomy">

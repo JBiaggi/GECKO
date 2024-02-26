@@ -8,7 +8,7 @@ classdef ecCollabAdapter < ModelAdapter
             obj.params.path = fullfile('C:\Users\jusabe\Documents\GECKO\ecCollab');
 
 			% Path to the conventional GEM that this ecModel will be based on.
-			obj.params.convGEM = fullfile(obj.params.path,'models','iYali.xml');
+			obj.params.convGEM = fullfile(obj.params.path,'models','iYali4_new.xml');
 
 			% Average enzyme saturation factor
 			obj.params.sigma = 0.5;

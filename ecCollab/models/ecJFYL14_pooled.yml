@@ -1,9 +1,12 @@
 ---
 !!omap
 - metaData:
-    id: "blankID"
+    id: "ecJFYL14_pooled"
     name: "blankName"
+    version: ""
     date: "2024-02-20"
+    defaultLB: "-1000"
+    defaultUB: "1000"
     note: "This file was generated using the exportModel function in RAVEN Toolbox 2 and OutputSBML in libSBML"
     geckoLight: "false"
 - metabolites:
@@ -13835,6 +13838,23 @@
       - name: "prot_standard"
       - compartment: "c"
       - notes: "Standard enzyme-usage pseudometabolite"
+    - !!omap
+      - id: "m1840"
+      - name: "itaconate"
+      - compartment: "c"
+      - formula: "C5H6O4"
+      - smiles: "C=C(CC(=O)O)C(=O)O"
+    - !!omap
+      - id: "m1841"
+      - name: "itaconate"
+      - compartment: "e"
+      - formula: "C5H6O4"
+      - smiles: "C=C(CC(=O)O)C(=O)O"
+    - !!omap
+      - id: "prot_B3IUN8"
+      - name: "prot_B3IUN8"
+      - compartment: "c"
+      - notes: "Enzyme-usage pseudometabolite"
 - reactions:
     - !!omap
       - id: "10"
@@ -14815,7 +14835,7 @@
           - m1640: -1
           - m1641: 1
           - m1642: 1
-          - prot_Q6C8R8: -0.00134602549082259
+          - prot_Q6C8R8: -0.0013460254908226
       - lower_bound: 0
       - upper_bound: 1000
       - gene_reaction_rule: "YALI0D17534g"
@@ -14830,7 +14850,7 @@
           - m1640: -1
           - m1641: 1
           - m1642: 1
-          - prot_Q6C282: -0.00161706962047786
+          - prot_Q6C282: -0.00161706962047787
       - lower_bound: 0
       - upper_bound: 1000
       - gene_reaction_rule: "YALI0F10010g"
@@ -27721,7 +27741,7 @@
           - m1441: 1
           - m1447: -1
           - m1449: -1
-          - prot_Q6C203: -0.0586374695863747
+          - prot_Q6C203: -0.0586374695863745
       - lower_bound: 0
       - upper_bound: 1000
       - gene_reaction_rule: "YALI0F11935g"
@@ -27829,7 +27849,7 @@
           - m1443: 1
           - m1447: -1
           - m1451: -1
-          - prot_Q6C203: -0.0586374695863747
+          - prot_Q6C203: -0.0586374695863745
       - lower_bound: 0
       - upper_bound: 1000
       - gene_reaction_rule: "YALI0F11935g"
@@ -27881,7 +27901,7 @@
           - m1445: 1
           - m1447: -1
           - m1453: -1
-          - prot_Q6C203: -0.0586374695863747
+          - prot_Q6C203: -0.0586374695863745
       - lower_bound: 0
       - upper_bound: 1000
       - gene_reaction_rule: "YALI0F11935g"
@@ -29746,7 +29766,7 @@
           - m1529: -1
           - m1550: 1
           - m375: -1
-          - prot_Q6C203: -0.0586374695863747
+          - prot_Q6C203: -0.0586374695863745
       - lower_bound: 0
       - upper_bound: 1000
       - gene_reaction_rule: "YALI0F11935g"
@@ -29798,7 +29818,7 @@
           - m1531: -1
           - m1552: 1
           - m375: -1
-          - prot_Q6C203: -0.0586374695863747
+          - prot_Q6C203: -0.0586374695863745
       - lower_bound: 0
       - upper_bound: 1000
       - gene_reaction_rule: "YALI0F11935g"
@@ -31347,7 +31367,7 @@
           - m1654: 1
           - m1655: 1
           - m382: 1
-          - prot_Q6C8Q4: -0.000971455959101076
+          - prot_Q6C8Q4: -0.000971455959101078
       - lower_bound: 0
       - upper_bound: 1000
       - gene_reaction_rule: "YALI0D17842g"
@@ -32100,7 +32120,7 @@
           - m1656: 1
           - prot_Q6C5M4: -0.513152551843331
       - lower_bound: 0
-      - upper_bound: 1000
+      - upper_bound: 0
       - gene_reaction_rule: "YALI0E16797g"
       - subsystem:
           - "Glycerophospholipid metabolism"
@@ -32114,7 +32134,7 @@
           - m1656: -1
           - prot_Q6C5M4: -5823.14529585419
       - lower_bound: 0
-      - upper_bound: 1000
+      - upper_bound: 0
       - gene_reaction_rule: "YALI0E16797g"
       - subsystem:
           - "Glycerophospholipid metabolism"
@@ -32342,7 +32362,7 @@
           - m1657: 1
           - prot_Q6C5M4: -5823.14529585419
       - lower_bound: 0
-      - upper_bound: 1000
+      - upper_bound: 0
       - gene_reaction_rule: "YALI0E16797g"
       - subsystem:
           - "Glycerolipid metabolism"
@@ -32356,7 +32376,7 @@
           - m1657: -1
           - prot_Q6C5M4: -5823.14529585419
       - lower_bound: 0
-      - upper_bound: 1000
+      - upper_bound: 0
       - gene_reaction_rule: "YALI0E16797g"
       - subsystem:
           - "Glycerolipid metabolism"
@@ -33723,7 +33743,7 @@
           - m123: 1
           - m452: 1
           - m454: -1
-          - prot_Q6BZU5: -0.0813352956917313
+          - prot_Q6BZU5: -0.0813352956917311
       - lower_bound: 0
       - upper_bound: 0
       - gene_reaction_rule: "YALI0F30811g"
@@ -34313,7 +34333,7 @@
           - m1698: 1
           - m26: -1
           - m28: 1
-          - prot_Q6C3X3: -0.000661607554940178
+          - prot_Q6C3X3: -0.00066160755494018
       - lower_bound: 0
       - upper_bound: 1000
       - gene_reaction_rule: "YALI0E31515g"
@@ -34560,7 +34580,7 @@
           - m567: -1
           - prot_Q6C3R2: -17.4483695652174
       - lower_bound: 0
-      - upper_bound: 1000
+      - upper_bound: 0
       - gene_reaction_rule: "YALI0E32769g"
       - subsystem:
           - "Glycerolipid metabolism"
@@ -34574,7 +34594,7 @@
           - m567: -1
           - prot_Q6C9V5: -0.00345669355212534
       - lower_bound: 0
-      - upper_bound: 1000
+      - upper_bound: 0
       - gene_reaction_rule: "YALI0D07986g"
       - subsystem:
           - "Glycerolipid metabolism"
@@ -34588,7 +34608,7 @@
           - m573: 1
           - prot_Q6C3R2: -17.4483695652174
       - lower_bound: 0
-      - upper_bound: 1000
+      - upper_bound: 0
       - gene_reaction_rule: "YALI0E32769g"
       - subsystem:
           - "Glycerolipid metabolism"
@@ -34602,7 +34622,7 @@
           - m573: 1
           - prot_Q6C9V5: -0.00345669355212534
       - lower_bound: 0
-      - upper_bound: 1000
+      - upper_bound: 0
       - gene_reaction_rule: "YALI0D07986g"
       - subsystem:
           - "Glycerolipid metabolism"
@@ -49416,7 +49436,7 @@
           - m570: -1
           - m573: 1
           - m577: -1
-          - prot_Q6C282: -0.00161706962047786
+          - prot_Q6C282: -0.00161706962047787
       - lower_bound: 0
       - upper_bound: 1000
       - gene_reaction_rule: "YALI0F10010g"
@@ -49430,7 +49450,7 @@
           - m570: -1
           - m573: 1
           - m577: -1
-          - prot_Q6C8R8: -0.00134602549082259
+          - prot_Q6C8R8: -0.0013460254908226
       - lower_bound: 0
       - upper_bound: 1000
       - gene_reaction_rule: "YALI0D17534g"
@@ -50175,7 +50195,7 @@
           - m1459: 1
           - m1806: -1
           - m214: -1
-          - prot_F2Z685: -0.000652944935562893
+          - prot_F2Z685: -0.000652944935562894
       - lower_bound: 0
       - upper_bound: 1000
       - gene_reaction_rule: "YALI0A20350g"
@@ -50952,18 +50972,18 @@
       - id: "xBIOMASS"
       - name: "biomass pseudoreaction"
       - metabolites: !!omap
-          - m10: 24.3030741080348
+          - m10: 21.6272721967184
           - m1401: 1
-          - m141: -24.3030741080348
-          - m143: 24.3030741080348
+          - m141: -21.6272721967184
+          - m143: 21.6272721967184
           - m1726: -1
           - m1727: -1
           - m1836: -1
           - m1837: -1
           - m1838: -1
           - m1839: -1
-          - m32: -24.3030741080348
-          - m35: 24.3030741080348
+          - m32: -21.6272721967184
+          - m35: 21.6272721967184
       - lower_bound: 0
       - upper_bound: 1000
       - objective_coefficient: 1
@@ -50973,11 +50993,11 @@
       - id: "xCARBOHYDRATE"
       - name: "carbohydrate pseudoreaction"
       - metabolites: !!omap
-          - m1123: -1.18509943856151
-          - m1324: -0.296274859640376
-          - m1836: 1.25620038007368
-          - m294: -0.00861753460730542
-          - m401: -1.09083416204078
+          - m1123: -1.60161730208845
+          - m1324: -0.40040432552211
+          - m1836: 1.69770754938356
+          - m294: -0.0116462737887712
+          - m401: -1.4742213275827
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
@@ -51009,18 +51029,17 @@
       - id: "xLIPID"
       - name: "lipid pseudoreaction"
       - metabolites: !!omap
-          - m1000: -0.021176
-          - m1579: -0.0001
-          - m1581: -0.000305
-          - m1631: -0.001967
-          - m1640: -0.01251
-          - m1641: -0.003152
-          - m1648: -0.0036
-          - m1651: -0.000842
-          - m1700: -0.010101
-          - m1701: -0.01424
-          - m1705: -0.003399
-          - m1727: 1
+          - m1000: -0.0124073643237352
+          - m1579: -5.85932102694642e-05
+          - m1581: -0.000178705100552179
+          - m1631: -0.00115249387454242
+          - m1641: -0.00184679613448679
+          - m1648: -0.0021092917304486
+          - m1651: -0.00049334520008415
+          - m1700: -0.00591830909252167
+          - m1701: -0.00834358390420675
+          - m1705: -0.00199151551350951
+          - m1727: 0.398566156625748
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
@@ -51040,13 +51059,12 @@
       - id: "xPOOL_AC_EM"
       - name: "Acyl-CoAs pool"
       - metabolites: !!omap
-          - m1422: -0.003
-          - m1426: -0.002
-          - m1428: -0.19
-          - m1430: -0.042
-          - m1731: -0.199
-          - m231: -0.515
-          - m567: 0.951
+          - m1428: -0.1865
+          - m1430: -0.0359
+          - m1731: -0.5736
+          - m231: -0.1713
+          - m243: -0.0327
+          - m567: 1
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
@@ -51055,14 +51073,12 @@
       - id: "xPOOL_AC_EM_REV"
       - name: "Acyl-CoAs pool (reversible)"
       - metabolites: !!omap
-          - m1422: 0.003
-          - m1426: 0.002
-          - m1428: 0.19
-          - m1430: 0.042
-          - m1731: 0.199
-          - m231: 0.515
-          - m567: -0.951
-          - prot_standard: -0.834666985150683
+          - m1428: 0.1865
+          - m1430: 0.0359
+          - m1731: 0.5736
+          - m231: 0.1713
+          - m243: 0.0327
+          - m567: -1
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
@@ -51071,13 +51087,12 @@
       - id: "xPOOL_AC_LP"
       - name: "Acyl-CoAs pool"
       - metabolites: !!omap
-          - m1480: -0.003
-          - m1482: -0.002
-          - m1484: -0.19
-          - m1488: -0.042
-          - m1490: -0.515
-          - m1735: -0.199
-          - m570: 0.951
+          - m1484: -0.1865
+          - m1486: -0.0327
+          - m1488: -0.0359
+          - m1490: -0.1713
+          - m1735: -0.5736
+          - m570: 1
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
@@ -51086,14 +51101,12 @@
       - id: "xPOOL_AC_LP_REV"
       - name: "Acyl-CoAs pool (reversible)"
       - metabolites: !!omap
-          - m1480: 0.003
-          - m1482: 0.002
-          - m1484: 0.19
-          - m1488: 0.042
-          - m1490: 0.515
-          - m1735: 0.199
-          - m570: -0.951
-          - prot_standard: -0.834666985150683
+          - m1484: 0.1865
+          - m1486: 0.0327
+          - m1488: 0.0359
+          - m1490: 0.1713
+          - m1735: 0.5736
+          - m570: -1
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
@@ -51102,13 +51115,12 @@
       - id: "xPOOL_AC_MM"
       - name: "Acyl-CoAs pool"
       - metabolites: !!omap
-          - m1625: -0.515
-          - m1738: -0.003
-          - m1739: -0.002
-          - m1741: -0.19
-          - m1742: -0.042
-          - m1743: -0.199
-          - m790: 0.951
+          - m1624: -0.0327
+          - m1625: -0.1713
+          - m1741: -0.1865
+          - m1742: -0.0359
+          - m1743: -0.5736
+          - m790: 1
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
@@ -51117,14 +51129,12 @@
       - id: "xPOOL_AC_MM_REV"
       - name: "Acyl-CoAs pool (reversible)"
       - metabolites: !!omap
-          - m1625: 0.515
-          - m1738: 0.003
-          - m1739: 0.002
-          - m1741: 0.19
-          - m1742: 0.042
-          - m1743: 0.199
-          - m790: -0.951
-          - prot_standard: -0.834666985150683
+          - m1624: 0.0327
+          - m1625: 0.1713
+          - m1741: 0.1865
+          - m1742: 0.0359
+          - m1743: 0.5736
+          - m790: -1
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
@@ -51133,13 +51143,12 @@
       - id: "xPOOL_FA_EM"
       - name: "Fatty acids pool"
       - metabolites: !!omap
-          - m1470: -0.003
-          - m1472: -0.002
-          - m1473: -0.19
-          - m1475: -0.042
-          - m1476: -0.515
-          - m1658: 0.951
-          - m1749: -0.199
+          - m1473: -0.1865
+          - m1474: -0.0327
+          - m1475: -0.0359
+          - m1476: -0.1713
+          - m1658: 1
+          - m1749: -0.5736
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
@@ -51148,14 +51157,12 @@
       - id: "xPOOL_FA_EM_REV"
       - name: "Fatty acids pool (reversible)"
       - metabolites: !!omap
-          - m1470: 0.003
-          - m1472: 0.002
-          - m1473: 0.19
-          - m1475: 0.042
-          - m1476: 0.515
-          - m1658: -0.951
-          - m1749: 0.199
-          - prot_standard: -0.834666985150683
+          - m1473: 0.1865
+          - m1474: 0.0327
+          - m1475: 0.0359
+          - m1476: 0.1713
+          - m1658: -1
+          - m1749: 0.5736
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
@@ -51164,13 +51171,12 @@
       - id: "xPOOL_FA_EN"
       - name: "Fatty acids pool"
       - metabolites: !!omap
-          - m1598: -0.515
-          - m1615: -0.19
-          - m1616: -0.042
-          - m1661: 0.951
-          - m1753: -0.003
-          - m1754: -0.002
-          - m1756: -0.199
+          - m1596: -0.0327
+          - m1598: -0.1713
+          - m1615: -0.1865
+          - m1616: -0.0359
+          - m1661: 1
+          - m1756: -0.5736
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
@@ -51179,14 +51185,12 @@
       - id: "xPOOL_FA_EN_REV"
       - name: "Fatty acids pool (reversible)"
       - metabolites: !!omap
-          - m1598: 0.515
-          - m1615: 0.19
-          - m1616: 0.042
-          - m1661: -0.951
-          - m1753: 0.003
-          - m1754: 0.002
-          - m1756: 0.199
-          - prot_standard: -0.834666985150683
+          - m1596: 0.0327
+          - m1598: 0.1713
+          - m1615: 0.1865
+          - m1616: 0.0359
+          - m1661: -1
+          - m1756: 0.5736
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
@@ -51195,13 +51199,12 @@
       - id: "xPOOL_FA_LP"
       - name: "Fatty acids pool"
       - metabolites: !!omap
-          - m1478: -0.003
-          - m1481: -0.002
-          - m1483: -0.19
-          - m1487: -0.042
-          - m1489: -0.515
-          - m1641: 0.951
-          - m1761: -0.199
+          - m1483: -0.1865
+          - m1485: -0.0327
+          - m1487: -0.0359
+          - m1489: -0.1713
+          - m1641: 1
+          - m1761: -0.5736
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
@@ -51210,14 +51213,12 @@
       - id: "xPOOL_FA_LP_REV"
       - name: "Fatty acids pool (reversible)"
       - metabolites: !!omap
-          - m1478: 0.003
-          - m1481: 0.002
-          - m1483: 0.19
-          - m1487: 0.042
-          - m1489: 0.515
-          - m1641: -0.951
-          - m1761: 0.199
-          - prot_standard: -0.834666985150683
+          - m1483: 0.1865
+          - m1485: 0.0327
+          - m1487: 0.0359
+          - m1489: 0.1713
+          - m1641: -1
+          - m1761: 0.5736
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
@@ -51226,13 +51227,12 @@
       - id: "xPOOL_FA_MI"
       - name: "Fatty acids pool"
       - metabolites: !!omap
-          - m1698: 0.951
-          - m1765: -0.003
-          - m1766: -0.002
-          - m1768: -0.19
-          - m1770: -0.042
-          - m1771: -0.515
-          - m1772: -0.199
+          - m1698: 1
+          - m1768: -0.1865
+          - m1769: -0.0327
+          - m1770: -0.0359
+          - m1771: -0.1713
+          - m1772: -0.5736
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
@@ -51241,14 +51241,12 @@
       - id: "xPOOL_FA_MI_REV"
       - name: "Fatty acids pool (reversible)"
       - metabolites: !!omap
-          - m1698: -0.951
-          - m1765: 0.003
-          - m1766: 0.002
-          - m1768: 0.19
-          - m1770: 0.042
-          - m1771: 0.515
-          - m1772: 0.199
-          - prot_standard: -0.834666985150683
+          - m1698: -1
+          - m1768: 0.1865
+          - m1769: 0.0327
+          - m1770: 0.0359
+          - m1771: 0.1713
+          - m1772: 0.5736
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
@@ -51257,13 +51255,12 @@
       - id: "xPOOL_FA_MM"
       - name: "Fatty acids pool"
       - metabolites: !!omap
-          - m1626: -0.19
-          - m1627: -0.042
-          - m1655: 0.951
-          - m1777: -0.003
-          - m1778: -0.002
-          - m1781: -0.515
-          - m1782: -0.199
+          - m1626: -0.1865
+          - m1627: -0.0359
+          - m1655: 1
+          - m1780: -0.0327
+          - m1781: -0.1713
+          - m1782: -0.5736
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
@@ -51272,14 +51269,12 @@
       - id: "xPOOL_FA_MM_REV"
       - name: "Fatty acids pool (reversible)"
       - metabolites: !!omap
-          - m1626: 0.19
-          - m1627: 0.042
-          - m1655: -0.951
-          - m1777: 0.003
-          - m1778: 0.002
-          - m1781: 0.515
-          - m1782: 0.199
-          - prot_standard: -0.834666985150683
+          - m1626: 0.1865
+          - m1627: 0.0359
+          - m1655: -1
+          - m1780: 0.0327
+          - m1781: 0.1713
+          - m1782: 0.5736
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
@@ -51288,27 +51283,27 @@
       - id: "xPROTEIN"
       - name: "protein pseudoreaction"
       - metabolites: !!omap
-          - m1008: -0.17277
-          - m114: -0.56794
-          - m130: -0.24387
-          - m1726: 1
-          - m267: -0.18653
-          - m272: -0.50994
-          - m310: -0.12556
-          - m319: -0.1865
-          - m441: -0.2847
-          - m443: -0.003632
-          - m50: -0.2439
-          - m615: -0.053881
-          - m74: -0.044232
-          - m743: -0.090566
-          - m765: -0.20637
-          - m770: -0.21054
-          - m772: -0.002154
-          - m775: -0.19455
-          - m793: -0.275
-          - m859: -0.082571
-          - m992: -0.041282
+          - m1008: -0.115019670623829
+          - m114: -0.378099622238221
+          - m130: -0.16235369031101
+          - m1726: 0.665738673518719
+          - m267: -0.124180234771447
+          - m272: -0.339486779174136
+          - m310: -0.0835901478470104
+          - m319: -0.124160262611241
+          - m441: -0.189535800350779
+          - m443: -0.00241796286221999
+          - m50: -0.162373662471216
+          - m615: -0.0358706654678621
+          - m74: -0.02944695300708
+          - m743: -0.0602932887058963
+          - m765: -0.137388490054058
+          - m770: -0.140164620322631
+          - m772: -0.00143400110275932
+          - m775: -0.129519458933067
+          - m793: -0.183078135217648
+          - m859: -0.0549707080111142
+          - m992: -0.0274830239201998
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
@@ -62319,6 +62314,58 @@
       - upper_bound: 0
       - gene_reaction_rule: "standard"
       - subsystem:
+    - !!omap
+      - id: "AtMTT"
+      - name: "tricarboxylic acid transporter"
+      - metabolites: !!omap
+          - m409: -1
+          - m436: 1
+          - m538: 1
+          - m539: -1
+      - lower_bound: 0
+      - upper_bound: 1000
+      - gene_reaction_rule: "ATEG09970"
+      - subsystem:
+    - !!omap
+      - id: "ITACNce"
+      - name: "itaconate transport"
+      - metabolites: !!omap
+          - m1840: -1
+          - m1841: 1
+      - lower_bound: 0
+      - upper_bound: 1000
+      - subsystem:
+    - !!omap
+      - id: "EX_ITACN_OUT"
+      - name: "itaconate exchange"
+      - metabolites: !!omap
+          - m1841: -1
+      - lower_bound: 0
+      - upper_bound: 1000
+      - subsystem:
+    - !!omap
+      - id: "AtCAD"
+      - name: "cis-aconitate decarboxylase"
+      - metabolites: !!omap
+          - m10: -1
+          - m1840: 1
+          - m436: -1
+          - m82: 1
+          - prot_B3IUN8: -0.408918728778533
+      - lower_bound: 0
+      - upper_bound: 1000
+      - gene_reaction_rule: "ATEG09971"
+      - subsystem:
+    - !!omap
+      - id: "usage_prot_B3IUN8"
+      - name: "usage_prot_B3IUN8"
+      - metabolites: !!omap
+          - prot_B3IUN8: -1
+          - prot_pool: 1
+      - lower_bound: -1000
+      - upper_bound: 0
+      - gene_reaction_rule: "ATEG09971"
+      - subsystem:
 - genes:
     - !!omap
       - id: "NP_075432"
@@ -65035,6 +65082,12 @@
     - !!omap
       - id: "standard"
       - name: "std"
+    - !!omap
+      - id: "ATEG09970"
+      - name: "mttA"
+    - !!omap
+      - id: "ATEG09971"
+      - name: "cad1"
 - compartments: !!omap
     - c: "cytoplasm"
     - e: "extracellular"
@@ -66808,7 +66861,7 @@
     - id: "173"
     - kcat: 12.3903
     - source: "custom"
-    - notes: ""Putative enzyme. Using the lowest kcat instead, which is the one predicted by DLKcat in this case.""
+    - notes: "Putative enzyme. Using the lowest kcat instead, which is the one predicted by DLKcat in this case."
     - eccodes: "1.2.1.3"
     - enzymes: !!omap
         - Q6CD79: 1
@@ -67198,7 +67251,7 @@
     - id: "2116_EXP_1"
     - kcat: 6.7826
     - source: "custom"
-    - notes: ""Putative enzyme. Using the lowest kcat instead, which is the one predicted by DLKcat in this case.""
+    - notes: "Putative enzyme. Using the lowest kcat instead, which is the one predicted by DLKcat in this case."
     - eccodes: "1.2.1.3"
     - enzymes: !!omap
         - Q6C9V7: 1
@@ -67206,7 +67259,7 @@
     - id: "2116_EXP_2"
     - kcat: 9.1103
     - source: "custom"
-    - notes: ""Putative enzyme. Using the lowest kcat instead, which is the one predicted by DLKcat in this case.""
+    - notes: "Putative enzyme. Using the lowest kcat instead, which is the one predicted by DLKcat in this case."
     - eccodes: "1.2.1.3"
     - enzymes: !!omap
         - Q6C2W9: 1
@@ -78258,6 +78311,12 @@
     - source: "standard"
     - enzymes: !!omap
         - standard: 1
+  - !!omap
+    - id: "AtCAD"
+    - kcat: 35.8357
+    - source: "from setKcatForReactions"
+    - enzymes: !!omap
+        - B3IUN8: 1
 - ec-enzymes:
   - !!omap
     - genes: "YALI0A00264g"
@@ -82728,3 +82787,7 @@
     - genes: "standard"
     - enzymes: "standard"
     - mw: 41932
+  - !!omap
+    - genes: "ATEG09971"
+    - enzymes: "B3IUN8"
+    - mw: 52754

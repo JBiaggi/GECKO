@@ -6,7 +6,9 @@ params = ModelAdapter.getParameters();
 
 % STEP 2 Load conventional iYali
 model = loadConventionalGEM();
-       
+
+DLKcat = true;
+
 % STEP 3-4 Prepare ecModel - I generated a custom uniprot.tsv file where I
 % got the KEGG crossref and exchanged it for the gene_oln
 [ecModel, noUniprot] = makeEcModel(model,false);
@@ -15,7 +17,7 @@ model = loadConventionalGEM();
 saveEcModel(ecModel,'eciYali_stage1.yml');
 
 %% STAGE 2: integration of kcat into the ecModel structure
-%ecModel=loadEcModel('eciYali_stage1.yml'); 
+%ecModel=loadEcModel('eciYali_stage1.yml');
 
 % STEP 6 Fuzzy matching with BRENDA
 % Requires EC numbers, which are here first taken from the starting model,
@@ -29,13 +31,16 @@ kcatList_fuzzy  = fuzzyKcatMatching(ecModel);
 % Requires metabolite SMILES, which are gathered from PubChem.
 [ecModel, noSmiles] = findMetSmiles(ecModel);
 
-% DLKcat runs in Python. An input file is written, which is then used by
-% DLKcat, while the output file is read back into MATLAB.
-writeDLKcatInput(ecModel,[],[],[],[],true);
+if DLKcat == true
+    % DLKcat runs in Python. An input file is written, which is then used by
+    % DLKcat, while the output file is read back into MATLAB.
+    writeDLKcatInput(ecModel,[],[],[],[],true);
 
-% runDLKcat will run the DLKcat algorithm via a Docker image. If the
-% DLKcat.tsv file already has kcat values, these will all be overwritten.
-runDLKcat();
+    % runDLKcat will run the DLKcat algorithm via a Docker image. If the
+    % DLKcat.tsv file already has kcat values, these will all be overwritten.
+    runDLKcat();
+end
+
 kcatList_DLKcat = readDLKcatOutput(ecModel);
 
 % STEP 8 Combine kcat from BRENDA and DLKcat
@@ -61,7 +66,7 @@ ecModel = applyKcatConstraints(ecModel);
 % The protein pool exchange is constrained by the total protein content
 % (Ptot), multiplied by the f-factor (ratio of enzymes/proteins) and the
 % sigma-factor (how saturated enzymes are on average: how close to their
-% Vmax to they function based on e.g. metabolite concentrations). In 
+% Vmax to they function based on e.g. metabolite concentrations). In
 % modelAdapter Ptot, f- and sigma-factors can all be specified (as rough
 % estimates, 0.5 for each of the three parameters is reasonable).
 Ptot  = params.Ptot;

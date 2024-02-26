@@ -1,4 +1,4 @@
-function ecModel = updateAcylPool(ecModel,lipidNchainData,modelAdapter)
+function ecModel = updateAcylPool(ecModel,lipidNchainData,cond,modelAdapter)
 %UNTITLED3 Summary of this function goes here
 %   Detailed explanation goes here
 
@@ -35,9 +35,9 @@ for i = 1:length(FArxns)
     % Adjust the signal of the coefficients according to the direction of the
     % rxn
     if contains(FArxns(i),'_REV')
-        equations.stoichCoeffs = -[-lipidNchainData.chainConds(1,:),1];
+        equations.stoichCoeffs = -[-lipidNchainData.chainConds(cond,:),1];
     else
-        equations.stoichCoeffs = [-lipidNchainData.chainConds(1,:),1];
+        equations.stoichCoeffs = [-lipidNchainData.chainConds(cond,:),1];
     end
 
     % Do the actual adjustment in the FA/Acyl-FA pools
